@@ -1,8 +1,8 @@
-[🏠 Workshop Home](../../../README.md) | [← Chapter 6 — AI Across the Entire Software Lifecycle](../chapter-06/README.md) | [Chapter 8 — Get Your Hands Dirty: Real-World AI in Action →](../chapter-08/README.md)
+[🏠 Workshop Home](../../../README.md) | [📊 Slides](SLIDES.md) | [← Chapter 6 — AI Across the Entire Software Lifecycle](../chapter-06/README.md) | [Chapter 8 — Get Your Hands Dirty: Real-World AI in Action →](../chapter-08/README.md)
 
 ---
 
-# Chapter 7 — Level Up: Best Practices for AI-Powered Development
+# Chapter 7— Level Up: Best Practices for AI-Powered Development
 
 > **Duration:** 90 minutes | Day 2, 13:15 – 14:45
 

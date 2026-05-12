@@ -1,4 +1,4 @@
-[🏠 Workshop Home](../../../README.md) | [Chapter 2 — Meet Your New Best Friend: GitHub Copilot →](../chapter-02/README.md)
+[🏠 Workshop Home](../../../README.md) | [📊 Slides](SLIDES.md) | [← Chapter 0 — Introduction](../chapter-00/README.md) | [Chapter 2 — Meet Your New Best Friend: GitHub Copilot →](../chapter-02/README.md)
 
 ---
 
@@ -189,4 +189,4 @@ Groups discuss: should they use Copilot? With what safeguards? Share back. Perfe
 
 ---
 
-[🏠 Workshop Home](../../../README.md) | [Chapter 2 — Meet Your New Best Friend: GitHub Copilot →](../chapter-02/README.md)
+[🏠 Workshop Home](../../../README.md) | [📊 Slides](SLIDES.md) | [← Chapter 0 — Introduction](../chapter-00/README.md) | [Chapter 2 — Meet Your New Best Friend: GitHub Copilot →](../chapter-02/README.md)

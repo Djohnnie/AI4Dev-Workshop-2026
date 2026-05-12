@@ -1,8 +1,8 @@
-[🏠 Workshop Home](../../../README.md) | [← Chapter 2 — Meet Your New Best Friend: GitHub Copilot](../chapter-02/README.md) | [Chapter 4 — Let Your AI Co-Pilot Take the Wheel →](../chapter-04/README.md)
+[🏠 Workshop Home](../../../README.md) | [📊 Slides](SLIDES.md) | [← Chapter 2 — Meet Your New Best Friend: GitHub Copilot](../chapter-02/README.md) | [Chapter 4 — Let Your AI Co-Pilot Take the Wheel →](../chapter-04/README.md)
 
 ---
 
-# Chapter 3 — Power with Purpose: Using AI Responsibly
+# Chapter 3— Power with Purpose: Using AI Responsibly
 
 > **Duration:** 90 minutes | Day 1, 13:15 – 14:45
 

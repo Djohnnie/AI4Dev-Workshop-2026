@@ -1,8 +1,8 @@
-[🏠 Workshop Home](../../../README.md) | [← Chapter 7 — Level Up: Best Practices for AI-Powered Development](../chapter-07/README.md)
+[🏠 Workshop Home](../../../README.md) | [📊 Slides](SLIDES.md) | [← Chapter 7 — Level Up: Best Practices for AI-Powered Development](../chapter-07/README.md)
 
 ---
 
-# Chapter 8 — Get Your Hands Dirty: Real-World AI in Action
+# Chapter 8— Get Your Hands Dirty: Real-World AI in Action
 
 > **Duration:** 90 minutes | Day 2, 15:00 – 16:30
 

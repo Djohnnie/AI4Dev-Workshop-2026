@@ -1,4 +1,4 @@
-[🏠 Workshop Home](../../../README.md) | [← Chapter 1 — Welcome to the AI Revolution & Power with Purpose](../chapter-01/README.md) | [Chapter 3 — Speak AI's Language: Mastering Prompts, Workflow & Best Practices →](../chapter-03/README.md)
+[🏠 Workshop Home](../../../README.md) | [📊 Slides](SLIDES.md) | [← Chapter 1 — Welcome to the AI Revolution & Power with Purpose](../chapter-01/README.md) | [Chapter 3 — Speak AI's Language: Mastering Prompts, Workflow & Best Practices →](../chapter-03/README.md)
 
 ---
 

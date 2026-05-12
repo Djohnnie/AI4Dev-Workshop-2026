@@ -1,8 +1,8 @@
-[🏠 Workshop Home](../../../README.md) | [← Chapter 1 — Welcome to the AI Revolution!](../chapter-01/README.md) | [Chapter 3 — Power with Purpose: Using AI Responsibly →](../chapter-03/README.md)
+[🏠 Workshop Home](../../../README.md) | [📊 Slides](SLIDES.md) | [← Chapter 1 — Welcome to the AI Revolution!](../chapter-01/README.md) | [Chapter 3 — Power with Purpose: Using AI Responsibly →](../chapter-03/README.md)
 
 ---
 
-# Chapter 2 — Meet Your New Best Friend: GitHub Copilot
+# Chapter 2— Meet Your New Best Friend: GitHub Copilot
 
 > **Duration:** 90 minutes | Day 1, 10:45 – 12:15
 

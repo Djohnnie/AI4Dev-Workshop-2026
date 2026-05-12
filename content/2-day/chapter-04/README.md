@@ -1,8 +1,8 @@
-[🏠 Workshop Home](../../../README.md) | [← Chapter 3 — Power with Purpose: Using AI Responsibly](../chapter-03/README.md) | [Chapter 5 — Speak AI's Language: Mastering Prompts & Context →](../chapter-05/README.md)
+[🏠 Workshop Home](../../../README.md) | [📊 Slides](SLIDES.md) | [← Chapter 3 — Power with Purpose: Using AI Responsibly](../chapter-03/README.md) | [Chapter 5 — Speak AI's Language: Mastering Prompts & Context →](../chapter-05/README.md)
 
 ---
 
-# Chapter 4 — Let Your AI Co-Pilot Take the Wheel
+# Chapter 4— Let Your AI Co-Pilot Take the Wheel
 
 > **Duration:** 90 minutes | Day 1, 15:00 – 16:30
 

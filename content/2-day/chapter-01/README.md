@@ -1,8 +1,8 @@
-[🏠 Workshop Home](../../../README.md) | [Chapter 2 — Meet Your New Best Friend: GitHub Copilot →](../chapter-02/README.md)
+[🏠 Workshop Home](../../../README.md) | [📊 Slides](SLIDES.md) | [← Chapter 0 — Introduction](../chapter-00/README.md) | [Chapter 2 — Meet Your New Best Friend: GitHub Copilot →](../chapter-02/README.md)
 
 ---
 
-# Chapter 1 — Welcome to the AI Revolution!
+# Chapter 1— Welcome to the AI Revolution!
 
 > **Duration:** 90 minutes | Day 1, 09:00 – 10:30
 
@@ -190,4 +190,4 @@ Direct participants to [platform.openai.com/tokenizer](https://platform.openai.c
 
 ---
 
-[🏠 Workshop Home](../../../README.md) | [Chapter 2 — Meet Your New Best Friend: GitHub Copilot →](../chapter-02/README.md)
+[🏠 Workshop Home](../../../README.md) | [📊 Slides](SLIDES.md) | [← Chapter 0 — Introduction](../chapter-00/README.md) | [Chapter 2 — Meet Your New Best Friend: GitHub Copilot →](../chapter-02/README.md)

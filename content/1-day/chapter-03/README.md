@@ -1,4 +1,4 @@
-[🏠 Workshop Home](../../../README.md) | [← Chapter 2 — Meet Your New Best Friend & Let It Take the Wheel](../chapter-02/README.md) | [Chapter 4 — Get Your Hands Dirty: Real-World AI in Action →](../chapter-04/README.md)
+[🏠 Workshop Home](../../../README.md) | [📊 Slides](SLIDES.md) | [← Chapter 2 — Meet Your New Best Friend & Let It Take the Wheel](../chapter-02/README.md) | [Chapter 4 — Get Your Hands Dirty: Real-World AI in Action →](../chapter-04/README.md)
 
 ---
 

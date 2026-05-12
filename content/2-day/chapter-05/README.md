@@ -1,8 +1,8 @@
-[🏠 Workshop Home](../../../README.md) | [← Chapter 4 — Let Your AI Co-Pilot Take the Wheel](../chapter-04/README.md) | [Chapter 6 — AI Across the Entire Software Lifecycle →](../chapter-06/README.md)
+[🏠 Workshop Home](../../../README.md) | [📊 Slides](SLIDES.md) | [← Chapter 4 — Let Your AI Co-Pilot Take the Wheel](../chapter-04/README.md) | [Chapter 6 — AI Across the Entire Software Lifecycle →](../chapter-06/README.md)
 
 ---
 
-# Chapter 5 — Speak AI's Language: Mastering Prompts & Context
+# Chapter 5— Speak AI's Language: Mastering Prompts & Context
 
 > **Duration:** 90 minutes | Day 2, 09:00 – 10:30
 

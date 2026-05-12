@@ -1,8 +1,8 @@
-[🏠 Workshop Home](../../../README.md) | [← Chapter 5 — Speak AI's Language: Mastering Prompts & Context](../chapter-05/README.md) | [Chapter 7 — Level Up: Best Practices for AI-Powered Development →](../chapter-07/README.md)
+[🏠 Workshop Home](../../../README.md) | [📊 Slides](SLIDES.md) | [← Chapter 5 — Speak AI's Language: Mastering Prompts & Context](../chapter-05/README.md) | [Chapter 7 — Level Up: Best Practices for AI-Powered Development →](../chapter-07/README.md)
 
 ---
 
-# Chapter 6 — AI Across the Entire Software Lifecycle
+# Chapter 6— AI Across the Entire Software Lifecycle
 
 > **Duration:** 90 minutes | Day 2, 10:45 – 12:15
 
