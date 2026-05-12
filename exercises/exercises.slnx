@@ -1,0 +1,32 @@
+<Solution>
+  <Folder Name="/Chapter 1/">
+    <Project Path="101\TokenVisualizer.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 2/">
+    <Project Path="201\Factorial\Factorial.csproj" />
+    <Project Path="201\Factorial.Tests\Factorial.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 3/">
+    <Project Path="202\Palindrome\Palindrome.csproj" />
+    <Project Path="202\Palindrome.Tests\Palindrome.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 4/">
+    <Project Path="203\Processor\Processor.csproj" />
+    <Project Path="203\Processor.Tests\Processor.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 5/">
+    <Project Path="204\ShortestPath\ShortestPath.csproj" />
+    <Project Path="204\ShortestPath.Tests\ShortestPath.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 6/">
+    <Project Path="205\CaesarCipher\CaesarCipher.csproj" />
+    <Project Path="205\CaesarCipher.Tests\CaesarCipher.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 7/">
+    <Project Path="206\StringSearch\StringSearch.csproj" />
+    <Project Path="206\StringSearch.Tests\StringSearch.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 8/">
+    <Project Path="310\CodeObfuscator\CodeObfuscator.csproj" />
+  </Folder>
+</Solution>

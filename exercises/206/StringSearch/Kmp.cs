@@ -1,0 +1,51 @@
+namespace StringSearch;
+
+public static class Kmp
+{
+    public static IReadOnlyList<int> Search(string text, string pattern)
+    {
+        var results = new List<int>();
+
+        if (pattern.Length == 0)
+            return results;
+
+        var failure = BuildFailureTable(pattern);
+        int j = 0;
+
+        for (int i = 0; i < text.Length; i++)
+        {
+            while (j > 0 && text[i] != pattern[j])
+                j = failure[j - 1];
+
+            if (text[i] == pattern[j])
+                j++;
+
+            if (j == pattern.Length)
+            {
+                results.Add(i - pattern.Length + 1);
+                j = failure[j - 1];
+            }
+        }
+
+        return results;
+    }
+
+    public static int[] BuildFailureTable(string pattern)
+    {
+        var failure = new int[pattern.Length];
+        int k = 0;
+
+        for (int i = 1; i < pattern.Length; i++)
+        {
+            while (k > 0 && pattern[i] != pattern[k])
+                k = failure[k - 1];
+
+            if (pattern[i] == pattern[k])
+                k++;
+
+            failure[i] = k;
+        }
+
+        return failure;
+    }
+}
