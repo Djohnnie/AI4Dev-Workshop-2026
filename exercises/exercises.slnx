@@ -5,6 +5,16 @@
   <Folder Name="/Chapter 1/Exercise 102/">
     <Project Path="102\AgentFramework.Chat.csproj" />
   </Folder>
+  <Folder Name="/Chapter 1/Exercise 103/">
+    <Project Path="103\AgentFramework.ChatHistoryAndPersona.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 1/Exercise 104/">
+    <Project Path="104\AgentFramework.ToolCalls.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 1/Exercise 105/">
+    <Project Path="105\AgentFramework.McpSseServer\AgentFramework.McpSseServer.csproj" />
+    <Project Path="105\AgentFramework.McpSseClient\AgentFramework.McpSseClient.csproj" />
+  </Folder>
   <Folder Name="/Chapter 2/Exercise 201/">
     <Project Path="201\Factorial\Factorial.csproj" />
     <Project Path="201\Factorial.Tests\Factorial.Tests.csproj" />
