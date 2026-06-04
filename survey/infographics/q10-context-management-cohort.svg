@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" role="img">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b22"/>
+  </linearGradient>
+  <filter id="card" x="-5%" y="-5%" width="110%" height="115%">
+    <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.35"/>
+  </filter>
+</defs>
+<rect width="1920" height="1080" fill="url(#bg)"/>
+<text x="80" y="92" font-family="'Segoe UI', system-ui, sans-serif" font-size="44" font-weight="700" fill="#f0f6fc">Q10 · Context-management strategy (open text)</text>
+<text x="80" y="138" font-family="'Segoe UI', system-ui, sans-serif" font-size="22" fill="#8b949e">How each participant supplies context to AI tools today · color = cohort</text>
+<g id="cohort-legend" font-family="'Segoe UI', system-ui, sans-serif">
+  <text x="1080" y="170" font-size="16" font-weight="700" fill="#c9d1d9">Cohort color</text>
+  <rect x="1210" y="156" width="20" height="20" rx="4" fill="#3fb950"/>
+  <text x="1238" y="172" font-size="15" fill="#c9d1d9">Most Advanced</text>
+  <rect x="1390" y="156" width="20" height="20" rx="4" fill="#58a6ff"/>
+  <text x="1418" y="172" font-size="15" fill="#c9d1d9">More Advanced</text>
+  <rect x="1575" y="156" width="20" height="20" rx="4" fill="#f85149"/>
+  <text x="1603" y="172" font-size="15" fill="#c9d1d9">Basics</text>
+</g>
+<rect x="60" y="200" width="1800" height="820" rx="20" fill="#161b22" stroke="#30363d" filter="url(#card)"/>
+<rect x="76.0" y="230" width="430" height="105" rx="10" fill="#0f2a19" stroke="#3fb950" stroke-width="2"/>
+<text x="90.0" y="256" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#1</text>
+<text x="126.0" y="256" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">use #file, #folder, whenever needed, give project</text>
+<text x="126.0" y="278" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">context and feature context, ask to challenge the</text>
+<text x="126.0" y="300" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">request itself and rewrite it for any forgotten gaps…</text>
+<rect x="522.0" y="230" width="430" height="105" rx="10" fill="#0f2a19" stroke="#3fb950" stroke-width="2"/>
+<text x="536.0" y="256" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#2</text>
+<text x="572.0" y="256" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">Sometimes I copy/paste error messages for him so that he</text>
+<text x="572.0" y="278" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">can figure out why. If I need to make a somewhat</text>
+<text x="572.0" y="300" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">specific change, I use @workspace so that it can hav…</text>
+<rect x="968.0" y="230" width="430" height="105" rx="10" fill="#10233a" stroke="#58a6ff" stroke-width="2"/>
+<text x="982.0" y="256" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#3</text>
+<text x="1018.0" y="256" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">Paste error messages. Tell him at what runtime action it</text>
+<text x="1018.0" y="278" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">happens (context)</text>
+<rect x="1414.0" y="230" width="430" height="105" rx="10" fill="#10233a" stroke="#58a6ff" stroke-width="2"/>
+<text x="1428.0" y="256" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#4</text>
+<text x="1464.0" y="256" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">I try to explain briefly what I want: write unit test</text>
+<text x="1464.0" y="278" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">for x class. look at that stacktrace. I got this but was</text>
+<text x="1464.0" y="300" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">expeting that, ...</text>
+<rect x="76.0" y="347" width="430" height="105" rx="10" fill="#351316" stroke="#f85149" stroke-width="2"/>
+<text x="90.0" y="373" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#5</text>
+<text x="126.0" y="373" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">write comment</text>
+<rect x="522.0" y="347" width="430" height="105" rx="10" fill="#0f2a19" stroke="#3fb950" stroke-width="2"/>
+<text x="536.0" y="373" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#6</text>
+<text x="572.0" y="373" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">Depends on the use case. Most of the time, I paste or</text>
+<text x="572.0" y="395" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">link the files or code snippets that I find the more</text>
+<text x="572.0" y="417" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">fitting to my case. Pasting the error blindly rarely…</text>
+<rect x="968.0" y="347" width="430" height="105" rx="10" fill="#0f2a19" stroke="#3fb950" stroke-width="2"/>
+<text x="982.0" y="373" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#7</text>
+<text x="1018.0" y="373" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">I spent more time on telling it what not to do (make</text>
+<text x="1018.0" y="395" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">assumptions, add emotions to its response, ..) I paste</text>
+<text x="1018.0" y="417" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">previous output and tried to paint the bigger pictur…</text>
+<rect x="1414.0" y="347" width="430" height="105" rx="10" fill="#351316" stroke="#f85149" stroke-width="2"/>
+<text x="1428.0" y="373" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#8</text>
+<text x="1464.0" y="373" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">I try to feed it as much info as possible, for ex. logs,</text>
+<text x="1464.0" y="395" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">to help it generate an answer for me.</text>
+<rect x="76.0" y="464" width="430" height="105" rx="10" fill="#0f2a19" stroke="#3fb950" stroke-width="2"/>
+<text x="90.0" y="490" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#9</text>
+<text x="126.0" y="490" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">- give directly the concerned files / folders /</text>
+<text x="126.0" y="512" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">functions (@ or # ), I let and order sometimes the LLM</text>
+<text x="126.0" y="534" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">to explore further if needed to establish new…</text>
+<rect x="522.0" y="464" width="430" height="105" rx="10" fill="#10233a" stroke="#58a6ff" stroke-width="2"/>
+<text x="536.0" y="490" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#10</text>
+<text x="572.0" y="490" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">i open a specific file and write comments, but sometimes</text>
+<text x="572.0" y="512" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">it could be not sufficient for to have a good solution</text>
+<text x="572.0" y="534" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">.. I guess ?</text>
+<rect x="968.0" y="464" width="430" height="105" rx="10" fill="#0f2a19" stroke="#3fb950" stroke-width="2"/>
+<text x="982.0" y="490" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#11</text>
+<text x="1018.0" y="490" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">I provide files references, provide specific filenames</text>
+<text x="1018.0" y="512" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">and/or functions, comments I also try to focus the AI on</text>
+<text x="1018.0" y="534" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">the files I want and tell it to ignore a specific sc…</text>
+<rect x="1414.0" y="464" width="430" height="105" rx="10" fill="#10233a" stroke="#58a6ff" stroke-width="2"/>
+<text x="1428.0" y="490" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#12</text>
+<text x="1464.0" y="490" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">je réfléchis au préalable afin de déterminer les</text>
+<text x="1464.0" y="512" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">objectifs et ensuite j&#x27;écris une première salve, je</text>
+<text x="1464.0" y="534" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">relis et je vois ce qui doit etre adapté avant de…</text>
+<rect x="76.0" y="581" width="430" height="105" rx="10" fill="#10233a" stroke="#58a6ff" stroke-width="2"/>
+<text x="90.0" y="607" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#13</text>
+<text x="126.0" y="607" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">I open a file (Cobol or PL/SQL) /explain to see if it</text>
+<text x="126.0" y="629" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">picks up the code If it&#x27;s a bug, I give him the error</text>
+<text x="126.0" y="651" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">message. Otherwise, I ask him if he can optimize the…</text>
+<rect x="522.0" y="581" width="430" height="105" rx="10" fill="#351316" stroke="#f85149" stroke-width="2"/>
+<text x="536.0" y="607" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#14</text>
+<text x="572.0" y="607" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">Ik laad een business analyse op met #file references</text>
+<rect x="968.0" y="581" width="430" height="105" rx="10" fill="#10233a" stroke="#58a6ff" stroke-width="2"/>
+<text x="982.0" y="607" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#15</text>
+<text x="1018.0" y="607" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">I don&#x27;t ask copilot to generate code for me in cobol</text>
+<text x="1018.0" y="629" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">yet. I don&#x27;t feel the need to in my current work. I</text>
+<text x="1018.0" y="651" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">mostly use it to help me in my research in large cob…</text>
+<rect x="1414.0" y="581" width="430" height="105" rx="10" fill="#351316" stroke="#f85149" stroke-width="2"/>
+<text x="1428.0" y="607" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#16</text>
+<text x="1464.0" y="607" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">Ik open relevante bestanden en geef indien nodig</text>
+<text x="1464.0" y="629" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">bijkomende context mee, zoals een wettekst of een</text>
+<text x="1464.0" y="651" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">concrete foutmelding. Daarnaast open ik soms een…</text>
+<rect x="76.0" y="698" width="430" height="105" rx="10" fill="#351316" stroke="#f85149" stroke-width="2"/>
+<text x="90.0" y="724" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#17</text>
+<text x="126.0" y="724" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">Je n&#x27;utilise pas encore Copilot (développements en</text>
+<text x="126.0" y="746" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">PowerBuilder)</text>
+<rect x="522.0" y="698" width="430" height="105" rx="10" fill="#351316" stroke="#f85149" stroke-width="2"/>
+<text x="536.0" y="724" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#18</text>
+<text x="572.0" y="724" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">Never</text>
+<rect x="968.0" y="698" width="430" height="105" rx="10" fill="#351316" stroke="#f85149" stroke-width="2"/>
+<text x="982.0" y="724" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#19</text>
+<text x="1018.0" y="724" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">Je n&#x27;ai pas encore vraiment fait créer des scripts par</text>
+<text x="1018.0" y="746" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">copilot</text>
+<rect x="1414.0" y="698" width="430" height="105" rx="10" fill="#10233a" stroke="#58a6ff" stroke-width="2"/>
+<text x="1428.0" y="724" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#20</text>
+<text x="1464.0" y="724" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">I usually provide context by describing task or past</text>
+<text x="1464.0" y="746" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">errors when needed, try to guide the expected behavior.</text>
+<text x="1464.0" y="768" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">I don&#x27;t follow a strict structure</text>
+<rect x="76.0" y="815" width="430" height="105" rx="10" fill="#351316" stroke="#f85149" stroke-width="2"/>
+<text x="90.0" y="841" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#21</text>
+<text x="126.0" y="841" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">??</text>
+<rect x="522.0" y="815" width="430" height="105" rx="10" fill="#351316" stroke="#f85149" stroke-width="2"/>
+<text x="536.0" y="841" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#22</text>
+<text x="572.0" y="841" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">The only exercise I have done is to get documentation</text>
+<text x="572.0" y="863" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">based on skill and instructions defined by a colleague</text>
+<text x="572.0" y="885" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">to view the result in a &#x27;md&#x27; file. I use the M365…</text>
+<rect x="968.0" y="815" width="430" height="105" rx="10" fill="#0f2a19" stroke="#3fb950" stroke-width="2"/>
+<text x="982.0" y="841" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#23</text>
+<text x="1018.0" y="841" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">I open the relevant class to modify, related</text>
+<text x="1018.0" y="863" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">interfaces/entities/repositories, and similar tests.</text>
+<text x="1018.0" y="885" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">Then I give Copilot the exact error message, sometim…</text>
+<rect x="1414.0" y="815" width="430" height="105" rx="10" fill="#0f2a19" stroke="#3fb950" stroke-width="2"/>
+<text x="1428.0" y="841" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#24</text>
+<text x="1464.0" y="841" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">I open a complete folder which becomes the workspace. I</text>
+<text x="1464.0" y="863" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">use the ‘Add File to Chat’ option for an entire project,</text>
+<text x="1464.0" y="885" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">the ‘Add #file to the context’ option, and the ‘#fil…</text>
+<rect x="76.0" y="932" width="430" height="105" rx="10" fill="#10233a" stroke="#58a6ff" stroke-width="2"/>
+<text x="90.0" y="958" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#25</text>
+<text x="126.0" y="958" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">I indicate the files or methods that need to be changed.</text>
+<text x="126.0" y="980" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">I specify clear instructions with constraints and</text>
+<text x="126.0" y="1002" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">technical explanations in detailsto guide code…</text>
+<rect x="522.0" y="932" width="430" height="105" rx="10" fill="#351316" stroke="#f85149" stroke-width="2"/>
+<text x="536.0" y="958" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#26</text>
+<text x="572.0" y="958" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">Aucune idée</text>
+<rect x="968.0" y="932" width="430" height="105" rx="10" fill="#10233a" stroke="#58a6ff" stroke-width="2"/>
+<text x="982.0" y="958" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#27</text>
+<text x="1018.0" y="958" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">I provide context to Copilot by attaching specific files</text>
+<text x="1018.0" y="980" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">and by relying on the workspace structure that is</text>
+<text x="1018.0" y="1002" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">automatically shared.</text>
+<rect x="1414.0" y="932" width="430" height="105" rx="10" fill="#10233a" stroke="#58a6ff" stroke-width="2"/>
+<text x="1428.0" y="958" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#28</text>
+<text x="1464.0" y="958" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">Based on the tasks, I either give individual files or</text>
+<text x="1464.0" y="980" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">entire modules as context. I give specific constraints,</text>
+<text x="1464.0" y="1002" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">and in case of large requests, always ask whether it…</text>
+<text x="1840" y="1048" text-anchor="end" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" fill="#484f58">Source: survey/SURVEY_RESULTS.md · n=28</text>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4" rx="0"/>
+
+  <!-- Title -->
+  <text x="80" y="108"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Why GitHub Is Moving</text>
+
+  <!-- Title underline -->
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
+
+  <!-- Overview -->
+  <text x="80" y="205"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#c4baea" letter-spacing="1">
+    Copilot evolved from autocomplete into agentic, multi-step development work.
+  </text>
+
+  <!-- Main reasons -->
+  <rect x="110" y="285" width="790" height="520" rx="24"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="505" y="370" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="46" font-weight="700" fill="#ffffff">The old model was not sustainable</text>
+  <rect x="355" y="400" width="300" height="3" fill="#8b7fd4"/>
+  <text x="170" y="490" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff">Agentic usage costs more</text>
+  <text x="170" y="535" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Long coding sessions can make many model calls</text>
+  <text x="170" y="620" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff">Frontier models cost more</text>
+  <text x="170" y="665" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Better reasoning and larger context require more compute</text>
+  <text x="170" y="750" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff">One request was too blunt</text>
+  <text x="170" y="795" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">A quick question and a multi-hour agent task differed wildly</text>
+
+  <!-- What changes for users/admins -->
+  <rect x="1020" y="285" width="790" height="520" rx="24"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1415" y="370" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="46" font-weight="700" fill="#ffffff">What the new model enables</text>
+  <rect x="1265" y="400" width="300" height="3" fill="#8b7fd4"/>
+  <text x="1080" y="490" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff">Usage aligns to real work</text>
+  <text x="1080" y="535" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Larger tasks consume more AI Credits than small ones</text>
+  <text x="1080" y="620" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff">Budgets and pooled usage</text>
+  <text x="1080" y="665" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Admins can cap spend; org credits can be shared</text>
+  <text x="1080" y="750" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff">Plan prices stay the same</text>
+  <text x="1080" y="795" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Paid plans include monthly GitHub AI Credits</text>
+
+  <!-- Footer callout -->
+  <rect x="250" y="885" width="1420" height="78" rx="39" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="934" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="31" font-weight="700" fill="#ffffff" letter-spacing="0.5">Code completions remain unlimited and do not consume AI Credits</text>
+</svg>

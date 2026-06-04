@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" font-family="'Segoe UI', system-ui, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <filter id="card" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+
+  <!-- Header -->
+  <text x="80" y="90" fill="#f0f6fc" font-size="46" font-weight="700">Skills Snapshot — Where the Group Stands</text>
+  <text x="80" y="130" fill="#8b949e" font-size="22">Each metric normalised to a 0–100% scale. Green ≥ 65% (strength) · Yellow 40–65% (developing) · Red &lt; 40% (gap)</text>
+  <line x1="80" y1="155" x2="1840" y2="155" stroke="#30363d" stroke-width="2"/>
+
+  <!-- Bars panel -->
+  <g transform="translate(80,200)" filter="url(#card)">
+    <rect width="1760" height="700" rx="18" fill="#161b22" stroke="#30363d"/>
+
+    <!-- Section A header -->
+    <text x="30" y="40" fill="#a371f7" font-size="20" font-weight="700">A · AI FOUNDATIONS</text>
+
+    <!-- Helper: scale 0..1100px wide bar at x=400 -->
+    <!-- Q1 53.5 -->
+    <g transform="translate(30,60)">
+      <text y="20" fill="#c9d1d9" font-size="16">Q1 · AI taxonomy literacy</text>
+      <rect x="370" y="6" width="1100" height="22" rx="6" fill="#21262d"/>
+      <rect x="370" y="6" width="588" height="22" rx="6" fill="#d29922"/>
+      <text x="1485" y="22" fill="#f0f6fc" font-size="14" font-weight="700">2.14/4 · 53%</text>
+    </g>
+    <!-- Q2 49.2 -->
+    <g transform="translate(30,95)">
+      <text y="20" fill="#c9d1d9" font-size="16">Q2 · LLM mechanics confidence</text>
+      <rect x="370" y="6" width="1100" height="22" rx="6" fill="#21262d"/>
+      <rect x="370" y="6" width="541" height="22" rx="6" fill="#d29922"/>
+      <text x="1485" y="22" fill="#f0f6fc" font-size="14" font-weight="700">2.46/5 · 49%</text>
+    </g>
+    <!-- Q3 64.3 -->
+    <g transform="translate(30,130)">
+      <text y="20" fill="#c9d1d9" font-size="16">Q3 · Hallucination awareness</text>
+      <rect x="370" y="6" width="1100" height="22" rx="6" fill="#21262d"/>
+      <rect x="370" y="6" width="707" height="22" rx="6" fill="#d29922"/>
+      <text x="1485" y="22" fill="#f0f6fc" font-size="14" font-weight="700">2.57/4 · 64%</text>
+    </g>
+
+    <!-- Section B -->
+    <text x="30" y="190" fill="#58a6ff" font-size="20" font-weight="700">B · COPILOT SETUP &amp; CORE FEATURES</text>
+
+    <!-- Q4 79.5 -->
+    <g transform="translate(30,210)">
+      <text y="20" fill="#c9d1d9" font-size="16">Q4 · Copilot usage frequency</text>
+      <rect x="370" y="6" width="1100" height="22" rx="6" fill="#21262d"/>
+      <rect x="370" y="6" width="875" height="22" rx="6" fill="#3fb950"/>
+      <text x="1485" y="22" fill="#f0f6fc" font-size="14" font-weight="700">3.18/4 · 80%</text>
+    </g>
+    <!-- Q5 24.4 -->
+    <g transform="translate(30,245)">
+      <text y="20" fill="#c9d1d9" font-size="16">Q5 · Inline-completion breadth</text>
+      <rect x="370" y="6" width="1100" height="22" rx="6" fill="#21262d"/>
+      <rect x="370" y="6" width="269" height="22" rx="6" fill="#f85149"/>
+      <text x="1485" y="22" fill="#f0f6fc" font-size="14" font-weight="700">1.71/7 · 24%</text>
+    </g>
+    <!-- Q6 23 -->
+    <g transform="translate(30,280)">
+      <text y="20" fill="#c9d1d9" font-size="16">Q6 · Chat slash/@/# commands</text>
+      <rect x="370" y="6" width="1100" height="22" rx="6" fill="#21262d"/>
+      <rect x="370" y="6" width="253" height="22" rx="6" fill="#f85149"/>
+      <text x="1485" y="22" fill="#f0f6fc" font-size="14" font-weight="700">1.61/7 · 23%</text>
+    </g>
+    <!-- Q7 43 -->
+    <g transform="translate(30,315)">
+      <text y="20" fill="#c9d1d9" font-size="16">Q7 · Advanced features (avg)</text>
+      <rect x="370" y="6" width="1100" height="22" rx="6" fill="#21262d"/>
+      <rect x="370" y="6" width="473" height="22" rx="6" fill="#d29922"/>
+      <text x="1485" y="22" fill="#f0f6fc" font-size="14" font-weight="700">2.15/5 · 43%</text>
+    </g>
+
+    <!-- Section C -->
+    <text x="30" y="370" fill="#3fb950" font-size="20" font-weight="700">C · PROMPTING SKILLS</text>
+    <!-- Q8 55 -->
+    <g transform="translate(30,390)">
+      <text y="20" fill="#c9d1d9" font-size="16">Q8 · Prompt quality self-rating</text>
+      <rect x="370" y="6" width="1100" height="22" rx="6" fill="#21262d"/>
+      <rect x="370" y="6" width="605" height="22" rx="6" fill="#d29922"/>
+      <text x="1485" y="22" fill="#f0f6fc" font-size="14" font-weight="700">2.75/5 · 55%</text>
+    </g>
+    <!-- Q9 61.5 -->
+    <g transform="translate(30,425)">
+      <text y="20" fill="#c9d1d9" font-size="16">Q9 · Prompting framework discipline</text>
+      <rect x="370" y="6" width="1100" height="22" rx="6" fill="#21262d"/>
+      <rect x="370" y="6" width="676" height="22" rx="6" fill="#d29922"/>
+      <text x="1485" y="22" fill="#f0f6fc" font-size="14" font-weight="700">2.46/4 · 62%</text>
+    </g>
+
+    <!-- Section D -->
+    <text x="30" y="480" fill="#f85149" font-size="20" font-weight="700">D · RESPONSIBLE AI &amp; SECURITY</text>
+    <!-- Q11 68.75 -->
+    <g transform="translate(30,500)">
+      <text y="20" fill="#c9d1d9" font-size="16">Q11 · Privacy hygiene</text>
+      <rect x="370" y="6" width="1100" height="22" rx="6" fill="#21262d"/>
+      <rect x="370" y="6" width="756" height="22" rx="6" fill="#3fb950"/>
+      <text x="1485" y="22" fill="#f0f6fc" font-size="14" font-weight="700">2.75/4 · 69%</text>
+    </g>
+    <!-- Q12 55.25 -->
+    <g transform="translate(30,535)">
+      <text y="20" fill="#c9d1d9" font-size="16">Q12 · Copilot data-flow understanding</text>
+      <rect x="370" y="6" width="1100" height="22" rx="6" fill="#21262d"/>
+      <rect x="370" y="6" width="608" height="22" rx="6" fill="#d29922"/>
+      <text x="1485" y="22" fill="#f0f6fc" font-size="14" font-weight="700">2.21/4 · 55%</text>
+    </g>
+    <!-- Q13 30.3 -->
+    <g transform="translate(30,570)">
+      <text y="20" fill="#c9d1d9" font-size="16">Q13 · Security categories actively reviewed</text>
+      <rect x="370" y="6" width="1100" height="22" rx="6" fill="#21262d"/>
+      <rect x="370" y="6" width="333" height="22" rx="6" fill="#f85149"/>
+      <text x="1485" y="22" fill="#f0f6fc" font-size="14" font-weight="700">1.82/6 · 30%</text>
+    </g>
+
+    <!-- Section E/F -->
+    <text x="30" y="625" fill="#d29922" font-size="20" font-weight="700">E/F · SDLC, TESTING, REVIEW &amp; GOVERNANCE</text>
+    <!-- Q14 42.3 -->
+    <g transform="translate(30,645)">
+      <text y="20" fill="#c9d1d9" font-size="16">Q14 · SDLC phases using AI</text>
+      <rect x="370" y="6" width="1100" height="22" rx="6" fill="#21262d"/>
+      <rect x="370" y="6" width="465" height="22" rx="6" fill="#d29922"/>
+      <text x="1485" y="22" fill="#f0f6fc" font-size="14" font-weight="700">2.96/7 · 42%</text>
+    </g>
+  </g>
+
+  <!-- Right column - Q7 detail card OUTSIDE? Better keep simple — bottom strip with Q7 breakdown -->
+  <g transform="translate(80,920)" filter="url(#card)">
+    <rect width="1760" height="130" rx="18" fill="#161b22" stroke="#30363d"/>
+    <text x="30" y="40" fill="#8b949e" font-size="18" font-weight="700">Q7 · ADVANCED FEATURES — drill-down (1=Never tried → 5=Power user)</text>
+    <g transform="translate(30,55)" font-size="14" fill="#c9d1d9">
+      <g><text y="20" font-weight="600">Model Switching</text><rect y="30" width="240" height="14" rx="4" fill="#21262d"/><rect y="30" width="146" height="14" rx="4" fill="#3fb950"/><text y="58" fill="#3fb950" font-weight="700">3.04/5</text></g>
+      <g transform="translate(280,0)"><text y="20" font-weight="600">Agent Mode</text><rect y="30" width="240" height="14" rx="4" fill="#21262d"/><rect y="30" width="111" height="14" rx="4" fill="#d29922"/><text y="58" fill="#d29922" font-weight="700">2.32/5</text></g>
+      <g transform="translate(560,0)"><text y="20" font-weight="600">Copilot Edits</text><rect y="30" width="240" height="14" rx="4" fill="#21262d"/><rect y="30" width="99" height="14" rx="4" fill="#d29922"/><text y="58" fill="#d29922" font-weight="700">2.07/5</text></g>
+      <g transform="translate(840,0)"><text y="20" font-weight="600">Custom Instructions</text><rect y="30" width="240" height="14" rx="4" fill="#21262d"/><rect y="30" width="99" height="14" rx="4" fill="#d29922"/><text y="58" fill="#d29922" font-weight="700">2.07/5</text></g>
+      <g transform="translate(1120,0)"><text y="20" font-weight="600">Prompt Files</text><rect y="30" width="240" height="14" rx="4" fill="#21262d"/><rect y="30" width="89" height="14" rx="4" fill="#f85149"/><text y="58" fill="#f85149" font-weight="700">1.86/5</text></g>
+      <g transform="translate(1400,0)"><text y="20" font-weight="600">Copilot CLI</text><rect y="30" width="240" height="14" rx="4" fill="#21262d"/><rect y="30" width="74" height="14" rx="4" fill="#f85149"/><text y="58" fill="#f85149" font-weight="700">1.54/5</text></g>
+    </g>
+  </g>
+
+  <text x="1840" y="1075" text-anchor="end" fill="#484f58" font-size="14">Source: survey/SURVEY_RESULTS.md · n=28</text>
+</svg>

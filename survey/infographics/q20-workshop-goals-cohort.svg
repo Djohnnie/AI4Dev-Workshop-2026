@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" role="img">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b22"/>
+  </linearGradient>
+  <filter id="card" x="-5%" y="-5%" width="110%" height="115%">
+    <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.35"/>
+  </filter>
+</defs>
+<rect width="1920" height="1080" fill="url(#bg)"/>
+<text x="80" y="92" font-family="'Segoe UI', system-ui, sans-serif" font-size="44" font-weight="700" fill="#f0f6fc">Q20 · Workshop goal (open text)</text>
+<text x="80" y="138" font-family="'Segoe UI', system-ui, sans-serif" font-size="22" fill="#8b949e">What each participant wants to take away from the workshop · color = cohort</text>
+<g id="cohort-legend" font-family="'Segoe UI', system-ui, sans-serif">
+  <text x="1080" y="170" font-size="16" font-weight="700" fill="#c9d1d9">Cohort color</text>
+  <rect x="1210" y="156" width="20" height="20" rx="4" fill="#3fb950"/>
+  <text x="1238" y="172" font-size="15" fill="#c9d1d9">Most Advanced</text>
+  <rect x="1390" y="156" width="20" height="20" rx="4" fill="#58a6ff"/>
+  <text x="1418" y="172" font-size="15" fill="#c9d1d9">More Advanced</text>
+  <rect x="1575" y="156" width="20" height="20" rx="4" fill="#f85149"/>
+  <text x="1603" y="172" font-size="15" fill="#c9d1d9">Basics</text>
+</g>
+<rect x="60" y="200" width="1800" height="820" rx="20" fill="#161b22" stroke="#30363d" filter="url(#card)"/>
+<rect x="76.0" y="230" width="430" height="105" rx="10" fill="#0f2a19" stroke="#3fb950" stroke-width="2"/>
+<text x="90.0" y="256" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#1</text>
+<text x="126.0" y="256" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">Understand the internal functioning of generative AI,</text>
+<text x="126.0" y="278" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">token generation, inference, token usage, thinking</text>
+<text x="126.0" y="300" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">models, etc..</text>
+<rect x="522.0" y="230" width="430" height="105" rx="10" fill="#0f2a19" stroke="#3fb950" stroke-width="2"/>
+<text x="536.0" y="256" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#2</text>
+<text x="572.0" y="256" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">Generating more relevant test classes would save me</text>
+<text x="572.0" y="278" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">time. Knowing how to prompt more optimally in order to</text>
+<text x="572.0" y="300" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">consume fewer tokens unnecessarily.</text>
+<rect x="968.0" y="230" width="430" height="105" rx="10" fill="#10233a" stroke="#58a6ff" stroke-width="2"/>
+<text x="982.0" y="256" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#3</text>
+<text x="1018.0" y="256" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">Be able to get my point across for the model to</text>
+<text x="1018.0" y="278" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">understand what I want specifically, and make it get the</text>
+<text x="1018.0" y="300" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">right context for each task when needed. Be sure tha…</text>
+<rect x="1414.0" y="230" width="430" height="105" rx="10" fill="#10233a" stroke="#58a6ff" stroke-width="2"/>
+<text x="1428.0" y="256" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#4</text>
+<text x="1464.0" y="256" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">I&#x27;d like to know how to use the most effectively the LLM</text>
+<text x="1464.0" y="278" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">tools</text>
+<rect x="76.0" y="347" width="430" height="105" rx="10" fill="#351316" stroke="#f85149" stroke-width="2"/>
+<text x="90.0" y="373" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#5</text>
+<text x="126.0" y="373" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">generate documentation, debugging, refactoring existing</text>
+<text x="126.0" y="395" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">code</text>
+<rect x="522.0" y="347" width="430" height="105" rx="10" fill="#0f2a19" stroke="#3fb950" stroke-width="2"/>
+<text x="536.0" y="373" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#6</text>
+<text x="572.0" y="373" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">Create a full AI assisted SDLC that would be reliable</text>
+<text x="572.0" y="395" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">(currently unachievable for the industry).</text>
+<rect x="968.0" y="347" width="430" height="105" rx="10" fill="#0f2a19" stroke="#3fb950" stroke-width="2"/>
+<text x="982.0" y="373" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#7</text>
+<text x="1018.0" y="373" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">better prompting</text>
+<rect x="1414.0" y="347" width="430" height="105" rx="10" fill="#351316" stroke="#f85149" stroke-width="2"/>
+<text x="1428.0" y="373" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#8</text>
+<text x="1464.0" y="373" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">Be more confident in using the AI and get the right</text>
+<text x="1464.0" y="395" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">results for my questions.</text>
+<rect x="76.0" y="464" width="430" height="105" rx="10" fill="#0f2a19" stroke="#3fb950" stroke-width="2"/>
+<text x="90.0" y="490" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#9</text>
+<text x="126.0" y="490" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">having a full stack monitoring and control of the LLM/AI</text>
+<text x="126.0" y="512" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">implmentation, and knowing where to intervene in order</text>
+<text x="126.0" y="534" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">to have a right correction loop and enhance workflow…</text>
+<rect x="522.0" y="464" width="430" height="105" rx="10" fill="#10233a" stroke="#58a6ff" stroke-width="2"/>
+<text x="536.0" y="490" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#10</text>
+<text x="572.0" y="490" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">Trouver un moyen d&#x27;effectuer des prompts sans cramer mes</text>
+<text x="572.0" y="512" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">tokens en 1 semaine ? être plus économe et savoir</text>
+<text x="572.0" y="534" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">comment faire ?</text>
+<rect x="968.0" y="464" width="430" height="105" rx="10" fill="#0f2a19" stroke="#3fb950" stroke-width="2"/>
+<text x="982.0" y="490" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#11</text>
+<text x="1018.0" y="490" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">Know how to correctly prompt an AI to limit the token</text>
+<text x="1018.0" y="512" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">use while also being able to generate from scratch</text>
+<text x="1018.0" y="534" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">bigger projects ( with skills.md )</text>
+<rect x="1414.0" y="464" width="430" height="105" rx="10" fill="#10233a" stroke="#58a6ff" stroke-width="2"/>
+<text x="1428.0" y="490" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#12</text>
+<text x="1464.0" y="490" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">Mieux maitriser les tenants et les oboutissants,</text>
+<text x="1464.0" y="512" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">comprendre quoi demander et la façon la plus structurée</text>
+<text x="1464.0" y="534" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">de le faire, avec une veritable stratégie derrière cela</text>
+<rect x="76.0" y="581" width="430" height="105" rx="10" fill="#10233a" stroke="#58a6ff" stroke-width="2"/>
+<text x="90.0" y="607" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#13</text>
+<text x="126.0" y="607" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">I would like to know the commands and usage guidelines</text>
+<text x="126.0" y="629" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">for improving prompts with AI.</text>
+<rect x="522.0" y="581" width="430" height="105" rx="10" fill="#351316" stroke="#f85149" stroke-width="2"/>
+<text x="536.0" y="607" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#14</text>
+<text x="572.0" y="607" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">AI kunnen aansturen om correcte output te krijgen</text>
+<rect x="968.0" y="581" width="430" height="105" rx="10" fill="#10233a" stroke="#58a6ff" stroke-width="2"/>
+<text x="982.0" y="607" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#15</text>
+<text x="1018.0" y="607" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">better prompts</text>
+<rect x="1414.0" y="581" width="430" height="105" rx="10" fill="#351316" stroke="#f85149" stroke-width="2"/>
+<text x="1428.0" y="607" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#16</text>
+<text x="1464.0" y="607" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">Tegen het einde van de training wil ik meer vertrouwen</text>
+<text x="1464.0" y="629" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">hebben in het formuleren van goede prompts en beter</text>
+<text x="1464.0" y="651" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">begrijpen hoe ik AI‑codingtools doelgericht kan inze…</text>
+<rect x="76.0" y="698" width="430" height="105" rx="10" fill="#351316" stroke="#f85149" stroke-width="2"/>
+<text x="90.0" y="724" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#17</text>
+<text x="126.0" y="724" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">apprende à utiliser l&#x27;IA pour découvrir de nouvelles</text>
+<text x="126.0" y="746" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">fonctionnalité dans les langages de programmation</text>
+<text x="126.0" y="768" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">Egalement vérifier et tester les scripts que j&#x27;écris</text>
+<rect x="522.0" y="698" width="430" height="105" rx="10" fill="#351316" stroke="#f85149" stroke-width="2"/>
+<text x="536.0" y="724" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#18</text>
+<text x="572.0" y="724" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">Tout</text>
+<rect x="968.0" y="698" width="430" height="105" rx="10" fill="#351316" stroke="#f85149" stroke-width="2"/>
+<text x="982.0" y="724" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#19</text>
+<text x="1018.0" y="724" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">Pouvoir faire créer des scripts et faire confiance à</text>
+<text x="1018.0" y="746" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">l&#x27;IA</text>
+<rect x="1414.0" y="698" width="430" height="105" rx="10" fill="#10233a" stroke="#58a6ff" stroke-width="2"/>
+<text x="1428.0" y="724" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#20</text>
+<text x="1464.0" y="724" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">Improve how I structure prompts and integrate AI more</text>
+<text x="1464.0" y="746" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">effectively into my workflow to increase code quality</text>
+<rect x="76.0" y="815" width="430" height="105" rx="10" fill="#351316" stroke="#f85149" stroke-width="2"/>
+<text x="90.0" y="841" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#21</text>
+<text x="126.0" y="841" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">?</text>
+<rect x="522.0" y="815" width="430" height="105" rx="10" fill="#351316" stroke="#f85149" stroke-width="2"/>
+<text x="536.0" y="841" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#22</text>
+<text x="572.0" y="841" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">To understand more easily and quickly programs I know</text>
+<text x="572.0" y="863" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">little about =&gt; Before testing, improving quality code,</text>
+<text x="572.0" y="885" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">may be converting in another code, ...</text>
+<rect x="968.0" y="815" width="430" height="105" rx="10" fill="#0f2a19" stroke="#3fb950" stroke-width="2"/>
+<text x="982.0" y="841" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#23</text>
+<text x="1018.0" y="841" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">By the end of the training, I want to be more confident</text>
+<text x="1018.0" y="863" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">in evaluating their output, especially debugging and</text>
+<text x="1018.0" y="885" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">writing tests.</text>
+<rect x="1414.0" y="815" width="430" height="105" rx="10" fill="#0f2a19" stroke="#3fb950" stroke-width="2"/>
+<text x="1428.0" y="841" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#24</text>
+<text x="1464.0" y="841" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">creation/use of SKILL for development</text>
+<rect x="76.0" y="932" width="430" height="105" rx="10" fill="#10233a" stroke="#58a6ff" stroke-width="2"/>
+<text x="90.0" y="958" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#25</text>
+<text x="126.0" y="958" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">Productivity &amp; Shortcuts Learn all the tricks,</text>
+<text x="126.0" y="980" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">shortcuts, and best practices to code faster with</text>
+<text x="126.0" y="1002" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">Copilot. Optimized Prompts, build effective, reusabl…</text>
+<rect x="522.0" y="932" width="430" height="105" rx="10" fill="#351316" stroke="#f85149" stroke-width="2"/>
+<text x="536.0" y="958" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#26</text>
+<text x="572.0" y="958" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">Je hais l&#x27;IA</text>
+<rect x="968.0" y="932" width="430" height="105" rx="10" fill="#10233a" stroke="#58a6ff" stroke-width="2"/>
+<text x="982.0" y="958" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#27</text>
+<text x="1018.0" y="958" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">-</text>
+<rect x="1414.0" y="932" width="430" height="105" rx="10" fill="#10233a" stroke="#58a6ff" stroke-width="2"/>
+<text x="1428.0" y="958" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">#28</text>
+<text x="1464.0" y="958" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" fill="#c9d1d9">Even better and easier AI usage.</text>
+<text x="1840" y="1048" text-anchor="end" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" fill="#484f58">Source: survey/SURVEY_RESULTS.md · n=28</text>
+</svg>

@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" font-family="'Segoe UI', system-ui, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <filter id="card" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+
+  <text x="80" y="90" fill="#f0f6fc" font-size="46" font-weight="700">Security Review — The Blind Spots in AI Output</text>
+  <text x="80" y="130" fill="#8b949e" font-size="22">Q13 · Which categories are participants actively checking when reviewing AI-generated code? (multi-select)</text>
+  <line x1="80" y1="155" x2="1840" y2="155" stroke="#30363d" stroke-width="2"/>
+
+  <!-- Total bars left -->
+  <g transform="translate(80,200)" filter="url(#card)">
+    <rect width="900" height="780" rx="18" fill="#161b22" stroke="#30363d"/>
+    <text x="30" y="50" fill="#f85149" font-size="22" font-weight="700">OVERALL — % of all 28 participants</text>
+    <text x="30" y="80" fill="#8b949e" font-size="15">Average categories actively reviewed: 1.82 of 6 · 8 of 28 (29%) admit "haven't thought about this yet"</text>
+
+    <g transform="translate(30,110)" font-size="16" fill="#c9d1d9">
+      <!-- Order: input val, creds, authn, sql, crypto, xss -->
+      <g><text y="20" font-weight="600">Missing input validation / boundary checks</text>
+        <text x="830" y="20" text-anchor="end" fill="#d29922" font-weight="700">54%  (15)</text>
+        <rect y="30" width="830" height="22" rx="6" fill="#21262d"/><rect y="30" width="448" height="22" rx="6" fill="#d29922"/></g>
+      <g transform="translate(0,80)"><text y="20" font-weight="600">Hardcoded credentials / secrets</text>
+        <text x="830" y="20" text-anchor="end" fill="#d29922" font-weight="700">43%  (12)</text>
+        <rect y="30" width="830" height="22" rx="6" fill="#21262d"/><rect y="30" width="357" height="22" rx="6" fill="#d29922"/></g>
+      <g transform="translate(0,160)"><text y="20" font-weight="600">Missing or incorrect authn / authz</text>
+        <text x="830" y="20" text-anchor="end" fill="#d29922" font-weight="700">32%  (9)</text>
+        <rect y="30" width="830" height="22" rx="6" fill="#21262d"/><rect y="30" width="266" height="22" rx="6" fill="#d29922"/></g>
+      <g transform="translate(0,240)"><text y="20" font-weight="600">SQL / command injection</text>
+        <text x="830" y="20" text-anchor="end" fill="#f85149" font-weight="700">25%  (7)</text>
+        <rect y="30" width="830" height="22" rx="6" fill="#21262d"/><rect y="30" width="208" height="22" rx="6" fill="#f85149"/></g>
+      <g transform="translate(0,320)"><text y="20" font-weight="600">Insecure cryptography (weak algo, predictable seed)</text>
+        <text x="830" y="20" text-anchor="end" fill="#f85149" font-weight="700">21%  (6)</text>
+        <rect y="30" width="830" height="22" rx="6" fill="#21262d"/><rect y="30" width="174" height="22" rx="6" fill="#f85149"/></g>
+      <g transform="translate(0,400)"><text y="20" font-weight="600">Cross-site scripting (XSS)</text>
+        <text x="830" y="20" text-anchor="end" fill="#f85149" font-weight="700">7%  (2)</text>
+        <rect y="30" width="830" height="22" rx="6" fill="#21262d"/><rect y="30" width="58" height="22" rx="6" fill="#f85149"/></g>
+
+      <line y1="465" x2="830" y2="465" stroke="#30363d" stroke-width="1" stroke-dasharray="4 4"/>
+
+      <g transform="translate(0,480)"><text y="20" font-style="italic">Reviews AI code but doesn't check security</text>
+        <text x="830" y="20" text-anchor="end" fill="#8b949e" font-weight="700">18%  (5)</text>
+        <rect y="30" width="830" height="22" rx="6" fill="#21262d"/><rect y="30" width="148" height="22" rx="6" fill="#8b949e"/></g>
+      <g transform="translate(0,560)"><text y="20" font-style="italic">Hasn't thought about this yet</text>
+        <text x="830" y="20" text-anchor="end" fill="#f85149" font-weight="700">29%  (8)</text>
+        <rect y="30" width="830" height="22" rx="6" fill="#21262d"/><rect y="30" width="237" height="22" rx="6" fill="#f85149"/></g>
+    </g>
+  </g>
+
+  <!-- Right cohort breakdown -->
+  <g transform="translate(1000,200)" filter="url(#card)">
+    <rect width="840" height="780" rx="18" fill="#161b22" stroke="#30363d"/>
+    <text x="30" y="50" fill="#a371f7" font-size="22" font-weight="700">SAME CATEGORIES — BY COHORT</text>
+    <text x="30" y="80" fill="#8b949e" font-size="15">% of cohort that ticks each category. Basics cohort barely checks anything.</text>
+
+    <!-- Header -->
+    <g transform="translate(30,115)" font-size="13" fill="#8b949e">
+      <text x="370" text-anchor="middle">🥇 Most Adv. (n=8)</text>
+      <text x="540" text-anchor="middle">🥈 More Adv. (n=10)</text>
+      <text x="720" text-anchor="middle">🥉 Basics (n=10)</text>
+    </g>
+
+    <!-- per-row: top mid bot bar groups, max bar width 100 -->
+    <g transform="translate(30,140)" font-size="14" fill="#c9d1d9">
+      <!-- Input validation: 75/70/20 -->
+      <g><text y="22" font-weight="600">Input validation</text>
+        <g transform="translate(320,5)">
+          <rect width="100" height="20" rx="4" fill="#21262d"/><rect width="75" height="20" rx="4" fill="#3fb950"/><text x="105" y="15" fill="#3fb950" font-weight="700">75%</text></g>
+        <g transform="translate(490,5)"><rect width="100" height="20" rx="4" fill="#21262d"/><rect width="70" height="20" rx="4" fill="#3fb950"/><text x="105" y="15" fill="#3fb950" font-weight="700">70%</text></g>
+        <g transform="translate(670,5)"><rect width="100" height="20" rx="4" fill="#21262d"/><rect width="20" height="20" rx="4" fill="#f85149"/><text x="105" y="15" fill="#f85149" font-weight="700">20%</text></g>
+      </g>
+      <!-- Credentials: 88/50/0 -->
+      <g transform="translate(0,55)"><text y="22" font-weight="600">Hardcoded creds</text>
+        <g transform="translate(320,5)"><rect width="100" height="20" rx="4" fill="#21262d"/><rect width="88" height="20" rx="4" fill="#3fb950"/><text x="105" y="15" fill="#3fb950" font-weight="700">88%</text></g>
+        <g transform="translate(490,5)"><rect width="100" height="20" rx="4" fill="#21262d"/><rect width="50" height="20" rx="4" fill="#d29922"/><text x="105" y="15" fill="#d29922" font-weight="700">50%</text></g>
+        <g transform="translate(670,5)"><rect width="100" height="20" rx="4" fill="#21262d"/><text x="105" y="15" fill="#f85149" font-weight="700">0%</text></g>
+      </g>
+      <!-- AuthN/Z: 63/40/0 -->
+      <g transform="translate(0,110)"><text y="22" font-weight="600">Authn / Authz</text>
+        <g transform="translate(320,5)"><rect width="100" height="20" rx="4" fill="#21262d"/><rect width="63" height="20" rx="4" fill="#3fb950"/><text x="105" y="15" fill="#3fb950" font-weight="700">63%</text></g>
+        <g transform="translate(490,5)"><rect width="100" height="20" rx="4" fill="#21262d"/><rect width="40" height="20" rx="4" fill="#d29922"/><text x="105" y="15" fill="#d29922" font-weight="700">40%</text></g>
+        <g transform="translate(670,5)"><rect width="100" height="20" rx="4" fill="#21262d"/><text x="105" y="15" fill="#f85149" font-weight="700">0%</text></g>
+      </g>
+      <!-- SQL injection: 25/40/10 -->
+      <g transform="translate(0,165)"><text y="22" font-weight="600">SQL / cmd injection</text>
+        <g transform="translate(320,5)"><rect width="100" height="20" rx="4" fill="#21262d"/><rect width="25" height="20" rx="4" fill="#f85149"/><text x="105" y="15" fill="#f85149" font-weight="700">25%</text></g>
+        <g transform="translate(490,5)"><rect width="100" height="20" rx="4" fill="#21262d"/><rect width="40" height="20" rx="4" fill="#d29922"/><text x="105" y="15" fill="#d29922" font-weight="700">40%</text></g>
+        <g transform="translate(670,5)"><rect width="100" height="20" rx="4" fill="#21262d"/><rect width="10" height="20" rx="4" fill="#f85149"/><text x="105" y="15" fill="#f85149" font-weight="700">10%</text></g>
+      </g>
+      <!-- Crypto: 38/30/0 -->
+      <g transform="translate(0,220)"><text y="22" font-weight="600">Insecure crypto</text>
+        <g transform="translate(320,5)"><rect width="100" height="20" rx="4" fill="#21262d"/><rect width="38" height="20" rx="4" fill="#d29922"/><text x="105" y="15" fill="#d29922" font-weight="700">38%</text></g>
+        <g transform="translate(490,5)"><rect width="100" height="20" rx="4" fill="#21262d"/><rect width="30" height="20" rx="4" fill="#d29922"/><text x="105" y="15" fill="#d29922" font-weight="700">30%</text></g>
+        <g transform="translate(670,5)"><rect width="100" height="20" rx="4" fill="#21262d"/><text x="105" y="15" fill="#f85149" font-weight="700">0%</text></g>
+      </g>
+      <!-- XSS: 13/10/0 -->
+      <g transform="translate(0,275)"><text y="22" font-weight="600">XSS</text>
+        <g transform="translate(320,5)"><rect width="100" height="20" rx="4" fill="#21262d"/><rect width="13" height="20" rx="4" fill="#f85149"/><text x="105" y="15" fill="#f85149" font-weight="700">13%</text></g>
+        <g transform="translate(490,5)"><rect width="100" height="20" rx="4" fill="#21262d"/><rect width="10" height="20" rx="4" fill="#f85149"/><text x="105" y="15" fill="#f85149" font-weight="700">10%</text></g>
+        <g transform="translate(670,5)"><rect width="100" height="20" rx="4" fill="#21262d"/><text x="105" y="15" fill="#f85149" font-weight="700">0%</text></g>
+      </g>
+
+      <line y1="335" x2="800" y2="335" stroke="#30363d" stroke-width="1" stroke-dasharray="4 4"/>
+
+      <!-- Haven't thought: 0/10/70 -->
+      <g transform="translate(0,355)"><text y="22" font-weight="600" fill="#f85149">"Haven't thought about it"</text>
+        <g transform="translate(320,5)"><rect width="100" height="20" rx="4" fill="#21262d"/><text x="105" y="15" fill="#3fb950" font-weight="700">0%</text></g>
+        <g transform="translate(490,5)"><rect width="100" height="20" rx="4" fill="#21262d"/><rect width="10" height="20" rx="4" fill="#d29922"/><text x="105" y="15" fill="#d29922" font-weight="700">10%</text></g>
+        <g transform="translate(670,5)"><rect width="100" height="20" rx="4" fill="#21262d"/><rect width="70" height="20" rx="4" fill="#f85149"/><text x="105" y="15" fill="#f85149" font-weight="700">70%</text></g>
+      </g>
+    </g>
+
+    <!-- Insight callout -->
+    <g transform="translate(30,560)">
+      <rect width="780" height="190" rx="14" fill="#21262d" stroke="#f85149"/>
+      <text x="20" y="35" fill="#f85149" font-size="18" font-weight="700">⚠ KEY TAKEAWAYS</text>
+      <g transform="translate(20,55)" font-size="15" fill="#c9d1d9">
+        <text y="20">▸ XSS is a near-universal blind spot — only 2 of 28 (7%) actively look for it.</text>
+        <text y="48">▸ The Basics cohort essentially does no security review of AI output (70% "haven't thought").</text>
+        <text y="76">▸ Even Most Advanced misses ~25–37% on SQL injection, crypto and XSS.</text>
+        <text y="104">▸ Build a one-page "AI-output security checklist" and walk every cohort through it.</text>
+      </g>
+    </g>
+  </g>
+
+  <text x="1840" y="1060" text-anchor="end" fill="#484f58" font-size="14">Source: survey/SURVEY_RESULTS.md · n=28</text>
+</svg>

@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" font-family="'Segoe UI', system-ui, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <filter id="card" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+
+  <text x="80" y="90" fill="#f0f6fc" font-size="46" font-weight="700">In Their Own Words — Blockers &amp; Workshop Goals</text>
+  <text x="80" y="130" fill="#8b949e" font-size="22">Themes from open-text Q19 (biggest blocker) and Q20 (workshop goal). Verbatim quotes are anonymised.</text>
+  <line x1="80" y1="155" x2="1840" y2="155" stroke="#30363d" stroke-width="2"/>
+
+  <!-- Themes weighted "word cloud" (faked positions, sized by frequency) -->
+  <g transform="translate(80,200)" filter="url(#card)">
+    <rect width="900" height="430" rx="18" fill="#161b22" stroke="#30363d"/>
+    <text x="30" y="50" fill="#f85149" font-size="22" font-weight="700">Q19 · BIGGEST BLOCKERS — themes</text>
+    <text x="30" y="78" fill="#8b949e" font-size="14">Size = how often the theme appeared across 28 responses (multi-coded).</text>
+
+    <g transform="translate(450,250)" text-anchor="middle">
+      <text y="-90" fill="#58a6ff" font-size="64" font-weight="800">Trust &amp; output quality</text>
+      <text y="-30" fill="#8b949e" font-size="14">≈ 10 mentions</text>
+
+      <text x="-280" y="40" fill="#a371f7" font-size="50" font-weight="700">Prompt skills</text>
+      <text x="-280" y="62" fill="#8b949e" font-size="13">≈ 9</text>
+
+      <text x="280" y="40" fill="#3fb950" font-size="42" font-weight="700">Time to learn</text>
+      <text x="280" y="62" fill="#8b949e" font-size="13">≈ 4</text>
+
+      <text x="-260" y="120" fill="#d29922" font-size="34" font-weight="700">Org policy</text>
+      <text x="-260" y="140" fill="#8b949e" font-size="12">≈ 4</text>
+
+      <text x="20" y="120" fill="#f85149" font-size="32" font-weight="700">Token / cost limits</text>
+      <text x="20" y="140" fill="#8b949e" font-size="12">≈ 4</text>
+
+      <text x="280" y="125" fill="#58a6ff" font-size="28" font-weight="700">Tool availability</text>
+      <text x="280" y="143" fill="#8b949e" font-size="12">≈ 4</text>
+
+      <text x="-150" y="170" fill="#a371f7" font-size="22" font-weight="700">Security concerns</text>
+      <text x="180" y="170" fill="#3fb950" font-size="22" font-weight="700">Feature discovery</text>
+    </g>
+  </g>
+
+  <!-- Q20 themes -->
+  <g transform="translate(1000,200)" filter="url(#card)">
+    <rect width="840" height="430" rx="18" fill="#161b22" stroke="#30363d"/>
+    <text x="30" y="50" fill="#3fb950" font-size="22" font-weight="700">Q20 · WORKSHOP GOALS — themes</text>
+    <text x="30" y="78" fill="#8b949e" font-size="14">What participants want to walk away able to do.</text>
+
+    <g transform="translate(420,250)" text-anchor="middle">
+      <text y="-80" fill="#a371f7" font-size="68" font-weight="800">Better prompting</text>
+      <text y="-22" fill="#8b949e" font-size="14">≈ 11 mentions · the dominant ask</text>
+
+      <text x="-220" y="50" fill="#58a6ff" font-size="36" font-weight="700">Confidence in output</text>
+      <text x="-220" y="70" fill="#8b949e" font-size="12">≈ 4</text>
+
+      <text x="240" y="50" fill="#3fb950" font-size="32" font-weight="700">Test generation / TDD</text>
+      <text x="240" y="70" fill="#8b949e" font-size="12">≈ 3</text>
+
+      <text x="-220" y="115" fill="#d29922" font-size="28" font-weight="700">Token efficiency</text>
+      <text x="-220" y="133" fill="#8b949e" font-size="12">≈ 3</text>
+
+      <text x="40" y="115" fill="#f85149" font-size="26" font-weight="700">Understand internals</text>
+      <text x="40" y="133" fill="#8b949e" font-size="12">≈ 2</text>
+
+      <text x="280" y="115" fill="#58a6ff" font-size="24" font-weight="700">Agent / Skills</text>
+      <text x="280" y="133" fill="#8b949e" font-size="12">≈ 3</text>
+
+      <text x="0" y="170" fill="#a371f7" font-size="22" font-weight="700">Productivity / shortcuts</text>
+    </g>
+  </g>
+
+  <!-- Verbatim quotes -->
+  <g transform="translate(80,650)" filter="url(#card)">
+    <rect width="1760" height="370" rx="18" fill="#161b22" stroke="#30363d"/>
+    <text x="30" y="45" fill="#f0f6fc" font-size="22" font-weight="700">💬 Verbatim quotes (anonymised)</text>
+
+    <!-- Quote cards 4x2 grid -->
+    <g transform="translate(30,75)" font-size="14" fill="#c9d1d9">
+      <!-- Row 1 -->
+      <g>
+        <rect width="420" height="130" rx="10" fill="#21262d" stroke="#58a6ff"/>
+        <text x="20" y="28" fill="#58a6ff" font-size="13" font-weight="700">TRUST &amp; QUALITY</text>
+        <text x="20" y="56" font-style="italic">"Trust in output quality is certainly one</text>
+        <text x="20" y="76" font-style="italic">of my biggest concerns... output quality</text>
+        <text x="20" y="96" font-style="italic">differs immensely between tasks."</text>
+        <text x="20" y="118" fill="#8b949e">— Q19, multiple respondents</text>
+      </g>
+      <g transform="translate(440,0)">
+        <rect width="420" height="130" rx="10" fill="#21262d" stroke="#a371f7"/>
+        <text x="20" y="28" fill="#a371f7" font-size="13" font-weight="700">PROMPT SKILLS</text>
+        <text x="20" y="56" font-style="italic">"Prompt skills and how to use it correctly</text>
+        <text x="20" y="76" font-style="italic">to get the most out of it... not getting the</text>
+        <text x="20" y="96" font-style="italic">context right or specifically how I meant it."</text>
+        <text x="20" y="118" fill="#8b949e">— Q19</text>
+      </g>
+      <g transform="translate(880,0)">
+        <rect width="420" height="130" rx="10" fill="#21262d" stroke="#d29922"/>
+        <text x="20" y="28" fill="#d29922" font-size="13" font-weight="700">TOKEN LIMITS</text>
+        <text x="20" y="56" font-style="italic">"I find myself using less powerful LLMs to</text>
+        <text x="20" y="76" font-style="italic">make sure I don't run out of tokens for the</text>
+        <text x="20" y="96" font-style="italic">rest of my cycle."</text>
+        <text x="20" y="118" fill="#8b949e">— Q19</text>
+      </g>
+      <g transform="translate(1320,0)">
+        <rect width="420" height="130" rx="10" fill="#21262d" stroke="#f85149"/>
+        <text x="20" y="28" fill="#f85149" font-size="13" font-weight="700">ORG POLICY &amp; SECURITY</text>
+        <text x="20" y="56" font-style="italic">"Lack of clear team policy on AI tool usage...</text>
+        <text x="20" y="76" font-style="italic">we lack documentation on company guidelines</text>
+        <text x="20" y="96" font-style="italic">for data handling with AI tools."</text>
+        <text x="20" y="118" fill="#8b949e">— Q19</text>
+      </g>
+      <!-- Row 2 -->
+      <g transform="translate(0,150)">
+        <rect width="420" height="130" rx="10" fill="#21262d" stroke="#3fb950"/>
+        <text x="20" y="28" fill="#3fb950" font-size="13" font-weight="700">WORKSHOP GOAL — PROMPTING</text>
+        <text x="20" y="56" font-style="italic">"Be able to get my point across for the model</text>
+        <text x="20" y="76" font-style="italic">to understand what I want specifically, and</text>
+        <text x="20" y="96" font-style="italic">make it get the right context."</text>
+        <text x="20" y="118" fill="#8b949e">— Q20</text>
+      </g>
+      <g transform="translate(440,150)">
+        <rect width="420" height="130" rx="10" fill="#21262d" stroke="#3fb950"/>
+        <text x="20" y="28" fill="#3fb950" font-size="13" font-weight="700">WORKSHOP GOAL — INTERNALS</text>
+        <text x="20" y="56" font-style="italic">"Understand the internal functioning of</text>
+        <text x="20" y="76" font-style="italic">generative AI, token generation, inference,</text>
+        <text x="20" y="96" font-style="italic">token usage, thinking models, etc."</text>
+        <text x="20" y="118" fill="#8b949e">— Q20</text>
+      </g>
+      <g transform="translate(880,150)">
+        <rect width="420" height="130" rx="10" fill="#21262d" stroke="#3fb950"/>
+        <text x="20" y="28" fill="#3fb950" font-size="13" font-weight="700">WORKSHOP GOAL — INSTRUCTIONS</text>
+        <text x="20" y="56" font-style="italic">"A clear and well-created instruction file...</text>
+        <text x="20" y="76" font-style="italic">so we can focus on business request and</text>
+        <text x="20" y="96" font-style="italic">analysis, rather than repeat ourselves."</text>
+        <text x="20" y="118" fill="#8b949e">— Q19/20</text>
+      </g>
+      <g transform="translate(1320,150)">
+        <rect width="420" height="130" rx="10" fill="#21262d" stroke="#3fb950"/>
+        <text x="20" y="28" fill="#3fb950" font-size="13" font-weight="700">WORKSHOP GOAL — AGENTIC</text>
+        <text x="20" y="56" font-style="italic">"Explore creating autonomous agents that</text>
+        <text x="20" y="76" font-style="italic">detect and fix issues automatically, with</text>
+        <text x="20" y="96" font-style="italic">developer review and approval."</text>
+        <text x="20" y="118" fill="#8b949e">— Q20</text>
+      </g>
+    </g>
+  </g>
+
+  <text x="1840" y="1060" text-anchor="end" fill="#484f58" font-size="14">Source: survey/SURVEY_RESULTS.md · n=28</text>
+</svg>

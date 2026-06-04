@@ -1,32 +1,35 @@
 <Solution>
-  <Folder Name="/Chapter 1/">
+  <Folder Name="/Chapter 1/Exercise 101/">
     <Project Path="101\TokenVisualizer.csproj" />
   </Folder>
-  <Folder Name="/Chapter 2/">
+  <Folder Name="/Chapter 1/Exercise 102/">
+    <Project Path="102\AgentFramework.Chat.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 2/Exercise 201/">
     <Project Path="201\Factorial\Factorial.csproj" />
     <Project Path="201\Factorial.Tests\Factorial.Tests.csproj" />
   </Folder>
-  <Folder Name="/Chapter 3/">
+  <Folder Name="/Chapter 2/Exercise 202/">
     <Project Path="202\Palindrome\Palindrome.csproj" />
     <Project Path="202\Palindrome.Tests\Palindrome.Tests.csproj" />
   </Folder>
-  <Folder Name="/Chapter 4/">
+  <Folder Name="/Chapter 2/Exercise 203/">
     <Project Path="203\Processor\Processor.csproj" />
     <Project Path="203\Processor.Tests\Processor.Tests.csproj" />
   </Folder>
-  <Folder Name="/Chapter 5/">
+  <Folder Name="/Chapter 2/Exercise 204/">
     <Project Path="204\ShortestPath\ShortestPath.csproj" />
     <Project Path="204\ShortestPath.Tests\ShortestPath.Tests.csproj" />
   </Folder>
-  <Folder Name="/Chapter 6/">
+  <Folder Name="/Chapter 2/Exercise 205/">
     <Project Path="205\CaesarCipher\CaesarCipher.csproj" />
     <Project Path="205\CaesarCipher.Tests\CaesarCipher.Tests.csproj" />
   </Folder>
-  <Folder Name="/Chapter 7/">
+  <Folder Name="/Chapter 2/Exercise 206/">
     <Project Path="206\StringSearch\StringSearch.csproj" />
     <Project Path="206\StringSearch.Tests\StringSearch.Tests.csproj" />
   </Folder>
-  <Folder Name="/Chapter 8/">
+  <Folder Name="/Chapter 3/Exercise 310/">
     <Project Path="310\CodeObfuscator\CodeObfuscator.csproj" />
   </Folder>
 </Solution>

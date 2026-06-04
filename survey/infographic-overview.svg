@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="hg" x1="0" y1="0" x2="1600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <clipPath id="q17clip">
+      <rect x="795" y="780" width="770" height="40" rx="6"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="900" fill="#0f172a"/>
+
+  <!-- Header -->
+  <rect width="1600" height="90" fill="url(#hg)"/>
+  <rect width="6" height="90" fill="#a78bfa"/>
+  <text x="26" y="42" font-family="'Segoe UI',system-ui,sans-serif" font-size="26" font-weight="700" fill="#f1f5f9">AI4Dev Workshop 2026</text>
+  <text x="26" y="68" font-family="'Segoe UI',system-ui,sans-serif" font-size="14" fill="#94a3b8">Participant Readiness Overview  ·  28 Respondents  ·  Infographic 1 of 2</text>
+  <text x="1570" y="34" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" fill="#94a3b8" text-anchor="end">Overall Familiarity Score</text>
+  <text x="1570" y="72" font-family="'Segoe UI',system-ui,sans-serif" font-size="30" font-weight="700" fill="#a78bfa" text-anchor="end">40.3 / 100</text>
+
+  <!-- ═══ LEFT CARD: Score Distribution ═══ -->
+  <rect x="25" y="100" width="745" height="790" rx="10" fill="#1e293b"/>
+  <rect x="25" y="100" width="5" height="790" rx="2" fill="#6366f1"/>
+  <text x="50" y="130" font-family="'Segoe UI',system-ui,sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">Familiarity Score Distribution</text>
+  <text x="50" y="150" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" fill="#64748b">28 participants · Sorted descending · Colored by cohort assignment</text>
+
+  <!-- Y-axis gridlines (score 25/50/75/100) -->
+  <line x1="80" y1="644" x2="712" y2="644" stroke="#334155" stroke-width="1" stroke-dasharray="3,4"/>
+  <line x1="80" y1="488" x2="712" y2="488" stroke="#334155" stroke-width="1" stroke-dasharray="3,4"/>
+  <line x1="80" y1="331" x2="712" y2="331" stroke="#334155" stroke-width="1" stroke-dasharray="3,4"/>
+  <line x1="80" y1="175" x2="712" y2="175" stroke="#334155" stroke-width="1" stroke-dasharray="3,4"/>
+  <text x="74" y="648" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="end">25</text>
+  <text x="74" y="492" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="end">50</text>
+  <text x="74" y="335" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="end">75</text>
+  <text x="74" y="179" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="end">100</text>
+  <text x="74" y="804" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="end">0</text>
+
+  <!-- Baseline -->
+  <line x1="80" y1="800" x2="712" y2="800" stroke="#475569" stroke-width="1.5"/>
+  <!-- Group average line: score 40.3 → y = 800 - 40.3*6.25 = 548 -->
+  <line x1="80" y1="548" x2="712" y2="548" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <text x="716" y="552" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#a78bfa">avg</text>
+
+  <!-- BARS: Most Advanced (green) — 8 participants -->
+  <rect x="82"  y="326" width="18" height="474" rx="2" fill="#22c55e"/>
+  <rect x="105" y="350" width="18" height="450" rx="2" fill="#22c55e"/>
+  <rect x="127" y="350" width="18" height="450" rx="2" fill="#22c55e"/>
+  <rect x="150" y="435" width="18" height="365" rx="2" fill="#22c55e"/>
+  <rect x="172" y="439" width="18" height="361" rx="2" fill="#22c55e"/>
+  <rect x="195" y="455" width="18" height="345" rx="2" fill="#22c55e"/>
+  <rect x="217" y="471" width="18" height="329" rx="2" fill="#22c55e"/>
+  <rect x="240" y="472" width="18" height="328" rx="2" fill="#22c55e"/>
+
+  <!-- BARS: More Advanced (blue) — 10 participants -->
+  <rect x="262" y="481" width="18" height="319" rx="2" fill="#60a5fa"/>
+  <rect x="285" y="486" width="18" height="314" rx="2" fill="#60a5fa"/>
+  <rect x="307" y="501" width="18" height="299" rx="2" fill="#60a5fa"/>
+  <rect x="330" y="505" width="18" height="295" rx="2" fill="#60a5fa"/>
+  <rect x="352" y="534" width="18" height="266" rx="2" fill="#60a5fa"/>
+  <rect x="375" y="542" width="18" height="258" rx="2" fill="#60a5fa"/>
+  <rect x="397" y="544" width="18" height="256" rx="2" fill="#60a5fa"/>
+  <rect x="420" y="544" width="18" height="256" rx="2" fill="#60a5fa"/>
+  <rect x="442" y="554" width="18" height="246" rx="2" fill="#60a5fa"/>
+  <rect x="465" y="588" width="18" height="212" rx="2" fill="#60a5fa"/>
+
+  <!-- BARS: Basics (amber) — 10 participants -->
+  <rect x="487" y="593" width="18" height="207" rx="2" fill="#fbbf24"/>
+  <rect x="510" y="619" width="18" height="181" rx="2" fill="#fbbf24"/>
+  <rect x="532" y="636" width="18" height="164" rx="2" fill="#fbbf24"/>
+  <rect x="555" y="637" width="18" height="163" rx="2" fill="#fbbf24"/>
+  <rect x="577" y="646" width="18" height="154" rx="2" fill="#fbbf24"/>
+  <rect x="600" y="689" width="18" height="111" rx="2" fill="#fbbf24"/>
+  <rect x="622" y="694" width="18" height="106" rx="2" fill="#fbbf24"/>
+  <rect x="645" y="748" width="18" height="52"  rx="2" fill="#fbbf24"/>
+  <rect x="667" y="753" width="18" height="47"  rx="2" fill="#fbbf24"/>
+  <rect x="690" y="765" width="18" height="35"  rx="2" fill="#fbbf24"/>
+
+  <!-- Cohort boundary dividers -->
+  <line x1="259" y1="168" x2="259" y2="800" stroke="#475569" stroke-width="1" stroke-dasharray="2,5"/>
+  <line x1="484" y1="168" x2="484" y2="800" stroke="#475569" stroke-width="1" stroke-dasharray="2,5"/>
+
+  <!-- X-axis cohort labels -->
+  <text x="170" y="820" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" font-weight="700" fill="#4ade80" text-anchor="middle">Most Advanced (8)</text>
+  <text x="372" y="820" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" font-weight="700" fill="#93c5fd" text-anchor="middle">More Advanced (10)</text>
+  <text x="597" y="820" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" font-weight="700" fill="#fde68a" text-anchor="middle">Basics (10)</text>
+
+  <!-- Legend -->
+  <rect x="82"  y="840" width="10" height="10" rx="2" fill="#22c55e"/>
+  <text x="96"  y="850" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#94a3b8">avg 62.1</text>
+  <rect x="158" y="840" width="10" height="10" rx="2" fill="#60a5fa"/>
+  <text x="172" y="850" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#94a3b8">avg 43.5</text>
+  <rect x="234" y="840" width="10" height="10" rx="2" fill="#fbbf24"/>
+  <text x="248" y="850" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#94a3b8">avg 19.5</text>
+  <line x1="312" y1="845" x2="340" y2="845" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="344" y="850" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#94a3b8">overall avg 40.3</text>
+
+  <!-- ═══ RIGHT COLUMN ═══ -->
+
+  <!-- COHORT CARD 1: Most Advanced -->
+  <rect x="785" y="100" width="790" height="115" rx="10" fill="#052e16"/>
+  <rect x="785" y="100" width="5"   height="115" rx="2"  fill="#22c55e"/>
+  <text x="806" y="126" font-family="'Segoe UI',system-ui,sans-serif" font-size="14" font-weight="700" fill="#4ade80">Most Advanced — 8 participants — Avg 62.1 / 100</text>
+  <text x="806" y="148" font-family="'Segoe UI',system-ui,sans-serif" font-size="12" fill="#86efac">All daily Copilot users · Adv features avg 3.21/5 · SDLC coverage 4.9/7 tasks</text>
+  <text x="806" y="168" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" fill="#4d7060">Focus: Agent Mode autonomy · Custom instruction design · Team governance</text>
+  <rect x="1485" y="113" width="78" height="36" rx="18" fill="#14532d"/>
+  <text x="1524" y="137" font-family="'Segoe UI',system-ui,sans-serif" font-size="17" font-weight="700" fill="#4ade80" text-anchor="middle">62.1</text>
+
+  <!-- COHORT CARD 2: More Advanced -->
+  <rect x="785" y="225" width="790" height="115" rx="10" fill="#0c1e40"/>
+  <rect x="785" y="225" width="5"   height="115" rx="2"  fill="#60a5fa"/>
+  <text x="806" y="251" font-family="'Segoe UI',system-ui,sans-serif" font-size="14" font-weight="700" fill="#93c5fd">More Advanced — 10 participants — Avg 43.5 / 100</text>
+  <text x="806" y="273" font-family="'Segoe UI',system-ui,sans-serif" font-size="12" fill="#bfdbfe">Regular/daily users · Adv features avg 2.03/5 · SDLC coverage 3.7/7 tasks</text>
+  <text x="806" y="293" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" fill="#3d5a7a">Focus: Custom instructions · Prompt files · Security-aware review workflows</text>
+  <rect x="1485" y="238" width="78" height="36" rx="18" fill="#1e3a5f"/>
+  <text x="1524" y="262" font-family="'Segoe UI',system-ui,sans-serif" font-size="17" font-weight="700" fill="#93c5fd" text-anchor="middle">43.5</text>
+
+  <!-- COHORT CARD 3: Basics -->
+  <rect x="785" y="350" width="790" height="115" rx="10" fill="#1c1500"/>
+  <rect x="785" y="350" width="5"   height="115" rx="2"  fill="#fbbf24"/>
+  <text x="806" y="376" font-family="'Segoe UI',system-ui,sans-serif" font-size="14" font-weight="700" fill="#fde68a">Basics — 10 participants — Avg 19.5 / 100</text>
+  <text x="806" y="398" font-family="'Segoe UI',system-ui,sans-serif" font-size="12" fill="#fcd34d">Occasional/new users · Adv features avg 1.42/5 · SDLC coverage 0.7/7 tasks</text>
+  <text x="806" y="418" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" fill="#7a6020">Focus: Inline completions · Core slash commands · Prompt structure basics</text>
+  <rect x="1485" y="363" width="78" height="36" rx="18" fill="#451a03"/>
+  <text x="1524" y="387" font-family="'Segoe UI',system-ui,sans-serif" font-size="17" font-weight="700" fill="#fde68a" text-anchor="middle">19.5</text>
+
+  <!-- METRICS CARD -->
+  <rect x="785" y="478" width="790" height="252" rx="10" fill="#1e293b"/>
+  <text x="806" y="502" font-family="'Segoe UI',system-ui,sans-serif" font-size="13" font-weight="700" fill="#e2e8f0">Key Dimension Averages — All Participants  (% of max scale)</text>
+  <!-- Bar track: x=1055 to 1555 = 500px. Labels right-aligned at x=1050. Row y-spacing = 22px from y=516 -->
+
+  <!-- 0: Copilot Usage 79.5% = 397px → green -->
+  <text x="1050" y="527" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#94a3b8" text-anchor="end">Copilot Usage (Q4)</text>
+  <rect x="1055" y="516" width="500" height="14" rx="2" fill="#0a1f10"/>
+  <rect x="1055" y="516" width="397" height="14" rx="2" fill="#22c55e"/>
+  <text x="1457" y="527" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#dcfce7">79.5%</text>
+
+  <!-- 1: Review Rigor 72.8% = 364px → green -->
+  <text x="1050" y="549" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#94a3b8" text-anchor="end">Review Rigor (Q16)</text>
+  <rect x="1055" y="538" width="500" height="14" rx="2" fill="#0a1f10"/>
+  <rect x="1055" y="538" width="364" height="14" rx="2" fill="#22c55e"/>
+  <text x="1424" y="549" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#dcfce7">72.8%</text>
+
+  <!-- 2: Data Privacy 68.8% = 344px → green -->
+  <text x="1050" y="571" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#94a3b8" text-anchor="end">Data Privacy (Q11)</text>
+  <rect x="1055" y="560" width="500" height="14" rx="2" fill="#0a1f10"/>
+  <rect x="1055" y="560" width="344" height="14" rx="2" fill="#22c55e"/>
+  <text x="1404" y="571" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#dcfce7">68.8%</text>
+
+  <!-- 3: Hallucination 64.3% = 322px → blue -->
+  <text x="1050" y="593" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#94a3b8" text-anchor="end">Hallucination Aware (Q3)</text>
+  <rect x="1055" y="582" width="500" height="14" rx="2" fill="#0a1525"/>
+  <rect x="1055" y="582" width="322" height="14" rx="2" fill="#60a5fa"/>
+  <text x="1382" y="593" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#dbeafe">64.3%</text>
+
+  <!-- 4: Prompt Quality 55.0% = 275px → blue -->
+  <text x="1050" y="615" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#94a3b8" text-anchor="end">Prompt Quality (Q8)</text>
+  <rect x="1055" y="604" width="500" height="14" rx="2" fill="#0a1525"/>
+  <rect x="1055" y="604" width="275" height="14" rx="2" fill="#60a5fa"/>
+  <text x="1335" y="615" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#dbeafe">55.0%</text>
+
+  <!-- 5: AI Taxonomy 53.5% = 268px → blue -->
+  <text x="1050" y="637" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#94a3b8" text-anchor="end">AI Taxonomy (Q1)</text>
+  <rect x="1055" y="626" width="500" height="14" rx="2" fill="#0a1525"/>
+  <rect x="1055" y="626" width="268" height="14" rx="2" fill="#60a5fa"/>
+  <text x="1328" y="637" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#dbeafe">53.5%</text>
+
+  <!-- 6: SDLC Breadth 42.3% = 212px → amber -->
+  <text x="1050" y="659" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#94a3b8" text-anchor="end">SDLC Breadth (Q14)</text>
+  <rect x="1055" y="648" width="500" height="14" rx="2" fill="#1a1400"/>
+  <rect x="1055" y="648" width="212" height="14" rx="2" fill="#fbbf24"/>
+  <text x="1272" y="659" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#fef9c3">42.3%</text>
+
+  <!-- 7: Team Governance 41.0% = 205px → amber -->
+  <text x="1050" y="681" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#94a3b8" text-anchor="end">Team Governance (Q18)</text>
+  <rect x="1055" y="670" width="500" height="14" rx="2" fill="#1a1400"/>
+  <rect x="1055" y="670" width="205" height="14" rx="2" fill="#fbbf24"/>
+  <text x="1265" y="681" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#fef9c3">41.0%</text>
+
+  <!-- 8: Advanced Features 43.0% = 215px → amber -->
+  <text x="1050" y="703" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#94a3b8" text-anchor="end">Advanced Features (Q7)</text>
+  <rect x="1055" y="692" width="500" height="14" rx="2" fill="#1a1400"/>
+  <rect x="1055" y="692" width="215" height="14" rx="2" fill="#fbbf24"/>
+  <text x="1275" y="703" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#fef9c3">43.0%</text>
+
+  <!-- 9: Security Review 30.3% = 152px → red (lowest / warning) -->
+  <text x="1050" y="725" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" font-weight="600" fill="#f87171" text-anchor="end">Security Review (Q13)  !</text>
+  <rect x="1055" y="714" width="500" height="14" rx="2" fill="#2a0808"/>
+  <rect x="1055" y="714" width="152" height="14" rx="2" fill="#f87171"/>
+  <text x="1212" y="725" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#fecaca">30.3%</text>
+
+  <!-- Q17 CARD -->
+  <rect x="785" y="742" width="790" height="148" rx="10" fill="#1e293b"/>
+  <text x="806" y="766" font-family="'Segoe UI',system-ui,sans-serif" font-size="13" font-weight="700" fill="#e2e8f0">Most Challenging Loop Step — Q17  (n=28)</text>
+
+  <!-- Stacked bar clipped to rounded rect: x=795..1565 (770px), y=779..819 -->
+  <g clip-path="url(#q17clip)">
+    <rect x="795"  y="780" width="82"  height="40" fill="#818cf8"/>
+    <rect x="877"  y="780" width="83"  height="40" fill="#22d3ee"/>
+    <rect x="960"  y="780" width="165" height="40" fill="#fb923c"/>
+    <rect x="1125" y="780" width="83"  height="40" fill="#a3e635"/>
+    <rect x="1208" y="780" width="357" height="40" fill="#f87171"/>
+  </g>
+  <!-- Segment dividers -->
+  <line x1="877"  y1="780" x2="877"  y2="820" stroke="#0f172a" stroke-width="1.5"/>
+  <line x1="960"  y1="780" x2="960"  y2="820" stroke="#0f172a" stroke-width="1.5"/>
+  <line x1="1125" y1="780" x2="1125" y2="820" stroke="#0f172a" stroke-width="1.5"/>
+  <line x1="1208" y1="780" x2="1208" y2="820" stroke="#0f172a" stroke-width="1.5"/>
+  <!-- Labels below stacked bar -->
+  <text x="836"  y="836" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#c7d2fe" text-anchor="middle">Think  10.7%</text>
+  <text x="919"  y="836" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#a5f3fc" text-anchor="middle">Prompt  10.7%</text>
+  <text x="1042" y="836" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#fed7aa" text-anchor="middle">Review  21.4%</text>
+  <text x="1166" y="836" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#d9f99d" text-anchor="middle">Iterate  10.7%</text>
+  <text x="1386" y="833" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" font-weight="700" fill="#fecaca" text-anchor="middle">No Deliberate Loop</text>
+  <text x="1386" y="848" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" font-weight="700" fill="#fecaca" text-anchor="middle">46.4% — 13 of 28 respondents</text>
+  <rect x="1298" y="822" width="176" height="32" rx="4" fill="none" stroke="#f87171" stroke-width="1" stroke-dasharray="3,2"/>
+</svg>

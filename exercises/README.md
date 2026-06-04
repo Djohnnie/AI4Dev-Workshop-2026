@@ -11,6 +11,7 @@ All exercises are written in **C# (.NET 10)** and follow the same project layout
 | # | Exercise | Chapter | Copilot Skill | Difficulty |
 |---|----------|---------|---------------|------------|
 | [101](101/README.md) | [Token Visualizer](101/README.md) | Chapter 1, Exercise 1 | Exploration / understanding tokens | ⭐⭐ |
+| [102](102/README.md) | [AI Chat Agent](102/README.md) | Chapter 1, Exercise 2 | Building AI agents with Microsoft Agent Framework | ⭐⭐ |
 | [201](201/README.md) | [Factorial Calculator](201/README.md) | Chapter 2, Exercise 1 | Inline completions & autocomplete | ⭐ |
 | [202](202/README.md) | [Palindrome Checker](202/README.md) | Chapter 2, Exercise 2 | Code generation with review | ⭐ |
 | [203](203/README.md) | [Mystery Processor](203/README.md) | Chapter 2, Exercise 3 | Understanding obfuscated code | ⭐⭐⭐ |
@@ -25,7 +26,7 @@ All exercises are written in **C# (.NET 10)** and follow the same project layout
 
 | Chapter | Exercises |
 |---------|-----------|
-| Chapter 1 | [101 Token Visualizer](101/README.md) |
+| Chapter 1 | [101 Token Visualizer](101/README.md) · [102 AI Chat Agent](102/README.md) |
 | Chapter 2 | [201 Factorial Calculator](201/README.md) · [202 Palindrome Checker](202/README.md) · [203 Mystery Processor](203/README.md) · [204 Shortest Path](204/README.md) · [205 Caesar Cipher](205/README.md) · [206 String Search](206/README.md) |
 | Chapter 3 | [310 Code Obfuscator MCP Tool](310/README.md) |
 
@@ -38,7 +39,7 @@ All exercises are written in **C# (.NET 10)** and follow the same project layout
 - [.NET 10 SDK](https://dotnet.microsoft.com/download)
 - [Visual Studio 2022](https://visualstudio.microsoft.com/) or [VS Code](https://code.visualstudio.com/) with the C# Dev Kit
 - GitHub Copilot subscription (Free, Pro, or Business)
-- For Exercise 101 only: an Azure OpenAI resource with a deployed model
+- For Exercises 101 and 102: an Azure OpenAI resource with a deployed model
 
 ### Running Any Exercise
 
