@@ -151,6 +151,17 @@ By the end of this chapter, participants will be able to:
 
 ---
 
+## 🧪 Chapter 1 Exercises
+
+- [Exercise 101 — Token Visualizer](../../../exercises/101/README.md) — explore how prompts and code are split into tokens
+- [Exercise 102 — Stateless LLM Chat](../../../exercises/102/README.md) — build a first console chat agent backed by Azure OpenAI
+- [Exercise 103 — Chat History & Roles](../../../exercises/103/README.md) — add memory and persona prompts to the conversation
+- [Exercise 104 — Tool Calls](../../../exercises/104/README.md) — let the model call local C# functions for live date and time data
+- [Exercise 105 — MCP Tool Calls](../../../exercises/105/README.md) — move those tools behind an MCP server and connect remotely
+- [Exercise 106 — Agent Orchestration](../../../exercises/106/README.md) — route one question through multiple specialist agents and merge the result
+
+---
+
 ## 💡 Ideas for Exercises & Interactivity
 
 ### Opening Quiz (5 min — run during intro)
@@ -170,7 +181,7 @@ Post printed examples around the room: autocomplete in Gmail, Copilot suggestion
 Instructor opens a blank file, types a comment describing a simple function, and lets Copilot complete it. Then deliberately gives a vague prompt to show a hallucination. Debrief: what did we learn?
 
 ### Token Visualizer Exercise (5 min)
-Direct participants to [platform.openai.com/tokenizer](https://platform.openai.com/tokenizer). Paste in a snippet of code and count tokens together. Builds intuition for context windows.
+Direct participants to [platform.openai.com/tokenizer](https://platform.openai.com/tokenizer) or run [Exercise 101 — Token Visualizer](../../../exercises/101/README.md). Paste in a snippet of code and count tokens together. Builds intuition for context windows.
 
 ---
 

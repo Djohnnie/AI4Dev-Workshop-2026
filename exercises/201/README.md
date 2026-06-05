@@ -132,4 +132,4 @@ Once the tests pass, try these extensions with Copilot's help:
 
 ---
 
-← Back to [Exercise Index](../README.md) | Previous: [Exercise 101](../101/README.md) | Next: [Exercise 202](../202/README.md)
+← Back to [Exercise Index](../README.md) | Previous: [Exercise 106](../106/README.md) | Next: [Exercise 202](../202/README.md)

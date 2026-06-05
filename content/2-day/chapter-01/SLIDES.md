@@ -42,9 +42,13 @@
 
 ![Slide 10 — Exercise 102 — Stateless LLM Chat](slide-110.svg)
 
+→ [Exercise 102 — Stateless LLM Chat](../../../exercises/102/README.md)
+
 ## Slide 11 — Exercise 103 — Chat History & Roles
 
 ![Slide 11 — Exercise 103 — Chat History & Roles](slide-111.svg)
+
+→ [Exercise 103 — Chat History & Roles](../../../exercises/103/README.md)
 
 ## Slide 12 — Why LLMs for Coding?
 
@@ -66,9 +70,13 @@
 
 ![Slide 16 — Exercise 104 — Tool Calls](slide-116.svg)
 
+→ [Exercise 104 — Tool Calls](../../../exercises/104/README.md)
+
 ## Slide 17 — Exercise 105 — MCP Tool Calls
 
 ![Slide 17 — Exercise 105 — MCP Tool Calls](slide-117.svg)
+
+→ [Exercise 105 — MCP Tool Calls](../../../exercises/105/README.md)
 
 ## Slide 18 — Beyond Chatbots — What Makes an AI Agent?
 
@@ -81,3 +89,5 @@
 ## Slide 20 — Exercise 106 — Agent Orchestration
 
 ![Slide 20 — Exercise 106 — Agent Orchestration](slide-120.svg)
+
+→ [Exercise 106 — Agent Orchestration](../../../exercises/106/README.md)

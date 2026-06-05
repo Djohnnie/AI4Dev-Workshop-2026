@@ -127,4 +127,4 @@ Use the visualiser to investigate these questions — they will come up during t
 
 ---
 
-← Back to [Exercise Index](../README.md) | Next: [Exercise 201 — Factorial Calculator](../201/README.md)
+← Back to [Exercise Index](../README.md) | Next: [Exercise 102 — Stateless LLM Chat](../102/README.md)

@@ -1,7 +1,7 @@
-# Exercise 102 — AI Chat Agent with Microsoft Agent Framework
+# Exercise 102 — Stateless LLM Chat
 
 > **Chapter:** Chapter 1, Exercise 2  
-> **Skill focus:** Building AI agents with Microsoft Agent Framework, Azure OpenAI integration  
+> **Skill focus:** Building a stateless chat agent with Microsoft Agent Framework and Azure OpenAI  
 > **Difficulty:** ⭐⭐
 
 ← Back to [Exercise Index](../README.md)
@@ -10,7 +10,7 @@
 
 ## 🎯 Overview
 
-In this exercise, you will build a **console-based AI chat agent** using the **Microsoft Agent Framework** and **Azure OpenAI**. This is your first hands-on experience with creating AI agents that can process and respond to user input in real-time.
+In this exercise, you will build a **console-based stateless AI chat agent** using the **Microsoft Agent Framework** and **Azure OpenAI**. Each prompt is handled on its own, which makes this the cleanest starting point before you add memory, roles, tools, and orchestration in later exercises.
 
 The exercise is based on the `AgentFramework.Chat` project from the [EnableGenAIUsingTheMicrosoftAgentFramework-CronosDotnetCommunity-2026](https://github.com/Djohnnie/EnableGenAIUsingTheMicrosoftAgentFramework-CronosDotnetCommunity-2026) repository.
 
@@ -207,4 +207,4 @@ Once the basic chat agent works, try these enhancements:
 
 ---
 
-← Back to [Exercise Index](../README.md) | Previous: [Exercise 101](../101/README.md) | Next: [Exercise 201](../201/README.md)
+← Back to [Exercise Index](../README.md) | Previous: [Exercise 101](../101/README.md) | Next: [Exercise 103](../103/README.md)
