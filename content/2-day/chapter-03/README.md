@@ -25,42 +25,38 @@ By the end of this chapter, participants will be able to:
 ## 📋 Content Outline
 
 ### 1. How Copilot Handles Your Code (20 min)
-- What is sent to the model: the prompt context (snippets, file content, comments)
-  - **The prompt is assembled locally first:** before any network call is made, the Copilot extension gathers context from the current file, open tabs, and custom instructions into a structured prompt — this prompt is what travels to the model, not a live stream of everything you type
-  - **What's included in the prompt:** the code surrounding your cursor (above and below), imports and type definitions in scope, the content of other open editor tabs (ranked by relevance), `copilot-instructions.md`, and any `#file` or `#selection` references you've attached in Chat
-  - **Comments and variable names travel too:** descriptive comments, function names, and variable names are part of the prompt — avoid embedding sensitive values (customer names, internal hostnames, API keys) in comments even in "temporary" code
-  - **Chat prompts are sent verbatim:** everything you type into Copilot Chat — including any pasted code snippets, error messages, or context — is sent to the model as plain text; treat the Chat input like a message to an external service
-  - **No keystroke logging:** Copilot does not stream every keypress to the cloud — it sends batched, structured prompts at the moment a suggestion is requested or a chat message is submitted
-- What is *not* retained: GitHub's data commitments (Business/Enterprise vs. Individual)
-  - **Copilot Individual:** by default, GitHub *may* use your prompts and suggestions to improve Copilot's models, but this can be opted out in account settings at [github.com/settings/copilot](https://github.com/settings/copilot) — look for "Allow GitHub to use my data for product improvements"
-  - **Copilot Business:** no training on user code by default — prompts and suggestions are not used to train models; this is a contractual commitment, not just a settings toggle
-  - **Copilot Enterprise:** same no-training guarantee as Business, plus additional data residency and compliance options; prompts are processed in Microsoft Azure infrastructure with standard enterprise data handling agreements
-  - **Prompt retention window:** GitHub may retain prompts briefly for abuse detection and service reliability (typically up to 28 days for Business/Enterprise under the current privacy statement) — they are not stored long-term or associated with your identity beyond that window
-  - **Key message for participants:** if your organisation is on Copilot Business or Enterprise, your code is not being used to train the model — but it is still being transmitted to cloud infrastructure and should be treated accordingly
-- Telemetry and suggestions: opt-out options
-  - **What telemetry is collected:** aggregated product usage data — which features were used, how often suggestions were accepted or dismissed, error rates — not the content of your code or prompts
-  - **Opt out of telemetry (VS Code):** VS Code's telemetry settings (`telemetry.telemetryLevel`) control broader IDE telemetry; Copilot-specific telemetry can be disabled in GitHub account settings under Copilot > "Allow GitHub to use my data"
-  - **Suggestion matching telemetry:** GitHub tracks whether suggestions matched public code (for the duplication filter) — this metadata is collected regardless of the training data opt-out
-  - **JetBrains and other IDEs:** each IDE may have its own telemetry settings in addition to GitHub account settings — remind participants to check both
-  - **Enterprise transparency:** Copilot Business/Enterprise customers can request audit logs of Copilot usage across their organisation — who used it, which features, acceptance rates — useful for compliance and usage reviews
-- GitHub Copilot for Business: no training on your code by default
-  - **The key assurance:** prompts sent to Copilot models by Business users are not used to train, fine-tune, or improve GitHub's AI models — this applies to both completions and Chat
-  - **What "by default" means:** this protection is on by default for all seats on a Business plan; there is no opt-in required and no way for an individual user to accidentally override it at the org level
-  - **Contractual backing:** this is part of GitHub's Customer Agreement for Copilot Business — it's a legal commitment, not just a product feature; point legal/compliance teams to the GitHub Customer Agreement
-  - **Isolation from Individual users:** organisations on Business plans operate in a separate data handling context from Copilot Individual users — their data does not commingle
-  - **IP indemnity:** Copilot Business includes GitHub's Copilot IP indemnification — if a copyright claim arises from a Copilot suggestion, GitHub will defend the customer under specific conditions (the "Suggestions matching public code" filter must be enabled)
-- GitHub Copilot Enterprise: private knowledge bases (Copilot Knowledge Bases)
-  - **What Knowledge Bases are:** organisation-curated collections of internal documentation, wikis, internal repos, and runbooks that Copilot can search using RAG (Retrieval-Augmented Generation) before answering questions
-  - **The problem they solve:** out-of-the-box Copilot knows nothing about your internal APIs, proprietary frameworks, internal tooling, or organisation-specific conventions; Knowledge Bases inject that institutional knowledge
-  - **How it works:** admins index selected repositories and documents into a Knowledge Base; when a developer asks a question in Copilot Chat (on github.com or in the IDE), Copilot searches the Knowledge Base for relevant context before formulating an answer
-  - **Example use cases:** "How do we authenticate with our internal payments API?", "What's the standard way to create a new microservice in our stack?", "Where is the runbook for our on-call rotation?"
-  - **Important limitation:** Knowledge Bases are an Enterprise-only feature; participants on Business or Individual plans will not have access — acknowledge this during the demo
-- Self-hosted models: bringing your own model via Copilot Extensions
-  - **The use case:** some organisations need AI assistance but cannot send any code to third-party cloud APIs — regulated industries (finance, healthcare, defence) may require that inference happens on their own infrastructure
-  - **Copilot Extensions:** a framework for building custom integrations with Copilot Chat; an extension can route Chat messages to any backend — including a self-hosted model (e.g., a locally deployed Llama 3, Mistral, or fine-tuned model via Azure AI Foundry)
-  - **MCP (Model Context Protocol):** an open standard that allows Copilot to connect to external tools and data sources; can be used to route requests through a local model server
-  - **Tradeoffs:** self-hosted models typically have smaller context windows, lower code quality than frontier models, and require significant infrastructure investment; the privacy benefit must be weighed against these capability costs
-  - **Current maturity:** self-hosted model routing via Extensions is possible but not a polished out-of-the-box feature — flag this as an advanced/emerging capability for organisations with specific compliance needs
+- What data is sent to the model
+  - **Prompt assembly happens locally first:** the IDE extension builds a request from the prompt, code around your cursor, referenced files, relevant open tabs, imports, instructions, and other nearby context before anything is sent
+  - **What actually travels:** your chat prompt or completion request, the surrounding code, attached selections or files, and IDE metadata such as language, file path context, repository context, and sometimes diagnostics
+  - **Not your whole machine:** Copilot does not automatically upload your entire repository or continuously mirror your editor session; it sends the context needed for the current request
+- No keystrokes are streamed
+  - **No raw keylogging:** Copilot does not send every keystroke as you type
+  - **Requests are event-based:** data is sent when you ask Chat something or when the editor requests a completion
+  - **Important distinction:** the prompt may contain text you just typed, but that is part of a request payload, not a continuous feed of every edit
+- Sensitive data risk: treat prompt context as leaving the machine
+  - **Anything in prompt context can be transmitted:** code, comments, variable names, config values, open files, repository names, internal hostnames, and copied secrets can all become part of the request
+  - **Open tabs matter:** relevant files you have open may be used as context even if you did not explicitly paste them into Chat
+  - **Practical rule:** never keep hardcoded secrets, customer data, or sensitive internal details in code or prompts you would not want sent to a hosted service
+- Is your data used to train future models?
+  - **Copilot Individual:** GitHub may use prompts, suggestions, and related interaction data for product improvement if the user allows it in settings
+  - **Copilot Business and Enterprise:** prompts and code are not used to train GitHub's foundation models; this is one of the key enterprise assurances
+  - **Retention still exists:** requests may still be retained briefly for abuse detection, security, and service reliability even when training is disabled
+- What telemetry is tracked
+  - **Usage analytics:** feature usage, request counts, accept/reject rates, latency, failures, and similar product signals
+  - **Policy and filter events:** events such as blocked suggestions, public-code matching signals, and quality/safety outcomes may be recorded for service operation
+  - **Administrative visibility:** organisations can review Copilot usage metrics and audit information, especially on Business and Enterprise plans
+- GitHub Copilot architecture at a high level
+  - **Local client:** the IDE extension gathers context, formats the prompt, and shows suggestions
+  - **GitHub proxy/control plane:** authentication, policy enforcement, filtering, routing, and safety checks happen in the service layer
+  - **Hosted models:** the actual inference is performed by cloud-hosted models, and the result is returned to the IDE
+- Using your own models for local workflows
+  - **Advanced alternative:** for demos or privacy-sensitive experiments, you can build the same pattern with your own local model instead of a hosted Copilot model
+  - **Example:** Ollama can run a local coding model on your own machine and serve it over a local API
+  - **Tradeoff:** you gain local control, but often give up quality, context length, speed, or convenience compared with frontier hosted models
+- Exercise 301 — Tool Calls with Ollama
+  - **Workshop bridge:** reuse the Exercise 104 tool-calling idea, but swap the hosted model for a local Ollama model
+  - **Learning goal:** show that tool calling is an application pattern, not something tied to one specific cloud provider
+  - **Debrief:** compare local control, setup effort, and model quality against the hosted version
 
 ### 2. Intellectual Property & Licensing (15 min)
 - The "public code" filter: how Copilot avoids reproducing verbatim licensed snippets

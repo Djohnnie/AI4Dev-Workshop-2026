@@ -6,7 +6,7 @@ public static class Factorial
     // Use ALT+. or ALT+, in Visual Studio to trigger GitHub Copilot completions.
     // Enter a new line in Visual Studio Code to trigger GitHub Copilot completions. 
     public static long CalculateIteratively(int n)
-    {
+    {        
         throw new NotImplementedException();
     }
 

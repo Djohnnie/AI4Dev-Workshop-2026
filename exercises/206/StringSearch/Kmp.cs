@@ -1,7 +1,16 @@
 namespace StringSearch;
 
+/// <summary>
+/// Provides Knuth-Morris-Pratt (KMP) string searching utilities.
+/// </summary>
 public static class Kmp
 {
+    /// <summary>
+    /// Finds all start indices where <paramref name="pattern"/> occurs in <paramref name="text"/>.
+    /// </summary>
+    /// <param name="text">The text to search in.</param>
+    /// <param name="pattern">The pattern to search for.</param>
+    /// <returns>A read-only list of zero-based match indices.</returns>
     public static IReadOnlyList<int> Search(string text, string pattern)
     {
         var results = new List<int>();
@@ -30,6 +39,11 @@ public static class Kmp
         return results;
     }
 
+    /// <summary>
+    /// Builds the KMP failure table (also known as LPS array) for a pattern.
+    /// </summary>
+    /// <param name="pattern">The pattern used to build the failure table.</param>
+    /// <returns>An array where each entry stores the length of the longest proper prefix that is also a suffix.</returns>
     public static int[] BuildFailureTable(string pattern)
     {
         var failure = new int[pattern.Length];

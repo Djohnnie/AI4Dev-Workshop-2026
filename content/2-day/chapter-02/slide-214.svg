@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4" rx="0"/>
+
+  <text x="80" y="108"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Copilot Chat Slash Commands</text>
+
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
+
+  <text x="80" y="205"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
+    Slash commands give Chat a clear job immediately, so Copilot knows whether to explain, fix, test, or document.
+  </text>
+
+  <rect x="90" y="285" width="550" height="300" rx="24"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="365" y="360" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="46" font-weight="700" fill="#ffffff">What they are</text>
+  <rect x="240" y="390" width="250" height="3" fill="#8b7fd4"/>
+  <text x="140" y="470"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">- start a prompt with a command</text>
+  <text x="140" y="530"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">- example: /explain or /fix</text>
+
+  <rect x="685" y="285" width="550" height="300" rx="24"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="360" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="46" font-weight="700" fill="#ffffff">/explain</text>
+  <rect x="835" y="390" width="250" height="3" fill="#8b7fd4"/>
+  <text x="735" y="470"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">- understand unfamiliar code</text>
+  <text x="735" y="530"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">- best when you select the exact block</text>
+
+  <rect x="1280" y="285" width="550" height="300" rx="24"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1555" y="360" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="46" font-weight="700" fill="#ffffff">/fix</text>
+  <rect x="1430" y="390" width="250" height="3" fill="#8b7fd4"/>
+  <text x="1330" y="470"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">- diagnose broken code or errors</text>
+  <text x="1330" y="530"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">- include the failure for better fixes</text>
+
+  <rect x="165" y="630" width="1590" height="230" rx="24"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+
+  <text x="230" y="700"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="30" font-weight="600" fill="#ffffff">Good prompt pattern</text>
+  <text x="230" y="760"
+    font-family="'Consolas', 'Courier New', monospace"
+    font-size="28" font-weight="400" fill="#ffffff">/explain</text>
+  <text x="405" y="760"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Why is this loop updating the matrix row by row?</text>
+
+  <text x="230" y="820"
+    font-family="'Consolas', 'Courier New', monospace"
+    font-size="28" font-weight="400" fill="#ffffff">/fix</text>
+  <text x="355" y="820"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">This Dijkstra test expects 3 but returns 4 for node D.</text>
+
+  <rect x="1220" y="695" width="330" height="60" rx="30" fill="#8b7fd4" opacity="0.22"/>
+  <text x="1385" y="734" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="26" font-weight="700" fill="#ffffff">selection + context wins</text>
+
+  <text x="960" y="965" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="29" font-weight="700" fill="#ffffff">Best practice: the command sets the task, but the surrounding context is what makes the answer useful.</text>
+</svg>

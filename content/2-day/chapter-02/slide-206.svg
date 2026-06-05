@@ -12,55 +12,96 @@
 
   <!-- Background -->
   <rect width="1920" height="1080" fill="url(#bgGlow)"/>
-
-  <!-- Decorative circles -->
-  <circle cx="1760" cy="160" r="420" fill="url(#circleGlow)"/>
-  <circle cx="1760" cy="160" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
-  <circle cx="170" cy="930" r="360" fill="url(#circleGlow)"/>
-  <circle cx="170" cy="930" r="250" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
 
   <!-- Left accent bar -->
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4" rx="0"/>
 
   <!-- Title -->
-  <text
-    x="80" y="108"
+  <text x="80" y="108"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="72"
-    font-weight="700"
-    fill="#ffffff"
-    letter-spacing="-1">Interactive poll D</text>
+    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Model Pricing Examples</text>
 
   <!-- Title underline -->
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
 
-  <!-- Poll card -->
-  <rect x="190" y="275" width="1540" height="530" rx="36" fill="#ffffff" opacity="0.08"/>
-  <rect x="190" y="275" width="1540" height="530" rx="36" fill="none" stroke="#8b7fd4" stroke-width="2" opacity="0.55"/>
-
-  <!-- Question mark badge -->
-  <circle cx="310" cy="405" r="56" fill="#8b7fd4" opacity="0.95"/>
-  <text x="310" y="426" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff" text-anchor="middle">?</text>
-
-  <!-- Question -->
-  <text
-    x="410" y="415"
+  <!-- Overview -->
+  <text x="80" y="205"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="64"
-    font-weight="700"
-    fill="#ffffff"
-    letter-spacing="-1">What LLM models are you using?</text>
+    font-size="34" font-weight="300" fill="#c4baea" letter-spacing="1">
+    Prices vary by model and token type. All prices below are per 1M tokens.
+  </text>
 
-  <!-- Description -->
-  <text
-    x="310" y="600"
+  <!-- Table card -->
+  <rect x="105" y="270" width="1710" height="635" rx="24"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <rect x="105" y="270" width="1710" height="82" rx="24" fill="#8b7fd4" opacity="0.22"/>
+  <text x="170" y="324" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">Model</text>
+  <text x="620" y="324" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">Category</text>
+  <text x="930" y="324" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">Input</text>
+  <text x="1180" y="324" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">Cached input</text>
+  <text x="1535" y="324" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">Output</text>
+
+  <!-- Row separators -->
+  <line x1="145" y1="433" x2="1775" y2="433" stroke="#8b7fd4" stroke-width="1" opacity="0.35"/>
+  <line x1="145" y1="514" x2="1775" y2="514" stroke="#8b7fd4" stroke-width="1" opacity="0.35"/>
+  <line x1="145" y1="595" x2="1775" y2="595" stroke="#8b7fd4" stroke-width="1" opacity="0.35"/>
+  <line x1="145" y1="676" x2="1775" y2="676" stroke="#8b7fd4" stroke-width="1" opacity="0.35"/>
+  <line x1="145" y1="757" x2="1775" y2="757" stroke="#8b7fd4" stroke-width="1" opacity="0.35"/>
+  <line x1="145" y1="838" x2="1775" y2="838" stroke="#8b7fd4" stroke-width="1" opacity="0.35"/>
+
+  <!-- Rows -->
+  <text x="170" y="404" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff">GPT-5 mini</text>
+  <text x="620" y="404" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Lightweight</text>
+  <text x="930" y="404" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">$0.25</text>
+  <text x="1180" y="404" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">$0.025</text>
+  <text x="1535" y="404" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">$2.00</text>
+
+  <text x="170" y="485" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff">GPT-5.4</text>
+  <text x="620" y="485" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Versatile</text>
+  <text x="930" y="485" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">$2.50</text>
+  <text x="1180" y="485" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">$0.25</text>
+  <text x="1535" y="485" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">$15.00</text>
+
+  <text x="170" y="566" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff">GPT-5.5</text>
+  <text x="620" y="566" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Powerful</text>
+  <text x="930" y="566" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">$5.00</text>
+  <text x="1180" y="566" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">$0.50</text>
+  <text x="1535" y="566" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">$30.00</text>
+
+  <text x="170" y="647" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff">Claude Sonnet 4.5</text>
+  <text x="620" y="647" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Versatile</text>
+  <text x="930" y="647" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">$3.00</text>
+  <text x="1180" y="647" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">$0.30</text>
+  <text x="1535" y="647" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">$15.00</text>
+
+  <text x="170" y="728" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff">Claude Opus 4.7</text>
+  <text x="620" y="728" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Powerful</text>
+  <text x="930" y="728" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">$5.00</text>
+  <text x="1180" y="728" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">$0.50</text>
+  <text x="1535" y="728" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">$25.00</text>
+
+  <text x="170" y="809" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff">Gemini 2.5 Pro</text>
+  <text x="620" y="809" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Powerful</text>
+  <text x="930" y="809" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">$1.25</text>
+  <text x="1180" y="809" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">$0.125</text>
+  <text x="1535" y="809" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">$10.00</text>
+
+  <text x="170" y="890" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff">Gemini 3 Flash</text>
+  <text x="620" y="890" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Lightweight</text>
+  <text x="930" y="890" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">$0.50</text>
+  <text x="1180" y="890" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">$0.05</text>
+  <text x="1535" y="890" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">$3.00</text>
+
+  <!-- Footer note -->
+  <text x="960" y="975" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="40"
-    font-weight="300"
-    fill="#c4baea"
-    letter-spacing="1">LLM models in your coding tools</text>
-
-  <!-- Interaction hint -->
-  <rect x="760" y="875" width="400" height="64" rx="32" fill="#8b7fd4" opacity="0.2"/>
-  <text x="960" y="918" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" text-anchor="middle" letter-spacing="1">Vote now</text>
+    font-size="26" font-weight="300" fill="#c4baea" letter-spacing="0.5">
+    Sample only: exact availability and rates can change. Code completions remain unlimited for paid plans.
+  </text>
 </svg>

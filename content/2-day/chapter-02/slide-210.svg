@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+
+  <g transform="translate(1610 62)" opacity="0.2">
+    <text x="0" y="54"
+      font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+      font-size="80" font-weight="700" fill="#c4baea">n!</text>
+    <line x1="-10" y1="88" x2="100" y2="88" stroke="#c4baea" stroke-width="8" stroke-linecap="round"/>
+    <text x="0" y="152"
+      font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+      font-size="54" font-weight="600" fill="#c4baea">1 × 2 × 3</text>
+  </g>
+
+  <g transform="translate(1510 835)" opacity="0.18">
+    <rect x="0" y="0" width="220" height="120" rx="18" fill="none" stroke="#c4baea" stroke-width="10"/>
+    <line x1="34" y1="42" x2="186" y2="42" stroke="#c4baea" stroke-width="8" stroke-linecap="round"/>
+    <line x1="34" y1="76" x2="126" y2="76" stroke="#c4baea" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="168" cy="76" r="14" fill="none" stroke="#c4baea" stroke-width="8"/>
+  </g>
+
+  <text x="80" y="108"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Exercise 201 &#x2014; Factorial Calculator</text>
+
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+
+  <text x="80" y="195"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#c4baea">
+    Practise ghost-text completions by implementing iterative and recursive factorial methods.
+  </text>
+
+  <rect x="80" y="235" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="510" y="325" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="56" font-weight="700" fill="#8b7fd4">01</text>
+  <text x="510" y="400" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="38" font-weight="600" fill="#ffffff">Open</text>
+  <rect x="430" y="420" width="160" height="3" fill="#8b7fd4"/>
+  <text x="510" y="466" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Start in Calculator.cs</text>
+  <text x="510" y="510" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">with the empty factorial methods</text>
+
+  <rect x="980" y="235" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="325" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="56" font-weight="700" fill="#8b7fd4">02</text>
+  <text x="1410" y="400" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="38" font-weight="600" fill="#ffffff">Prompt</text>
+  <rect x="1330" y="420" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1410" y="466" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Write a short comment like</text>
+  <text x="1410" y="510" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">"compute n! iteratively"</text>
+
+  <rect x="80" y="632" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="510" y="722" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="56" font-weight="700" fill="#8b7fd4">03</text>
+  <text x="510" y="797" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="38" font-weight="600" fill="#ffffff">Accept</text>
+  <rect x="430" y="817" width="160" height="3" fill="#8b7fd4"/>
+  <text x="510" y="863" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Use Tab, Alt+[ / Alt+],</text>
+  <text x="510" y="907" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">or accept word by word</text>
+
+  <rect x="980" y="632" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="722" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="56" font-weight="700" fill="#8b7fd4">04</text>
+  <text x="1410" y="797" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="38" font-weight="600" fill="#ffffff">Verify</text>
+  <rect x="1330" y="817" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1410" y="863" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Run the tests and compare</text>
+  <text x="1410" y="907" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">iterative vs recursive solutions</text>
+</svg>

@@ -12,7 +12,7 @@
 
 Not all code is easy to read. Advanced algorithms — efficient but non-obvious — are exactly the kind of code that benefits most from good documentation and a careful review pass. This exercise presents a complete implementation of the **Knuth-Morris-Pratt (KMP)** string search algorithm and asks you to use Copilot to document it thoroughly, review it for correctness, and deepen your own understanding of how it works.
 
-The theme for Chapter 7 is *best practices*: code that is merely correct is not enough — it should also be understandable, maintainable, and safe to hand to a colleague.
+This exercise turns the Chapter 2 `/doc` slide into practice: start by understanding the algorithm, then use Copilot to draft documentation that would genuinely help the next developer.
 
 ---
 
@@ -160,7 +160,7 @@ dotnet test
 
 ## 💡 Best Practices Reinforced
 
-This exercise targets the Chapter 7 theme directly:
+This exercise reinforces the Chapter 2 documentation and review workflow:
 
 | Practice | How the exercise addresses it |
 |----------|------------------------------|

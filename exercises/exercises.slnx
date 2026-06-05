@@ -42,6 +42,9 @@
     <Project Path="206\StringSearch\StringSearch.csproj" />
     <Project Path="206\StringSearch.Tests\StringSearch.Tests.csproj" />
   </Folder>
+  <Folder Name="/Chapter 3/Exercise 301/">
+    <Project Path="301\AgentFramework.ToolCalls.Ollama.csproj" />
+  </Folder>
   <Folder Name="/Chapter 3/Exercise 310/">
     <Project Path="310\CodeObfuscator\CodeObfuscator.csproj" />
   </Folder>

@@ -206,6 +206,15 @@ By the end of this chapter, participants will be able to:
   - **Edit before submitting:** the generated description is a starting point — reviewers and the team still benefit from a human adding the *business context* ("this fixes the login timeout bug reported by Customer X") that Copilot can't infer from code alone
   - **Team adoption tip:** agreeing as a team to always use Copilot-generated PR descriptions as a baseline significantly reduces the "empty PR description" problem; it's faster to edit a good description than to write one from scratch
 
+## 🧪 Chapter 2 Exercises
+
+- [Exercise 201 — Factorial Calculator](../../../exercises/201/README.md) — practise ghost-text completions and compare iterative versus recursive solutions
+- [Exercise 202 — Palindrome Checker](../../../exercises/202/README.md) — steer ghost-text with line-by-line comments and review the generated logic carefully
+- [Exercise 203 — Mystery Processor](../../../exercises/203/README.md) — use `/explain` to understand obfuscated code before looking at the tests
+- [Exercise 204 — Shortest Path](../../../exercises/204/README.md) — repair a buggy Dijkstra implementation with better `/fix` prompts
+- [Exercise 205 — Caesar Cipher](../../../exercises/205/README.md) — generate a starter test suite with `/tests` and improve the coverage
+- [Exercise 206 — String Search](../../../exercises/206/README.md) — use `/doc` to document existing KMP code and make it easier to understand
+
 ---
 
 ## 💡 Ideas for Exercises & Interactivity

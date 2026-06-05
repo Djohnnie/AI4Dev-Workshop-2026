@@ -2,7 +2,7 @@
 
 Welcome to the hands-on exercise collection for the **AI for Developers Workshop 2026**. Each exercise is paired with a workshop chapter and gives you a focused, self-contained coding challenge designed to practise a specific GitHub Copilot skill or AI-assisted development technique.
 
-All exercises are written in **C# (.NET 10)** and follow the same project layout: a library project containing the implementation and a companion test project using **xUnit**. Open the solution file [`exercises.slnx`](exercises.slnx) in Visual Studio or Rider to load all projects at once.
+Most exercises are written in **C# (.NET 10)** and follow the same project layout: a library project containing the implementation and a companion test project using **xUnit**. Open the solution file [`exercises.slnx`](exercises.slnx) in Visual Studio or Rider to load the project-based exercises at once. Some chapter 3 exercises are intentionally lighter-weight workflow labs that start from an earlier exercise instead of shipping a separate solution.
 
 ---
 
@@ -22,6 +22,7 @@ All exercises are written in **C# (.NET 10)** and follow the same project layout
 | [204](204/README.md) | [Shortest Path](204/README.md) | Chapter 2, Exercise 4 | Bug detection with `/fix` | ⭐⭐⭐ |
 | [205](205/README.md) | [Caesar Cipher](205/README.md) | Chapter 2, Exercise 5 | Test generation with `/tests` | ⭐⭐ |
 | [206](206/README.md) | [String Search](206/README.md) | Chapter 2, Exercise 6 | Documentation & code review | ⭐⭐⭐ |
+| [301](301/README.md) | [Tool Calls with Ollama](301/README.md) | Chapter 3, Exercise 1 | Local models and tool calling | ⭐⭐ |
 | [310](310/README.md) | [Code Obfuscator MCP Tool](310/README.md) | Chapter 3, Exercise 10 | Building an MCP tool | ⭐⭐⭐⭐ |
 
 ---
@@ -32,7 +33,7 @@ All exercises are written in **C# (.NET 10)** and follow the same project layout
 |---------|-----------|
 | Chapter 1 | [101 Token Visualizer](101/README.md) · [102 Stateless LLM Chat](102/README.md) · [103 Chat History & Roles](103/README.md) · [104 Tool Calls](104/README.md) · [105 MCP Tool Calls](105/README.md) · [106 Agent Orchestration](106/README.md) |
 | Chapter 2 | [201 Factorial Calculator](201/README.md) · [202 Palindrome Checker](202/README.md) · [203 Mystery Processor](203/README.md) · [204 Shortest Path](204/README.md) · [205 Caesar Cipher](205/README.md) · [206 String Search](206/README.md) |
-| Chapter 3 | [310 Code Obfuscator MCP Tool](310/README.md) |
+| Chapter 3 | [301 Tool Calls with Ollama](301/README.md) · [310 Code Obfuscator MCP Tool](310/README.md) |
 
 ---
 
@@ -44,6 +45,7 @@ All exercises are written in **C# (.NET 10)** and follow the same project layout
 - [Visual Studio 2022](https://visualstudio.microsoft.com/) or [VS Code](https://code.visualstudio.com/) with the C# Dev Kit
 - GitHub Copilot subscription (Free, Pro, or Business)
 - For Exercises 101 through 106: an Azure OpenAI resource with a deployed model
+- For Exercise 301: [Ollama](https://ollama.com/) running locally with a downloaded model
 
 ### Running Any Exercise
 
