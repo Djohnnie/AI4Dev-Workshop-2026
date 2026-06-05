@@ -15,6 +15,9 @@
     <Project Path="105\AgentFramework.McpSseServer\AgentFramework.McpSseServer.csproj" />
     <Project Path="105\AgentFramework.McpSseClient\AgentFramework.McpSseClient.csproj" />
   </Folder>
+  <Folder Name="/Chapter 1/Exercise 106/">
+    <Project Path="106\AgentFramework.AgentOrchestration\AgentFramework.AgentOrchestration.csproj" />
+  </Folder>
   <Folder Name="/Chapter 2/Exercise 201/">
     <Project Path="201\Factorial\Factorial.csproj" />
     <Project Path="201\Factorial.Tests\Factorial.Tests.csproj" />

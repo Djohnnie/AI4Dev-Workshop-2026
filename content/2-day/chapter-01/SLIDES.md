@@ -69,3 +69,15 @@
 ## Slide 17 — Exercise 105 — MCP Tool Calls
 
 ![Slide 17 — Exercise 105 — MCP Tool Calls](slide-117.svg)
+
+## Slide 18 — Beyond Chatbots — What Makes an AI Agent?
+
+![Slide 18 — Beyond Chatbots — What Makes an AI Agent?](slide-118.svg)
+
+## Slide 19 — Agent Orchestration — Coordinating Intelligence
+
+![Slide 19 — Agent Orchestration — Coordinating Intelligence](slide-119.svg)
+
+## Slide 20 — Exercise 106 — Agent Orchestration
+
+![Slide 20 — Exercise 106 — Agent Orchestration](slide-120.svg)
