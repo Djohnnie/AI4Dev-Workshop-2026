@@ -4,7 +4,7 @@
 > **Skill focus:** Building and using a Model Context Protocol (MCP) tool; combining multiple workshop skills in a real deliverable  
 > **Difficulty:** ⭐⭐⭐⭐
 
-← Back to [Exercise Index](../README.md)
+← Back to [Exercise Index](../../README.md)
 
 ---
 
@@ -12,7 +12,7 @@
 
 This is the **capstone exercise**. Rather than implementing an isolated algorithm, you are working on a production-style service: an **ASP.NET Core web application** that exposes a tool to AI assistants via the **Model Context Protocol (MCP)**.
 
-The tool itself performs code obfuscation — the same technique you reversed-engineered in [Exercise 203](../203/README.md). Understanding how obfuscation works (from the inside this time) and then wrapping it in a standard protocol that any AI assistant can call is the perfect synthesis of the week's themes: AI foundations, responsible use, prompting, the full SDLC, and agentic tool-building.
+The tool itself performs code obfuscation — the same technique you reversed-engineered in [Exercise 203](../../chapter-02/203/README.md). Understanding how obfuscation works (from the inside this time) and then wrapping it in a standard protocol that any AI assistant can call is the perfect synthesis of the week's themes: AI foundations, responsible use, prompting, the full SDLC, and agentic tool-building.
 
 ---
 
@@ -156,7 +156,7 @@ dotnet run
 
 2. Configure an MCP client (Claude Desktop, or Copilot with MCP support) to connect to the local server.
 3. Ask the AI to call the `ObfuscateCode` tool with a C# snippet of your choice.
-4. Examine the output — compare it with [Exercise 203's](../203/README.md) `C0.cs`.
+4. Examine the output — compare it with [Exercise 203's](../../chapter-02/203/README.md) `C0.cs`.
 
 ### Track B — Extend the Tool
 
@@ -212,4 +212,4 @@ You have completed the exercise when:
 
 ---
 
-← Back to [Exercise Index](../README.md) | Previous: [Exercise 302](../302/README.md)
+← Back to [Exercise Index](../../README.md) | Previous: [Exercise 302](../302/README.md)

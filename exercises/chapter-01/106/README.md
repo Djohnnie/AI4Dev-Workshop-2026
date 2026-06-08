@@ -4,7 +4,7 @@
 > **Skill focus:** Multi-agent orchestration, routing, parallel fan-out, merged replies  
 > **Difficulty:** ⭐⭐⭐
 
-← Back to [Exercise Index](../README.md)
+← Back to [Exercise Index](../../README.md)
 
 ---
 
@@ -53,7 +53,7 @@ The project also supports `/debug`, which makes the internal agent-to-agent flow
 3. Run the app:
 
    ```bash
-   cd exercises/106/AgentFramework.AgentOrchestration
+   cd exercises/chapter-01/106/AgentFramework.AgentOrchestration
    dotnet run
    ```
 
@@ -67,4 +67,4 @@ The project also supports `/debug`, which makes the internal agent-to-agent flow
 
 ---
 
-← Back to [Exercise Index](../README.md) | Previous: [Exercise 105](../105/README.md) | Next: [Exercise 201](../201/README.md)
+← Back to [Exercise Index](../../README.md) | Previous: [Exercise 105](../105/README.md) | Next: [Exercise 201](../../chapter-02/201/README.md)

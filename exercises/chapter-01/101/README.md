@@ -4,7 +4,7 @@
 > **Skill focus:** Understanding how LLMs tokenise text; exploring the Azure OpenAI API  
 > **Difficulty:** ⭐⭐
 
-← Back to [Exercise Index](../README.md)
+← Back to [Exercise Index](../../README.md)
 
 ---
 
@@ -99,7 +99,7 @@ Alternatively, edit `Properties/launchSettings.json` to add these as `environmen
 ### 2. Run the Application
 
 ```bash
-cd exercises/101
+cd exercises/chapter-01/101
 dotnet run
 ```
 
@@ -127,4 +127,4 @@ Use the visualiser to investigate these questions — they will come up during t
 
 ---
 
-← Back to [Exercise Index](../README.md) | Next: [Exercise 102 — Stateless LLM Chat](../102/README.md)
+← Back to [Exercise Index](../../README.md) | Next: [Exercise 102 — Stateless LLM Chat](../102/README.md)

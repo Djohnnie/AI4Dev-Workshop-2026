@@ -4,7 +4,7 @@
 > **Skill focus:** Test generation with `/tests`; evaluating and extending AI-generated test suites  
 > **Difficulty:** ⭐⭐
 
-← Back to [Exercise Index](../README.md)
+← Back to [Exercise Index](../../README.md)
 
 ---
 
@@ -167,4 +167,4 @@ Your job is to be the quality gate. Copilot generates the first draft; you ensur
 
 ---
 
-← Back to [Exercise Index](../README.md) | Previous: [Exercise 204](../204/README.md) | Next: [Exercise 206](../206/README.md)
+← Back to [Exercise Index](../../README.md) | Previous: [Exercise 204](../204/README.md) | Next: [Exercise 206](../206/README.md)

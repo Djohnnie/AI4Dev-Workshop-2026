@@ -26,7 +26,7 @@
 
 ![Slide 06 — Exercise 301 — Who Does Copilot Picture?](slide-306.svg)
 
-→ [Exercise 301 — Who Does Copilot Picture?](../../../exercises/301/README.md)
+→ [Exercise 301 — Who Does Copilot Picture?](../../../exercises/chapter-03/301/README.md)
 
 <!-- Principle 2 — Reliability & Safety -->
 
@@ -94,7 +94,7 @@
 
 ![Slide 21 — Exercise 302 — Tool Calls with Ollama](slide-321.svg)
 
-→ [Exercise 302 — Tool Calls with Ollama](../../../exercises/302/README.md)
+→ [Exercise 302 — Tool Calls with Ollama](../../../exercises/chapter-03/302/README.md)
 
 <!-- Principle 5 — Transparency -->
 
@@ -134,4 +134,4 @@
 
 ![Slide 29 — Exercise 303 — Code Obfuscator MCP Tool](slide-329.svg)
 
-→ [Exercise 303 — Code Obfuscator MCP Tool](../../../exercises/303/README.md)
+→ [Exercise 303 — Code Obfuscator MCP Tool](../../../exercises/chapter-03/303/README.md)

@@ -208,12 +208,12 @@ By the end of this chapter, participants will be able to:
 
 ## 🧪 Chapter 2 Exercises
 
-- [Exercise 201 — Factorial Calculator](../../../exercises/201/README.md) — practise ghost-text completions and compare iterative versus recursive solutions
-- [Exercise 202 — Palindrome Checker](../../../exercises/202/README.md) — steer ghost-text with line-by-line comments and review the generated logic carefully
-- [Exercise 203 — Mystery Processor](../../../exercises/203/README.md) — use `/explain` to understand obfuscated code before looking at the tests
-- [Exercise 204 — Shortest Path](../../../exercises/204/README.md) — repair a buggy Dijkstra implementation with better `/fix` prompts
-- [Exercise 205 — Caesar Cipher](../../../exercises/205/README.md) — generate a starter test suite with `/tests` and improve the coverage
-- [Exercise 206 — String Search](../../../exercises/206/README.md) — use `/doc` to document existing KMP code and make it easier to understand
+- [Exercise 201 — Factorial Calculator](../../../exercises/chapter-02/201/README.md) — practise ghost-text completions and compare iterative versus recursive solutions
+- [Exercise 202 — Palindrome Checker](../../../exercises/chapter-02/202/README.md) — steer ghost-text with line-by-line comments and review the generated logic carefully
+- [Exercise 203 — Mystery Processor](../../../exercises/chapter-02/203/README.md) — use `/explain` to understand obfuscated code before looking at the tests
+- [Exercise 204 — Shortest Path](../../../exercises/chapter-02/204/README.md) — repair a buggy Dijkstra implementation with better `/fix` prompts
+- [Exercise 205 — Caesar Cipher](../../../exercises/chapter-02/205/README.md) — generate a starter test suite with `/tests` and improve the coverage
+- [Exercise 206 — String Search](../../../exercises/chapter-02/206/README.md) — use `/doc` to document existing KMP code and make it easier to understand
 
 ---
 

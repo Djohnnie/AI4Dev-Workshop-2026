@@ -4,7 +4,7 @@
 > **Skill focus:** Stateful chat, conversation history, system prompts and personas  
 > **Difficulty:** ⭐⭐
 
-← Back to [Exercise Index](../README.md)
+← Back to [Exercise Index](../../README.md)
 
 ---
 
@@ -37,7 +37,7 @@ In the sample app, the agent starts with a child-like persona, remembers the con
 2. Run the console app:
 
    ```bash
-   cd exercises/103
+   cd exercises/chapter-01/103
    dotnet run
    ```
 
@@ -54,4 +54,4 @@ In the sample app, the agent starts with a child-like persona, remembers the con
 
 ---
 
-← Back to [Exercise Index](../README.md) | Previous: [Exercise 102](../102/README.md) | Next: [Exercise 104](../104/README.md)
+← Back to [Exercise Index](../../README.md) | Previous: [Exercise 102](../102/README.md) | Next: [Exercise 104](../104/README.md)

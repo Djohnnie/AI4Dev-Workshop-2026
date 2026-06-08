@@ -4,7 +4,7 @@
 > **Skill focus:** Building a stateless chat agent with Microsoft Agent Framework and Azure OpenAI  
 > **Difficulty:** ⭐⭐
 
-← Back to [Exercise Index](../README.md)
+← Back to [Exercise Index](../../README.md)
 
 ---
 
@@ -66,7 +66,7 @@ The project references three key NuGet packages:
 
 2. **Build and run the application:**
    ```bash
-   cd exercises/102
+   cd exercises/chapter-01/102
    dotnet build
    dotnet run
    ```
@@ -106,7 +106,7 @@ set OPENAI_KEY=your-api-key
 
 **Cross-platform (.NET User Secrets):**
 ```bash
-cd exercises/102
+cd exercises/chapter-01/102
 dotnet user-secrets init
 dotnet user-secrets set "OPENAI_ENDPOINT" "https://your-resource.openai.azure.com/"
 dotnet user-secrets set "OPENAI_KEY" "your-api-key"
@@ -207,4 +207,4 @@ Once the basic chat agent works, try these enhancements:
 
 ---
 
-← Back to [Exercise Index](../README.md) | Previous: [Exercise 101](../101/README.md) | Next: [Exercise 103](../103/README.md)
+← Back to [Exercise Index](../../README.md) | Previous: [Exercise 101](../101/README.md) | Next: [Exercise 103](../103/README.md)

@@ -4,7 +4,7 @@
 > **Skill focus:** Inline completions; ghost-text autocomplete; accepting and cycling suggestions  
 > **Difficulty:** ⭐
 
-← Back to [Exercise Index](../README.md)
+← Back to [Exercise Index](../../README.md)
 
 ---
 
@@ -132,4 +132,4 @@ Once the tests pass, try these extensions with Copilot's help:
 
 ---
 
-← Back to [Exercise Index](../README.md) | Previous: [Exercise 106](../106/README.md) | Next: [Exercise 202](../202/README.md)
+← Back to [Exercise Index](../../README.md) | Previous: [Exercise 106](../../chapter-01/106/README.md) | Next: [Exercise 202](../202/README.md)

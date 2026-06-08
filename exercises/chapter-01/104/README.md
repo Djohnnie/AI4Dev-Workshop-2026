@@ -4,7 +4,7 @@
 > **Skill focus:** In-process tool calling, function descriptions, real-time data access  
 > **Difficulty:** ⭐⭐
 
-← Back to [Exercise Index](../README.md)
+← Back to [Exercise Index](../../README.md)
 
 ---
 
@@ -39,7 +39,7 @@ The model decides when to call them, and then uses the returned values in its re
 2. Run the app:
 
    ```bash
-   cd exercises/104
+   cd exercises/chapter-01/104
    dotnet run
    ```
 
@@ -56,4 +56,4 @@ The model decides when to call them, and then uses the returned values in its re
 
 ---
 
-← Back to [Exercise Index](../README.md) | Previous: [Exercise 103](../103/README.md) | Next: [Exercise 105](../105/README.md)
+← Back to [Exercise Index](../../README.md) | Previous: [Exercise 103](../103/README.md) | Next: [Exercise 105](../105/README.md)

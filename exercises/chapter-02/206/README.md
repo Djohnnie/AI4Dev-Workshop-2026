@@ -4,7 +4,7 @@
 > **Skill focus:** Documentation generation with `/doc`; using Copilot as a code-review partner; evaluating complex algorithmic code  
 > **Difficulty:** ⭐⭐⭐
 
-← Back to [Exercise Index](../README.md)
+← Back to [Exercise Index](../../README.md)
 
 ---
 
@@ -180,4 +180,4 @@ This exercise reinforces the Chapter 2 documentation and review workflow:
 
 ---
 
-← Back to [Exercise Index](../README.md) | Previous: [Exercise 205](../205/README.md) | Next: [Exercise 301](../301/README.md)
+← Back to [Exercise Index](../../README.md) | Previous: [Exercise 205](../205/README.md) | Next: [Exercise 301](../../chapter-03/301/README.md)

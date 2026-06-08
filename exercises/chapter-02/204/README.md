@@ -4,7 +4,7 @@
 > **Skill focus:** Bug detection and repair with `/fix`; writing effective context-rich prompts  
 > **Difficulty:** ⭐⭐⭐
 
-← Back to [Exercise Index](../README.md)
+← Back to [Exercise Index](../../README.md)
 
 ---
 
@@ -170,4 +170,4 @@ This principle applies to every Copilot interaction, not just bug-fixing.
 
 ---
 
-← Back to [Exercise Index](../README.md) | Previous: [Exercise 203](../203/README.md) | Next: [Exercise 205](../205/README.md)
+← Back to [Exercise Index](../../README.md) | Previous: [Exercise 203](../203/README.md) | Next: [Exercise 205](../205/README.md)

@@ -4,13 +4,13 @@
 > **Skill focus:** Local models, tool calling, comparing hosted vs local inference  
 > **Difficulty:** ⭐⭐
 
-← Back to [Exercise Index](../README.md)
+← Back to [Exercise Index](../../README.md)
 
 ---
 
 ## Goal
 
-Recreate the idea from [Exercise 104](../104/README.md), but swap the hosted model for a **local Ollama model** running on your own machine.
+Recreate the idea from [Exercise 104](../../chapter-01/104/README.md), but swap the hosted model for a **local Ollama model** running on your own machine.
 
 The point is not to build a different app. The point is to prove that **tool calling is an application pattern** that works with different model backends.
 
@@ -47,7 +47,7 @@ That lets you compare:
 
 ## Suggested setup
 
-1. Start from the code in [Exercise 104](../104/README.md).
+1. Start from the code in [Exercise 104](../../chapter-01/104/README.md).
 2. Install and run Ollama locally.
 3. Pull a code-capable model, for example:
 
@@ -67,7 +67,7 @@ That lets you compare:
 3. Run the app:
 
    ```bash
-   cd exercises/302
+   cd exercises/chapter-03/302
    dotnet run
    ```
 
@@ -96,4 +96,4 @@ That lets you compare:
 
 ---
 
-← Back to [Exercise Index](../README.md) | Related: [Exercise 104](../104/README.md) | Previous: [Exercise 301](../301/README.md) | Next: [Exercise 303](../303/README.md)
+← Back to [Exercise Index](../../README.md) | Related: [Exercise 104](../../chapter-01/104/README.md) | Previous: [Exercise 301](../301/README.md) | Next: [Exercise 303](../303/README.md)

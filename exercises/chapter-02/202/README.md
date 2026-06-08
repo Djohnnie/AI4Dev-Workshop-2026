@@ -4,7 +4,7 @@
 > **Skill focus:** Steering ghost-text with line-by-line comments; reviewing AI output critically before committing  
 > **Difficulty:** ⭐
 
-← Back to [Exercise Index](../README.md)
+← Back to [Exercise Index](../../README.md)
 
 ---
 
@@ -134,4 +134,4 @@ If the answer to any of these is "I'm not sure", dig deeper before accepting.
 
 ---
 
-← Back to [Exercise Index](../README.md) | Previous: [Exercise 201](../201/README.md) | Next: [Exercise 203](../203/README.md)
+← Back to [Exercise Index](../../README.md) | Previous: [Exercise 201](../201/README.md) | Next: [Exercise 203](../203/README.md)

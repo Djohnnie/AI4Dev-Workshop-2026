@@ -10,21 +10,21 @@ Most exercises are written in **C# (.NET 10)** and follow the same project layou
 
 | # | Exercise | Chapter | Copilot Skill | Difficulty |
 |---|----------|---------|---------------|------------|
-| [101](101/README.md) | [Token Visualizer](101/README.md) | Chapter 1, Exercise 1 | Exploration / understanding tokens | ⭐⭐ |
-| [102](102/README.md) | [Stateless LLM Chat](102/README.md) | Chapter 1, Exercise 2 | Building a first chat agent with Azure OpenAI | ⭐⭐ |
-| [103](103/README.md) | [Chat History & Roles](103/README.md) | Chapter 1, Exercise 3 | Stateful chat and persona prompts | ⭐⭐ |
-| [104](104/README.md) | [Tool Calls](104/README.md) | Chapter 1, Exercise 4 | In-process function calling | ⭐⭐ |
-| [105](105/README.md) | [MCP Tool Calls](105/README.md) | Chapter 1, Exercise 5 | Out-of-process tools with MCP | ⭐⭐⭐ |
-| [106](106/README.md) | [Agent Orchestration](106/README.md) | Chapter 1, Exercise 6 | Multi-agent routing and reply synthesis | ⭐⭐⭐ |
-| [201](201/README.md) | [Factorial Calculator](201/README.md) | Chapter 2, Exercise 1 | Inline completions & autocomplete | ⭐ |
-| [202](202/README.md) | [Palindrome Checker](202/README.md) | Chapter 2, Exercise 2 | Code generation with review | ⭐ |
-| [203](203/README.md) | [Mystery Processor](203/README.md) | Chapter 2, Exercise 3 | Understanding obfuscated code | ⭐⭐⭐ |
-| [204](204/README.md) | [Shortest Path](204/README.md) | Chapter 2, Exercise 4 | Bug detection with `/fix` | ⭐⭐⭐ |
-| [205](205/README.md) | [Caesar Cipher](205/README.md) | Chapter 2, Exercise 5 | Test generation with `/tests` | ⭐⭐ |
-| [206](206/README.md) | [String Search](206/README.md) | Chapter 2, Exercise 6 | Documentation & code review | ⭐⭐⭐ |
-| [301](301/README.md) | [Who Does Copilot Picture?](301/README.md) | Chapter 3, Exercise 1 | Fairness; spotting implicit bias in generated output | ⭐⭐ |
-| [302](302/README.md) | [Tool Calls with Ollama](302/README.md) | Chapter 3, Exercise 2 | Local models and tool calling | ⭐⭐ |
-| [303](303/README.md) | [Code Obfuscator MCP Tool](303/README.md) | Chapter 3, Exercise 3 | Building an MCP tool | ⭐⭐⭐⭐ |
+| [101](chapter-01/101/README.md) | [Token Visualizer](chapter-01/101/README.md) | Chapter 1, Exercise 1 | Exploration / understanding tokens | ⭐⭐ |
+| [102](chapter-01/102/README.md) | [Stateless LLM Chat](chapter-01/102/README.md) | Chapter 1, Exercise 2 | Building a first chat agent with Azure OpenAI | ⭐⭐ |
+| [103](chapter-01/103/README.md) | [Chat History & Roles](chapter-01/103/README.md) | Chapter 1, Exercise 3 | Stateful chat and persona prompts | ⭐⭐ |
+| [104](chapter-01/104/README.md) | [Tool Calls](chapter-01/104/README.md) | Chapter 1, Exercise 4 | In-process function calling | ⭐⭐ |
+| [105](chapter-01/105/README.md) | [MCP Tool Calls](chapter-01/105/README.md) | Chapter 1, Exercise 5 | Out-of-process tools with MCP | ⭐⭐⭐ |
+| [106](chapter-01/106/README.md) | [Agent Orchestration](chapter-01/106/README.md) | Chapter 1, Exercise 6 | Multi-agent routing and reply synthesis | ⭐⭐⭐ |
+| [201](chapter-02/201/README.md) | [Factorial Calculator](chapter-02/201/README.md) | Chapter 2, Exercise 1 | Inline completions & autocomplete | ⭐ |
+| [202](chapter-02/202/README.md) | [Palindrome Checker](chapter-02/202/README.md) | Chapter 2, Exercise 2 | Code generation with review | ⭐ |
+| [203](chapter-02/203/README.md) | [Mystery Processor](chapter-02/203/README.md) | Chapter 2, Exercise 3 | Understanding obfuscated code | ⭐⭐⭐ |
+| [204](chapter-02/204/README.md) | [Shortest Path](chapter-02/204/README.md) | Chapter 2, Exercise 4 | Bug detection with `/fix` | ⭐⭐⭐ |
+| [205](chapter-02/205/README.md) | [Caesar Cipher](chapter-02/205/README.md) | Chapter 2, Exercise 5 | Test generation with `/tests` | ⭐⭐ |
+| [206](chapter-02/206/README.md) | [String Search](chapter-02/206/README.md) | Chapter 2, Exercise 6 | Documentation & code review | ⭐⭐⭐ |
+| [301](chapter-03/301/README.md) | [Who Does Copilot Picture?](chapter-03/301/README.md) | Chapter 3, Exercise 1 | Fairness; spotting implicit bias in generated output | ⭐⭐ |
+| [302](chapter-03/302/README.md) | [Tool Calls with Ollama](chapter-03/302/README.md) | Chapter 3, Exercise 2 | Local models and tool calling | ⭐⭐ |
+| [303](chapter-03/303/README.md) | [Code Obfuscator MCP Tool](chapter-03/303/README.md) | Chapter 3, Exercise 3 | Building an MCP tool | ⭐⭐⭐⭐ |
 
 ---
 
@@ -32,9 +32,9 @@ Most exercises are written in **C# (.NET 10)** and follow the same project layou
 
 | Chapter | Exercises |
 |---------|-----------|
-| Chapter 1 | [101 Token Visualizer](101/README.md) · [102 Stateless LLM Chat](102/README.md) · [103 Chat History & Roles](103/README.md) · [104 Tool Calls](104/README.md) · [105 MCP Tool Calls](105/README.md) · [106 Agent Orchestration](106/README.md) |
-| Chapter 2 | [201 Factorial Calculator](201/README.md) · [202 Palindrome Checker](202/README.md) · [203 Mystery Processor](203/README.md) · [204 Shortest Path](204/README.md) · [205 Caesar Cipher](205/README.md) · [206 String Search](206/README.md) |
-| Chapter 3 | [301 Who Does Copilot Picture?](301/README.md) · [302 Tool Calls with Ollama](302/README.md) · [303 Code Obfuscator MCP Tool](303/README.md) |
+| Chapter 1 | [101 Token Visualizer](chapter-01/101/README.md) · [102 Stateless LLM Chat](chapter-01/102/README.md) · [103 Chat History & Roles](chapter-01/103/README.md) · [104 Tool Calls](chapter-01/104/README.md) · [105 MCP Tool Calls](chapter-01/105/README.md) · [106 Agent Orchestration](chapter-01/106/README.md) |
+| Chapter 2 | [201 Factorial Calculator](chapter-02/201/README.md) · [202 Palindrome Checker](chapter-02/202/README.md) · [203 Mystery Processor](chapter-02/203/README.md) · [204 Shortest Path](chapter-02/204/README.md) · [205 Caesar Cipher](chapter-02/205/README.md) · [206 String Search](chapter-02/206/README.md) |
+| Chapter 3 | [301 Who Does Copilot Picture?](chapter-03/301/README.md) · [302 Tool Calls with Ollama](chapter-03/302/README.md) · [303 Code Obfuscator MCP Tool](chapter-03/303/README.md) |
 
 ---
 
@@ -56,7 +56,7 @@ cd exercises
 dotnet build
 
 # Run the tests for a specific exercise (e.g. 205)
-cd 205/CaesarCipher.Tests
+cd chapter-02/205/CaesarCipher.Tests
 dotnet test
 ```
 

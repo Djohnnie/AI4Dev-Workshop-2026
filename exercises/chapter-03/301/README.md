@@ -4,7 +4,7 @@
 > **Skill focus:** Spotting implicit bias in Copilot's generative output; the Fairness principle in practice  
 > **Difficulty:** ⭐⭐
 
-← Back to [Exercise Index](../README.md)
+← Back to [Exercise Index](../../README.md)
 
 ---
 
@@ -140,4 +140,4 @@ The takeaway for the Fairness principle:
 
 ---
 
-← Back to [Exercise Index](../README.md) | Related: [Slide deck](../../content/2-day/chapter-03/SLIDES.md) | Next: [Exercise 302](../302/README.md)
+← Back to [Exercise Index](../../README.md) | Related: [Slide deck](../../../content/2-day/chapter-03/SLIDES.md) | Next: [Exercise 302](../302/README.md)

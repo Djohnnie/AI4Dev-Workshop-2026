@@ -4,7 +4,7 @@
 > **Skill focus:** MCP, client/server tool boundaries, remote tool discovery  
 > **Difficulty:** ⭐⭐⭐
 
-← Back to [Exercise Index](../README.md)
+← Back to [Exercise Index](../../README.md)
 
 ---
 
@@ -42,14 +42,14 @@ That makes the tools reusable by other apps without copying their implementation
 1. Start the MCP server in one terminal:
 
    ```bash
-   cd exercises/105/AgentFramework.McpSseServer
+   cd exercises/chapter-01/105/AgentFramework.McpSseServer
    dotnet run
    ```
 
 2. In a second terminal, configure `OPENAI_ENDPOINT` and `OPENAI_KEY`, then start the client:
 
    ```bash
-   cd exercises/105/AgentFramework.McpSseClient
+   cd exercises/chapter-01/105/AgentFramework.McpSseClient
    dotnet run
    ```
 
@@ -63,4 +63,4 @@ That makes the tools reusable by other apps without copying their implementation
 
 ---
 
-← Back to [Exercise Index](../README.md) | Previous: [Exercise 104](../104/README.md) | Next: [Exercise 106](../106/README.md)
+← Back to [Exercise Index](../../README.md) | Previous: [Exercise 104](../104/README.md) | Next: [Exercise 106](../106/README.md)

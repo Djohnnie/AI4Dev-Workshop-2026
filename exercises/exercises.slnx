@@ -1,57 +1,57 @@
 <Solution>
   <Folder Name="/Chapter 1/" />
   <Folder Name="/Chapter 1/Exercise 101/">
-    <Project Path="101\TokenVisualizer.csproj" />
+    <Project Path="chapter-01\101\TokenVisualizer.csproj" />
   </Folder>
   <Folder Name="/Chapter 1/Exercise 102/">
-    <Project Path="102\AgentFramework.Chat.csproj" />
+    <Project Path="chapter-01\102\AgentFramework.Chat.csproj" />
   </Folder>
   <Folder Name="/Chapter 1/Exercise 103/">
-    <Project Path="103\AgentFramework.ChatHistoryAndPersona.csproj" />
+    <Project Path="chapter-01\103\AgentFramework.ChatHistoryAndPersona.csproj" />
   </Folder>
   <Folder Name="/Chapter 1/Exercise 104/">
-    <Project Path="104\AgentFramework.ToolCalls.csproj" />
+    <Project Path="chapter-01\104\AgentFramework.ToolCalls.csproj" />
   </Folder>
   <Folder Name="/Chapter 1/Exercise 105/">
-    <Project Path="105\AgentFramework.McpSseServer\AgentFramework.McpSseServer.csproj" />
-    <Project Path="105\AgentFramework.McpSseClient\AgentFramework.McpSseClient.csproj" />
+    <Project Path="chapter-01\105\AgentFramework.McpSseServer\AgentFramework.McpSseServer.csproj" />
+    <Project Path="chapter-01\105\AgentFramework.McpSseClient\AgentFramework.McpSseClient.csproj" />
   </Folder>
   <Folder Name="/Chapter 1/Exercise 106/">
-    <Project Path="106\AgentFramework.AgentOrchestration\AgentFramework.AgentOrchestration.csproj" />
+    <Project Path="chapter-01\106\AgentFramework.AgentOrchestration\AgentFramework.AgentOrchestration.csproj" />
   </Folder>
   <Folder Name="/Chapter 2/" />
   <Folder Name="/Chapter 2/Exercise 201/">
-    <Project Path="201\Factorial\Factorial.csproj" />
-    <Project Path="201\Factorial.Tests\Factorial.Tests.csproj" />
+    <Project Path="chapter-02\201\Factorial\Factorial.csproj" />
+    <Project Path="chapter-02\201\Factorial.Tests\Factorial.Tests.csproj" />
   </Folder>
   <Folder Name="/Chapter 2/Exercise 202/">
-    <Project Path="202\Palindrome\Palindrome.csproj" />
-    <Project Path="202\Palindrome.Tests\Palindrome.Tests.csproj" />
+    <Project Path="chapter-02\202\Palindrome\Palindrome.csproj" />
+    <Project Path="chapter-02\202\Palindrome.Tests\Palindrome.Tests.csproj" />
   </Folder>
   <Folder Name="/Chapter 2/Exercise 203/">
-    <Project Path="203\Processor\Processor.csproj" />
-    <Project Path="203\Processor.Tests\Processor.Tests.csproj" />
+    <Project Path="chapter-02\203\Processor\Processor.csproj" />
+    <Project Path="chapter-02\203\Processor.Tests\Processor.Tests.csproj" />
   </Folder>
   <Folder Name="/Chapter 2/Exercise 204/">
-    <Project Path="204\ShortestPath\ShortestPath.csproj" />
-    <Project Path="204\ShortestPath.Tests\ShortestPath.Tests.csproj" />
+    <Project Path="chapter-02\204\ShortestPath\ShortestPath.csproj" />
+    <Project Path="chapter-02\204\ShortestPath.Tests\ShortestPath.Tests.csproj" />
   </Folder>
   <Folder Name="/Chapter 2/Exercise 205/">
-    <Project Path="205\CaesarCipher\CaesarCipher.csproj" />
-    <Project Path="205\CaesarCipher.Tests\CaesarCipher.Tests.csproj" />
+    <Project Path="chapter-02\205\CaesarCipher\CaesarCipher.csproj" />
+    <Project Path="chapter-02\205\CaesarCipher.Tests\CaesarCipher.Tests.csproj" />
   </Folder>
   <Folder Name="/Chapter 2/Exercise 206/">
-    <Project Path="206\StringSearch\StringSearch.csproj" />
-    <Project Path="206\StringSearch.Tests\StringSearch.Tests.csproj" />
+    <Project Path="chapter-02\206\StringSearch\StringSearch.csproj" />
+    <Project Path="chapter-02\206\StringSearch.Tests\StringSearch.Tests.csproj" />
   </Folder>
   <Folder Name="/Chapter 3/" />
   <Folder Name="/Chapter 3/Exercise 301/">
-    <Project Path="301\StereotypeSpotter.csproj" />
+    <Project Path="chapter-03\301\StereotypeSpotter.csproj" />
   </Folder>
   <Folder Name="/Chapter 3/Exercise 302/">
-    <Project Path="302\AgentFramework.ToolCalls.Ollama.csproj" />
+    <Project Path="chapter-03\302\AgentFramework.ToolCalls.Ollama.csproj" />
   </Folder>
   <Folder Name="/Chapter 3/Exercise 303/">
-    <Project Path="303\CodeObfuscator\CodeObfuscator.csproj" />
+    <Project Path="chapter-03\303\CodeObfuscator\CodeObfuscator.csproj" />
   </Folder>
 </Solution>
