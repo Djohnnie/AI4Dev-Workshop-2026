@@ -180,4 +180,4 @@ This exercise reinforces the Chapter 2 documentation and review workflow:
 
 ---
 
-← Back to [Exercise Index](../README.md) | Previous: [Exercise 205](../205/README.md) | Next: [Exercise 310](../310/README.md)
+← Back to [Exercise Index](../README.md) | Previous: [Exercise 205](../205/README.md) | Next: [Exercise 301](../301/README.md)

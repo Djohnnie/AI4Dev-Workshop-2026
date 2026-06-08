@@ -1,6 +1,6 @@
-# Exercise 310 — Code Obfuscator MCP Tool
+# Exercise 303 — Code Obfuscator MCP Tool
 
-> **Chapter:** Chapter 3, Exercise 10  
+> **Chapter:** Chapter 3, Exercise 3  
 > **Skill focus:** Building and using a Model Context Protocol (MCP) tool; combining multiple workshop skills in a real deliverable  
 > **Difficulty:** ⭐⭐⭐⭐
 
@@ -117,7 +117,7 @@ Removes unnecessary blank lines and reduces multiple consecutive spaces/newlines
 ## 🗂️ Project Structure
 
 ```
-310/
+303/
 └── CodeObfuscator/
     ├── Program.cs                  ← ASP.NET Core entry point; registers MCP
     ├── CodeObfuscator.csproj       ← Web project (.NET 10)
@@ -150,7 +150,7 @@ This is an open-ended capstone exercise. Choose one or more of the following tra
 1. Start the MCP server:
 
 ```bash
-cd 310/CodeObfuscator
+cd 303/CodeObfuscator
 dotnet run
 ```
 
@@ -212,4 +212,4 @@ You have completed the exercise when:
 
 ---
 
-← Back to [Exercise Index](../README.md) | Previous: [Exercise 206](../206/README.md)
+← Back to [Exercise Index](../README.md) | Previous: [Exercise 302](../302/README.md)

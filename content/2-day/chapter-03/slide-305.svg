@@ -17,37 +17,31 @@
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Watch for Sensitive Data</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="68" font-weight="700" fill="#ffffff" letter-spacing="-1">Trained on a World of Public Code</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
   <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
-    If it is visible in your prompt context, assume it can be sent to the hosted model.
+    Copilot is built on large language models - and what they learned from shapes what they suggest.
   </text>
 
-  <rect x="90" y="285" width="550" height="270" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="365" y="355" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">In your code</text>
-  <rect x="245" y="382" width="240" height="3" fill="#8b7fd4"/>
-  <text x="140" y="455" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- hardcoded secrets and tokens</text>
-  <text x="140" y="510" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- sensitive business logic</text>
+  <rect x="90" y="285" width="850" height="500" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="515" y="365" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">A mountain of public code</text>
+  <rect x="345" y="395" width="340" height="3" fill="#8b7fd4"/>
+  <text x="140" y="480" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- public repositories on GitHub</text>
+  <text x="140" y="540" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- Q&amp;A sites like Stack Overflow</text>
+  <text x="140" y="600" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- countless languages and frameworks</text>
+  <text x="140" y="660" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- great and not-so-great patterns alike</text>
 
-  <rect x="685" y="285" width="550" height="270" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="960" y="355" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">In configs</text>
-  <rect x="840" y="382" width="240" height="3" fill="#8b7fd4"/>
-  <text x="735" y="455" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- connection strings and keys</text>
-  <text x="735" y="510" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- internal URLs and hostnames</text>
+  <rect x="980" y="285" width="850" height="500" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1405" y="365" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">General reasoning too</text>
+  <rect x="1235" y="395" width="340" height="3" fill="#8b7fd4"/>
+  <text x="1030" y="480" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- broad, general-purpose LLMs</text>
+  <text x="1030" y="540" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- natural language, not just code</text>
+  <text x="1030" y="600" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- explaining, planning, refactoring</text>
+  <text x="1030" y="660" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- a partner for &#x201C;rubber ducking&#x201D;</text>
 
-  <rect x="1280" y="285" width="550" height="270" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1555" y="355" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">In open files</text>
-  <rect x="1435" y="382" width="240" height="3" fill="#8b7fd4"/>
-  <text x="1330" y="455" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- nearby tabs may be used</text>
-  <text x="1330" y="510" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- repo and file names can matter</text>
+  <rect x="430" y="850" width="1060" height="70" rx="35" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="895" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">It learned from the crowd - including the crowd's mistakes.</text>
 
-  <rect x="165" y="610" width="1590" height="235" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="230" y="690" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="600" fill="#ffffff">Common leak paths</text>
-  <text x="230" y="755" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">variable names, sample credentials, copied stack traces, .env values, customer data, internal service names, TODO comments with real details</text>
-
-  <rect x="1270" y="660" width="370" height="58" rx="29" fill="#8b7fd4" opacity="0.22"/>
-  <text x="1455" y="698" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">context can reveal more than code</text>
-
-  <text x="960" y="935" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="700" fill="#ffffff">Best practice: replace secrets with placeholders and keep sensitive files out of Copilot context.</text>
+  <text x="960" y="970" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Code generation and reasoning both come from training data - so the quality of suggestions varies with it.</text>
 </svg>

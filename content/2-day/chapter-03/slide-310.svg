@@ -4,61 +4,51 @@
       <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
       <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
     </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
   <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <g transform="translate(1640 58)" opacity="0.22">
-    <rect x="0" y="24" width="170" height="150" rx="18" fill="none" stroke="#c4baea" stroke-width="10"/>
-    <line x1="0" y1="68" x2="170" y2="68" stroke="#c4baea" stroke-width="10"/>
-    <line x1="45" y1="0" x2="45" y2="42" stroke="#c4baea" stroke-width="12" stroke-linecap="round"/>
-    <line x1="125" y1="0" x2="125" y2="42" stroke="#c4baea" stroke-width="12" stroke-linecap="round"/>
-    <circle cx="52" cy="108" r="10" fill="#c4baea"/>
-    <circle cx="85" cy="108" r="10" fill="#c4baea"/>
-    <circle cx="118" cy="108" r="10" fill="#c4baea"/>
-    <circle cx="52" cy="142" r="10" fill="#c4baea"/>
-    <circle cx="85" cy="142" r="10" fill="#c4baea"/>
-  </g>
-
-  <g transform="translate(1510 835)" opacity="0.18">
-    <circle cx="105" cy="105" r="88" fill="none" stroke="#c4baea" stroke-width="10"/>
-    <line x1="105" y1="105" x2="105" y2="50" stroke="#c4baea" stroke-width="10" stroke-linecap="round"/>
-    <line x1="105" y1="105" x2="150" y2="130" stroke="#c4baea" stroke-width="10" stroke-linecap="round"/>
-  </g>
-
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Exercise 301 -- Tool Calls with Ollama</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">What Data Is Sent to the Model?</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
-  <text x="80" y="195" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea">
-    Rebuild Exercise 104 with a local Ollama-backed model instead of a hosted cloud model.
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
+    Copilot sends an assembled request: the prompt plus the most relevant context for that moment.
   </text>
 
-  <rect x="80" y="235" width="860" height="367" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="510" y="325" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">01</text>
-  <text x="510" y="400" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Start from 104</text>
-  <rect x="430" y="420" width="160" height="3" fill="#8b7fd4"/>
-  <text x="510" y="466" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Keep the same chat and tool-call</text>
-  <text x="510" y="510" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">structure from the original exercise</text>
+  <rect x="90" y="285" width="550" height="300" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="365" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">Your prompt</text>
+  <rect x="245" y="390" width="240" height="3" fill="#8b7fd4"/>
+  <text x="140" y="470" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- chat input is sent as written</text>
+  <text x="140" y="530" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- pasted code and errors go too</text>
 
-  <rect x="980" y="235" width="860" height="367" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1410" y="325" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">02</text>
-  <text x="1410" y="400" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Swap the model backend</text>
-  <rect x="1330" y="420" width="160" height="3" fill="#8b7fd4"/>
-  <text x="1410" y="466" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Call the local Ollama API instead of</text>
-  <text x="1410" y="510" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Azure OpenAI or another hosted model</text>
+  <rect x="685" y="285" width="550" height="300" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">Editor context</text>
+  <rect x="840" y="390" width="240" height="3" fill="#8b7fd4"/>
+  <text x="735" y="470" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- code around the cursor</text>
+  <text x="735" y="530" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- imports, types, and selection</text>
 
-  <rect x="80" y="632" width="860" height="367" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="510" y="722" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">03</text>
-  <text x="510" y="797" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Keep the tools</text>
-  <rect x="430" y="817" width="160" height="3" fill="#8b7fd4"/>
-  <text x="510" y="863" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Reuse GetDate and GetTime so the</text>
-  <text x="510" y="907" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">comparison stays focused on the model</text>
+  <rect x="1280" y="285" width="550" height="300" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1555" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">Extra files</text>
+  <rect x="1435" y="390" width="240" height="3" fill="#8b7fd4"/>
+  <text x="1330" y="470" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- attached files and open tabs</text>
+  <text x="1330" y="530" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- instructions and repo context</text>
 
-  <rect x="980" y="632" width="860" height="367" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1410" y="722" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">04</text>
-  <text x="1410" y="797" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Compare the result</text>
-  <rect x="1330" y="817" width="160" height="3" fill="#8b7fd4"/>
-  <text x="1410" y="863" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Measure privacy, setup effort, speed,</text>
-  <text x="1410" y="907" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">and answer quality against Exercise 104</text>
+  <rect x="165" y="650" width="1590" height="245" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="230" y="725" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="600" fill="#ffffff">Typical request payload</text>
+  <text x="230" y="790" font-family="'Consolas', 'Courier New', monospace" font-size="28" font-weight="400" fill="#ffffff">prompt + nearby code + referenced files + IDE metadata</text>
+  <text x="230" y="845" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Metadata can include language, file type, path context, diagnostics, and repository information.</text>
+
+  <rect x="1280" y="700" width="350" height="58" rx="29" fill="#8b7fd4" opacity="0.22"/>
+  <text x="1455" y="738" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">assembled locally first</text>
+
+  <text x="960" y="965" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="700" fill="#ffffff">Key idea: the model sees a ranked slice of context, not a magical view of your whole project.</text>
 </svg>

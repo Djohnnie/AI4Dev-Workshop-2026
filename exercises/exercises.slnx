@@ -1,4 +1,5 @@
 <Solution>
+  <Folder Name="/Chapter 1/" />
   <Folder Name="/Chapter 1/Exercise 101/">
     <Project Path="101\TokenVisualizer.csproj" />
   </Folder>
@@ -18,6 +19,7 @@
   <Folder Name="/Chapter 1/Exercise 106/">
     <Project Path="106\AgentFramework.AgentOrchestration\AgentFramework.AgentOrchestration.csproj" />
   </Folder>
+  <Folder Name="/Chapter 2/" />
   <Folder Name="/Chapter 2/Exercise 201/">
     <Project Path="201\Factorial\Factorial.csproj" />
     <Project Path="201\Factorial.Tests\Factorial.Tests.csproj" />
@@ -42,10 +44,14 @@
     <Project Path="206\StringSearch\StringSearch.csproj" />
     <Project Path="206\StringSearch.Tests\StringSearch.Tests.csproj" />
   </Folder>
+  <Folder Name="/Chapter 3/" />
   <Folder Name="/Chapter 3/Exercise 301/">
-    <Project Path="301\AgentFramework.ToolCalls.Ollama.csproj" />
+    <Project Path="301\StereotypeSpotter.csproj" />
   </Folder>
-  <Folder Name="/Chapter 3/Exercise 310/">
-    <Project Path="310\CodeObfuscator\CodeObfuscator.csproj" />
+  <Folder Name="/Chapter 3/Exercise 302/">
+    <Project Path="302\AgentFramework.ToolCalls.Ollama.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 3/Exercise 303/">
+    <Project Path="303\CodeObfuscator\CodeObfuscator.csproj" />
   </Folder>
 </Solution>

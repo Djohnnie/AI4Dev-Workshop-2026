@@ -17,37 +17,31 @@
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">No Keystrokes, Only Context</text>
-  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+  <text x="80" y="100" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#8b7fd4" letter-spacing="2">RESPONSIBLE AI &#183; 1 OF 6</text>
+  <text x="80" y="170" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Fairness</text>
+  <rect x="0" y="200" width="1920" height="4" fill="#8b7fd4"/>
 
-  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
-    Copilot sends event-based requests when you ask for help or a suggestion - not a live stream of every edit.
+  <text x="80" y="265" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
+    AI systems should treat all people fairly.
   </text>
 
-  <rect x="130" y="295" width="720" height="520" rx="28" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="490" y="380" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff">Not sent continuously</text>
-  <rect x="315" y="410" width="350" height="3" fill="#8b7fd4"/>
-  <circle cx="205" cy="505" r="7" fill="#8b7fd4"/>
-  <text x="235" y="516" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea">every raw keystroke</text>
-  <circle cx="205" cy="590" r="7" fill="#8b7fd4"/>
-  <text x="235" y="601" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea">a full live mirror of your screen</text>
-  <circle cx="205" cy="675" r="7" fill="#8b7fd4"/>
-  <text x="235" y="686" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea">constant background uploads of edits</text>
+  <rect x="90" y="335" width="850" height="455" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="515" y="410" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">What it means</text>
+  <rect x="395" y="438" width="240" height="3" fill="#8b7fd4"/>
+  <text x="140" y="515" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- no differential impact on similar groups</text>
+  <text x="140" y="575" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- consistent outcomes for similar cases</text>
+  <text x="140" y="635" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- detect bias and mitigate unfair impact</text>
+  <text x="140" y="695" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- train on diverse, balanced data</text>
 
-  <text x="960" y="575" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="78" font-weight="700" fill="#8b7fd4" opacity="0.8">&#x2192;</text>
+  <rect x="980" y="335" width="850" height="455" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1405" y="410" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">For GitHub Copilot</text>
+  <rect x="1285" y="438" width="240" height="3" fill="#8b7fd4"/>
+  <text x="1030" y="515" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- watch for weaker output in some</text>
+  <text x="1030" y="555" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">  languages or ecosystems</text>
+  <text x="1030" y="615" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- review generated user-facing logic for</text>
+  <text x="1030" y="655" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">  discriminatory or biased criteria</text>
+  <text x="1030" y="715" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- bias in training data can resurface</text>
 
-  <rect x="1070" y="295" width="720" height="520" rx="28" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1430" y="380" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff">Sent per request</text>
-  <rect x="1255" y="410" width="350" height="3" fill="#8b7fd4"/>
-  <circle cx="1145" cy="505" r="7" fill="#8b7fd4"/>
-  <text x="1175" y="516" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea">the prompt or chat message</text>
-  <circle cx="1145" cy="590" r="7" fill="#8b7fd4"/>
-  <text x="1175" y="601" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea">surrounding code and included files</text>
-  <circle cx="1145" cy="675" r="7" fill="#8b7fd4"/>
-  <text x="1175" y="686" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea">IDE metadata and relevant diagnostics</text>
-
-  <rect x="330" y="875" width="1260" height="70" rx="35" fill="#8b7fd4" opacity="0.22"/>
-  <text x="960" y="920" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">Think request payload, not keystroke logging.</text>
-
-  <text x="960" y="990" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">The data can still be sensitive - it is just batched and contextual rather than streamed.</text>
+  <rect x="430" y="855" width="1060" height="70" rx="35" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="900" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">Equal treatment for similar people - never amplify bias.</text>
 </svg>

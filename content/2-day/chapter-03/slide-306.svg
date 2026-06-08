@@ -4,52 +4,55 @@
       <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
       <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
     </radialGradient>
-    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
-    </radialGradient>
   </defs>
 
   <rect width="1920" height="1080" fill="url(#bgGlow)"/>
-  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
-  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
-  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
-  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="700" fill="#ffffff" letter-spacing="-1">Is Your Data Used to Train Future Models?</text>
+  <!-- scales-of-justice motif -->
+  <g transform="translate(1630 56)" opacity="0.2">
+    <circle cx="100" cy="6" r="13" fill="#c4baea"/>
+    <line x1="100" y1="6" x2="100" y2="172" stroke="#c4baea" stroke-width="10" stroke-linecap="round"/>
+    <line x1="20" y1="44" x2="180" y2="44" stroke="#c4baea" stroke-width="10" stroke-linecap="round"/>
+    <line x1="20" y1="44" x2="20" y2="74" stroke="#c4baea" stroke-width="5"/>
+    <path d="M -6 74 A 26 26 0 0 0 46 74 Z" fill="none" stroke="#c4baea" stroke-width="8"/>
+    <line x1="180" y1="44" x2="180" y2="74" stroke="#c4baea" stroke-width="5"/>
+    <path d="M 154 74 A 26 26 0 0 0 206 74 Z" fill="none" stroke="#c4baea" stroke-width="8"/>
+    <line x1="60" y1="172" x2="140" y2="172" stroke="#c4baea" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="700" fill="#ffffff" letter-spacing="-1">Exercise 301 -- Who Does Copilot Picture?</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
-  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
-    The answer depends on the plan and policy: Individual differs from Business and Enterprise.
+  <text x="80" y="195" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea">
+    Copilot isn't deciding about anyone here - it's just autocompleting. Watch the defaults it reaches for.
   </text>
 
-  <rect x="90" y="285" width="550" height="500" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="365" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">Individual</text>
-  <rect x="245" y="390" width="240" height="3" fill="#8b7fd4"/>
-  <text x="140" y="475" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- check your GitHub settings</text>
-  <text x="140" y="535" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- product improvement data use can</text>
-  <text x="140" y="578" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">  depend on that opt-in choice</text>
-  <text x="140" y="655" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- understand the privacy settings</text>
+  <rect x="80" y="235" width="860" height="367" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="510" y="325" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">01</text>
+  <text x="510" y="400" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Let Copilot fill in</text>
+  <rect x="430" y="420" width="160" height="3" fill="#8b7fd4"/>
+  <text x="510" y="466" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Accept inline suggestions for name</text>
+  <text x="510" y="510" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">lists, pronouns and sample data</text>
 
-  <rect x="685" y="285" width="550" height="500" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="960" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">Business</text>
-  <rect x="840" y="390" width="240" height="3" fill="#8b7fd4"/>
-  <text x="735" y="475" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- prompts and code are not used</text>
-  <text x="735" y="518" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">  to train GitHub foundation models</text>
-  <text x="735" y="595" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- this is the main enterprise assurance</text>
-  <text x="735" y="655" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- policy is managed at the org level</text>
+  <rect x="980" y="235" width="860" height="367" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="325" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">02</text>
+  <text x="1410" y="400" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Run it and look</text>
+  <rect x="1330" y="420" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1410" y="466" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Run the console app and read the</text>
+  <text x="1410" y="510" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">generated names and pronouns aloud</text>
 
-  <rect x="1280" y="285" width="550" height="500" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1555" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">Enterprise</text>
-  <rect x="1435" y="390" width="240" height="3" fill="#8b7fd4"/>
-  <text x="1330" y="475" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- same no-training guarantee</text>
-  <text x="1330" y="535" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- adds more admin and compliance</text>
-  <text x="1330" y="578" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">  controls around usage</text>
-  <text x="1330" y="655" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- still cloud-hosted inference</text>
+  <rect x="80" y="632" width="860" height="367" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="510" y="722" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">03</text>
+  <text x="510" y="797" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Spot the pattern</text>
+  <rect x="430" y="817" width="160" height="3" fill="#8b7fd4"/>
+  <text x="510" y="863" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Notice the gender, ethnicity and</text>
+  <text x="510" y="907" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">locale Copilot quietly defaulted to</text>
 
-  <rect x="260" y="850" width="1400" height="70" rx="35" fill="#8b7fd4" opacity="0.22"/>
-  <text x="960" y="895" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">Training use and short-term retention are different topics.</text>
-
-  <text x="960" y="970" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Even when training is off, requests may still be kept briefly for security, abuse detection, and reliability.</text>
+  <rect x="980" y="632" width="860" height="367" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="722" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">04</text>
+  <text x="1410" y="797" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Mitigate</text>
+  <rect x="1330" y="817" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1410" y="863" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Rework the code to stop baking in</text>
+  <text x="1410" y="907" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">stereotyped defaults</text>
 </svg>

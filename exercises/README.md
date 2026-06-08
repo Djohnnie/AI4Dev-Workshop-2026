@@ -22,8 +22,9 @@ Most exercises are written in **C# (.NET 10)** and follow the same project layou
 | [204](204/README.md) | [Shortest Path](204/README.md) | Chapter 2, Exercise 4 | Bug detection with `/fix` | ⭐⭐⭐ |
 | [205](205/README.md) | [Caesar Cipher](205/README.md) | Chapter 2, Exercise 5 | Test generation with `/tests` | ⭐⭐ |
 | [206](206/README.md) | [String Search](206/README.md) | Chapter 2, Exercise 6 | Documentation & code review | ⭐⭐⭐ |
-| [301](301/README.md) | [Tool Calls with Ollama](301/README.md) | Chapter 3, Exercise 1 | Local models and tool calling | ⭐⭐ |
-| [310](310/README.md) | [Code Obfuscator MCP Tool](310/README.md) | Chapter 3, Exercise 10 | Building an MCP tool | ⭐⭐⭐⭐ |
+| [301](301/README.md) | [Who Does Copilot Picture?](301/README.md) | Chapter 3, Exercise 1 | Fairness; spotting implicit bias in generated output | ⭐⭐ |
+| [302](302/README.md) | [Tool Calls with Ollama](302/README.md) | Chapter 3, Exercise 2 | Local models and tool calling | ⭐⭐ |
+| [303](303/README.md) | [Code Obfuscator MCP Tool](303/README.md) | Chapter 3, Exercise 3 | Building an MCP tool | ⭐⭐⭐⭐ |
 
 ---
 
@@ -33,7 +34,7 @@ Most exercises are written in **C# (.NET 10)** and follow the same project layou
 |---------|-----------|
 | Chapter 1 | [101 Token Visualizer](101/README.md) · [102 Stateless LLM Chat](102/README.md) · [103 Chat History & Roles](103/README.md) · [104 Tool Calls](104/README.md) · [105 MCP Tool Calls](105/README.md) · [106 Agent Orchestration](106/README.md) |
 | Chapter 2 | [201 Factorial Calculator](201/README.md) · [202 Palindrome Checker](202/README.md) · [203 Mystery Processor](203/README.md) · [204 Shortest Path](204/README.md) · [205 Caesar Cipher](205/README.md) · [206 String Search](206/README.md) |
-| Chapter 3 | [301 Tool Calls with Ollama](301/README.md) · [310 Code Obfuscator MCP Tool](310/README.md) |
+| Chapter 3 | [301 Who Does Copilot Picture?](301/README.md) · [302 Tool Calls with Ollama](302/README.md) · [303 Code Obfuscator MCP Tool](303/README.md) |
 
 ---
 
@@ -45,7 +46,7 @@ Most exercises are written in **C# (.NET 10)** and follow the same project layou
 - [Visual Studio 2022](https://visualstudio.microsoft.com/) or [VS Code](https://code.visualstudio.com/) with the C# Dev Kit
 - GitHub Copilot subscription (Free, Pro, or Business)
 - For Exercises 101 through 106: an Azure OpenAI resource with a deployed model
-- For Exercise 301: [Ollama](https://ollama.com/) running locally with a downloaded model
+- For Exercise 302: [Ollama](https://ollama.com/) running locally with a downloaded model
 
 ### Running Any Exercise
 

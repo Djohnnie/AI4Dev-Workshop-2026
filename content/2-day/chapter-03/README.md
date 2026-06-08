@@ -53,7 +53,7 @@ By the end of this chapter, participants will be able to:
   - **Advanced alternative:** for demos or privacy-sensitive experiments, you can build the same pattern with your own local model instead of a hosted Copilot model
   - **Example:** Ollama can run a local coding model on your own machine and serve it over a local API
   - **Tradeoff:** you gain local control, but often give up quality, context length, speed, or convenience compared with frontier hosted models
-- Exercise 301 — Tool Calls with Ollama
+- Exercise 302 — Tool Calls with Ollama
   - **Workshop bridge:** reuse the Exercise 104 tool-calling idea, but swap the hosted model for a local Ollama model
   - **Learning goal:** show that tool calling is an application pattern, not something tied to one specific cloud provider
   - **Debrief:** compare local control, setup effort, and model quality against the hosted version

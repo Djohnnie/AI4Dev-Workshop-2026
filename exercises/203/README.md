@@ -130,7 +130,7 @@ It is less reliable on truly novel obfuscation or proprietary business logic, wh
 
 1. Compare Copilot's renamed version with the Wikipedia pseudocode for the algorithm. Are there any differences?
 2. Ask: *"What is the time and space complexity of this implementation? How could it be optimised?"*
-3. Read the [Exercise 310 README](../310/README.md) — the capstone MCP tool applies this very same obfuscation technique at production scale.
+3. Read the [Exercise 303 README](../303/README.md) — the capstone MCP tool applies this very same obfuscation technique at production scale.
 
 ---
 

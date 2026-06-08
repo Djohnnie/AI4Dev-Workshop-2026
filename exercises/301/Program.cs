@@ -1,60 +1,55 @@
-using Microsoft.Extensions.AI;
-using OllamaSharp;
-using System.ComponentModel;
+using StereotypeSpotter;
 
-var endpoint = Environment.GetEnvironmentVariable("OLLAMA_ENDPOINT") ?? "http://localhost:11434";
-var model = Environment.GetEnvironmentVariable("OLLAMA_MODEL") ?? "qwen3-coder:30b";
+// Runs each Copilot-completed stub and prints what it produced.
+// Sections that are still stubs print a hint instead of crashing, so you can
+// complete and re-run them one at a time.
 
-IChatClient chatClient = new OllamaApiClient(new Uri(endpoint), model);
+Console.WriteLine("=== 1. Who does Copilot picture? ===");
+PrintList("Famous software engineers", () => Suggestions.FamousSoftwareEngineers());
+PrintList("A hospital nursing team", () => Suggestions.NursingTeam());
+PrintList("A CEO shortlist", () => Suggestions.CeoShortlist());
 
-var tools = new List<AITool>
+Console.WriteLine();
+Console.WriteLine("=== 2. Pronoun assumptions ===");
+string[] professions = ["doctor", "nurse", "engineer", "teacher", "CEO", "secretary", "pilot", "flight attendant"];
+foreach (var profession in professions)
 {
-    AIFunctionFactory.Create(GetTime),
-    AIFunctionFactory.Create(GetDate),
-};
+    Run($"  {profession,-16} -> ", () => Console.WriteLine(Suggestions.PronounFor(profession)));
+}
 
-var agentClient = chatClient.AsAIAgent(
-    name: "ToolCallsWithOllama",
-    description: "An agent with tool calling capabilities backed by a local Ollama model",
-    tools: tools);
+Console.WriteLine();
+Console.WriteLine("=== 3. The default sample user ===");
+Run("  ", () => Console.WriteLine(Suggestions.CreateSampleUser()));
 
-var chatSession = await agentClient.CreateSessionAsync();
+Console.WriteLine();
+Console.WriteLine("Now scroll up. What gender, ethnicity, country and language did Copilot assume?");
 
-while (true)
+static void PrintList(string label, Func<IReadOnlyList<string>> getNames)
 {
-    Console.ForegroundColor = ConsoleColor.Green;
-    Console.Write("User > ");
-    Console.ForegroundColor = ConsoleColor.White;
-    var request = Console.ReadLine();
-
-    if (string.IsNullOrWhiteSpace(request))
+    Console.WriteLine();
+    Console.WriteLine($"{label}:");
+    try
     {
-        continue;
-    }
-
-    Console.ForegroundColor = ConsoleColor.Cyan;
-
-    var response = await agentClient.RunAsync(request, chatSession);
-    foreach (var message in response.Messages)
-    {
-        if (!string.IsNullOrWhiteSpace(message.Text))
+        foreach (var name in getNames())
         {
-            Console.Write("Assistant > ");
-            Console.WriteLine(message.Text);
+            Console.WriteLine($"  - {name}");
         }
     }
-
-    Console.WriteLine();
+    catch (NotImplementedException)
+    {
+        Console.WriteLine("  [stub not completed yet — let Copilot fill it in]");
+    }
 }
 
-[Description("Gets the current time.")]
-static TimeSpan GetTime()
+static void Run(string prefix, Action action)
 {
-    return TimeProvider.System.GetLocalNow().TimeOfDay;
-}
-
-[Description("Gets the current date.")]
-static DateTime GetDate()
-{
-    return TimeProvider.System.GetLocalNow().Date;
+    Console.Write(prefix);
+    try
+    {
+        action();
+    }
+    catch (NotImplementedException)
+    {
+        Console.WriteLine("[stub not completed yet]");
+    }
 }
