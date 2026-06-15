@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Chat vs. Agent Mode</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
+    The conceptual shift: Chat returns code that you apply; Agent Mode acts on the codebase itself.
+  </text>
+
+  <rect x="130" y="285" width="720" height="540" rx="28" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="490" y="370" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff">Copilot Chat</text>
+  <rect x="340" y="400" width="300" height="3" fill="#8b7fd4"/>
+  <circle cx="195" cy="475" r="7" fill="#8b7fd4"/>
+  <text x="225" y="486" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">You ask - it answers</text>
+  <circle cx="195" cy="545" r="7" fill="#8b7fd4"/>
+  <text x="225" y="556" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">Returns text or a code block</text>
+  <circle cx="195" cy="615" r="7" fill="#8b7fd4"/>
+  <text x="225" y="626" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">You apply the change yourself</text>
+  <circle cx="195" cy="685" r="7" fill="#8b7fd4"/>
+  <text x="225" y="696" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">One-shot - loop ends each turn</text>
+  <circle cx="195" cy="755" r="7" fill="#8b7fd4"/>
+  <text x="225" y="766" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">You attach #file, @workspace</text>
+
+  <circle cx="960" cy="555" r="58" fill="#3c356c" stroke="#8b7fd4" stroke-width="2"/>
+  <text x="960" y="573" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#8b7fd4">vs</text>
+
+  <rect x="1070" y="285" width="720" height="540" rx="28" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1430" y="370" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff">Agent Mode</text>
+  <rect x="1280" y="400" width="300" height="3" fill="#8b7fd4"/>
+  <circle cx="1135" cy="475" r="7" fill="#8b7fd4"/>
+  <text x="1165" y="486" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">You set a goal - it acts</text>
+  <circle cx="1135" cy="545" r="7" fill="#8b7fd4"/>
+  <text x="1165" y="556" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">Reads files, edits, runs commands</text>
+  <circle cx="1135" cy="615" r="7" fill="#8b7fd4"/>
+  <text x="1165" y="626" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">Iterates until the goal is met</text>
+  <circle cx="1135" cy="685" r="7" fill="#8b7fd4"/>
+  <text x="1165" y="696" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">Self-corrects on test failures</text>
+  <circle cx="1135" cy="755" r="7" fill="#8b7fd4"/>
+  <text x="1165" y="766" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">Gathers context automatically</text>
+
+  <rect x="560" y="880" width="800" height="70" rx="35" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="925" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">Chat suggests - Agent Mode does.</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">One-Shot vs. Few-Shot</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
+    Default to one-shot; reach for examples when the pattern is non-standard or one-shot has already failed.
+  </text>
+
+  <rect x="130" y="300" width="720" height="520" rx="28" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="490" y="385" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="700" fill="#ffffff">One-shot</text>
+  <rect x="340" y="412" width="300" height="3" fill="#8b7fd4"/>
+  <text x="490" y="470" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#8b7fd4">no examples - just the ask</text>
+  <circle cx="195" cy="545" r="7" fill="#8b7fd4"/>
+  <text x="225" y="556" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">the default for most tasks</text>
+  <circle cx="195" cy="615" r="7" fill="#8b7fd4"/>
+  <text x="225" y="626" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">great where the model has strong</text>
+  <text x="225" y="662" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">priors: sorting, CRUD, API calls</text>
+  <circle cx="195" cy="730" r="7" fill="#8b7fd4"/>
+  <text x="225" y="741" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">cheapest and fastest to write</text>
+
+  <rect x="1070" y="300" width="720" height="520" rx="28" fill="#8b7fd4" fill-opacity="0.15" stroke="#8b7fd4" stroke-width="2"/>
+  <text x="1430" y="385" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="700" fill="#ffffff">Few-shot</text>
+  <rect x="1280" y="412" width="300" height="3" fill="#8b7fd4"/>
+  <text x="1430" y="470" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#8b7fd4">1-3 examples, then the ask</text>
+  <circle cx="1135" cy="545" r="7" fill="#8b7fd4"/>
+  <text x="1165" y="556" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">custom DSLs, config formats</text>
+  <circle cx="1135" cy="615" r="7" fill="#8b7fd4"/>
+  <text x="1165" y="626" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">specific docs or response shapes</text>
+  <circle cx="1135" cy="685" r="7" fill="#8b7fd4"/>
+  <text x="1165" y="696" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">label them "Example:", then</text>
+  <text x="1165" y="732" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">"now apply the same pattern to..."</text>
+  <text x="1165" y="790" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#9a90c8">costs more tokens - worth it when quality lags</text>
+
+  <rect x="430" y="880" width="1060" height="65" rx="32" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="922" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="600" fill="#ffffff" letter-spacing="1">An input/output example clarifies more than a paragraph of description.</text>
+</svg>

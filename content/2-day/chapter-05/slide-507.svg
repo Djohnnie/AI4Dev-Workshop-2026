@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">The "Tab Setup" Habit</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
+    60 seconds opening the right files is the highest-leverage thing you can do - with zero extra prompting.
+  </text>
+
+  <rect x="130" y="290" width="720" height="490" rx="28" fill="#ffffff" fill-opacity="0.04" stroke="#6a5fb8" stroke-width="1.5" stroke-dasharray="10 8"/>
+  <text x="490" y="375" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="700" fill="#9a90c8">Zero tabs open</text>
+  <rect x="370" y="405" width="240" height="3" fill="#6a5fb8"/>
+  <circle cx="195" cy="485" r="7" fill="#6a5fb8"/>
+  <text x="225" y="496" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#9a90c8">generic, statistically-average code</text>
+  <circle cx="195" cy="565" r="7" fill="#6a5fb8"/>
+  <text x="225" y="576" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#9a90c8">invented method names</text>
+  <circle cx="195" cy="645" r="7" fill="#6a5fb8"/>
+  <text x="225" y="656" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#9a90c8">patterns that don't match yours</text>
+  <circle cx="195" cy="725" r="7" fill="#6a5fb8"/>
+  <text x="225" y="736" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#9a90c8">you correct it by hand</text>
+
+  <text x="960" y="555" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="78" font-weight="700" fill="#8b7fd4" opacity="0.8">&#x2192;</text>
+
+  <rect x="1070" y="290" width="720" height="490" rx="28" fill="#8b7fd4" fill-opacity="0.15" stroke="#8b7fd4" stroke-width="2"/>
+  <text x="1430" y="375" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">3-5 related tabs</text>
+  <rect x="1310" y="405" width="240" height="3" fill="#8b7fd4"/>
+  <circle cx="1135" cy="485" r="7" fill="#8b7fd4"/>
+  <text x="1165" y="496" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">calls that match your interfaces</text>
+  <circle cx="1135" cy="565" r="7" fill="#8b7fd4"/>
+  <text x="1165" y="576" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">your naming, your conventions</text>
+  <circle cx="1135" cy="645" r="7" fill="#8b7fd4"/>
+  <text x="1165" y="656" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">tests consistent with your style</text>
+  <circle cx="1135" cy="725" r="7" fill="#8b7fd4"/>
+  <text x="1165" y="736" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">far less to fix</text>
+
+  <rect x="200" y="840" width="1520" height="80" rx="40" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="888" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="600" fill="#ffffff" letter-spacing="1">Open the interface, the related services, the test file - then close the irrelevant ones.</text>
+</svg>

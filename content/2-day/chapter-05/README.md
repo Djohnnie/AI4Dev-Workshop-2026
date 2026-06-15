@@ -2,7 +2,7 @@
 
 ---
 
-# Chapter 5— Speak AI's Language: Mastering Prompts & Context
+# Chapter 5 — Speak AI's Language: Mastering Prompts & Context
 
 > **Duration:** 90 minutes | Day 2, 09:00 – 10:30
 
@@ -248,6 +248,18 @@ Example bad prompts:
 - "fix the bug"
 - "make it work with TypeScript"
 - "add error handling"
+
+### Exercise: Escape Room DI Demo (15 min)
+Build a tiny Spectre.Console escape room in C# with the default .NET DI container. Then ask Copilot to replace the container with a custom one while keeping the game logic intact.
+
+Example prompt:
+- "Build a small custom DI container for this escape room app in C#. It must support singleton registrations, resolve constructor dependencies, and keep the Spectre.Console game working without changing the game logic."
+
+### Exercise: Context Prompt VSIX Demo (20 min)
+Build a Visual Studio 2026 extension that opens a prompt dialog from the editor context menu. Compare the same request with no context, FIM context, and IDE context so participants can feel the difference.
+
+Example prompt:
+- "Create a Visual Studio extension command that opens a dialog with a prompt box and a context selector. Send the prompt to Azure OpenAI using the Agent Framework, and make FIM context include a fixed number of lines before and after the cursor."
 
 ### Exercise: Context Variable Challenge (15 min)
 Participants are given a moderately complex, unfamiliar codebase. Using *only* `@workspace` and `#file` references (no scrolling through code manually), they must answer 5 questions:

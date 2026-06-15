@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Start With the Right Verb</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
+    The opening verb sets the register for everything that follows - each one signals a different kind of response.
+  </text>
+
+  <rect x="90" y="290" width="260" height="80" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="220" y="342" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="600" fill="#c4baea">Create</text>
+  <rect x="375" y="290" width="260" height="80" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="505" y="342" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="600" fill="#c4baea">Refactor</text>
+  <rect x="660" y="290" width="260" height="80" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="790" y="342" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="600" fill="#c4baea">Extract</text>
+  <rect x="945" y="290" width="260" height="80" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1075" y="342" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="600" fill="#c4baea">Convert</text>
+  <rect x="1230" y="290" width="260" height="80" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1360" y="342" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="600" fill="#c4baea">Migrate</text>
+  <rect x="1515" y="290" width="260" height="80" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1645" y="342" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="600" fill="#c4baea">Optimise</text>
+
+  <rect x="90" y="390" width="260" height="80" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="220" y="442" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="600" fill="#c4baea">Simplify</text>
+  <rect x="375" y="390" width="260" height="80" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="505" y="442" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="600" fill="#c4baea">Document</text>
+  <rect x="660" y="390" width="260" height="80" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="790" y="442" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="600" fill="#c4baea">Test</text>
+  <rect x="945" y="390" width="260" height="80" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1075" y="442" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="600" fill="#c4baea">Debug</text>
+  <rect x="1230" y="390" width="260" height="80" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1360" y="442" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="600" fill="#c4baea">Review</text>
+  <rect x="1515" y="390" width="260" height="80" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1645" y="442" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="600" fill="#c4baea">Explain</text>
+
+  <rect x="120" y="560" width="800" height="300" rx="24" fill="#ffffff" fill-opacity="0.04" stroke="#6a5fb8" stroke-width="1.5" stroke-dasharray="10 8"/>
+  <text x="520" y="635" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#9a90c8">Weak</text>
+  <rect x="420" y="660" width="200" height="3" fill="#6a5fb8"/>
+  <text x="520" y="730" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="30" fill="#9a90c8">"Refactor this"</text>
+  <text x="520" y="800" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#9a90c8">no goal - Copilot guesses what</text>
+  <text x="520" y="834" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#9a90c8">"better" means</text>
+
+  <rect x="1000" y="560" width="800" height="300" rx="24" fill="#8b7fd4" fill-opacity="0.15" stroke="#8b7fd4" stroke-width="2"/>
+  <text x="1400" y="635" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Strong</text>
+  <rect x="1300" y="660" width="200" height="3" fill="#8b7fd4"/>
+  <text x="1400" y="725" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="26" fill="#c4baea">"Refactor this to reduce cyclomatic</text>
+  <text x="1400" y="763" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="26" fill="#c4baea">complexity without changing the</text>
+  <text x="1400" y="801" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="26" fill="#c4baea">public interface"</text>
+  <text x="1400" y="840" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#9a90c8">scope + measurable goal + constraint</text>
+
+  <text x="960" y="925" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="700" fill="#c4baea">Same verb, very different result - the specifics carry the weight.</text>
+</svg>

@@ -54,4 +54,11 @@
   <Folder Name="/Chapter 3/Exercise 303/">
     <Project Path="chapter-03\303\CodeObfuscator\CodeObfuscator.csproj" />
   </Folder>
+  <Folder Name="/Chapter 5/" />
+  <Folder Name="/Chapter 5/Exercise 501/">
+    <Project Path="chapter-05\501\EscapeRoom.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 5/Exercise 502/">
+    <Project Path="chapter-05\502\ContextPromptExtension.csproj" Id="8f2a7c41-6e3b-4d58-9c1a-3b5e2f8d4a60" />
+  </Folder>
 </Solution>

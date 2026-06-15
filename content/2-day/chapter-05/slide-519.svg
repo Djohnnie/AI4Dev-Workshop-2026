@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Comment-Driven Development</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
+    Write the spec as comments first - they sit at the highest-weight position and become the specification.
+  </text>
+
+  <rect x="90" y="290" width="980" height="620" rx="20" fill="#1e1b33" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="130" y="355" font-family="'Consolas', 'Courier New', monospace" font-size="27" fill="#6a5fb8">/**</text>
+  <text x="130" y="392" font-family="'Consolas', 'Courier New', monospace" font-size="27" fill="#c4baea"> * Rate-limits calls per client key.</text>
+  <text x="130" y="429" font-family="'Consolas', 'Courier New', monospace" font-size="27" fill="#c4baea"> * @param key   client identifier</text>
+  <text x="130" y="466" font-family="'Consolas', 'Courier New', monospace" font-size="27" fill="#c4baea"> * @param limit max calls per window</text>
+  <text x="130" y="503" font-family="'Consolas', 'Courier New', monospace" font-size="27" fill="#c4baea"> * @returns true if allowed, false if</text>
+  <text x="130" y="540" font-family="'Consolas', 'Courier New', monospace" font-size="27" fill="#c4baea"> *          over the limit</text>
+  <text x="130" y="577" font-family="'Consolas', 'Courier New', monospace" font-size="27" fill="#6a5fb8"> */</text>
+  <text x="130" y="630" font-family="'Consolas', 'Courier New', monospace" font-size="27" fill="#c4baea">// use a sliding window in Redis</text>
+  <text x="130" y="667" font-family="'Consolas', 'Courier New', monospace" font-size="27" fill="#c4baea">// evict timestamps older than window</text>
+
+  <rect x="130" y="710" width="900" height="160" rx="12" fill="#8b7fd4" fill-opacity="0.18" stroke="#8b7fd4" stroke-width="1.5" stroke-dasharray="8 6"/>
+  <text x="580" y="775" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#ffffff">Copilot generates the body &#x2193;</text>
+  <text x="580" y="825" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">you never typed a line of implementation</text>
+
+  <rect x="1110" y="290" width="720" height="620" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1150" y="360" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">How to do it</text>
+  <rect x="1150" y="380" width="200" height="3" fill="#8b7fd4"/>
+  <circle cx="1170" cy="445" r="7" fill="#8b7fd4"/>
+  <text x="1200" y="456" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">write the JSDoc with @param,</text>
+  <text x="1200" y="492" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">@returns, @throws</text>
+  <circle cx="1170" cy="555" r="7" fill="#8b7fd4"/>
+  <text x="1200" y="566" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">add inline comments for each</text>
+  <text x="1200" y="602" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">major step</text>
+  <circle cx="1170" cy="665" r="7" fill="#8b7fd4"/>
+  <text x="1200" y="676" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">place the cursor below and</text>
+  <text x="1200" y="712" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">trigger a completion</text>
+
+  <text x="1150" y="800" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="#8b7fd4">The payoff</text>
+  <text x="1150" y="845" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">writing the comment forces clear</text>
+  <text x="1150" y="882" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">thinking - ambiguities surface early.</text>
+</svg>

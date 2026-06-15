@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+
+  <g transform="translate(1610 70)" opacity="0.22">
+    <circle cx="120" cy="120" r="96" fill="none" stroke="#c4baea" stroke-width="10"/>
+    <path d="M95 75 L170 120 L95 165 Z" fill="#c4baea"/>
+  </g>
+
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#8b7fd4" letter-spacing="3">LIVE DEMO</text>
+  <text x="80" y="190" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="68" font-weight="700" fill="#ffffff" letter-spacing="-1">Diagnose a Bug Without Opening a File</text>
+  <rect x="0" y="222" width="1920" height="4" fill="#8b7fd4"/>
+
+  <text x="80" y="290" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
+    processOrder occasionally sends duplicate emails. Navigate and fix using only @workspace and #file.
+  </text>
+
+  <rect x="90" y="345" width="1740" height="155" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="130" y="405" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#8b7fd4">1 - Locate</text>
+  <text x="130" y="455" font-family="'Consolas', 'Courier New', monospace" font-size="26" fill="#c4baea">@workspace Where is email sending handled, and where could a race condition occur</text>
+  <text x="130" y="487" font-family="'Consolas', 'Courier New', monospace" font-size="26" fill="#c4baea">in processOrder?</text>
+
+  <rect x="90" y="520" width="1740" height="155" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="130" y="580" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#8b7fd4">2 - Zoom in</text>
+  <text x="130" y="630" font-family="'Consolas', 'Courier New', monospace" font-size="26" fill="#c4baea">#file:orderProcessor.ts Explain why the email might be sent twice if two requests</text>
+  <text x="130" y="662" font-family="'Consolas', 'Courier New', monospace" font-size="26" fill="#c4baea">arrive simultaneously.</text>
+
+  <rect x="90" y="695" width="1740" height="155" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="130" y="755" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#8b7fd4">3 - Fix</text>
+  <text x="130" y="805" font-family="'Consolas', 'Courier New', monospace" font-size="26" fill="#c4baea">Suggest a fix using a distributed lock or idempotency key. Assume Redis is available.</text>
+
+  <rect x="200" y="890" width="1520" height="70" rx="35" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="935" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff">Debrief: the bug was diagnosed and fixed without manually opening a single file.</text>
+</svg>

@@ -2,7 +2,7 @@
 
 Welcome to the hands-on exercise collection for the **AI for Developers Workshop 2026**. Each exercise is paired with a workshop chapter and gives you a focused, self-contained coding challenge designed to practise a specific GitHub Copilot skill or AI-assisted development technique.
 
-Most exercises are written in **C# (.NET 10)** and follow the same project layout: a library project containing the implementation and a companion test project using **xUnit**. Open the solution file [`exercises.slnx`](exercises.slnx) in Visual Studio or Rider to load the project-based exercises at once. Some chapter 3 exercises are intentionally lighter-weight workflow labs that start from an earlier exercise instead of shipping a separate solution.
+Most exercises are written in **C# (.NET 10)** and follow the same project layout: a library project containing the implementation and a companion test project using **xUnit**. Open the solution file [`exercises.slnx`](exercises.slnx) in Visual Studio or Rider to load the project-based exercises at once. Some chapter 3 and chapter 5 exercises are intentionally lighter-weight workflow labs or standalone console apps or VSIX extensions instead of shipping a separate solution.
 
 ---
 
@@ -25,6 +25,9 @@ Most exercises are written in **C# (.NET 10)** and follow the same project layou
 | [301](chapter-03/301/README.md) | [Who Does Copilot Picture?](chapter-03/301/README.md) | Chapter 3, Exercise 1 | Fairness; spotting implicit bias in generated output | ⭐⭐ |
 | [302](chapter-03/302/README.md) | [Tool Calls with Ollama](chapter-03/302/README.md) | Chapter 3, Exercise 2 | Local models and tool calling | ⭐⭐ |
 | [303](chapter-03/303/README.md) | [Code Obfuscator MCP Tool](chapter-03/303/README.md) | Chapter 3, Exercise 3 | Building an MCP tool | ⭐⭐⭐⭐ |
+| [501](chapter-05/501/README.md) | [Escape Room DI Demo](chapter-05/501/README.md) | Chapter 5, Exercise 1 | Prompting a custom DI container with Spectre.Console | ⭐⭐ |
+| [502](chapter-05/502/README.md) | [Context Prompt VSIX Demo](chapter-05/502/README.md) | Chapter 5, Exercise 2 | Prompting with no context, FIM context, and IDE context | ⭐⭐⭐ |
+| [501](chapter-05/501/README.md) | [Escape Room DI Demo](chapter-05/501/README.md) | Chapter 5, Exercise 1 | Prompting a custom DI container with Spectre.Console | ⭐⭐ |
 
 ---
 
@@ -35,6 +38,8 @@ Most exercises are written in **C# (.NET 10)** and follow the same project layou
 | Chapter 1 | [101 Token Visualizer](chapter-01/101/README.md) · [102 Stateless LLM Chat](chapter-01/102/README.md) · [103 Chat History & Roles](chapter-01/103/README.md) · [104 Tool Calls](chapter-01/104/README.md) · [105 MCP Tool Calls](chapter-01/105/README.md) · [106 Agent Orchestration](chapter-01/106/README.md) |
 | Chapter 2 | [201 Factorial Calculator](chapter-02/201/README.md) · [202 Palindrome Checker](chapter-02/202/README.md) · [203 Mystery Processor](chapter-02/203/README.md) · [204 Shortest Path](chapter-02/204/README.md) · [205 Caesar Cipher](chapter-02/205/README.md) · [206 String Search](chapter-02/206/README.md) |
 | Chapter 3 | [301 Who Does Copilot Picture?](chapter-03/301/README.md) · [302 Tool Calls with Ollama](chapter-03/302/README.md) · [303 Code Obfuscator MCP Tool](chapter-03/303/README.md) |
+| Chapter 5 | [501 Escape Room DI Demo](chapter-05/501/README.md) · [502 Context Prompt VSIX Demo](chapter-05/502/README.md) |
+| Chapter 5 | [501 Escape Room DI Demo](chapter-05/501/README.md) |
 
 ---
 

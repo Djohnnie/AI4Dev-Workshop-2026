@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Shells &amp; Where It Earns Its Keep</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
+    It detects your shell and tailors the syntax - and shines on tools with dozens of flags.
+  </text>
+
+  <text x="80" y="285" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Supported shells</text>
+  <rect x="80" y="305" width="280" height="3" fill="#8b7fd4"/>
+  <rect x="90" y="330" width="420" height="90" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="300" y="388" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#c4baea">bash</text>
+  <rect x="540" y="330" width="420" height="90" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="750" y="388" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#c4baea">zsh</text>
+  <rect x="990" y="330" width="420" height="90" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1200" y="388" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#c4baea">PowerShell</text>
+  <rect x="1440" y="330" width="390" height="90" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1635" y="388" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#c4baea">fish</text>
+
+  <text x="80" y="500" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Use cases - any tool you use occasionally but don't have memorised</text>
+  <rect x="80" y="520" width="320" height="3" fill="#8b7fd4"/>
+
+  <rect x="90" y="555" width="420" height="290" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="300" y="625" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="40" font-weight="700" fill="#8b7fd4">git</text>
+  <text x="300" y="690" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">log --author, --since,</text>
+  <text x="300" y="725" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">path filters; bisect,</text>
+  <text x="300" y="760" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">rebase, reflog</text>
+
+  <rect x="540" y="555" width="420" height="290" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="750" y="625" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="40" font-weight="700" fill="#8b7fd4">docker</text>
+  <text x="750" y="690" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">multi-stage builds,</text>
+  <text x="750" y="725" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">--target and</text>
+  <text x="750" y="760" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">--build-arg flags</text>
+
+  <rect x="990" y="555" width="420" height="290" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1200" y="625" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="40" font-weight="700" fill="#8b7fd4">kubectl</text>
+  <text x="1200" y="690" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">field-selectors,</text>
+  <text x="1200" y="725" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">jsonpath - hundreds</text>
+  <text x="1200" y="760" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">of flags, none memorised</text>
+
+  <rect x="1440" y="555" width="390" height="290" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1635" y="625" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="40" font-weight="700" fill="#8b7fd4">jq</text>
+  <text x="1635" y="690" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">filter paths,</text>
+  <text x="1635" y="725" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">iteration, CSV output -</text>
+  <text x="1635" y="760" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">famously hard to compose</text>
+
+  <rect x="430" y="890" width="1060" height="65" rx="32" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="932" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="600" fill="#ffffff" letter-spacing="1">The replacement for "Google it + copy from Stack Overflow".</text>
+</svg>
