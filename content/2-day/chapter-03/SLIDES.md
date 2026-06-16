@@ -135,3 +135,27 @@
 ![Slide 29 — Exercise 303 — Code Obfuscator MCP Tool](slide-329.svg)
 
 → [Exercise 303 — Code Obfuscator MCP Tool](../../../exercises/chapter-03/303/README.md)
+
+## Slide 30 — Interactive Quiz 7
+
+![Slide 30 — Interactive Quiz 7](slide-330.svg)
+
+## Slide 31 — Interactive Quiz 7 — Answer
+
+![Slide 31 — Interactive Quiz 7 — Answer](slide-331.svg)
+
+## Slide 32 — Interactive Quiz 8
+
+![Slide 32 — Interactive Quiz 8](slide-332.svg)
+
+## Slide 33 — Interactive Quiz 8 — Answer
+
+![Slide 33 — Interactive Quiz 8 — Answer](slide-333.svg)
+
+## Slide 34 — Interactive Quiz 9
+
+![Slide 34 — Interactive Quiz 9](slide-334.svg)
+
+## Slide 35 — Interactive Quiz 9 — Answer
+
+![Slide 35 — Interactive Quiz 9 — Answer](slide-335.svg)

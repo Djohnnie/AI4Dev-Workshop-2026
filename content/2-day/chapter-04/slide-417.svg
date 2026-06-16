@@ -11,46 +11,44 @@
   </defs>
 
   <rect width="1920" height="1080" fill="url(#bgGlow)"/>
-  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
-  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
-  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
-  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Iterating: Accept, Reject, Undo</text>
-  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+  <g transform="translate(1610 70)" opacity="0.22">
+    <circle cx="120" cy="120" r="96" fill="none" stroke="#c4baea" stroke-width="10"/>
+    <path d="M95 75 L170 120 L95 165 Z" fill="#c4baea"/>
+  </g>
 
-  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
-    Each file gets a standard diff (red removed, green added) and its own Accept / Reject.
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#8b7fd4" letter-spacing="3">LIVE DEMO</text>
+  <text x="80" y="190" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="68" font-weight="700" fill="#ffffff" letter-spacing="-1">Rename a Field Across Four Files</text>
+  <rect x="0" y="222" width="1920" height="4" fill="#8b7fd4"/>
+
+  <text x="80" y="290" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
+    A user module: model, service, controller, and test. Add all four, write one prompt:
   </text>
 
-  <rect x="90" y="300" width="560" height="280" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="370" y="385" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Accept All</text>
-  <rect x="290" y="405" width="160" height="3" fill="#8b7fd4"/>
-  <text x="370" y="470" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Apply every change across</text>
-  <text x="370" y="507" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">the working set once you</text>
-  <text x="370" y="544" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">are satisfied with the diffs.</text>
+  <rect x="90" y="335" width="1740" height="120" rx="16" fill="#1e1b33" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="130" y="410" font-family="'Consolas', 'Courier New', monospace" font-size="32" font-weight="400" fill="#c4baea">&gt; Rename createdAt to registeredAt throughout this module, including JSDoc and test assertions.</text>
 
-  <rect x="680" y="300" width="560" height="280" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="960" y="385" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Reject All</text>
-  <rect x="880" y="405" width="160" height="3" fill="#8b7fd4"/>
-  <text x="960" y="470" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Discard everything and</text>
-  <text x="960" y="507" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">return every file to its</text>
-  <text x="960" y="544" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">pre-edit state in one click.</text>
+  <rect x="90" y="500" width="400" height="300" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="290" y="575" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="30" font-weight="700" fill="#ffffff">user.model.ts</text>
+  <rect x="90" y="500" width="400" height="300" rx="20" fill="none" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="290" y="640" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">field definition</text>
 
-  <rect x="1270" y="300" width="560" height="280" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1550" y="385" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Per-file</text>
-  <rect x="1470" y="405" width="160" height="3" fill="#8b7fd4"/>
-  <text x="1550" y="470" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Each file has its own</text>
-  <text x="1550" y="507" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Accept/Reject - keep 3,</text>
-  <text x="1550" y="544" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">reject 1, untouched rest.</text>
+  <rect x="540" y="500" width="400" height="300" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="740" y="575" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="30" font-weight="700" fill="#ffffff">user.service.ts</text>
+  <text x="740" y="640" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">read &amp; write sites</text>
 
-  <rect x="90" y="615" width="1740" height="240" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="130" y="685" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Don't reject everything when a change is partially right</text>
-  <rect x="130" y="707" width="320" height="3" fill="#8b7fd4"/>
-  <text x="130" y="765" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Accept what's correct, then write a follow-up prompt on just the files that need adjusting:</text>
-  <text x="130" y="812" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#8b7fd4">"The UserService changes are correct, but the test file should use Vitest's vi.fn() not Jest's jest.fn()."</text>
+  <rect x="990" y="500" width="400" height="300" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1190" y="575" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="29" font-weight="700" fill="#ffffff">user.controller.ts</text>
+  <text x="1190" y="640" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">response shape + JSDoc</text>
 
-  <rect x="510" y="900" width="900" height="60" rx="30" fill="#8b7fd4" opacity="0.22"/>
-  <text x="960" y="940" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="1">Standard Ctrl+Z still works after accepting.</text>
+  <rect x="1440" y="500" width="400" height="300" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1640" y="575" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="30" font-weight="700" fill="#ffffff">user.test.ts</text>
+  <text x="1640" y="640" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">assertions updated</text>
+
+  <text x="960" y="730" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea" opacity="0">spacer</text>
+
+  <rect x="90" y="870" width="1740" height="110" rx="16" fill="#8b7fd4" opacity="0.18"/>
+  <text x="960" y="918" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff">Walk each diff: every reference updated, nothing missed - including JSDoc a regex would have skipped.</text>
+  <text x="960" y="955" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Manually this is 4 inline chats or a context-blind find-and-replace.</text>
 </svg>

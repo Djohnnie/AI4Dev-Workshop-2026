@@ -17,53 +17,40 @@
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">The Tools Agent Mode Can Reach</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Staying in Control</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
   <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
-    The model decides which tool to call at each step - based on what it needs to know or do.
+    Every action has a checkpoint - review changes the same way you review any incoming code.
   </text>
 
-  <!-- Row 1: 3 cards -->
-  <rect x="90" y="300" width="560" height="290" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="130" y="375" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Read files</text>
-  <rect x="130" y="395" width="180" height="3" fill="#8b7fd4"/>
-  <text x="130" y="455" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Inspects existing code first</text>
-  <text x="130" y="492" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">to learn structure, naming,</text>
-  <text x="130" y="529" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">and existing patterns</text>
+  <rect x="90" y="300" width="560" height="430" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="370" y="400" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Approve commands</text>
+  <rect x="270" y="428" width="200" height="3" fill="#8b7fd4"/>
+  <text x="370" y="505" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">It shows the exact command</text>
+  <text x="370" y="545" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">and waits. Read it, edit it,</text>
+  <text x="370" y="585" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">or reject it.</text>
+  <text x="370" y="655" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#8b7fd4">Auto-approve exists - avoid it</text>
+  <text x="370" y="688" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#8b7fd4">on a real dev machine.</text>
 
-  <rect x="680" y="300" width="560" height="290" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="720" y="375" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Write / edit files</text>
-  <rect x="720" y="395" width="180" height="3" fill="#8b7fd4"/>
-  <text x="720" y="455" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Applies diffs that appear in</text>
-  <text x="720" y="492" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">the diff view - never silently</text>
-  <text x="720" y="529" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">written to disk</text>
+  <rect x="680" y="300" width="560" height="430" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="400" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Review diffs</text>
+  <rect x="860" y="428" width="200" height="3" fill="#8b7fd4"/>
+  <text x="960" y="505" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Every edit is a diff in the</text>
+  <text x="960" y="545" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">standard change view.</text>
+  <text x="960" y="615" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">The diff is your audit trail -</text>
+  <text x="960" y="655" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">because, in effect, you are</text>
+  <text x="960" y="695" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">the reviewer.</text>
 
-  <rect x="1270" y="300" width="560" height="290" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1310" y="375" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Terminal</text>
-  <rect x="1310" y="395" width="180" height="3" fill="#8b7fd4"/>
-  <text x="1310" y="455" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Runs tests, builds, linters;</text>
-  <text x="1310" y="492" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">reads stdout/stderr to know</text>
-  <text x="1310" y="529" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">if the code works</text>
+  <rect x="1270" y="300" width="560" height="430" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1550" y="400" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Keep or Undo</text>
+  <rect x="1450" y="428" width="200" height="3" fill="#8b7fd4"/>
+  <text x="1550" y="505" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">When it finishes, you see a</text>
+  <text x="1550" y="545" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">summary of all changes.</text>
+  <text x="1550" y="615" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Keep all, undo all, or undo</text>
+  <text x="1550" y="655" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">specific files. Full rollback</text>
+  <text x="1550" y="695" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">is always available.</text>
 
-  <!-- Row 2: 2 cards -->
-  <rect x="90" y="625" width="560" height="290" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="130" y="700" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Workspace search</text>
-  <rect x="130" y="720" width="180" height="3" fill="#8b7fd4"/>
-  <text x="130" y="780" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Semantic search to discover</text>
-  <text x="130" y="817" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">relevant files and symbols -</text>
-  <text x="130" y="854" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">without you pointing the way</text>
-
-  <rect x="680" y="625" width="560" height="290" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="720" y="700" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">MCP tools</text>
-  <rect x="720" y="720" width="180" height="3" fill="#8b7fd4"/>
-  <text x="720" y="780" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Any tool you register -</text>
-  <text x="720" y="817" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">DB queries, API calls,</text>
-  <text x="720" y="854" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">deployments, ticket lookups</text>
-
-  <rect x="1270" y="625" width="560" height="290" rx="24" fill="#8b7fd4" fill-opacity="0.15" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1550" y="730" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">The key idea</text>
-  <text x="1550" y="800" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Chat has none of these by</text>
-  <text x="1550" y="838" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">default. Tools are what turn</text>
-  <text x="1550" y="876" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">answers into actions.</text>
+  <rect x="430" y="800" width="1060" height="70" rx="35" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="845" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">You remain in control at every decision point.</text>
 </svg>

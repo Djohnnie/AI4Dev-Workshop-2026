@@ -11,34 +11,59 @@
   </defs>
 
   <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <g transform="translate(1610 70)" opacity="0.22">
-    <circle cx="120" cy="120" r="96" fill="none" stroke="#c4baea" stroke-width="10"/>
-    <path d="M95 75 L170 120 L95 165 Z" fill="#c4baea"/>
-  </g>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="68" font-weight="700" fill="#ffffff" letter-spacing="-1">Step 3 &amp; 4 — Review, Then Execute</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#8b7fd4" letter-spacing="3">LIVE DEMO</text>
-  <text x="80" y="190" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="68" font-weight="700" fill="#ffffff" letter-spacing="-1">Find Every TODO in One Line</text>
-  <rect x="0" y="222" width="1920" height="4" fill="#8b7fd4"/>
-
-  <text x="80" y="290" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
-    A realistic task everyone relates to - ask, then explain the result.
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
+    The plan is yours to shape — approve it when it's right, then let Copilot build.
   </text>
 
-  <text x="80" y="375" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#ffffff">1 - Ask</text>
-  <rect x="90" y="395" width="1740" height="90" rx="16" fill="#1e1b33" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="120" y="450" font-family="'Consolas', 'Courier New', monospace" font-size="28" fill="#c4baea">&gt; gh copilot suggest "find all TODO comments in TypeScript files, show file and line"</text>
+  <!-- Vertical divider -->
+  <line x1="960" y1="248" x2="960" y2="990" stroke="#8b7fd4" stroke-width="1.5" opacity="0.4"/>
 
-  <text x="80" y="555" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#ffffff">2 - Expected output (either is correct)</text>
-  <rect x="90" y="575" width="1740" height="150" rx="16" fill="#1e1b33" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="120" y="635" font-family="'Consolas', 'Courier New', monospace" font-size="28" fill="#c4baea">grep -rn "TODO" --include="*.ts" .</text>
-  <text x="120" y="695" font-family="'Consolas', 'Courier New', monospace" font-size="28" fill="#c4baea">find . -name "*.ts" -exec grep -Hn "TODO" {} \;</text>
+  <!-- Left panel: Step 3 — Review & Edit -->
+  <text x="120" y="285" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="#8b7fd4" letter-spacing="3">STEP 3</text>
+  <text x="120" y="345" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">Review &amp; Edit</text>
+  <rect x="120" y="365" width="280" height="3" fill="#8b7fd4"/>
 
-  <text x="80" y="790" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#ffffff">3 - Run it &amp; explain it</text>
-  <rect x="90" y="810" width="1740" height="80" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="120" y="858" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Run against the workshop repo for real output, then pipe the command to explain to close the loop.</text>
+  <circle cx="148" cy="433" r="7" fill="#8b7fd4"/>
+  <text x="178" y="444" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Read the generated plan draft</text>
+  <circle cx="148" cy="498" r="7" fill="#8b7fd4"/>
+  <text x="178" y="509" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Adjust any requirements you want to change</text>
+  <circle cx="148" cy="563" r="7" fill="#8b7fd4"/>
+  <text x="178" y="574" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Ask Copilot to revise specific steps</text>
+  <circle cx="148" cy="628" r="7" fill="#8b7fd4"/>
+  <text x="178" y="639" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Repeat the conversation until the plan</text>
+  <text x="178" y="675" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">matches your intent</text>
+  <circle cx="148" cy="728" r="7" fill="#8b7fd4"/>
+  <text x="178" y="739" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Nothing is generated until you approve</text>
 
-  <rect x="430" y="915" width="1060" height="55" rx="27" fill="#8b7fd4" opacity="0.22"/>
-  <text x="960" y="952" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="600" fill="#ffffff" letter-spacing="1">Pre-seed a few TODOs so the output is concrete and satisfying.</text>
+  <rect x="120" y="820" width="760" height="70" rx="16" fill="#ffffff" fill-opacity="0.08" stroke="#8b7fd4" stroke-width="1"/>
+  <text x="500" y="863" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="400" fill="#c4baea">This is the safety gate — no code before your go-ahead.</text>
+
+  <!-- Right panel: Step 4 — Seamless Execution -->
+  <text x="1000" y="285" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="#8b7fd4" letter-spacing="3">STEP 4</text>
+  <text x="1000" y="345" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">Seamless Execution</text>
+  <rect x="1000" y="365" width="280" height="3" fill="#8b7fd4"/>
+
+  <circle cx="1028" cy="433" r="7" fill="#8b7fd4"/>
+  <text x="1058" y="444" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Hand the approved plan to Agent Mode</text>
+  <circle cx="1028" cy="498" r="7" fill="#8b7fd4"/>
+  <text x="1058" y="509" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Copilot implements each step in sequence</text>
+  <circle cx="1028" cy="563" r="7" fill="#8b7fd4"/>
+  <text x="1058" y="574" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Tracks sub-tasks as it goes</text>
+  <circle cx="1028" cy="628" r="7" fill="#8b7fd4"/>
+  <text x="1058" y="639" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">No surprises — only what was planned</text>
+  <circle cx="1028" cy="693" r="7" fill="#8b7fd4"/>
+  <text x="1058" y="704" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">The approved plan is the contract:</text>
+  <text x="1058" y="740" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Copilot stays on task, no drift</text>
+
+  <rect x="1000" y="820" width="800" height="70" rx="16" fill="#ffffff" fill-opacity="0.08" stroke="#8b7fd4" stroke-width="1"/>
+  <text x="1400" y="863" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="400" fill="#c4baea">Or run it on autopilot — Copilot works through the list unattended.</text>
 </svg>

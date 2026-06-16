@@ -1,0 +1,29 @@
+@baseUrl = http://localhost:5000
+@taskId = replace-with-id-from-create-response
+
+### Get all tasks
+GET {{baseUrl}}/tasks
+Accept: application/json
+
+### Create a task
+POST {{baseUrl}}/tasks
+Content-Type: application/json
+
+{
+  "title": "Buy groceries"
+}
+
+### Create another task
+POST {{baseUrl}}/tasks
+Content-Type: application/json
+
+{
+  "title": "Write unit tests"
+}
+
+### Complete a task  —  copy an id from a GET or POST response into @taskId above
+PUT {{baseUrl}}/tasks/{{taskId}}/complete
+Accept: application/json
+
+### Remove a task  —  copy an id from a GET or POST response into @taskId above
+DELETE {{baseUrl}}/tasks/{{taskId}}

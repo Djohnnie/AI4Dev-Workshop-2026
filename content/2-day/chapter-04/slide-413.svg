@@ -11,37 +11,14 @@
   </defs>
 
   <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="460" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="320" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="160" cy="960" r="380" fill="url(#circleGlow)"/>
+  <circle cx="160" cy="960" r="260" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <!-- play / demo glyph -->
-  <g transform="translate(1610 70)" opacity="0.22">
-    <circle cx="120" cy="120" r="96" fill="none" stroke="#c4baea" stroke-width="10"/>
-    <path d="M95 75 L170 120 L95 165 Z" fill="#c4baea"/>
-  </g>
-
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#8b7fd4" letter-spacing="3">LIVE DEMO</text>
-  <text x="80" y="190" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="68" font-weight="700" fill="#ffffff" letter-spacing="-1">Validate Every Endpoint - and Test It</text>
-  <rect x="0" y="222" width="1920" height="4" fill="#8b7fd4"/>
-
-  <text x="80" y="290" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
-    A small Express / FastAPI app with no validation. One prompt to Agent Mode:
-  </text>
-
-  <rect x="90" y="335" width="1740" height="120" rx="16" fill="#1e1b33" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="130" y="410" font-family="'Consolas', 'Courier New', monospace" font-size="34" font-weight="400" fill="#c4baea">&gt; Add input validation to all API endpoints and write tests for them.</text>
-
-  <text x="80" y="540" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Narrate the loop as it runs</text>
-  <rect x="80" y="560" width="320" height="3" fill="#8b7fd4"/>
-
-  <circle cx="105" cy="625" r="7" fill="#8b7fd4"/>
-  <text x="135" y="636" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">"It's scanning the routes directory" - reads the existing code first</text>
-  <circle cx="105" cy="690" r="7" fill="#8b7fd4"/>
-  <text x="135" y="701" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">"Now it's adding validation to the POST handler" - coordinated multi-file edits</text>
-  <circle cx="105" cy="755" r="7" fill="#8b7fd4"/>
-  <text x="135" y="766" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">Pause at the approval prompt - show the dialog, explain the command, then approve</text>
-  <circle cx="105" cy="820" r="7" fill="#8b7fd4"/>
-  <text x="135" y="831" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">"A test failed - watch it fix itself" - the self-correction moment lands the point</text>
-
-  <rect x="90" y="890" width="1740" height="80" rx="16" fill="#8b7fd4" opacity="0.18"/>
-  <text x="960" y="938" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff">~3-5 minutes of real time. Pre-run it twice to know the timing - and keep a recording as backup.</text>
+  <text x="960" y="430" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#8b7fd4" letter-spacing="6">IN SECTION 1 — AGENT MODE</text>
+  <text x="960" y="560" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="96" font-weight="800" fill="#ffffff" letter-spacing="-2">Copilot Edits</text>
+  <rect x="660" y="610" width="600" height="4" fill="#8b7fd4" rx="2"/>
+  <text x="960" y="700" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="300" fill="#c4baea" letter-spacing="1">Multi-file editing — you choose the files, Copilot keeps them consistent</text>
 </svg>

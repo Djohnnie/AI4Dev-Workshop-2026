@@ -107,3 +107,27 @@
 ![Slide 24 — Exercise 106 — Agent Orchestration](slide-124.svg)
 
 → [Exercise 106 — Agent Orchestration](../../../exercises/chapter-01/106/README.md)
+
+## Slide 25 — Interactive Quiz 1
+
+![Slide 25 — Interactive Quiz 1](slide-125.svg)
+
+## Slide 26 — Interactive Quiz 1 — Answer
+
+![Slide 26 — Interactive Quiz 1 — Answer](slide-126.svg)
+
+## Slide 27 — Interactive Quiz 2
+
+![Slide 27 — Interactive Quiz 2](slide-127.svg)
+
+## Slide 28 — Interactive Quiz 2 — Answer
+
+![Slide 28 — Interactive Quiz 2 — Answer](slide-128.svg)
+
+## Slide 29 — Interactive Quiz 3
+
+![Slide 29 — Interactive Quiz 3](slide-129.svg)
+
+## Slide 30 — Interactive Quiz 3 — Answer
+
+![Slide 30 — Interactive Quiz 3 — Answer](slide-130.svg)

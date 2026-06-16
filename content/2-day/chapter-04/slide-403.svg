@@ -34,10 +34,10 @@
 
   <rect x="680" y="300" width="560" height="300" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="720" y="400" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" fill="#8b7fd4">2</text>
-  <text x="720" y="470" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Copilot Edits</text>
+  <text x="720" y="470" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Plan Mode</text>
   <rect x="720" y="490" width="200" height="3" fill="#8b7fd4"/>
-  <text x="720" y="545" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Coordinated edits across</text>
-  <text x="720" y="582" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">many files at once.</text>
+  <text x="720" y="545" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Plan before you code —</text>
+  <text x="720" y="582" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">review the strategy first.</text>
 
   <rect x="1270" y="300" width="560" height="300" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="1310" y="400" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" fill="#8b7fd4">3</text>

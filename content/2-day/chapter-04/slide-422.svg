@@ -17,51 +17,52 @@
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Shells &amp; Where It Earns Its Keep</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="68" font-weight="700" fill="#ffffff" letter-spacing="-1">Step 1 &amp; 2 — From Questions to Blueprint</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
   <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
-    It detects your shell and tailors the syntax - and shines on tools with dozens of flags.
+    Copilot first clarifies what you need, then maps out how to build it — all in plain language.
   </text>
 
-  <text x="80" y="285" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Supported shells</text>
-  <rect x="80" y="305" width="280" height="3" fill="#8b7fd4"/>
-  <rect x="90" y="330" width="420" height="90" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="300" y="388" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#c4baea">bash</text>
-  <rect x="540" y="330" width="420" height="90" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="750" y="388" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#c4baea">zsh</text>
-  <rect x="990" y="330" width="420" height="90" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1200" y="388" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#c4baea">PowerShell</text>
-  <rect x="1440" y="330" width="390" height="90" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1635" y="388" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#c4baea">fish</text>
+  <!-- Vertical divider -->
+  <line x1="960" y1="248" x2="960" y2="990" stroke="#8b7fd4" stroke-width="1.5" opacity="0.4"/>
 
-  <text x="80" y="500" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Use cases - any tool you use occasionally but don't have memorised</text>
-  <rect x="80" y="520" width="320" height="3" fill="#8b7fd4"/>
+  <!-- Left panel: Step 1 — Clarifying Questions -->
+  <text x="120" y="285" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="#8b7fd4" letter-spacing="3">STEP 1</text>
+  <text x="120" y="345" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">Clarifying Questions</text>
+  <rect x="120" y="365" width="280" height="3" fill="#8b7fd4"/>
 
-  <rect x="90" y="555" width="420" height="290" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="300" y="625" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="40" font-weight="700" fill="#8b7fd4">git</text>
-  <text x="300" y="690" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">log --author, --since,</text>
-  <text x="300" y="725" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">path filters; bisect,</text>
-  <text x="300" y="760" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">rebase, reflog</text>
+  <circle cx="148" cy="433" r="7" fill="#8b7fd4"/>
+  <text x="178" y="444" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Copilot reads your high-level goal</text>
+  <circle cx="148" cy="498" r="7" fill="#8b7fd4"/>
+  <text x="178" y="509" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Scans your existing codebase for context</text>
+  <circle cx="148" cy="563" r="7" fill="#8b7fd4"/>
+  <text x="178" y="574" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Asks targeted questions about scope,</text>
+  <text x="178" y="610" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">libraries, and design decisions</text>
+  <circle cx="148" cy="663" r="7" fill="#8b7fd4"/>
+  <text x="178" y="674" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">You answer — scope is locked before</text>
+  <text x="178" y="710" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Copilot generates anything</text>
 
-  <rect x="540" y="555" width="420" height="290" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="750" y="625" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="40" font-weight="700" fill="#8b7fd4">docker</text>
-  <text x="750" y="690" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">multi-stage builds,</text>
-  <text x="750" y="725" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">--target and</text>
-  <text x="750" y="760" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">--build-arg flags</text>
+  <rect x="120" y="800" width="760" height="70" rx="16" fill="#ffffff" fill-opacity="0.08" stroke="#8b7fd4" stroke-width="1"/>
+  <text x="500" y="843" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="400" fill="#c4baea">No more "that's not what I meant" moments.</text>
 
-  <rect x="990" y="555" width="420" height="290" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1200" y="625" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="40" font-weight="700" fill="#8b7fd4">kubectl</text>
-  <text x="1200" y="690" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">field-selectors,</text>
-  <text x="1200" y="725" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">jsonpath - hundreds</text>
-  <text x="1200" y="760" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">of flags, none memorised</text>
+  <!-- Right panel: Step 2 — Step-by-Step Blueprint -->
+  <text x="1000" y="285" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="#8b7fd4" letter-spacing="3">STEP 2</text>
+  <text x="1000" y="345" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">Step-by-Step Blueprint</text>
+  <rect x="1000" y="365" width="280" height="3" fill="#8b7fd4"/>
 
-  <rect x="1440" y="555" width="390" height="290" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1635" y="625" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="40" font-weight="700" fill="#8b7fd4">jq</text>
-  <text x="1635" y="690" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">filter paths,</text>
-  <text x="1635" y="725" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">iteration, CSV output -</text>
-  <text x="1635" y="760" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">famously hard to compose</text>
+  <circle cx="1028" cy="433" r="7" fill="#8b7fd4"/>
+  <text x="1058" y="444" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Generates a structured list of actionable steps</text>
+  <circle cx="1028" cy="498" r="7" fill="#8b7fd4"/>
+  <text x="1058" y="509" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Highlights potential pitfalls upfront</text>
+  <circle cx="1028" cy="563" r="7" fill="#8b7fd4"/>
+  <text x="1058" y="574" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Proposes a logic flow in plain language</text>
+  <circle cx="1028" cy="628" r="7" fill="#8b7fd4"/>
+  <text x="1058" y="639" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Sub-tasks with clear dependencies</text>
+  <circle cx="1028" cy="693" r="7" fill="#8b7fd4"/>
+  <text x="1058" y="704" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Everything visible and editable before</text>
+  <text x="1058" y="740" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">execution starts</text>
 
-  <rect x="430" y="890" width="1060" height="65" rx="32" fill="#8b7fd4" opacity="0.22"/>
-  <text x="960" y="932" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="600" fill="#ffffff" letter-spacing="1">The replacement for "Google it + copy from Stack Overflow".</text>
+  <rect x="1000" y="800" width="800" height="70" rx="16" fill="#ffffff" fill-opacity="0.08" stroke="#8b7fd4" stroke-width="1"/>
+  <text x="1400" y="843" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="400" fill="#c4baea">The blueprint is editable — this is not a one-way output.</text>
 </svg>

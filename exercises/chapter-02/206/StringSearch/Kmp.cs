@@ -5,12 +5,7 @@ namespace StringSearch;
 /// </summary>
 public static class Kmp
 {
-    /// <summary>
-    /// Finds all start indices where <paramref name="pattern"/> occurs in <paramref name="text"/>.
-    /// </summary>
-    /// <param name="text">The text to search in.</param>
-    /// <param name="pattern">The pattern to search for.</param>
-    /// <returns>A read-only list of zero-based match indices.</returns>
+
     public static IReadOnlyList<int> Search(string text, string pattern)
     {
         var results = new List<int>();

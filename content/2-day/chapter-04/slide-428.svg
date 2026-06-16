@@ -17,36 +17,59 @@
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Three Layers of Instructions</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">More Than Code &#x2014; Everything in Your Directory</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
   <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
-    All present layers apply at once - combined into the model's context on every request.
+    Open a terminal in any folder &#x2014; code, docs, slides, configs, and projects are all in scope.
   </text>
 
-  <!-- Pyramid: org (top, narrow) -> repo (mid) -> user (bottom, wide). Render as stacked tiers + side detail -->
-  <rect x="660" y="290" width="600" height="120" rx="18" fill="#8b7fd4" fill-opacity="0.30" stroke="#8b7fd4" stroke-width="2"/>
-  <text x="960" y="345" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Organisation</text>
-  <text x="960" y="388" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Enterprise admins - applies org-wide</text>
+  <!-- Card 1: Documentation -->
+  <rect x="80" y="280" width="560" height="400" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="120" y="355" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Documentation</text>
+  <rect x="120" y="375" width="200" height="3" fill="#8b7fd4"/>
+  <circle cx="143" cy="430" r="6" fill="#8b7fd4"/>
+  <text x="165" y="439" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">README and CHANGELOG files</text>
+  <circle cx="143" cy="479" r="6" fill="#8b7fd4"/>
+  <text x="165" y="488" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">API reference from source code</text>
+  <circle cx="143" cy="528" r="6" fill="#8b7fd4"/>
+  <text x="165" y="537" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Architecture decision records</text>
+  <circle cx="143" cy="577" r="6" fill="#8b7fd4"/>
+  <text x="165" y="586" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">OpenAPI / Swagger specs</text>
 
-  <rect x="510" y="430" width="900" height="120" rx="18" fill="#8b7fd4" fill-opacity="0.20" stroke="#8b7fd4" stroke-width="2"/>
-  <text x="960" y="485" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Repository</text>
-  <text x="960" y="528" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="25" font-weight="300" fill="#c4baea">.github/copilot-instructions.md - shared with the whole team</text>
+  <!-- Card 2: Slides & Diagrams -->
+  <rect x="680" y="280" width="560" height="400" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="720" y="355" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Slides &amp; Diagrams</text>
+  <rect x="720" y="375" width="200" height="3" fill="#8b7fd4"/>
+  <circle cx="743" cy="430" r="6" fill="#8b7fd4"/>
+  <text x="765" y="439" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">SVG slides and visual assets</text>
+  <circle cx="743" cy="479" r="6" fill="#8b7fd4"/>
+  <text x="765" y="488" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Markdown decks (Marp, Reveal.js)</text>
+  <circle cx="743" cy="528" r="6" fill="#8b7fd4"/>
+  <text x="765" y="537" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Architecture diagrams from code</text>
+  <circle cx="743" cy="577" r="6" fill="#8b7fd4"/>
+  <text x="765" y="586" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Speaker notes and scripts</text>
 
-  <rect x="360" y="570" width="1200" height="120" rx="18" fill="#8b7fd4" fill-opacity="0.12" stroke="#8b7fd4" stroke-width="2"/>
-  <text x="960" y="625" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">User (VS Code settings)</text>
-  <text x="960" y="668" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Personal preferences that follow you across every workspace</text>
+  <!-- Card 3: Code & Projects -->
+  <rect x="1280" y="280" width="560" height="400" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1320" y="355" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Code &amp; Projects</text>
+  <rect x="1320" y="375" width="200" height="3" fill="#8b7fd4"/>
+  <circle cx="1343" cy="430" r="6" fill="#8b7fd4"/>
+  <text x="1365" y="439" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Scaffold entire new solutions</text>
+  <circle cx="1343" cy="479" r="6" fill="#8b7fd4"/>
+  <text x="1365" y="488" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Update configs across a monorepo</text>
+  <circle cx="1343" cy="528" r="6" fill="#8b7fd4"/>
+  <text x="1365" y="537" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Dockerfiles and CI/CD pipelines</text>
+  <circle cx="1343" cy="577" r="6" fill="#8b7fd4"/>
+  <text x="1365" y="586" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Multiple projects in one pass</text>
 
-  <rect x="90" y="730" width="850" height="155" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="130" y="790" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">The repo file is the workhorse</text>
-  <text x="130" y="835" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Committed and version-controlled - changes go through</text>
-  <text x="130" y="868" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">code review like any config. Read automatically, every request.</text>
+  <!-- Bottom card -->
+  <rect x="80" y="710" width="1760" height="210" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="120" y="780" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">The directory is your canvas</text>
+  <rect x="120" y="800" width="200" height="3" fill="#8b7fd4"/>
+  <text x="120" y="849" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">There is no file type restriction &#x2014; code, config, markdown, SVGs, and data files are all in scope.</text>
+  <text x="120" y="891" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Ask once, change many &#x2014; Copilot reads what is there, generates what is missing, and reorganises the rest.</text>
 
-  <rect x="980" y="730" width="850" height="155" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1020" y="790" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Guidelines, not hard rules</text>
-  <text x="1020" y="835" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">They influence the model - they don't rigidly constrain it.</text>
-  <text x="1020" y="868" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Keep the repo file focused - under ~500 words.</text>
-
-  <rect x="430" y="920" width="1060" height="55" rx="27" fill="#8b7fd4" opacity="0.22"/>
-  <text x="960" y="957" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="600" fill="#ffffff" letter-spacing="1">On conflict, the repo file usually wins for project-specific rules.</text>
+  <rect x="430" y="945" width="1060" height="65" rx="32" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="987" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="600" fill="#ffffff" letter-spacing="1">From a single terminal, the whole project is your workspace &#x2014; no editor required.</text>
 </svg>

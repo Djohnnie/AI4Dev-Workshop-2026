@@ -11,16 +11,54 @@
   </defs>
 
   <rect width="1920" height="1080" fill="url(#bgGlow)"/>
-  <circle cx="1750" cy="150" r="460" fill="url(#circleGlow)"/>
-  <circle cx="1750" cy="150" r="320" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
-  <circle cx="160" cy="960" r="380" fill="url(#circleGlow)"/>
-  <circle cx="160" cy="960" r="260" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="960" y="240" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="600" font-weight="800" fill="#ffffff" opacity="0.05">5</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">The Workflow Shift &#x2014; Running Outside the IDE</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
-  <text x="960" y="430" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#8b7fd4" letter-spacing="6">SECTION 5 OF 6</text>
-  <text x="960" y="560" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="96" font-weight="800" fill="#ffffff" letter-spacing="-2">Custom Instructions</text>
-  <rect x="660" y="610" width="600" height="4" fill="#8b7fd4" rx="2"/>
-  <text x="960" y="700" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="300" fill="#c4baea" letter-spacing="1">Teach Copilot your standards once - it applies them on every request</text>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
+    In large codebases, Copilot Chat competes for IDE resources. The CLI does the heavy lifting in its own process.
+  </text>
+
+  <!-- Left card: Why step outside? -->
+  <rect x="90" y="280" width="850" height="370" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="130" y="353" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Why step outside?</text>
+  <rect x="130" y="373" width="220" height="3" fill="#8b7fd4"/>
+  <circle cx="153" cy="420" r="6" fill="#8b7fd4"/>
+  <text x="175" y="429" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">IDE extensions share one process — Git,</text>
+  <text x="175" y="462" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">formatters, and Chat all compete for resources</text>
+  <circle cx="153" cy="506" r="6" fill="#8b7fd4"/>
+  <text x="175" y="515" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">In large monorepos a substantial agent task</text>
+  <text x="175" y="548" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">can freeze VS Code entirely</text>
+  <circle cx="153" cy="592" r="6" fill="#8b7fd4"/>
+  <text x="175" y="601" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">The CLI runs in a separate process — the</text>
+  <text x="175" y="634" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">IDE stays responsive while the work runs</text>
+
+  <!-- Right card: What you keep -->
+  <rect x="980" y="280" width="850" height="370" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1020" y="353" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">What you keep</text>
+  <rect x="1020" y="373" width="220" height="3" fill="#8b7fd4"/>
+  <circle cx="1043" cy="420" r="6" fill="#8b7fd4"/>
+  <text x="1065" y="429" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">The CLI connects to your active VS Code</text>
+  <text x="1065" y="462" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">instance — full workspace context, no loss</text>
+  <circle cx="1043" cy="506" r="6" fill="#8b7fd4"/>
+  <text x="1065" y="515" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Supports @ mentions and file additions</text>
+  <text x="1065" y="548" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">directly from the editor context menu</text>
+  <circle cx="1043" cy="592" r="6" fill="#8b7fd4"/>
+  <text x="1065" y="601" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">No Keep / Undo dialogs — tasks finish</text>
+  <text x="1065" y="634" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">autonomously; review the Git diff when done</text>
+
+  <!-- Bottom card: When to reach for CLI -->
+  <rect x="90" y="685" width="1740" height="220" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="130" y="755" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Reach for CLI when...</text>
+  <rect x="130" y="775" width="200" height="3" fill="#8b7fd4"/>
+  <text x="130" y="825" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Repo-wide refactors &#183; Large monorepos with many sub-projects &#183; Parallel agent tasks across projects (fleet)</text>
+  <text x="130" y="868" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Chat stays the right tool for single-file edits, quick explanations, and inline completions.</text>
+
+  <rect x="430" y="945" width="1060" height="65" rx="32" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="987" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="600" fill="#ffffff" letter-spacing="1">No context lost — the CLI and the IDE share the same workspace awareness.</text>
 </svg>

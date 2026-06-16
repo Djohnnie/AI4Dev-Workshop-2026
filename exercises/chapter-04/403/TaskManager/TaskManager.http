@@ -1,0 +1,86 @@
+@baseUrl = http://localhost:5004
+@taskId = replace-with-id-from-create-response
+
+### Seed — create task 1
+POST {{baseUrl}}/tasks
+Content-Type: application/json
+
+{
+  "title": "Buy groceries"
+}
+
+### Seed — create task 2
+POST {{baseUrl}}/tasks
+Content-Type: application/json
+
+{
+  "title": "Write unit tests"
+}
+
+### Seed — create task 3
+POST {{baseUrl}}/tasks
+Content-Type: application/json
+
+{
+  "title": "Review pull request"
+}
+
+### Seed — create task 4
+POST {{baseUrl}}/tasks
+Content-Type: application/json
+
+{
+  "title": "Update documentation"
+}
+
+### Seed — create task 5
+POST {{baseUrl}}/tasks
+Content-Type: application/json
+
+{
+  "title": "Fix the login bug"
+}
+
+### Complete a task  —  copy an id into @taskId above
+PUT {{baseUrl}}/tasks/{{taskId}}/complete
+
+### Get all tasks (no filters)
+GET {{baseUrl}}/tasks
+Accept: application/json
+
+### --- After Plan Mode implements the feature ---
+
+### Paginate: first page of 3
+GET {{baseUrl}}/tasks?page=1&pageSize=3
+Accept: application/json
+
+### Paginate: second page of 3
+GET {{baseUrl}}/tasks?page=2&pageSize=3
+Accept: application/json
+
+### Filter: incomplete tasks only
+GET {{baseUrl}}/tasks?isCompleted=false
+Accept: application/json
+
+### Filter: completed tasks only
+GET {{baseUrl}}/tasks?isCompleted=true
+Accept: application/json
+
+### Search: tasks containing "test"
+GET {{baseUrl}}/tasks?search=test
+Accept: application/json
+
+### Sort: by title ascending
+GET {{baseUrl}}/tasks?sortBy=title&sortOrder=asc
+Accept: application/json
+
+### Sort: by createdAt descending
+GET {{baseUrl}}/tasks?sortBy=createdAt&sortOrder=desc
+Accept: application/json
+
+### Combined: incomplete tasks, sorted by title, page 1
+GET {{baseUrl}}/tasks?isCompleted=false&sortBy=title&sortOrder=asc&page=1&pageSize=5
+Accept: application/json
+
+### Remove a task  —  copy an id into @taskId above
+DELETE {{baseUrl}}/tasks/{{taskId}}

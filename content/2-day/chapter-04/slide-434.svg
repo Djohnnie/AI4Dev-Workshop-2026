@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+
+  <text x="80" y="100" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#8b7fd4" letter-spacing="2">SECTION 5 OF 6 &#183; CUSTOM INSTRUCTIONS</text>
+  <text x="80" y="170" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Three Layers of Instructions</text>
+  <rect x="0" y="200" width="1920" height="4" fill="#8b7fd4"/>
+
+  <text x="80" y="265" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
+    All present layers apply at once - combined into the model's context on every request.
+  </text>
+
+  <!-- Pyramid tiers -->
+  <rect x="660" y="350" width="600" height="120" rx="18" fill="#8b7fd4" fill-opacity="0.30" stroke="#8b7fd4" stroke-width="2"/>
+  <text x="960" y="405" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Organisation</text>
+  <text x="960" y="448" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Enterprise admins - applies org-wide</text>
+
+  <rect x="510" y="490" width="900" height="120" rx="18" fill="#8b7fd4" fill-opacity="0.20" stroke="#8b7fd4" stroke-width="2"/>
+  <text x="960" y="545" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Repository</text>
+  <text x="960" y="588" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="25" font-weight="300" fill="#c4baea">.github/copilot-instructions.md - shared with the whole team</text>
+
+  <rect x="360" y="630" width="1200" height="120" rx="18" fill="#8b7fd4" fill-opacity="0.12" stroke="#8b7fd4" stroke-width="2"/>
+  <text x="960" y="685" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">User (VS Code settings)</text>
+  <text x="960" y="728" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Personal preferences that follow you across every workspace</text>
+
+  <!-- Bottom info boxes -->
+  <rect x="90" y="790" width="850" height="155" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="130" y="850" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">The repo file is the workhorse</text>
+  <text x="130" y="895" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Committed and version-controlled - changes go through</text>
+  <text x="130" y="928" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">code review like any config. Read automatically, every request.</text>
+
+  <rect x="980" y="790" width="850" height="155" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1020" y="850" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Guidelines, not hard rules</text>
+  <text x="1020" y="895" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">They influence the model - they don't rigidly constrain it.</text>
+  <text x="1020" y="928" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Keep the repo file focused - under ~500 words.</text>
+
+  <rect x="430" y="980" width="1060" height="55" rx="27" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="1017" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="600" fill="#ffffff" letter-spacing="1">On conflict, the repo file usually wins for project-specific rules.</text>
+</svg>

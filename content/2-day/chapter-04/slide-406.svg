@@ -17,56 +17,38 @@
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">The Agent Loop</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">What "Autonomous" Really Means</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
   <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
-    A high-level goal drives a plan-act-observe cycle that repeats until the work is done.
+    Agent Mode replaces 10-20 manual steps - but it is not running unsupervised.
   </text>
 
-  <!-- 5 step boxes -->
-  <rect x="70" y="380" width="310" height="300" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="225" y="470" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="50" font-weight="700" fill="#8b7fd4">1</text>
-  <text x="225" y="540" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Goal</text>
-  <text x="225" y="600" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">you describe the</text>
-  <text x="225" y="632" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">task in plain English</text>
+  <rect x="130" y="295" width="800" height="500" rx="28" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="530" y="380" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="700" fill="#ffffff">It can</text>
+  <rect x="410" y="410" width="240" height="3" fill="#8b7fd4"/>
+  <circle cx="195" cy="490" r="7" fill="#8b7fd4"/>
+  <text x="225" y="501" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">find the files that matter on its own</text>
+  <circle cx="195" cy="565" r="7" fill="#8b7fd4"/>
+  <text x="225" y="576" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">make consistent edits across many</text>
+  <circle cx="195" cy="640" r="7" fill="#8b7fd4"/>
+  <text x="225" y="651" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">run tests and read the results</text>
+  <circle cx="195" cy="715" r="7" fill="#8b7fd4"/>
+  <text x="225" y="726" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">fix its own failures and continue</text>
 
-  <text x="406" y="545" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4" opacity="0.8">&#x2192;</text>
+  <rect x="990" y="295" width="800" height="500" rx="28" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1390" y="380" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="700" fill="#ffffff">It will not</text>
+  <rect x="1270" y="410" width="240" height="3" fill="#8b7fd4"/>
+  <circle cx="1055" cy="490" r="7" fill="#8b7fd4"/>
+  <text x="1085" y="501" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">run terminal commands without asking</text>
+  <circle cx="1055" cy="565" r="7" fill="#8b7fd4"/>
+  <text x="1085" y="576" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">hide what it intends to do</text>
+  <circle cx="1055" cy="640" r="7" fill="#8b7fd4"/>
+  <text x="1085" y="651" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">write to disk before you accept</text>
+  <circle cx="1055" cy="715" r="7" fill="#8b7fd4"/>
+  <text x="1085" y="726" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">act outside your decision points</text>
 
-  <rect x="432" y="380" width="310" height="300" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="587" y="470" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="50" font-weight="700" fill="#8b7fd4">2</text>
-  <text x="587" y="540" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Plan</text>
-  <text x="587" y="600" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">it breaks the goal</text>
-  <text x="587" y="632" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">into ordered steps</text>
-
-  <text x="768" y="545" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4" opacity="0.8">&#x2192;</text>
-
-  <rect x="794" y="380" width="310" height="300" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="949" y="470" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="50" font-weight="700" fill="#8b7fd4">3</text>
-  <text x="949" y="540" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Act</text>
-  <text x="949" y="600" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">edits files, runs</text>
-  <text x="949" y="632" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">terminal commands</text>
-
-  <text x="1130" y="545" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4" opacity="0.8">&#x2192;</text>
-
-  <rect x="1156" y="380" width="310" height="300" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1311" y="470" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="50" font-weight="700" fill="#8b7fd4">4</text>
-  <text x="1311" y="540" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Observe</text>
-  <text x="1311" y="600" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">reads results, test</text>
-  <text x="1311" y="632" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">output, errors</text>
-
-  <text x="1492" y="545" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4" opacity="0.8">&#x2192;</text>
-
-  <rect x="1518" y="380" width="310" height="300" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1673" y="470" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="50" font-weight="700" fill="#8b7fd4">5</text>
-  <text x="1673" y="540" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Adjust</text>
-  <text x="1673" y="600" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">fixes failures and</text>
-  <text x="1673" y="632" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">continues</text>
-
-  <!-- loop-back arrow: Adjust -> Act -->
-  <path d="M1673 695 C1673 800 949 800 949 700" fill="none" stroke="#8b7fd4" stroke-width="3" stroke-dasharray="10 10" opacity="0.8"/>
-  <text x="1311" y="838" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">repeat the act-observe cycle until the goal is met</text>
-
-  <rect x="430" y="895" width="1060" height="70" rx="35" fill="#8b7fd4" opacity="0.22"/>
-  <text x="960" y="940" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">It reports back when done - or when it needs your input.</text>
+  <rect x="330" y="865" width="1260" height="90" rx="45" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="908" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">Think of it as a capable contractor: reads the brief, does the work,</text>
+  <text x="960" y="940" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">and sends you a summary to approve.</text>
 </svg>

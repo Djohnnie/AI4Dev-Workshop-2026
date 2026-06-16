@@ -17,38 +17,40 @@
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">What "Autonomous" Really Means</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Enabling Agent Mode in VS Code</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
   <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
-    Agent Mode replaces 10-20 manual steps - but it is not running unsupervised.
+    Switch the Chat panel into Agent mode - then watch the Tools section appear.
   </text>
 
-  <rect x="130" y="295" width="800" height="500" rx="28" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="530" y="380" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="700" fill="#ffffff">It can</text>
-  <rect x="410" y="410" width="240" height="3" fill="#8b7fd4"/>
-  <circle cx="195" cy="490" r="7" fill="#8b7fd4"/>
-  <text x="225" y="501" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">find the files that matter on its own</text>
-  <circle cx="195" cy="565" r="7" fill="#8b7fd4"/>
-  <text x="225" y="576" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">make consistent edits across many</text>
-  <circle cx="195" cy="640" r="7" fill="#8b7fd4"/>
-  <text x="225" y="651" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">run tests and read the results</text>
-  <circle cx="195" cy="715" r="7" fill="#8b7fd4"/>
-  <text x="225" y="726" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">fix its own failures and continue</text>
+  <!-- 3 steps -->
+  <rect x="90" y="300" width="560" height="320" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="370" y="395" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">1</text>
+  <text x="370" y="465" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Open Chat</text>
+  <rect x="270" y="485" width="200" height="3" fill="#8b7fd4"/>
+  <text x="370" y="540" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Open the Copilot Chat</text>
+  <text x="370" y="577" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">panel in VS Code</text>
 
-  <rect x="990" y="295" width="800" height="500" rx="28" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1390" y="380" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="700" fill="#ffffff">It will not</text>
-  <rect x="1270" y="410" width="240" height="3" fill="#8b7fd4"/>
-  <circle cx="1055" cy="490" r="7" fill="#8b7fd4"/>
-  <text x="1085" y="501" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">run terminal commands without asking</text>
-  <circle cx="1055" cy="565" r="7" fill="#8b7fd4"/>
-  <text x="1085" y="576" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">hide what it intends to do</text>
-  <circle cx="1055" cy="640" r="7" fill="#8b7fd4"/>
-  <text x="1085" y="651" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">write to disk before you accept</text>
-  <circle cx="1055" cy="715" r="7" fill="#8b7fd4"/>
-  <text x="1085" y="726" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">act outside your decision points</text>
+  <rect x="680" y="300" width="560" height="320" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="395" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">2</text>
+  <text x="960" y="465" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Pick "Agent"</text>
+  <rect x="860" y="485" width="200" height="3" fill="#8b7fd4"/>
+  <text x="960" y="540" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Use the mode dropdown</text>
+  <text x="960" y="577" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">or type /agent</text>
 
-  <rect x="330" y="865" width="1260" height="90" rx="45" fill="#8b7fd4" opacity="0.22"/>
-  <text x="960" y="908" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">Think of it as a capable contractor: reads the brief, does the work,</text>
-  <text x="960" y="940" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">and sends you a summary to approve.</text>
+  <rect x="1270" y="300" width="560" height="320" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1550" y="395" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">3</text>
+  <text x="1550" y="465" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">See the Tools</text>
+  <rect x="1450" y="485" width="200" height="3" fill="#8b7fd4"/>
+  <text x="1550" y="540" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">A Tools section lists what</text>
+  <text x="1550" y="577" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">the agent can use</text>
+
+  <rect x="165" y="680" width="1590" height="270" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="230" y="750" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Requirements &amp; availability</text>
+  <rect x="230" y="772" width="320" height="3" fill="#8b7fd4"/>
+  <circle cx="245" cy="828" r="7" fill="#8b7fd4"/>
+  <text x="275" y="839" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Recent Copilot Chat extension and VS Code build - update both if "Agent" is missing</text>
+  <circle cx="245" cy="888" r="7" fill="#8b7fd4"/>
+  <text x="275" y="899" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Available on paid plans (Individual, Business, Enterprise) - verify current availability in the docs</text>
 </svg>

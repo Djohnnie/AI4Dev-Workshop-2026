@@ -4,51 +4,100 @@
       <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
       <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
     </radialGradient>
-    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
-    </radialGradient>
   </defs>
 
   <rect width="1920" height="1080" fill="url(#bgGlow)"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <g transform="translate(1610 70)" opacity="0.22">
-    <circle cx="120" cy="120" r="96" fill="none" stroke="#c4baea" stroke-width="10"/>
-    <path d="M95 75 L170 120 L95 165 Z" fill="#c4baea"/>
+  <g transform="translate(1535 56)" opacity="0.2">
+    <text x="0" y="62"
+      font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+      font-size="58" font-weight="700" fill="#c4baea">Agent Mode</text>
+    <text x="0" y="126"
+      font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+      font-size="38" font-weight="600" fill="#c4baea">rename across files</text>
   </g>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#8b7fd4" letter-spacing="3">LIVE DEMO</text>
-  <text x="80" y="190" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="68" font-weight="700" fill="#ffffff" letter-spacing="-1">Rename a Field Across Four Files</text>
-  <rect x="0" y="222" width="1920" height="4" fill="#8b7fd4"/>
+  <g transform="translate(1490 832)" opacity="0.18">
+    <rect x="0" y="0" width="240" height="120" rx="18" fill="none" stroke="#c4baea" stroke-width="10"/>
+    <line x1="36" y1="42" x2="198" y2="42" stroke="#c4baea" stroke-width="8" stroke-linecap="round"/>
+    <line x1="36" y1="76" x2="126" y2="76" stroke="#c4baea" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="168" cy="76" r="14" fill="none" stroke="#c4baea" stroke-width="8"/>
+  </g>
 
-  <text x="80" y="290" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
-    A user module: model, service, controller, and test. Add all four, write one prompt:
+  <text x="80" y="108"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Exercise 401 &#x2014; Rename a Field with Agent Mode</text>
+
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+
+  <text x="80" y="195"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#c4baea">
+    Use Agent Mode to rename a field across an entire ASP.NET Core codebase without touching a single file manually.
   </text>
 
-  <rect x="90" y="335" width="1740" height="120" rx="16" fill="#1e1b33" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="130" y="410" font-family="'Consolas', 'Courier New', monospace" font-size="32" font-weight="400" fill="#c4baea">&gt; Rename createdAt to registeredAt throughout this module, including JSDoc and test assertions.</text>
+  <rect x="80" y="235" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="510" y="325" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="56" font-weight="700" fill="#8b7fd4">01</text>
+  <text x="510" y="400" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="38" font-weight="600" fill="#ffffff">Start</text>
+  <rect x="430" y="420" width="160" height="3" fill="#8b7fd4"/>
+  <text x="510" y="466" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Run dotnet run and confirm the</text>
+  <text x="510" y="510" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">/tasks endpoint responds</text>
 
-  <rect x="90" y="500" width="400" height="300" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="290" y="575" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="30" font-weight="700" fill="#ffffff">user.model.ts</text>
-  <rect x="90" y="500" width="400" height="300" rx="20" fill="none" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="290" y="640" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">field definition</text>
+  <rect x="980" y="235" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="325" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="56" font-weight="700" fill="#8b7fd4">02</text>
+  <text x="1410" y="400" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="38" font-weight="600" fill="#ffffff">Rename</text>
+  <rect x="1330" y="420" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1410" y="466" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Ask Agent Mode to rename Name</text>
+  <text x="1410" y="510" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">to Title across the entire codebase</text>
 
-  <rect x="540" y="500" width="400" height="300" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="740" y="575" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="30" font-weight="700" fill="#ffffff">user.service.ts</text>
-  <text x="740" y="640" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">read &amp; write sites</text>
+  <rect x="80" y="632" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="510" y="722" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="56" font-weight="700" fill="#8b7fd4">03</text>
+  <text x="510" y="797" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="38" font-weight="600" fill="#ffffff">Review</text>
+  <rect x="430" y="817" width="160" height="3" fill="#8b7fd4"/>
+  <text x="510" y="863" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Inspect every diff in the diff view</text>
+  <text x="510" y="907" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">before accepting any change</text>
 
-  <rect x="990" y="500" width="400" height="300" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1190" y="575" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="29" font-weight="700" fill="#ffffff">user.controller.ts</text>
-  <text x="1190" y="640" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">response shape + JSDoc</text>
-
-  <rect x="1440" y="500" width="400" height="300" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1640" y="575" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="30" font-weight="700" fill="#ffffff">user.test.ts</text>
-  <text x="1640" y="640" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">assertions updated</text>
-
-  <text x="960" y="730" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea" opacity="0">spacer</text>
-
-  <rect x="90" y="870" width="1740" height="110" rx="16" fill="#8b7fd4" opacity="0.18"/>
-  <text x="960" y="918" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff">Walk each diff: every reference updated, nothing missed - including JSDoc a regex would have skipped.</text>
-  <text x="960" y="955" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Manually this is 4 inline chats or a context-blind find-and-replace.</text>
+  <rect x="980" y="632" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="722" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="56" font-weight="700" fill="#8b7fd4">04</text>
+  <text x="1410" y="797" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="38" font-weight="600" fill="#ffffff">Verify</text>
+  <rect x="1330" y="817" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1410" y="863" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Run dotnet build and check that</text>
+  <text x="1410" y="907" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">the JSON response shows title</text>
 </svg>

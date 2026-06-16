@@ -1,0 +1,53 @@
+@baseUrl = http://localhost:5002
+@taskId = replace-with-id-from-create-response
+
+### Get all tasks
+GET {{baseUrl}}/tasks
+Accept: application/json
+
+### Create a valid task
+POST {{baseUrl}}/tasks
+Content-Type: application/json
+
+{
+  "title": "Buy groceries"
+}
+
+### Create another valid task
+POST {{baseUrl}}/tasks
+Content-Type: application/json
+
+{
+  "title": "Write unit tests"
+}
+
+### Try to create a task with an empty title  —  should return 400 after adding validation
+POST {{baseUrl}}/tasks
+Content-Type: application/json
+
+{
+  "title": ""
+}
+
+### Try to create a task with a whitespace-only title  —  should return 400 after adding validation
+POST {{baseUrl}}/tasks
+Content-Type: application/json
+
+{
+  "title": "   "
+}
+
+### Try to create a task with a title that exceeds 200 characters  —  should return 400 after adding validation
+POST {{baseUrl}}/tasks
+Content-Type: application/json
+
+{
+  "title": "This title is intentionally way too long and should be rejected once validation is in place. It keeps going and going well past the two-hundred-character maximum limit set by the validation rules."
+}
+
+### Complete a task  —  copy an id from a GET or POST response into @taskId above
+PUT {{baseUrl}}/tasks/{{taskId}}/complete
+Accept: application/json
+
+### Remove a task  —  copy an id from a GET or POST response into @taskId above
+DELETE {{baseUrl}}/tasks/{{taskId}}

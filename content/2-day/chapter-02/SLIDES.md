@@ -87,3 +87,27 @@
 ![Slide 19 — Exercise 206 — String Search](slide-219.svg)
 
 → [Exercise 206 — String Search](../../../exercises/chapter-02/206/README.md)
+
+## Slide 20 — Interactive Quiz 4
+
+![Slide 20 — Interactive Quiz 4](slide-220.svg)
+
+## Slide 21 — Interactive Quiz 4 — Answer
+
+![Slide 21 — Interactive Quiz 4 — Answer](slide-221.svg)
+
+## Slide 22 — Interactive Quiz 5
+
+![Slide 22 — Interactive Quiz 5](slide-222.svg)
+
+## Slide 23 — Interactive Quiz 5 — Answer
+
+![Slide 23 — Interactive Quiz 5 — Answer](slide-223.svg)
+
+## Slide 24 — Interactive Quiz 6
+
+![Slide 24 — Interactive Quiz 6](slide-224.svg)
+
+## Slide 25 — Interactive Quiz 6 — Answer
+
+![Slide 25 — Interactive Quiz 6 — Answer](slide-225.svg)

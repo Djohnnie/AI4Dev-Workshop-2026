@@ -54,6 +54,19 @@
   <Folder Name="/Chapter 3/Exercise 303/">
     <Project Path="chapter-03\303\CodeObfuscator\CodeObfuscator.csproj" />
   </Folder>
+  <Folder Name="/Chapter 4/" />
+  <Folder Name="/Chapter 4/Exercise 401/">
+    <Project Path="chapter-04\401\TaskManager\TaskManager.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 4/Exercise 402/">
+    <Project Path="chapter-04\402\TaskManager\TaskManager.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 4/Exercise 403/">
+    <Project Path="chapter-04\403\TaskManager\TaskManager.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 4/Exercise 404/">
+    <Project Path="chapter-04\404\DevDash\DevDash.csproj" />
+  </Folder>
   <Folder Name="/Chapter 5/" />
   <Folder Name="/Chapter 5/Exercise 501/">
     <Project Path="chapter-05\501\EscapeRoom.csproj" />
