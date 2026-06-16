@@ -15,63 +15,84 @@
   <!-- Title -->
   <text x="80" y="108"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Why LLMs &#x201C;Hallucinate&#x201D;</text>
+    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Exercise 101 &#x2014; Token Visualizer</text>
 
   <!-- Title underline -->
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
-  <!-- Item 1 -->
-  <circle cx="92" cy="207" r="7" fill="#8b7fd4"/>
-  <text x="115" y="215"
+  <!-- Overview text -->
+  <text x="80" y="195"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="600" fill="#ffffff">LLMs predict tokens, they don&#x2019;t recall facts</text>
-  <text x="115" y="253"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">The model picks the statistically likely next token &#x2014; not the factually correct one</text>
+    font-size="34" font-weight="300" fill="#c4baea">
+    Explore how LLMs see your text &#x2014; before any intelligence happens.
+  </text>
 
-  <!-- Item 2 -->
-  <circle cx="92" cy="347" r="7" fill="#8b7fd4"/>
-  <text x="115" y="355"
+  <!-- ===== BOX 1: Configure (top-left) ===== -->
+  <rect x="80" y="235" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="510" y="325" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="600" fill="#ffffff">Confidence without grounding</text>
-  <text x="115" y="393"
+    font-size="56" font-weight="700" fill="#8b7fd4">01</text>
+  <text x="510" y="400" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">There is no internal fact-checker &#x2014; the model cannot verify its own output</text>
+    font-size="38" font-weight="600" fill="#ffffff">Configure</text>
+  <rect x="430" y="420" width="160" height="3" fill="#8b7fd4"/>
+  <text x="510" y="466" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Set your Azure OpenAI endpoint, API key</text>
+  <text x="510" y="510" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">and deployment via environment variables</text>
 
-  <!-- Item 3 -->
-  <circle cx="92" cy="487" r="7" fill="#8b7fd4"/>
-  <text x="115" y="495"
+  <!-- ===== BOX 2: Run (top-right) ===== -->
+  <rect x="980" y="235" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="325" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="600" fill="#ffffff">Training data contains noise</text>
-  <text x="115" y="533"
+    font-size="56" font-weight="700" fill="#8b7fd4">02</text>
+  <text x="1410" y="400" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">Outdated APIs, deprecated packages, and wrong Stack Overflow answers all get baked in</text>
+    font-size="38" font-weight="600" fill="#ffffff">Run</text>
+  <rect x="1330" y="420" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1410" y="466" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">cd exercises/chapter-01/101 &amp;&amp; dotnet run</text>
+  <text x="1410" y="510" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">A rich terminal UI will greet you</text>
 
-  <!-- Item 4 -->
-  <circle cx="92" cy="627" r="7" fill="#8b7fd4"/>
-  <text x="115" y="635"
+  <!-- ===== BOX 3: Experiment (bottom-left) ===== -->
+  <rect x="80" y="632" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="510" y="722" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="600" fill="#ffffff">The more specific, the riskier</text>
-  <text x="115" y="673"
+    font-size="56" font-weight="700" fill="#8b7fd4">03</text>
+  <text x="510" y="797" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">General patterns are well-learned; obscure APIs, niche libraries, and internal code are not</text>
+    font-size="38" font-weight="600" fill="#ffffff">Experiment</text>
+  <rect x="430" y="817" width="160" height="3" fill="#8b7fd4"/>
+  <text x="510" y="863" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Paste English, C#, SQL, and Copilot prompts</text>
+  <text x="510" y="907" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Observe and compare the token counts</text>
 
-  <!-- Item 5 -->
-  <circle cx="92" cy="767" r="7" fill="#8b7fd4"/>
-  <text x="115" y="775"
+  <!-- ===== BOX 4: Reflect (bottom-right) ===== -->
+  <rect x="980" y="632" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="722" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="600" fill="#ffffff">The context window is the only truth</text>
-  <text x="115" y="813"
+    font-size="56" font-weight="700" fill="#8b7fd4">04</text>
+  <text x="1410" y="797" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">Outside of what&#x2019;s in the prompt, the model fills the gap with learned patterns</text>
-
-  <!-- Item 6 -->
-  <circle cx="92" cy="907" r="7" fill="#8b7fd4"/>
-  <text x="115" y="915"
+    font-size="38" font-weight="600" fill="#ffffff">Reflect</text>
+  <rect x="1330" y="817" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1410" y="863" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="600" fill="#ffffff">Hallucinations feel trustworthy</text>
-  <text x="115" y="953"
+    font-size="28" font-weight="300" fill="#c4baea">Use your findings to answer</text>
+  <text x="1410" y="907" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">The model repeats the same wrong answer confidently &#x2014; always review what it generates</text>
+    font-size="28" font-weight="300" fill="#c4baea">the discussion prompts in the exercise README</text>
 
 </svg>

@@ -19,7 +19,7 @@
     font-size="72"
     font-weight="700"
     fill="#ffffff"
-    letter-spacing="-1">Day 1 - What is on the agenda?</text>
+    letter-spacing="-1">Day 1 — What is on the agenda?</text>
 
   <!-- Title underline -->
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>

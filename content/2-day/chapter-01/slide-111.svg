@@ -10,89 +10,42 @@
   <rect width="1920" height="1080" fill="url(#bgGlow)"/>
 
   <!-- Left accent bar -->
-  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4" rx="0"/>
 
   <!-- Title -->
-  <text x="80" y="108"
+  <text
+    x="80" y="108"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Exercise 103 &#x2014; Chat History &amp; Roles</text>
+    font-size="72"
+    font-weight="700"
+    fill="#ffffff"
+    letter-spacing="-1">How LLMs Actually Work</text>
 
   <!-- Title underline -->
-  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
 
-  <!-- Overview text -->
-  <text x="80" y="195"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#c4baea">
-    Extend the chat app with explicit state, roles, and conversation context.
-  </text>
+  <!-- Item 1: Tokens -->
+  <circle cx="92" cy="207" r="7" fill="#8b7fd4"/>
+  <text x="115" y="215" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff" letter-spacing="0">Tokens</text>
+  <text x="115" y="255" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea" letter-spacing="1">LLMs read tokens, not characters or words — roughly 3–4 chars each; 1,000 words is ~1,300 tokens</text>
 
-  <!-- ===== BOX 1: Extend (top-left) ===== -->
-  <rect x="80" y="235" width="860" height="367" rx="12"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="510" y="325" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="56" font-weight="700" fill="#8b7fd4">01</text>
-  <text x="510" y="400" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="38" font-weight="600" fill="#ffffff">Extend</text>
-  <rect x="430" y="420" width="160" height="3" fill="#8b7fd4"/>
-  <text x="510" y="466" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">Build on the Exercise 102 chat app</text>
-  <text x="510" y="510" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">using Microsoft Agent Framework SDK</text>
+  <!-- Item 2: Tokenisation -->
+  <circle cx="92" cy="355" r="7" fill="#8b7fd4"/>
+  <text x="115" y="363" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff" letter-spacing="0">Tokenisation</text>
+  <text x="115" y="403" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea" letter-spacing="1">Whitespace, punctuation, and camelCase boundaries all create separate tokens — not just whole words</text>
 
-  <!-- ===== BOX 2: Store Turns (top-right) ===== -->
-  <rect x="980" y="235" width="860" height="367" rx="12"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1410" y="325" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="56" font-weight="700" fill="#8b7fd4">02</text>
-  <text x="1410" y="400" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="38" font-weight="600" fill="#ffffff">Store Turns</text>
-  <rect x="1330" y="420" width="160" height="3" fill="#8b7fd4"/>
-  <text x="1410" y="466" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">Keep previous user and assistant</text>
-  <text x="1410" y="510" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">messages in chat history</text>
+  <!-- Item 3: Embeddings -->
+  <circle cx="92" cy="503" r="7" fill="#8b7fd4"/>
+  <text x="115" y="511" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff" letter-spacing="0">Embeddings</text>
+  <text x="115" y="551" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea" letter-spacing="1">Each token maps to a high-dimensional vector; tokens with similar meaning cluster together mathematically</text>
 
-  <!-- ===== BOX 3: Use Roles (bottom-left) ===== -->
-  <rect x="80" y="632" width="860" height="367" rx="12"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="510" y="722" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="56" font-weight="700" fill="#8b7fd4">03</text>
-  <text x="510" y="797" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="38" font-weight="600" fill="#ffffff">Use Roles</text>
-  <rect x="430" y="817" width="160" height="3" fill="#8b7fd4"/>
-  <text x="510" y="863" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">Separate user, assistant,</text>
-  <text x="510" y="907" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">and system instructions</text>
+  <!-- Item 4: Next-Token Prediction -->
+  <circle cx="92" cy="651" r="7" fill="#8b7fd4"/>
+  <text x="115" y="659" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff" letter-spacing="0">Next-Token Prediction</text>
+  <text x="115" y="699" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea" letter-spacing="1">The model's only job: predict the next token; code generation runs this loop hundreds of times</text>
 
-  <!-- ===== BOX 4: Clarify State (bottom-right) ===== -->
-  <rect x="980" y="632" width="860" height="367" rx="12"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1410" y="722" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="56" font-weight="700" fill="#8b7fd4">04</text>
-  <text x="1410" y="797" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="38" font-weight="600" fill="#ffffff">Clarify State</text>
-  <rect x="1330" y="817" width="160" height="3" fill="#8b7fd4"/>
-  <text x="1410" y="863" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">Compare responses with Exercise 102</text>
-  <text x="1410" y="907" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">to see how apps provide memory</text>
-
+  <!-- Item 5: Temperature & Sampling -->
+  <circle cx="92" cy="799" r="7" fill="#8b7fd4"/>
+  <text x="115" y="807" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff" letter-spacing="0">Temperature &amp; Sampling</text>
+  <text x="115" y="847" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea" letter-spacing="1">Low = deterministic, high = creative — temperature controls how random the output is; same prompt, different results</text>
 </svg>

@@ -1,4 +1,4 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
   <defs>
     <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
       <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
@@ -15,63 +15,84 @@
   <!-- Title -->
   <text x="80" y="108"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">The Training Pipeline</text>
+    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Exercise 102 &#x2014; Stateless LLM Chat</text>
 
   <!-- Title underline -->
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
-  <!-- Item 1 -->
-  <circle cx="92" cy="207" r="7" fill="#8b7fd4"/>
-  <text x="115" y="215"
+  <!-- Overview text -->
+  <text x="80" y="195"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="600" fill="#ffffff">Pre-training on raw text</text>
-  <text x="115" y="253"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">Billions of tokens from the web, books, and code teach the model language structure and patterns</text>
+    font-size="34" font-weight="300" fill="#c4baea">
+    Build a terminal chat interface and see why an LLM is stateless by default.
+  </text>
 
-  <!-- Item 2 -->
-  <circle cx="92" cy="347" r="7" fill="#8b7fd4"/>
-  <text x="115" y="355"
+  <!-- ===== BOX 1: Build (top-left) ===== -->
+  <rect x="80" y="235" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="510" y="325" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="600" fill="#ffffff">Self-supervised learning &#x2014; no labels needed</text>
-  <text x="115" y="393"
+    font-size="56" font-weight="700" fill="#8b7fd4">01</text>
+  <text x="510" y="400" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">The training signal is simply predicting the next token &#x2014; the text itself is the label</text>
+    font-size="38" font-weight="600" fill="#ffffff">Build</text>
+  <rect x="430" y="420" width="160" height="3" fill="#8b7fd4"/>
+  <text x="510" y="466" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Create a .NET terminal chat app</text>
+  <text x="510" y="510" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">with Microsoft Agent Framework SDK</text>
 
-  <!-- Item 3 -->
-  <circle cx="92" cy="487" r="7" fill="#8b7fd4"/>
-  <text x="115" y="495"
+  <!-- ===== BOX 2: Talk (top-right) ===== -->
+  <rect x="980" y="235" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="325" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="600" fill="#ffffff">Fine-tuning on curated data</text>
-  <text x="115" y="533"
+    font-size="56" font-weight="700" fill="#8b7fd4">02</text>
+  <text x="1410" y="400" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">The base model is adapted to follow instructions, answer questions, and write useful code</text>
+    font-size="38" font-weight="600" fill="#ffffff">Talk</text>
+  <rect x="1330" y="420" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1410" y="466" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Send one prompt at a time</text>
+  <text x="1410" y="510" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">and print the model response</text>
 
-  <!-- Item 4 -->
-  <circle cx="92" cy="627" r="7" fill="#8b7fd4"/>
-  <text x="115" y="635"
+  <!-- ===== BOX 3: Omit History (bottom-left) ===== -->
+  <rect x="80" y="632" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="510" y="722" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="600" fill="#ffffff">RLHF &#x2014; Reinforcement Learning from Human Feedback</text>
-  <text x="115" y="673"
+    font-size="56" font-weight="700" fill="#8b7fd4">03</text>
+  <text x="510" y="797" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">Human raters rank outputs, teaching the model what &#x201C;helpful and correct&#x201D; actually looks like</text>
+    font-size="38" font-weight="600" fill="#ffffff">Omit History</text>
+  <rect x="430" y="817" width="160" height="3" fill="#8b7fd4"/>
+  <text x="510" y="863" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Do not keep previous messages</text>
+  <text x="510" y="907" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">between turns in the conversation</text>
 
-  <!-- Item 5 -->
-  <circle cx="92" cy="767" r="7" fill="#8b7fd4"/>
-  <text x="115" y="775"
+  <!-- ===== BOX 4: Observe (bottom-right) ===== -->
+  <rect x="980" y="632" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="722" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="600" fill="#ffffff">The knowledge cutoff</text>
-  <text x="115" y="813"
+    font-size="56" font-weight="700" fill="#8b7fd4">04</text>
+  <text x="1410" y="797" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">Training ends at a fixed date &#x2014; APIs, frameworks, and events after that date are unknown</text>
-
-  <!-- Item 6 -->
-  <circle cx="92" cy="907" r="7" fill="#8b7fd4"/>
-  <text x="115" y="915"
+    font-size="38" font-weight="600" fill="#ffffff">Observe</text>
+  <rect x="1330" y="817" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1410" y="863" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="600" fill="#ffffff">Scale changes everything</text>
-  <text x="115" y="953"
+    font-size="28" font-weight="300" fill="#c4baea">Ask follow-up questions and notice</text>
+  <text x="1410" y="907" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">More parameters + more data + more compute unlock emergent abilities that smaller models lack</text>
+    font-size="28" font-weight="300" fill="#c4baea">the model has no memory by itself</text>
 
 </svg>

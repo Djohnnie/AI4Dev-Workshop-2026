@@ -19,24 +19,24 @@
     font-size="72"
     font-weight="700"
     fill="#ffffff"
-    letter-spacing="-1">Day 2 - What is on the agenda?</text>
+    letter-spacing="-1">Day 1 — What is on the agenda?</text>
 
   <!-- Title underline -->
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
 
-  <!-- Chapter 5 -->
-  <text x="80" y="245" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="600" fill="#ffffff" letter-spacing="0">Chapter 5 — Speak AI's Language: Mastering Prompts &amp; Context</text>
-  <text x="80" y="296" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea" letter-spacing="1">Structured prompting, context variables, and iterating toward high-quality output</text>
+  <!-- Chapter 1 -->
+  <text x="80" y="245" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="600" fill="#ffffff" letter-spacing="0">Chapter 1 — Welcome to the AI Revolution!</text>
+  <text x="80" y="296" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea" letter-spacing="1">AI and LLM foundations, GitHub Copilot positioning, and what it means for developers</text>
 
-  <!-- Chapter 6 -->
-  <text x="80" y="435" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="600" fill="#ffffff" letter-spacing="0">Chapter 6 — AI Across the Entire Software Lifecycle</text>
-  <text x="80" y="486" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea" letter-spacing="1">Testing, documentation, debugging, refactoring, and code review with Copilot</text>
+  <!-- Chapter 2 -->
+  <text x="80" y="435" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="600" fill="#ffffff" letter-spacing="0">Chapter 2 — Meet Your New Best Friend: GitHub Copilot</text>
+  <text x="80" y="486" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea" letter-spacing="1">Completions, Copilot Chat, and model selection — from zero to confident daily use</text>
 
-  <!-- Chapter 7 -->
-  <text x="80" y="625" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="600" fill="#ffffff" letter-spacing="0">Chapter 7 — Level Up: Best Practices for AI-Powered Development</text>
-  <text x="80" y="676" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea" letter-spacing="1">Workflow integration, team scaling, measuring impact, and keeping your skills sharp</text>
+  <!-- Chapter 3 -->
+  <text x="80" y="625" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="600" fill="#ffffff" letter-spacing="0">Chapter 3 — Power with Purpose: Using AI Responsibly</text>
+  <text x="80" y="676" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea" letter-spacing="1">Privacy, security, IP risk, and how to critically evaluate AI-generated code</text>
 
-  <!-- Chapter 8 -->
-  <text x="80" y="815" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="600" fill="#ffffff" letter-spacing="0">Chapter 8 — Get Your Hands Dirty: Real-World AI in Action</text>
-  <text x="80" y="866" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea" letter-spacing="1">Build a full feature end-to-end with Copilot — design, code, test, document, PR</text>
+  <!-- Chapter 4 -->
+  <text x="80" y="815" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="600" fill="#ffffff" letter-spacing="0">Chapter 4 — Let Your AI Co-Pilot Take the Wheel</text>
+  <text x="80" y="866" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea" letter-spacing="1">Agent Mode, Copilot CLI, GitHub.com features, and custom instructions</text>
 </svg>

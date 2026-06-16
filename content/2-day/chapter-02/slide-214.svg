@@ -85,7 +85,7 @@
   <text x="230" y="820"
     font-family="'Consolas', 'Courier New', monospace"
     font-size="28" font-weight="400" fill="#ffffff">/fix</text>
-  <text x="355" y="820"
+  <text x="405" y="820"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
     font-size="28" font-weight="300" fill="#c4baea">This Dijkstra test expects 3 but returns 4 for node D.</text>
 

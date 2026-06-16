@@ -24,70 +24,86 @@
 
 ![Slide 06 — The Evolution of AI](slide-106.svg)
 
-## Slide 07 — AI Is Not One Thing — A Quick Taxonomy
+## Slide 07 — Types of Machine Learning
 
-![Slide 07 — AI Is Not One Thing — A Quick Taxonomy](slide-107.svg)
+![Slide 07 — Types of Machine Learning](slide-107.svg)
 
-## Slide 08 — How LLMs Actually Work
+## Slide 08 — The Reinforcement Learning Loop
 
-![Slide 08 — How LLMs Actually Work](slide-108.svg)
+![Slide 08 — The Reinforcement Learning Loop](slide-108.svg)
 
-## Slide 09 — Exercise 101 — Token Visualizer
+## Slide 09 — Generative AI — The GAN Idea
 
-![Slide 09 — Exercise 101 — Token Visualizer](slide-109.svg)
+![Slide 09 — Generative AI — The GAN Idea](slide-109.svg)
+
+## Slide 10 — AI Is Not One Thing — A Quick Taxonomy
+
+![Slide 10 — AI Is Not One Thing — A Quick Taxonomy](slide-110.svg)
+
+## Slide 11 — How LLMs Actually Work
+
+![Slide 11 — How LLMs Actually Work](slide-111.svg)
+
+## Slide 12 — LLM Temperature — Choosing the Right Setting
+
+![Slide 12 — LLM Temperature — Choosing the Right Setting](slide-112.svg)
+
+## Slide 13 — Exercise 101 — Token Visualizer
+
+![Slide 13 — Exercise 101 — Token Visualizer](slide-113.svg)
 
 → [Exercise 101 — Token Visualizer](../../../exercises/chapter-01/101/README.md)
 
-## Slide 10 — Exercise 102 — Stateless LLM Chat
+## Slide 14 — Exercise 102 — Stateless LLM Chat
 
-![Slide 10 — Exercise 102 — Stateless LLM Chat](slide-110.svg)
+![Slide 14 — Exercise 102 — Stateless LLM Chat](slide-114.svg)
 
 → [Exercise 102 — Stateless LLM Chat](../../../exercises/chapter-01/102/README.md)
 
-## Slide 11 — Exercise 103 — Chat History & Roles
+## Slide 15 — Exercise 103 — Chat History & Roles
 
-![Slide 11 — Exercise 103 — Chat History & Roles](slide-111.svg)
+![Slide 15 — Exercise 103 — Chat History & Roles](slide-115.svg)
 
 → [Exercise 103 — Chat History & Roles](../../../exercises/chapter-01/103/README.md)
 
-## Slide 12 — Why LLMs for Coding?
+## Slide 16 — Why LLMs for Coding?
 
-![Slide 12 — Why LLMs for Coding?](slide-112.svg)
+![Slide 16 — Why LLMs for Coding?](slide-116.svg)
 
-## Slide 13 — Why LLMs "Hallucinate"
+## Slide 17 — Why LLMs "Hallucinate"
 
-![Slide 13 — Why LLMs "Hallucinate"](slide-113.svg)
+![Slide 17 — Why LLMs "Hallucinate"](slide-117.svg)
 
-## Slide 14 — The Training Pipeline
+## Slide 18 — The Training Pipeline
 
-![Slide 14 — The Training Pipeline](slide-114.svg)
+![Slide 18 — The Training Pipeline](slide-118.svg)
 
-## Slide 15 — Context Windows
+## Slide 19 — Context Windows
 
-![Slide 15 — Context Windows](slide-115.svg)
+![Slide 19 — Context Windows](slide-119.svg)
 
-## Slide 16 — Exercise 104 — Tool Calls
+## Slide 20 — Exercise 104 — Tool Calls
 
-![Slide 16 — Exercise 104 — Tool Calls](slide-116.svg)
+![Slide 20 — Exercise 104 — Tool Calls](slide-120.svg)
 
 → [Exercise 104 — Tool Calls](../../../exercises/chapter-01/104/README.md)
 
-## Slide 17 — Exercise 105 — MCP Tool Calls
+## Slide 21 — Exercise 105 — MCP Tool Calls
 
-![Slide 17 — Exercise 105 — MCP Tool Calls](slide-117.svg)
+![Slide 21 — Exercise 105 — MCP Tool Calls](slide-121.svg)
 
 → [Exercise 105 — MCP Tool Calls](../../../exercises/chapter-01/105/README.md)
 
-## Slide 18 — Beyond Chatbots — What Makes an AI Agent?
+## Slide 22 — Beyond Chatbots — What Makes an AI Agent?
 
-![Slide 18 — Beyond Chatbots — What Makes an AI Agent?](slide-118.svg)
+![Slide 22 — Beyond Chatbots — What Makes an AI Agent?](slide-122.svg)
 
-## Slide 19 — Agent Orchestration — Coordinating Intelligence
+## Slide 23 — Agent Orchestration — Coordinating Intelligence
 
-![Slide 19 — Agent Orchestration — Coordinating Intelligence](slide-119.svg)
+![Slide 23 — Agent Orchestration — Coordinating Intelligence](slide-123.svg)
 
-## Slide 20 — Exercise 106 — Agent Orchestration
+## Slide 24 — Exercise 106 — Agent Orchestration
 
-![Slide 20 — Exercise 106 — Agent Orchestration](slide-120.svg)
+![Slide 24 — Exercise 106 — Agent Orchestration](slide-124.svg)
 
 → [Exercise 106 — Agent Orchestration](../../../exercises/chapter-01/106/README.md)

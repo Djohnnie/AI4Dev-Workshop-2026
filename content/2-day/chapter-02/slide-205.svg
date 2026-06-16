@@ -36,7 +36,7 @@
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
     font-size="44" font-weight="700" fill="#ffffff">Input tokens</text>
   <rect x="245" y="400" width="240" height="3" fill="#8b7fd4"/>
-  <text x="140" y="485"
+  <text x="365" y="485" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
     font-size="29" font-weight="300" fill="#c4baea">New content sent in this request:</text>
   <text x="140" y="565"
@@ -55,7 +55,7 @@
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
     font-size="44" font-weight="700" fill="#ffffff">Cached tokens</text>
   <rect x="840" y="400" width="240" height="3" fill="#8b7fd4"/>
-  <text x="735" y="485"
+  <text x="960" y="485" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
     font-size="29" font-weight="300" fill="#c4baea">Prompt tokens reused from earlier calls</text>
   <text x="735" y="565"
@@ -74,7 +74,7 @@
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
     font-size="44" font-weight="700" fill="#ffffff">Output tokens</text>
   <rect x="1435" y="400" width="240" height="3" fill="#8b7fd4"/>
-  <text x="1330" y="485"
+  <text x="1555" y="485" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
     font-size="29" font-weight="300" fill="#c4baea">What the model generates back:</text>
   <text x="1330" y="565"

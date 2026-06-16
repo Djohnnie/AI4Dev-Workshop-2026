@@ -10,37 +10,120 @@
   <rect width="1920" height="1080" fill="url(#bgGlow)"/>
 
   <!-- Left accent bar -->
-  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4" rx="0"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
   <!-- Title -->
-  <text
-    x="80" y="108"
+  <text x="80" y="108"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="72"
-    font-weight="700"
-    fill="#ffffff"
-    letter-spacing="-1">Who are you?</text>
+    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Before We Start — Set Up Your Laptop</text>
 
   <!-- Title underline -->
-  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
-  <!-- Bullet 1 -->
-  <circle cx="160" cy="416" r="10" fill="#8b7fd4"/>
-  <text x="200" y="430" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="300" fill="#c4baea" letter-spacing="1">What is your first name?</text>
+  <!-- Subtitle -->
+  <text x="960" y="210"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#c4baea" text-anchor="middle">Download and install the following tools — both are free and available for Windows, macOS, and Linux</text>
 
-  <!-- Bullet 2 -->
-  <circle cx="160" cy="516" r="10" fill="#8b7fd4"/>
-  <text x="200" y="530" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="300" fill="#c4baea" letter-spacing="1">What is your function title?</text>
+  <!-- ── Card 1: .NET 10 SDK ── -->
+  <rect x="100" y="260" width="820" height="720" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
 
-  <!-- Bullet 3 -->
-  <circle cx="160" cy="616" r="10" fill="#8b7fd4"/>
-  <text x="200" y="630" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="300" fill="#c4baea" letter-spacing="1">How are you using GenAI today?</text>
+  <!-- .NET logo icon -->
+  <!-- Purple rounded background -->
+  <rect x="310" y="300" width="400" height="200" rx="24" fill="#512BD4"/>
+  <!-- Dot -->
+  <circle cx="355" cy="402" r="22" fill="#ffffff"/>
+  <!-- NET text -->
+  <text x="530" y="430"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="110" font-weight="800" fill="#ffffff" text-anchor="middle"
+    letter-spacing="-4">NET</text>
 
-  <!-- Bullet 4 -->
-  <circle cx="160" cy="716" r="10" fill="#8b7fd4"/>
-  <text x="200" y="730" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="300" fill="#c4baea" letter-spacing="1">Are you using GitHub Copilot today?</text>
+  <!-- Version badge -->
+  <rect x="640" y="296" width="90" height="44" rx="10" fill="#ffffff" fill-opacity="0.2"/>
+  <text x="685" y="326"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">10</text>
 
-  <!-- Bullet 5 -->
-  <circle cx="160" cy="816" r="10" fill="#8b7fd4"/>
-  <text x="200" y="830" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="300" fill="#c4baea" letter-spacing="1">What do you want to learn?</text>
+  <!-- Product name -->
+  <text x="510" y="558"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="48" font-weight="700" fill="#ffffff" text-anchor="middle">.NET 10 SDK</text>
+
+  <!-- Description lines -->
+  <text x="510" y="618"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="30" font-weight="300" fill="#c4baea" text-anchor="middle">Runtime, compiler, and CLI tools</text>
+  <text x="510" y="658"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="30" font-weight="300" fill="#c4baea" text-anchor="middle">for building .NET applications</text>
+
+  <!-- Divider -->
+  <rect x="160" y="700" width="700" height="2" fill="#8b7fd4" fill-opacity="0.4"/>
+
+  <!-- URL label -->
+  <text x="510" y="754"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="26" font-weight="600" fill="#8b7fd4" text-anchor="middle">Download at</text>
+  <text x="510" y="800"
+    font-family="'Consolas', 'Courier New', monospace"
+    font-size="32" font-weight="400" fill="#ffffff" text-anchor="middle">https://dot.net/download</text>
+
+  <!-- Install note -->
+  <text x="510" y="862"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="26" font-weight="300" fill="#c4baea" text-anchor="middle">Choose the SDK installer for your OS.</text>
+  <text x="510" y="898"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="26" font-weight="300" fill="#c4baea" text-anchor="middle">Verify with: <tspan font-family="'Consolas', 'Courier New', monospace" fill="#8b7fd4">dotnet --version</tspan></text>
+
+  <!-- ── Card 2: Visual Studio Code ── -->
+  <rect x="1000" y="260" width="820" height="720" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+
+  <!-- VS Code logo icon (approximated) -->
+  <rect x="1210" y="300" width="400" height="200" rx="24" fill="#007ACC"/>
+  <!-- Outer "V" arrow shape -->
+  <path d="M 1270 355 L 1360 400 L 1270 445"
+    stroke="#ffffff" stroke-width="18" fill="none"
+    stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+  <!-- Inner ">" arrow -->
+  <path d="M 1310 368 L 1390 400 L 1310 432"
+    stroke="#ffffff" stroke-width="18" fill="none"
+    stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Right vertical bar -->
+  <line x1="1545" y1="345" x2="1545" y2="455"
+    stroke="#ffffff" stroke-width="18"
+    stroke-linecap="round"/>
+
+  <!-- Product name -->
+  <text x="1410" y="558"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="48" font-weight="700" fill="#ffffff" text-anchor="middle">Visual Studio Code</text>
+
+  <!-- Description lines -->
+  <text x="1410" y="618"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="30" font-weight="300" fill="#c4baea" text-anchor="middle">Lightweight editor with built-in Git,</text>
+  <text x="1410" y="658"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="30" font-weight="300" fill="#c4baea" text-anchor="middle">extensions, and AI coding support</text>
+
+  <!-- Divider -->
+  <rect x="1060" y="700" width="700" height="2" fill="#8b7fd4" fill-opacity="0.4"/>
+
+  <!-- URL label -->
+  <text x="1410" y="754"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="26" font-weight="600" fill="#8b7fd4" text-anchor="middle">Download at</text>
+  <text x="1410" y="800"
+    font-family="'Consolas', 'Courier New', monospace"
+    font-size="32" font-weight="400" fill="#ffffff" text-anchor="middle">https://code.visualstudio.com</text>
+
+  <!-- Install note -->
+  <text x="1410" y="862"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="26" font-weight="300" fill="#c4baea" text-anchor="middle">Use the stable release for your OS.</text>
+  <text x="1410" y="898"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="26" font-weight="300" fill="#c4baea" text-anchor="middle">Verify with: <tspan font-family="'Consolas', 'Courier New', monospace" fill="#8b7fd4">code --version</tspan></text>
 </svg>

@@ -75,12 +75,9 @@
   <text x="230" y="730"
     font-family="'Consolas', 'Courier New', monospace"
     font-size="30" font-weight="400" fill="#ffffff">function double(x) {</text>
-  <text x="230" y="780"
+  <text x="286" y="780"
     font-family="'Consolas', 'Courier New', monospace"
-    font-size="30" font-weight="400" fill="#ffffff">  return </text>
-  <text x="355" y="780"
-    font-family="'Consolas', 'Courier New', monospace"
-    font-size="30" font-weight="400" fill="#b7afd8">x * 2;</text>
+    font-size="30" font-weight="400" xml:space="preserve"><tspan fill="#ffffff">return </tspan><tspan fill="#b7afd8">x * 2;</tspan></text>
   <text x="230" y="830"
     font-family="'Consolas', 'Courier New', monospace"
     font-size="30" font-weight="400" fill="#ffffff">}</text>

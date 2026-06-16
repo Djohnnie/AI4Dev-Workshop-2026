@@ -75,7 +75,7 @@
   <text x="230" y="730"
     font-family="'Consolas', 'Courier New', monospace"
     font-size="30" font-weight="400" fill="#ffffff">const total = </text>
-  <text x="440" y="730"
+  <text x="482" y="730"
     font-family="'Consolas', 'Courier New', monospace"
     font-size="30" font-weight="400" fill="#b7afd8">price + tax + shipping;</text>
 
