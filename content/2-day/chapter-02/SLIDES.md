@@ -111,3 +111,15 @@
 ## Slide 25 — Interactive Quiz 6 — Answer
 
 ![Slide 25 — Interactive Quiz 6 — Answer](slide-225.svg)
+
+## Slide 26 — Lab 201 — Ultimate Snake
+
+![Slide 26 — Lab 201 — Ultimate Snake](slide-226.svg)
+
+→ [Lab 201 — Ultimate Snake](../../../labs/chapter-02/lab-201/README.md)
+
+## Slide 27 — Lab 201 — Expectations
+
+![Slide 27 — Lab 201 — Expectations](slide-227.svg)
+
+→ [Lab 201 — Ultimate Snake](../../../labs/chapter-02/lab-201/README.md)

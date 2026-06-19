@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Chapter 2/" />
+  <Folder Name="/Chapter 2/Lab 201/">
+    <Project Path="chapter-02\lab-201\UltimateSnake.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 2/Solutions/" />
+  <Folder Name="/Chapter 2/Solutions/Lab 201/">
+    <Project Path="chapter-02\lab-201-solution\UltimateSnake.csproj" />
+  </Folder>
+</Solution>
