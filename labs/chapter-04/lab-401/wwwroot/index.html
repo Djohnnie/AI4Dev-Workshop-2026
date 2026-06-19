@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ultimate Snake Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="layout">
+        <section class="hero">
+            <p class="eyebrow">Chapter 4 · Lab 401</p>
+            <h1>Ultimate Snake</h1>
+            <p class="subtitle">
+                Use Agent Mode to turn this starter into a polished web-based Snake game.
+            </p>
+        </section>
+
+        <section class="game-shell">
+            <div class="hud">
+                <div class="card">
+                    <span class="label">Score</span>
+                    <strong id="score">0</strong>
+                </div>
+                <div class="card">
+                    <span class="label">State</span>
+                    <strong id="state">Waiting</strong>
+                </div>
+                <div class="card wide">
+                    <span class="label">Status</span>
+                    <strong id="message">Starter ready. Implement the game loop in snake.js.</strong>
+                </div>
+            </div>
+
+            <div class="board-frame">
+                <canvas id="game" width="768" height="448" aria-label="Ultimate Snake board"></canvas>
+            </div>
+
+            <div class="instructions">
+                <h2>Controls</h2>
+                <ul>
+                    <li>Arrow keys move the snake</li>
+                    <li>Space starts and pauses the game</li>
+                    <li>Esc can be used for reset if you decide to support it</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="snake.js"></script>
+</body>
+</html>

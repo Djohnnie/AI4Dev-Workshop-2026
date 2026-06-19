@@ -7,4 +7,16 @@
   <Folder Name="/Chapter 2/Solutions/Lab 201/">
     <Project Path="chapter-02\lab-201-solution\UltimateSnake.csproj" />
   </Folder>
+  <Folder Name="/Chapter 4/" />
+  <Folder Name="/Chapter 4/Lab 401/">
+    <Project Path="chapter-04\lab-401\UltimateSnakeWeb.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 4/Lab 402/" />
+  <Folder Name="/Chapter 4/Solutions/" />
+  <Folder Name="/Chapter 4/Solutions/Lab 401/">
+    <Project Path="chapter-04\lab-401-solution\UltimateSnakeWeb.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 4/Solutions/Lab 402/">
+    <Project Path="chapter-04\lab-402-solution\UltimateSnakeWeb.csproj" />
+  </Folder>
 </Solution>

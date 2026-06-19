@@ -171,3 +171,21 @@
 ## Slide 38 — TODO — Your Daily-Driver Toolkit
 
 ![Slide 38 — TODO — Your Daily-Driver Toolkit](slide-438.svg)
+
+## Slide 39 — Lab 401 — Ultimate Snake Web
+
+![Slide 39 — Lab 401 — Ultimate Snake Web](slide-439.svg)
+
+→ [Lab 401 — Ultimate Snake Web](../../../labs/chapter-04/lab-401/README.md)
+
+## Slide 40 — Lab 401 — Expectations
+
+![Slide 40 — Lab 401 — Expectations](slide-440.svg)
+
+→ [Lab 401 — Ultimate Snake Web](../../../labs/chapter-04/lab-401/README.md)
+
+## Slide 41 — Lab 402 — Ultimate Snake with Copilot CLI
+
+![Slide 41 — Lab 402 — Ultimate Snake with Copilot CLI](slide-441.svg)
+
+→ [Lab 402 — Ultimate Snake from Scratch with GitHub Copilot CLI](../../../labs/chapter-04/lab-402/README.md)
