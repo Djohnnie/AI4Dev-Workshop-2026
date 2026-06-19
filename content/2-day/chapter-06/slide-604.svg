@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+
+  <text x="80" y="95" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#8b7fd4" letter-spacing="2.5">SECTION 1 OF 7  ·  COPILOT FOR ANALYSIS</text>
+  <text x="80" y="167" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="700" fill="#ffffff" letter-spacing="-1">From Blank Slate to Structured Blueprint</text>
+  <rect x="0" y="197" width="1920" height="4" fill="#8b7fd4"/>
+  <text x="80" y="257" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea" letter-spacing="1">Use Copilot as your analysis partner — before a single line of code is written.</text>
+
+  <!-- Left panel -->
+  <rect x="130" y="297" width="720" height="575" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="490" y="371" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Starting From Scratch</text>
+  <rect x="178" y="387" width="260" height="3" fill="#8b7fd4"/>
+  <circle cx="192" cy="452" r="7" fill="#8b7fd4"/>
+  <text x="220" y="463" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Draft functional requirements from a description</text>
+  <circle cx="192" cy="522" r="7" fill="#8b7fd4"/>
+  <text x="220" y="533" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Generate architecture proposals &amp; decision records</text>
+  <circle cx="192" cy="592" r="7" fill="#8b7fd4"/>
+  <text x="220" y="603" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Design API contracts and data models</text>
+  <circle cx="192" cy="662" r="7" fill="#8b7fd4"/>
+  <text x="220" y="673" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Scaffold project structure and tech stack</text>
+
+  <!-- Right panel -->
+  <rect x="1070" y="297" width="720" height="575" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1430" y="371" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Working With Existing Code</text>
+  <rect x="1118" y="387" width="260" height="3" fill="#8b7fd4"/>
+  <circle cx="1132" cy="452" r="7" fill="#8b7fd4"/>
+  <text x="1160" y="463" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Ask @workspace to explain an unfamiliar repo</text>
+  <circle cx="1132" cy="522" r="7" fill="#8b7fd4"/>
+  <text x="1160" y="533" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Generate technical documentation from code</text>
+  <circle cx="1132" cy="592" r="7" fill="#8b7fd4"/>
+  <text x="1160" y="603" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Map upgrade or migration paths</text>
+  <circle cx="1132" cy="662" r="7" fill="#8b7fd4"/>
+  <text x="1160" y="673" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Surface patterns, risks, and improvement areas</text>
+
+  <rect x="560" y="920" width="800" height="62" rx="31" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="959" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="1">Greenfield, brownfield, upgrade, or migration — Copilot adapts to the context.</text>
+</svg>
