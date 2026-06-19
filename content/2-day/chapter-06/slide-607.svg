@@ -17,37 +17,38 @@
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="95" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#8b7fd4" letter-spacing="2.5">SECTION 4 OF 7  ·  COPILOT FOR REFACTORING</text>
-  <text x="80" y="167" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="700" fill="#ffffff" letter-spacing="-1">Reshape Code Without Breaking It</text>
-  <rect x="0" y="197" width="1920" height="4" fill="#8b7fd4"/>
-  <text x="80" y="257" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea" letter-spacing="1">Targeted improvements or full-codebase modernisation — by your rules or Copilot's.</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff" letter-spacing="-1">Brownfield Analysis - From Unknown Repo to Actionable Map</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">When the code already exists, Copilot helps you compress discovery time and focus your next move.</text>
 
-  <!-- Left panel -->
-  <rect x="130" y="297" width="720" height="575" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="490" y="371" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Common Patterns</text>
-  <rect x="178" y="387" width="260" height="3" fill="#8b7fd4"/>
-  <circle cx="192" cy="452" r="7" fill="#8b7fd4"/>
-  <text x="220" y="463" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Extract logic into clearly named functions</text>
-  <circle cx="192" cy="522" r="7" fill="#8b7fd4"/>
-  <text x="220" y="533" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Convert callbacks to async/await</text>
-  <circle cx="192" cy="592" r="7" fill="#8b7fd4"/>
-  <text x="220" y="603" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Replace switch with a strategy pattern</text>
-  <circle cx="192" cy="662" r="7" fill="#8b7fd4"/>
-  <text x="220" y="673" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Reduce cognitive complexity scores</text>
+  <rect x="120" y="270" width="760" height="520" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="500" y="338" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Ask Copilot to Find</text>
+  <rect x="180" y="355" width="220" height="3" fill="#8b7fd4"/>
+  <circle cx="192" cy="420" r="7" fill="#8b7fd4"/>
+  <text x="220" y="431" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">System boundaries, entry points, and data flow</text>
+  <circle cx="192" cy="495" r="7" fill="#8b7fd4"/>
+  <text x="220" y="506" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Hotspots, brittle areas, and hidden coupling</text>
+  <circle cx="192" cy="570" r="7" fill="#8b7fd4"/>
+  <text x="220" y="581" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Upgrade blockers, risky dependencies, and gaps</text>
+  <circle cx="192" cy="645" r="7" fill="#8b7fd4"/>
+  <text x="220" y="656" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">The safest place to insert the next feature</text>
 
-  <!-- Right panel -->
-  <rect x="1070" y="297" width="720" height="575" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1430" y="371" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Large-Scale Changes</text>
-  <rect x="1118" y="387" width="260" height="3" fill="#8b7fd4"/>
-  <circle cx="1132" cy="452" r="7" fill="#8b7fd4"/>
-  <text x="1160" y="463" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Copilot Edits for multi-file changes</text>
-  <circle cx="1132" cy="522" r="7" fill="#8b7fd4"/>
-  <text x="1160" y="533" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Modernise to ES2024 / TypeScript 5.x</text>
-  <circle cx="1132" cy="592" r="7" fill="#8b7fd4"/>
-  <text x="1160" y="603" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Fix N+1 queries and performance issues</text>
-  <circle cx="1132" cy="662" r="7" fill="#8b7fd4"/>
-  <text x="1160" y="673" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Agent Mode runs tests after each change</text>
+  <rect x="1020" y="270" width="780" height="520" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="338" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">High-Value Prompts</text>
+  <rect x="1080" y="355" width="230" height="3" fill="#8b7fd4"/>
 
-  <rect x="560" y="920" width="800" height="62" rx="31" fill="#8b7fd4" opacity="0.22"/>
-  <text x="960" y="959" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="1">The tests don't change. The code gets better.</text>
+  <rect x="1080" y="395" width="660" height="95" rx="18" fill="#8b7fd4" opacity="0.14"/>
+  <text x="1110" y="435" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">"Explain this repository like I just joined the</text>
+  <text x="1110" y="468" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">team. What are the major modules and boundaries?"</text>
+
+  <rect x="1080" y="525" width="660" height="95" rx="18" fill="#8b7fd4" opacity="0.14"/>
+  <text x="1110" y="565" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">"What parts of this codebase are likely risky to</text>
+  <text x="1110" y="598" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">change, and why? Show evidence from the code."</text>
+
+  <rect x="1080" y="655" width="660" height="95" rx="18" fill="#8b7fd4" opacity="0.14"/>
+  <text x="1110" y="695" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">"Map the steps needed to add feature X safely.</text>
+  <text x="1110" y="728" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">Highlight dependencies, tests, and unknowns."</text>
+
+  <rect x="360" y="905" width="1200" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="948" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">Brownfield analysis is not "understand everything" - it is "understand enough to act safely".</text>
 </svg>

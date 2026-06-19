@@ -17,50 +17,34 @@
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="95" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#8b7fd4" letter-spacing="2.5">SECTION 7 OF 7  ·  COPILOT IN THE PR LIFECYCLE</text>
-  <text x="80" y="167" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="700" fill="#ffffff" letter-spacing="-1">AI From Commit to Merge</text>
-  <rect x="0" y="197" width="1920" height="4" fill="#8b7fd4"/>
-  <text x="80" y="257" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea" letter-spacing="1">Descriptions, reviews, and fixes — without the wait.</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="68" font-weight="700" fill="#ffffff" letter-spacing="-1">From Ticket to Working Set</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">Better feature work starts with better inputs: give Copilot the artifact, the constraints, and the existing pattern.</text>
 
-  <!-- Panel 1: PR Descriptions -->
-  <rect x="80" y="297" width="560" height="580" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="360" y="367" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">PR Descriptions</text>
-  <rect x="128" y="382" width="240" height="3" fill="#8b7fd4"/>
-  <circle cx="142" cy="447" r="7" fill="#8b7fd4"/>
-  <text x="170" y="458" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Click sparkle → structured summary</text>
-  <circle cx="142" cy="517" r="7" fill="#8b7fd4"/>
-  <text x="170" y="528" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">What changed, why, and how to test</text>
-  <circle cx="142" cy="587" r="7" fill="#8b7fd4"/>
-  <text x="170" y="598" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Consistent PR format across the team</text>
-  <circle cx="142" cy="657" r="7" fill="#8b7fd4"/>
-  <text x="170" y="668" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Edit the draft — add business context</text>
+  <rect x="120" y="285" width="760" height="520" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="500" y="355" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Good Starting Artifacts</text>
+  <rect x="255" y="372" width="260" height="3" fill="#8b7fd4"/>
+  <circle cx="192" cy="435" r="7" fill="#8b7fd4"/>
+  <text x="220" y="446" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">User story, issue, or acceptance criteria</text>
+  <circle cx="192" cy="510" r="7" fill="#8b7fd4"/>
+  <text x="220" y="521" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">API contract, schema, or UI mock-up</text>
+  <circle cx="192" cy="585" r="7" fill="#8b7fd4"/>
+  <text x="220" y="596" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Existing service, controller, or test file</text>
+  <circle cx="192" cy="660" r="7" fill="#8b7fd4"/>
+  <text x="220" y="671" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">A failing test or a precise TODO comment</text>
 
-  <!-- Panel 2: Code Review -->
-  <rect x="680" y="297" width="560" height="580" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="960" y="367" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Code Review</text>
-  <rect x="728" y="382" width="240" height="3" fill="#8b7fd4"/>
-  <circle cx="742" cy="447" r="7" fill="#8b7fd4"/>
-  <text x="770" y="458" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Request Copilot as a reviewer on GitHub</text>
-  <circle cx="742" cy="517" r="7" fill="#8b7fd4"/>
-  <text x="770" y="528" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Line-level suggestions with explanations</text>
-  <circle cx="742" cy="587" r="7" fill="#8b7fd4"/>
-  <text x="770" y="598" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">One-click apply suggestions from browser</text>
-  <circle cx="742" cy="657" r="7" fill="#8b7fd4"/>
-  <text x="770" y="668" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Frees humans to focus on deeper concerns</text>
+  <rect x="1040" y="285" width="760" height="520" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1420" y="355" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Ask Copilot First</text>
+  <rect x="1260" y="372" width="220" height="3" fill="#8b7fd4"/>
+  <circle cx="1112" cy="435" r="7" fill="#8b7fd4"/>
+  <text x="1140" y="446" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Which files are likely involved?</text>
+  <circle cx="1112" cy="510" r="7" fill="#8b7fd4"/>
+  <text x="1140" y="521" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">What assumptions or gaps are hidden here?</text>
+  <circle cx="1112" cy="585" r="7" fill="#8b7fd4"/>
+  <text x="1140" y="596" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">What is the smallest useful vertical slice?</text>
+  <circle cx="1112" cy="660" r="7" fill="#8b7fd4"/>
+  <text x="1140" y="671" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Which existing pattern should the code follow?</text>
 
-  <!-- Panel 3: Autofix -->
-  <rect x="1280" y="297" width="560" height="580" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1560" y="367" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Copilot Autofix</text>
-  <rect x="1328" y="382" width="240" height="3" fill="#8b7fd4"/>
-  <circle cx="1342" cy="447" r="7" fill="#8b7fd4"/>
-  <text x="1370" y="458" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">CodeQL surfaces security vulnerabilities</text>
-  <circle cx="1342" cy="517" r="7" fill="#8b7fd4"/>
-  <text x="1370" y="528" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Copilot generates the semantic fix</text>
-  <circle cx="1342" cy="587" r="7" fill="#8b7fd4"/>
-  <text x="1370" y="598" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Understands data flow — not just syntax</text>
-  <circle cx="1342" cy="657" r="7" fill="#8b7fd4"/>
-  <text x="1370" y="668" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Always review before merging</text>
-
-  <rect x="560" y="930" width="800" height="62" rx="31" fill="#8b7fd4" opacity="0.22"/>
-  <text x="960" y="969" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="1">Copilot didn't replace the reviewer — it removed the easy issues first.</text>
+  <rect x="410" y="885" width="1100" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="928" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">The better the starting artifact, the less generic the generated code.</text>
 </svg>

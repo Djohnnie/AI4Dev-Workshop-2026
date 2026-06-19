@@ -17,37 +17,50 @@
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="95" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#8b7fd4" letter-spacing="2.5">SECTION 6 OF 7  ·  COPILOT FOR DEBUGGING</text>
-  <text x="80" y="167" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="700" fill="#ffffff" letter-spacing="-1">From Symptom to Root Cause, Faster</text>
+  <text x="80" y="95" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#8b7fd4" letter-spacing="2.5">SECTION 2 OF 7  ·  COPILOT FOR DEVELOPMENT</text>
+  <text x="80" y="167" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="700" fill="#ffffff" letter-spacing="-1">Three Modes, One Goal: Ship Features Faster</text>
   <rect x="0" y="197" width="1920" height="4" fill="#8b7fd4"/>
-  <text x="80" y="257" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea" letter-spacing="1">Paste the error, describe the bug — Copilot recognises the pattern.</text>
+  <text x="80" y="257" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea" letter-spacing="1">Pick the right level of AI involvement for each task — from hint to full autonomy.</text>
 
-  <!-- Left panel -->
-  <rect x="130" y="297" width="720" height="575" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="490" y="371" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Diagnose</text>
-  <rect x="178" y="387" width="260" height="3" fill="#8b7fd4"/>
-  <circle cx="192" cy="452" r="7" fill="#8b7fd4"/>
-  <text x="220" y="463" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Paste exceptions &amp; stack traces directly</text>
-  <circle cx="192" cy="522" r="7" fill="#8b7fd4"/>
-  <text x="220" y="533" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">@terminal reads your shell output for you</text>
-  <circle cx="192" cy="592" r="7" fill="#8b7fd4"/>
-  <text x="220" y="603" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Rubber duck: describe the bug, get a lead</text>
-  <circle cx="192" cy="662" r="7" fill="#8b7fd4"/>
-  <text x="220" y="673" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Analyse structured log output &amp; traces</text>
+  <!-- Panel 1: Autocomplete -->
+  <rect x="80" y="297" width="560" height="580" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="360" y="367" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Autocomplete</text>
+  <rect x="128" y="382" width="240" height="3" fill="#8b7fd4"/>
+  <circle cx="142" cy="447" r="7" fill="#8b7fd4"/>
+  <text x="170" y="458" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Context-aware inline suggestions</text>
+  <circle cx="142" cy="517" r="7" fill="#8b7fd4"/>
+  <text x="170" y="528" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Tab to accept, Alt+] to cycle</text>
+  <circle cx="142" cy="587" r="7" fill="#8b7fd4"/>
+  <text x="170" y="598" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Learns from your open files</text>
+  <circle cx="142" cy="657" r="7" fill="#8b7fd4"/>
+  <text x="170" y="668" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">The "Tab Setup" habit</text>
 
-  <!-- Right panel -->
-  <rect x="1070" y="297" width="720" height="575" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1430" y="371" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Fix</text>
-  <rect x="1118" y="387" width="260" height="3" fill="#8b7fd4"/>
-  <circle cx="1132" cy="452" r="7" fill="#8b7fd4"/>
-  <text x="1160" y="463" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">/fix with an explicit failure description</text>
-  <circle cx="1132" cy="522" r="7" fill="#8b7fd4"/>
-  <text x="1160" y="533" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Attach failing test output to narrow scope</text>
-  <circle cx="1132" cy="592" r="7" fill="#8b7fd4"/>
-  <text x="1160" y="603" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Correlate events across multiple services</text>
-  <circle cx="1132" cy="662" r="7" fill="#8b7fd4"/>
-  <text x="1160" y="673" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Debug async race conditions &amp; edge cases</text>
+  <!-- Panel 2: Chat Mode -->
+  <rect x="680" y="297" width="560" height="580" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="367" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Chat Mode</text>
+  <rect x="728" y="382" width="240" height="3" fill="#8b7fd4"/>
+  <circle cx="742" cy="447" r="7" fill="#8b7fd4"/>
+  <text x="770" y="458" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Ask questions about your code</text>
+  <circle cx="742" cy="517" r="7" fill="#8b7fd4"/>
+  <text x="770" y="528" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Generate from stories, issues &amp; tickets</text>
+  <circle cx="742" cy="587" r="7" fill="#8b7fd4"/>
+  <text x="770" y="598" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Use #file or @workspace for context</text>
+  <circle cx="742" cy="657" r="7" fill="#8b7fd4"/>
+  <text x="770" y="668" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Iterate and refine with follow-ups</text>
 
-  <rect x="560" y="920" width="800" height="62" rx="31" fill="#8b7fd4" opacity="0.22"/>
-  <text x="960" y="959" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="1">Copilot is a rubber duck that talks back.</text>
+  <!-- Panel 3: Agent Mode -->
+  <rect x="1280" y="297" width="560" height="580" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1560" y="367" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Agent Mode</text>
+  <rect x="1328" y="382" width="240" height="3" fill="#8b7fd4"/>
+  <circle cx="1342" cy="447" r="7" fill="#8b7fd4"/>
+  <text x="1370" y="458" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Set a goal — Copilot acts autonomously</text>
+  <circle cx="1342" cy="517" r="7" fill="#8b7fd4"/>
+  <text x="1370" y="528" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Multi-file, multi-step execution</text>
+  <circle cx="1342" cy="587" r="7" fill="#8b7fd4"/>
+  <text x="1370" y="598" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Reads, edits, and runs commands</text>
+  <circle cx="1342" cy="657" r="7" fill="#8b7fd4"/>
+  <text x="1370" y="668" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Self-corrects on test failures</text>
+
+  <rect x="560" y="930" width="800" height="62" rx="31" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="969" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="1">Hint → Answer → Action. Match the mode to the task.</text>
 </svg>

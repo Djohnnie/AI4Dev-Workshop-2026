@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="50" font-weight="700" fill="#ffffff" letter-spacing="-1">Give the Agent Eyes - Playwright, Screenshots, DOM, and Network</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">When the bug is visible in the UI, let the agent reproduce it and inspect what the user actually experiences.</text>
+
+  <rect x="120" y="290" width="780" height="560" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="510" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">What the Agent Can See</text>
+  <rect x="285" y="377" width="450" height="3" fill="#8b7fd4"/>
+  <circle cx="202" cy="445" r="7" fill="#8b7fd4"/>
+  <text x="230" y="456" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">buttons clicked, fields filled, and visible UI state</text>
+  <circle cx="202" cy="520" r="7" fill="#8b7fd4"/>
+  <text x="230" y="531" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">console errors, network requests, and failed responses</text>
+  <circle cx="202" cy="595" r="7" fill="#8b7fd4"/>
+  <text x="230" y="606" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">DOM and accessibility snapshots at the failing step</text>
+  <circle cx="202" cy="670" r="7" fill="#8b7fd4"/>
+  <text x="230" y="681" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">screenshots, traces, and captured repro sequences</text>
+
+  <rect x="1020" y="290" width="780" height="560" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Prompt Pattern</text>
+  <rect x="1285" y="377" width="250" height="3" fill="#8b7fd4"/>
+  <rect x="1090" y="435" width="640" height="250" rx="20" fill="#8b7fd4" opacity="0.14"/>
+  <text x="1125" y="480" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">"Use Playwright to reproduce the checkout bug.</text>
+  <text x="1125" y="515" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">Capture the failing step, inspect console errors,</text>
+  <text x="1125" y="550" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">note the network request that fails, and summarize</text>
+  <text x="1125" y="585" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">what the UI did versus what it should have done."</text>
+  <text x="1410" y="740" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">A visible bug often becomes obvious once the agent can watch the scenario unfold.</text>
+
+  <rect x="260" y="900" width="1400" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="943" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">If the defect lives in behaviour, give Copilot behavioural evidence - not just source code.</text>
+</svg>

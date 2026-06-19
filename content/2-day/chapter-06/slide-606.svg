@@ -17,37 +17,38 @@
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="95" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#8b7fd4" letter-spacing="2.5">SECTION 3 OF 7  ·  COPILOT FOR TESTING</text>
-  <text x="80" y="167" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="700" fill="#ffffff" letter-spacing="-1">From Zero Coverage to Confident Tests</text>
-  <rect x="0" y="197" width="1920" height="4" fill="#8b7fd4"/>
-  <text x="80" y="257" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea" letter-spacing="1">Generate, iterate, and own your test suite — with Copilot handling the boilerplate.</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="62" font-weight="700" fill="#ffffff" letter-spacing="-1">Greenfield Analysis - From Idea to First Architecture</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">When there is no code yet, Copilot helps turn vague intent into something the team can review.</text>
 
-  <!-- Left panel -->
-  <rect x="130" y="297" width="720" height="575" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="490" y="371" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Generate &amp; Iterate</text>
-  <rect x="178" y="387" width="260" height="3" fill="#8b7fd4"/>
-  <circle cx="192" cy="452" r="7" fill="#8b7fd4"/>
-  <text x="220" y="463" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">/tests slash command — instant coverage</text>
-  <circle cx="192" cy="522" r="7" fill="#8b7fd4"/>
-  <text x="220" y="533" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Specify framework in custom instructions</text>
-  <circle cx="192" cy="592" r="7" fill="#8b7fd4"/>
-  <text x="220" y="603" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Edge cases: null, empty, boundary values</text>
-  <circle cx="192" cy="662" r="7" fill="#8b7fd4"/>
-  <text x="220" y="673" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">0% to 80%+ coverage in minutes</text>
+  <rect x="120" y="270" width="760" height="520" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="500" y="338" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Ask Copilot to Produce</text>
+  <rect x="180" y="355" width="250" height="3" fill="#8b7fd4"/>
+  <circle cx="192" cy="420" r="7" fill="#8b7fd4"/>
+  <text x="220" y="431" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Actors, workflows, and acceptance criteria</text>
+  <circle cx="192" cy="495" r="7" fill="#8b7fd4"/>
+  <text x="220" y="506" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Non-functional requirements and risks</text>
+  <circle cx="192" cy="570" r="7" fill="#8b7fd4"/>
+  <text x="220" y="581" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">API contracts, data models, and ADR drafts</text>
+  <circle cx="192" cy="645" r="7" fill="#8b7fd4"/>
+  <text x="220" y="656" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">A first backlog and dependency-aware task list</text>
 
-  <!-- Right panel -->
-  <rect x="1070" y="297" width="720" height="575" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1430" y="371" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">TDD &amp; Beyond</text>
-  <rect x="1118" y="387" width="260" height="3" fill="#8b7fd4"/>
-  <circle cx="1132" cy="452" r="7" fill="#8b7fd4"/>
-  <text x="1160" y="463" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Write the failing test first, then implement</text>
-  <circle cx="1132" cy="522" r="7" fill="#8b7fd4"/>
-  <text x="1160" y="533" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Copilot generates code to pass your tests</text>
-  <circle cx="1132" cy="592" r="7" fill="#8b7fd4"/>
-  <text x="1160" y="603" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Integration &amp; E2E test scaffolding</text>
-  <circle cx="1132" cy="662" r="7" fill="#8b7fd4"/>
-  <text x="1160" y="673" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Mock with vi.fn(), jest.fn(), msw</text>
+  <rect x="1020" y="270" width="780" height="520" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="338" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">High-Value Prompts</text>
+  <rect x="1080" y="355" width="230" height="3" fill="#8b7fd4"/>
 
-  <rect x="560" y="920" width="800" height="62" rx="31" fill="#8b7fd4" opacity="0.22"/>
-  <text x="960" y="959" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="1">Copilot writes the tests. You decide what quality means.</text>
+  <rect x="1080" y="395" width="660" height="95" rx="18" fill="#8b7fd4" opacity="0.14"/>
+  <text x="1110" y="435" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">"Based on this idea, list the main workflows,</text>
+  <text x="1110" y="468" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">constraints, assumptions, and open questions."</text>
+
+  <rect x="1080" y="525" width="660" height="95" rx="18" fill="#8b7fd4" opacity="0.14"/>
+  <text x="1110" y="565" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">"Compare two architecture options for this system.</text>
+  <text x="1110" y="598" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">Show trade-offs, risks, and a recommendation."</text>
+
+  <rect x="1080" y="655" width="660" height="95" rx="18" fill="#8b7fd4" opacity="0.14"/>
+  <text x="1110" y="695" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">"Draft user stories, acceptance criteria, and an</text>
+  <text x="1110" y="728" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">API outline before implementation starts."</text>
+
+  <rect x="430" y="905" width="1060" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="948" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">Greenfield analysis is about shaping the problem before the code shapes you.</text>
 </svg>

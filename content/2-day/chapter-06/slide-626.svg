@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#ffffff" letter-spacing="-1">Diagrams in Markdown - Draw.io and *.drawio.png</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">Use diagrams that render inside Markdown like normal images, but still reopen in draw.io for easy editing and repo-based versioning.</text>
+
+  <rect x="90" y="300" width="550" height="520" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="365" y="370" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Why *.drawio.png Works</text>
+  <rect x="220" y="387" width="290" height="3" fill="#8b7fd4"/>
+  <text x="365" y="460" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">renders directly in README and docs pages</text>
+  <text x="365" y="510" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">embedded draw.io data keeps it editable</text>
+  <text x="365" y="560" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">one file for preview, source, and sharing</text>
+  <text x="365" y="610" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">lives in git with the surrounding docs</text>
+  <text x="365" y="700" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#8b7fd4">Visual docs without losing editability</text>
+
+  <rect x="685" y="300" width="1145" height="520" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1257" y="370" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">What to Ask Copilot For</text>
+  <rect x="1085" y="387" width="345" height="3" fill="#8b7fd4"/>
+  <circle cx="780" cy="455" r="7" fill="#8b7fd4"/>
+  <text x="808" y="466" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">system context diagrams, sequence flows, deployment views, and integration maps</text>
+  <circle cx="780" cy="530" r="7" fill="#8b7fd4"/>
+  <text x="808" y="541" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">component names, responsibilities, arrows, labels, and the Markdown text around the diagram</text>
+  <circle cx="780" y="605" r="7" fill="#8b7fd4"/>
+  <text x="808" y="616" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">updates after an architecture change: "What should this diagram show now that we added a queue?"</text>
+  <rect x="770" y="675" width="980" height="115" rx="18" fill="#8b7fd4" opacity="0.14"/>
+  <text x="805" y="722" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">Prompt idea: "@workspace Outline the nodes and connections for a</text>
+  <text x="805" y="757" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">draw.io diagram of this app, then draft the Markdown section that explains it."</text>
+
+  <rect x="280" y="890" width="1400" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="933" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">The best diagram is the one people can see immediately and still edit later.</text>
+</svg>

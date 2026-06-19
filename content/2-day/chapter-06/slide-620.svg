@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#ffffff" letter-spacing="-1">Refactor from Evidence - Logs, Metrics, Traces, and Load Tests</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">Bring telemetry into the prompt so Copilot refactors the real bottleneck, not the one you guessed at.</text>
+
+  <rect x="90" y="300" width="550" height="520" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="365" y="370" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Feed It Real Signals</text>
+  <rect x="240" y="387" width="250" height="3" fill="#8b7fd4"/>
+  <text x="365" y="460" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">logs and exception patterns</text>
+  <text x="365" y="510" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">metrics: p95 latency, error rate, throughput</text>
+  <text x="365" y="560" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">distributed traces and hot paths</text>
+  <text x="365" y="610" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">load-test and profiler output</text>
+  <text x="365" y="700" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#8b7fd4">Refactor the hotspot you can measure</text>
+
+  <rect x="685" y="300" width="1145" height="520" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1257" y="370" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Prompt Pattern</text>
+  <rect x="1130" y="387" width="255" height="3" fill="#8b7fd4"/>
+  <rect x="770" y="445" width="980" height="210" rx="20" fill="#8b7fd4" opacity="0.14"/>
+  <text x="805" y="490" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">"These traces show p95 latency spikes in OrderService and this load test</text>
+  <text x="805" y="525" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">shows response time degrades sharply above 500 concurrent users. Looking at</text>
+  <text x="805" y="560" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">#file:OrderService.cs, suggest the top refactors to reduce hot-path cost.</text>
+  <text x="805" y="595" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">Call out repeated DB access, synchronous waits, unnecessary allocation,</text>
+  <text x="805" y="630" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">and what I should measure again after the change."</text>
+  <text x="1257" y="735" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Evidence-driven refactoring turns "I think" into "the data says".</text>
+
+  <rect x="300" y="890" width="1320" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="933" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">Measure first, refactor second, measure again.</text>
+</svg>

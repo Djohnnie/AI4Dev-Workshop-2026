@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="60" font-weight="700" fill="#ffffff" letter-spacing="-1">BDD with Reqnroll - Shared Language, Executable Specs</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">BDD is useful when the conversation matters as much as the code: scenarios become living examples of expected behaviour.</text>
+
+  <rect x="110" y="290" width="760" height="560" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="490" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Reqnroll Flow</text>
+  <rect x="380" y="377" width="220" height="3" fill="#8b7fd4"/>
+  <circle cx="192" cy="445" r="7" fill="#8b7fd4"/>
+  <text x="220" y="456" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Turn acceptance criteria into a `.feature` file</text>
+  <circle cx="192" cy="520" r="7" fill="#8b7fd4"/>
+  <text x="220" y="531" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Generate step definitions from missing steps</text>
+  <circle cx="192" cy="595" r="7" fill="#8b7fd4"/>
+  <text x="220" y="606" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Connect steps to APIs, page objects, or fixtures</text>
+  <circle cx="192" cy="670" r="7" fill="#8b7fd4"/>
+  <text x="220" y="681" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Keep scenarios readable for non-developers</text>
+
+  <rect x="1010" y="290" width="800" height="560" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Example Prompt</text>
+  <rect x="1290" y="377" width="240" height="3" fill="#8b7fd4"/>
+  <rect x="1080" y="430" width="660" height="250" rx="20" fill="#8b7fd4" opacity="0.14"/>
+  <text x="1115" y="480" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">"Write a Reqnroll feature for password reset.</text>
+  <text x="1115" y="515" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">Include happy path, invalid token, and</text>
+  <text x="1115" y="550" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">expired token scenarios. Then scaffold the</text>
+  <text x="1115" y="585" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">step definitions and list what still needs</text>
+  <text x="1115" y="620" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">human review before we trust the suite."</text>
+  <text x="1410" y="760" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Copilot is great at the glue; humans still judge whether the scenarios tell the right story.</text>
+
+  <rect x="270" y="900" width="1380" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="943" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">BDD works best when product, test, and code all agree on the same examples.</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff" letter-spacing="-1">Docs as Code - Markdown That Lives with the Repo</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">README files, ADRs, runbooks, onboarding notes, and feature docs are easier to trust when they ship in the same pull request as the code.</text>
+
+  <rect x="95" y="305" width="540" height="500" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="365" y="375" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">What to Create</text>
+  <rect x="220" y="392" width="290" height="3" fill="#8b7fd4"/>
+  <text x="365" y="465" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">project README and quickstart</text>
+  <text x="365" y="515" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">feature docs in /docs</text>
+  <text x="365" y="565" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">ADRs and design rationale</text>
+  <text x="365" y="615" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">runbooks and troubleshooting notes</text>
+  <text x="365" y="665" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">onboarding and local setup guides</text>
+
+  <rect x="690" y="305" width="540" height="500" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="375" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Why It Works</text>
+  <rect x="820" y="392" width="280" height="3" fill="#8b7fd4"/>
+  <text x="960" y="465" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">versioned together with the code</text>
+  <text x="960" y="515" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">reviewed in the same PR conversation</text>
+  <text x="960" y="565" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">branched, tagged, and released together</text>
+  <text x="960" y="615" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">easy to patch when the implementation shifts</text>
+  <text x="960" y="665" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">closer to the developers who know the context</text>
+
+  <rect x="1285" y="305" width="540" height="500" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1555" y="375" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Prompt Pattern</text>
+  <rect x="1410" y="392" width="290" height="3" fill="#8b7fd4"/>
+  <rect x="1360" y="445" width="390" height="220" rx="20" fill="#8b7fd4" opacity="0.14"/>
+  <text x="1390" y="490" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">"@workspace Create</text>
+  <text x="1390" y="522" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">docs/order-import.md</text>
+  <text x="1390" y="554" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">for new developers.</text>
+  <text x="1390" y="586" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">Include workflow, important</text>
+  <text x="1390" y="618" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">files, config, failure modes,</text>
+  <text x="1390" y="650" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">and a local test path."</text>
+  <text x="1555" y="730" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Ask for audience-specific docs, not generic repo summaries.</text>
+
+  <rect x="250" y="900" width="1420" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="943" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">If docs live beside the code, keeping them current becomes normal engineering work.</text>
+</svg>
