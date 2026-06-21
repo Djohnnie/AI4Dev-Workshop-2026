@@ -12,10 +12,18 @@
 
 ![Slide 03 — Where can you find the resources?](slide-003.svg)
 
-## Slide 04 — Who are you?
+## Slide 04 — My Stance on GenAI Tooling
 
-![Slide 04 — Who are you?](slide-004.svg)
+![Slide 04 — My Stance on GenAI Tooling](slide-004.svg)
 
-## Slide 05 — Day 1 - What is on the agenda?
+## Slide 05 — A Quick Disclaimer
 
-![Slide 05 — Day 1 - What is on the agenda?](slide-005.svg)
+![Slide 05 — A Quick Disclaimer](slide-005.svg)
+
+## Slide 06 — Who are you?
+
+![Slide 06 — Who are you?](slide-006.svg)
+
+## Slide 07 — Day 1 - What is on the agenda?
+
+![Slide 07 — Day 1 - What is on the agenda?](slide-007.svg)

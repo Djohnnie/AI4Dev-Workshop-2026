@@ -6,41 +6,67 @@
     </radialGradient>
   </defs>
 
-  <!-- Background -->
   <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <!-- Left accent bar -->
-  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4" rx="0"/>
-
-  <!-- Title -->
-  <text
-    x="80" y="108"
+  <text x="80" y="108"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="72"
-    font-weight="700"
-    fill="#ffffff"
-    letter-spacing="-1">Who are you?</text>
+    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">A Quick Disclaimer</text>
 
-  <!-- Title underline -->
-  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
-  <!-- Bullet 1 -->
-  <circle cx="160" cy="416" r="10" fill="#8b7fd4"/>
-  <text x="200" y="430" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="300" fill="#c4baea" letter-spacing="1">What is your first name?</text>
+  <text x="960" y="215"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#c4baea" text-anchor="middle">I used GenAI while building this course — deliberately, transparently, and one artifact at a time.</text>
 
-  <!-- Bullet 2 -->
-  <circle cx="160" cy="516" r="10" fill="#8b7fd4"/>
-  <text x="200" y="530" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="300" fill="#c4baea" letter-spacing="1">What is your function title?</text>
+  <rect x="80" y="290" width="540" height="520" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <rect x="690" y="290" width="540" height="520" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <rect x="1300" y="290" width="540" height="520" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
 
-  <!-- Bullet 3 -->
-  <circle cx="160" cy="616" r="10" fill="#8b7fd4"/>
-  <text x="200" y="630" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="300" fill="#c4baea" letter-spacing="1">How are you using GenAI today?</text>
+  <text x="350" y="370"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="42" font-weight="700" fill="#ffffff" text-anchor="middle">Where I used it</text>
+  <text x="350" y="455"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="31" font-weight="300" fill="#c4baea" text-anchor="middle">I used GenAI to help create</text>
+  <text x="350" y="500"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="31" font-weight="300" fill="#c4baea" text-anchor="middle">these slides and parts of some</text>
+  <text x="350" y="545"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="31" font-weight="300" fill="#c4baea" text-anchor="middle">exercises and labs in this workshop.</text>
 
-  <!-- Bullet 4 -->
-  <circle cx="160" cy="716" r="10" fill="#8b7fd4"/>
-  <text x="200" y="730" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="300" fill="#c4baea" letter-spacing="1">Are you using GitHub Copilot today?</text>
+  <text x="960" y="370"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="42" font-weight="700" fill="#ffffff" text-anchor="middle">How I used it</text>
+  <text x="960" y="455"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="31" font-weight="300" fill="#c4baea" text-anchor="middle">Not by generating everything in bulk,</text>
+  <text x="960" y="500"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="31" font-weight="300" fill="#c4baea" text-anchor="middle">but by prompting for one slide, one lab,</text>
+  <text x="960" y="545"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="31" font-weight="300" fill="#c4baea" text-anchor="middle">or one idea at a time to move faster.</text>
 
-  <!-- Bullet 5 -->
-  <circle cx="160" cy="816" r="10" fill="#8b7fd4"/>
-  <text x="200" y="830" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="300" fill="#c4baea" letter-spacing="1">What do you want to learn?</text>
+  <text x="1570" y="370"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="42" font-weight="700" fill="#ffffff" text-anchor="middle">What still matters</text>
+  <text x="1570" y="455"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="31" font-weight="300" fill="#c4baea" text-anchor="middle">Transparency matters.</text>
+  <text x="1570" y="500"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="31" font-weight="300" fill="#c4baea" text-anchor="middle">Responsibility matters.</text>
+  <text x="1570" y="545"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="31" font-weight="300" fill="#c4baea" text-anchor="middle">I still review, verify, and own the result.</text>
+
+  <rect x="80" y="865" width="1760" height="120" rx="20" fill="#1e1a39" fill-opacity="0.55" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="925"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="600" fill="#ffffff" text-anchor="middle">Using AI is not the problem. Hiding it or outsourcing accountability is.</text>
+  <text x="960" y="965"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="30" font-weight="300" fill="#c4baea" text-anchor="middle">Be clear about how it was used, and stay responsible for what you ship.</text>
 </svg>

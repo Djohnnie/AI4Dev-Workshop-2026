@@ -10,33 +10,95 @@
   <rect width="1920" height="1080" fill="url(#bgGlow)"/>
 
   <!-- Left accent bar -->
-  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4" rx="0"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
   <!-- Title -->
-  <text
-    x="80" y="108"
+  <text x="80" y="108"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="72"
-    font-weight="700"
-    fill="#ffffff"
-    letter-spacing="-1">Day 1 — What is on the agenda?</text>
+    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Before We Start — Set Up Your Laptop</text>
 
   <!-- Title underline -->
-  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
-  <!-- Chapter 1 -->
-  <text x="80" y="245" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="600" fill="#ffffff" letter-spacing="0">Chapter 1 — Welcome to the AI Revolution!</text>
-  <text x="80" y="296" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea" letter-spacing="1">AI and LLM foundations, GitHub Copilot positioning, and what it means for developers</text>
+  <!-- Subtitle -->
+  <text x="960" y="210"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#c4baea" text-anchor="middle">Download and install the following tools — both are free and available for Windows, macOS, and Linux</text>
 
-  <!-- Chapter 2 -->
-  <text x="80" y="435" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="600" fill="#ffffff" letter-spacing="0">Chapter 2 — Meet Your New Best Friend: GitHub Copilot</text>
-  <text x="80" y="486" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea" letter-spacing="1">Completions, Copilot Chat, and model selection — from zero to confident daily use</text>
+  <!-- ── Card 1: .NET 10 SDK ── -->
+  <rect x="100" y="260" width="820" height="720" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>  <!-- .NET logo icon -->
+  <image
+    href="data:image/png;base64,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"
+    x="280" y="300"
+    width="460" height="200"
+    preserveAspectRatio="xMidYMid meet"/>  <!-- Product name -->
+  <text x="510" y="558"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="48" font-weight="700" fill="#ffffff" text-anchor="middle">.NET 10 SDK</text>
 
-  <!-- Chapter 3 -->
-  <text x="80" y="625" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="600" fill="#ffffff" letter-spacing="0">Chapter 3 — Power with Purpose: Using AI Responsibly</text>
-  <text x="80" y="676" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea" letter-spacing="1">Privacy, security, IP risk, and how to critically evaluate AI-generated code</text>
+  <!-- Description lines -->
+  <text x="510" y="618"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="30" font-weight="300" fill="#c4baea" text-anchor="middle">Runtime, compiler, and CLI tools</text>
+  <text x="510" y="658"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="30" font-weight="300" fill="#c4baea" text-anchor="middle">for building .NET applications</text>
 
-  <!-- Chapter 4 -->
-  <text x="80" y="815" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="600" fill="#ffffff" letter-spacing="0">Chapter 4 — Let Your AI Co-Pilot Take the Wheel</text>
-  <text x="80" y="866" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea" letter-spacing="1">Agent Mode, Copilot CLI, GitHub.com features, and custom instructions</text>
+  <!-- Divider -->
+  <rect x="160" y="700" width="700" height="2" fill="#8b7fd4" fill-opacity="0.4"/>
+
+  <!-- URL label -->
+  <text x="510" y="754"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="26" font-weight="600" fill="#8b7fd4" text-anchor="middle">Download at</text>
+  <text x="510" y="800"
+    font-family="'Consolas', 'Courier New', monospace"
+    font-size="32" font-weight="400" fill="#ffffff" text-anchor="middle">https://dot.net/download</text>
+
+  <!-- Install note -->
+  <text x="510" y="862"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="26" font-weight="300" fill="#c4baea" text-anchor="middle">Choose the SDK installer for your OS.</text>
+  <text x="510" y="898"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="26" font-weight="300" fill="#c4baea" text-anchor="middle">Verify with: <tspan font-family="'Consolas', 'Courier New', monospace" fill="#8b7fd4">dotnet --version</tspan></text>
+
+  <!-- ── Card 2: Visual Studio Code ── -->
+  <rect x="1000" y="260" width="820" height="720" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>  <!-- VS Code logo icon -->
+  <image
+    href="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPG1hc2sgaWQ9Im1hc2swIiBtYXNrLXR5cGU9ImFscGhhIiBtYXNrVW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCI+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNzAuOTExOSA5OS4zMTcxQzcyLjQ4NjkgOTkuOTMwNyA3NC4yODI4IDk5Ljg5MTQgNzUuODcyNSA5OS4xMjY0TDk2LjQ2MDggODkuMjE5N0M5OC42MjQyIDg4LjE3ODcgMTAwIDg1Ljk4OTIgMTAwIDgzLjU4NzJWMTYuNDEzM0MxMDAgMTQuMDExMyA5OC42MjQzIDExLjgyMTggOTYuNDYwOSAxMC43ODA4TDc1Ljg3MjUgMC44NzM3NTZDNzMuNzg2MiAtMC4xMzAxMjkgNzEuMzQ0NiAwLjExNTc2IDY5LjUxMzUgMS40NDY5NUM2OS4yNTIgMS42MzcxMSA2OS4wMDI4IDEuODQ5NDMgNjguNzY5IDIuMDgzNDFMMjkuMzU1MSAzOC4wNDE1TDEyLjE4NzIgMjUuMDA5NkMxMC41ODkgMjMuNzk2NSA4LjM1MzYzIDIzLjg5NTkgNi44NjkzMyAyNS4yNDYxTDEuMzYzMDMgMzAuMjU0OUMtMC40NTI1NTIgMzEuOTA2NCAtMC40NTQ2MzMgMzQuNzYyNyAxLjM1ODUzIDM2LjQxN0wxNi4yNDcxIDUwLjAwMDFMMS4zNTg1MyA2My41ODMyQy0wLjQ1NDYzMyA2NS4yMzc0IC0wLjQ1MjU1MiA2OC4wOTM4IDEuMzYzMDMgNjkuNzQ1M0w2Ljg2OTMzIDc0Ljc1NDFDOC4zNTM2MyA3Ni4xMDQzIDEwLjU4OSA3Ni4yMDM3IDEyLjE4NzIgNzQuOTkwNUwyOS4zNTUxIDYxLjk1ODdMNjguNzY5IDk3LjkxNjdDNjkuMzkyNSA5OC41NDA2IDcwLjEyNDYgOTkuMDEwNCA3MC45MTE5IDk5LjMxNzFaTTc1LjAxNTIgMjcuMjk4OUw0NS4xMDkxIDUwLjAwMDFMNzUuMDE1MiA3Mi43MDEyVjI3LjI5ODlaIiBmaWxsPSJ3aGl0ZSIvPgo8L21hc2s+CjxnIG1hc2s9InVybCgjbWFzazApIj4KPHBhdGggZD0iTTk2LjQ2MTQgMTAuNzk2Mkw3NS44NTY5IDAuODc1NTQyQzczLjQ3MTkgLTAuMjcyNzczIDcwLjYyMTcgMC4yMTE2MTEgNjguNzUgMi4wODMzM0wxLjI5ODU4IDYzLjU4MzJDLTAuNTE1NjkzIDY1LjIzNzMgLTAuNTEzNjA3IDY4LjA5MzcgMS4zMDMwOCA2OS43NDUyTDYuODEyNzIgNzQuNzU0QzguMjk3OTMgNzYuMTA0MiAxMC41MzQ3IDc2LjIwMzYgMTIuMTMzOCA3NC45OTA1TDkzLjM2MDkgMTMuMzY5OUM5Ni4wODYgMTEuMzAyNiAxMDAgMTMuMjQ2MiAxMDAgMTYuNjY2N1YxNi40Mjc1QzEwMCAxNC4wMjY1IDk4LjYyNDYgMTEuODM3OCA5Ni40NjE0IDEwLjc5NjJaIiBmaWxsPSIjMDA2NUE5Ii8+CjxnIGZpbHRlcj0idXJsKCNmaWx0ZXIwX2QpIj4KPHBhdGggZD0iTTk2LjQ2MTQgODkuMjAzOEw3NS44NTY5IDk5LjEyNDVDNzMuNDcxOSAxMDAuMjczIDcwLjYyMTcgOTkuNzg4NCA2OC43NSA5Ny45MTY3TDEuMjk4NTggMzYuNDE2OUMtMC41MTU2OTMgMzQuNzYyNyAtMC41MTM2MDcgMzEuOTA2MyAxLjMwMzA4IDMwLjI1NDhMNi44MTI3MiAyNS4yNDZDOC4yOTc5MyAyMy44OTU4IDEwLjUzNDcgMjMuNzk2NCAxMi4xMzM4IDI1LjAwOTVMOTMuMzYwOSA4Ni42MzAxQzk2LjA4NiA4OC42OTc0IDEwMCA4Ni43NTM4IDEwMCA4My4zMzM0VjgzLjU3MjZDMTAwIDg1Ljk3MzUgOTguNjI0NiA4OC4xNjIyIDk2LjQ2MTQgODkuMjAzOFoiIGZpbGw9IiMwMDdBQ0MiLz4KPC9nPgo8ZyBmaWx0ZXI9InVybCgjZmlsdGVyMV9kKSI+CjxwYXRoIGQ9Ik03NS44NTc4IDk5LjEyNjNDNzMuNDcyMSAxMDAuMjc0IDcwLjYyMTkgOTkuNzg4NSA2OC43NSA5Ny45MTY2QzcxLjA1NjQgMTAwLjIyMyA3NSA5OC41ODk1IDc1IDk1LjMyNzhWNC42NzIxM0M3NSAxLjQxMDM5IDcxLjA1NjQgLTAuMjIzMTA2IDY4Ljc1IDIuMDgzMjlDNzAuNjIxOSAwLjIxMTQwMiA3My40NzIxIC0wLjI3MzY2NiA3NS44NTc4IDAuODczNjMzTDk2LjQ1ODcgMTAuNzgwN0M5OC42MjM0IDExLjgyMTcgMTAwIDE0LjAxMTIgMTAwIDE2LjQxMzJWODMuNTg3MUMxMDAgODUuOTg5MSA5OC42MjM0IDg4LjE3ODYgOTYuNDU4NiA4OS4yMTk2TDc1Ljg1NzggOTkuMTI2M1oiIGZpbGw9IiMxRjlDRjAiLz4KPC9nPgo8ZyBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6b3ZlcmxheSIgb3BhY2l0eT0iMC4yNSI+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNzAuODUxMSA5OS4zMTcxQzcyLjQyNjEgOTkuOTMwNiA3NC4yMjIxIDk5Ljg5MTMgNzUuODExNyA5OS4xMjY0TDk2LjQgODkuMjE5N0M5OC41NjM0IDg4LjE3ODcgOTkuOTM5MiA4NS45ODkyIDk5LjkzOTIgODMuNTg3MVYxNi40MTMzQzk5LjkzOTIgMTQuMDExMiA5OC41NjM1IDExLjgyMTcgOTYuNDAwMSAxMC43ODA3TDc1LjgxMTcgMC44NzM2OTVDNzMuNzI1NSAtMC4xMzAxOSA3MS4yODM4IDAuMTE1Njk5IDY5LjQ1MjcgMS40NDY4OEM2OS4xOTEyIDEuNjM3MDUgNjguOTQyIDEuODQ5MzcgNjguNzA4MiAyLjA4MzM1TDI5LjI5NDMgMzguMDQxNEwxMi4xMjY0IDI1LjAwOTZDMTAuNTI4MyAyMy43OTY0IDguMjkyODUgMjMuODk1OSA2LjgwODU1IDI1LjI0NkwxLjMwMjI1IDMwLjI1NDhDLTAuNTEzMzM0IDMxLjkwNjQgLTAuNTE1NDE1IDM0Ljc2MjcgMS4yOTc3NSAzNi40MTY5TDE2LjE4NjMgNTBMMS4yOTc3NSA2My41ODMyQy0wLjUxNTQxNSA2NS4yMzc0IC0wLjUxMzMzNCA2OC4wOTM3IDEuMzAyMjUgNjkuNzQ1Mkw2LjgwODU1IDc0Ljc1NEM4LjI5Mjg1IDc2LjEwNDIgMTAuNTI4MyA3Ni4yMDM2IDEyLjEyNjQgNzQuOTkwNUwyOS4yOTQzIDYxLjk1ODZMNjguNzA4MiA5Ny45MTY3QzY5LjMzMTcgOTguNTQwNSA3MC4wNjM4IDk5LjAxMDQgNzAuODUxMSA5OS4zMTcxWk03NC45NTQ0IDI3LjI5ODlMNDUuMDQ4MyA1MEw3NC45NTQ0IDcyLjcwMTJWMjcuMjk4OVoiIGZpbGw9InVybCgjcGFpbnQwX2xpbmVhcikiLz4KPC9nPgo8L2c+CjxkZWZzPgo8ZmlsdGVyIGlkPSJmaWx0ZXIwX2QiIHg9Ii04LjM5NDExIiB5PSIxNS44MjkxIiB3aWR0aD0iMTE2LjcyNyIgaGVpZ2h0PSI5Mi4yNDU2IiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+CjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+CjxmZUNvbG9yTWF0cml4IGluPSJTb3VyY2VBbHBoYSIgdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDEyNyAwIi8+CjxmZU9mZnNldC8+CjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjQuMTY2NjciLz4KPGZlQ29sb3JNYXRyaXggdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAuMjUgMCIvPgo8ZmVCbGVuZCBtb2RlPSJvdmVybGF5IiBpbjI9IkJhY2tncm91bmRJbWFnZUZpeCIgcmVzdWx0PSJlZmZlY3QxX2Ryb3BTaGFkb3ciLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJlZmZlY3QxX2Ryb3BTaGFkb3ciIHJlc3VsdD0ic2hhcGUiLz4KPC9maWx0ZXI+CjxmaWx0ZXIgaWQ9ImZpbHRlcjFfZCIgeD0iNjAuNDE2NyIgeT0iLTguMDc1NTgiIHdpZHRoPSI0Ny45MTY3IiBoZWlnaHQ9IjExNi4xNTEiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIj4KPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz4KPGZlQ29sb3JNYXRyaXggaW49IlNvdXJjZUFscGhhIiB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMTI3IDAiLz4KPGZlT2Zmc2V0Lz4KPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iNC4xNjY2NyIvPgo8ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMC4yNSAwIi8+CjxmZUJsZW5kIG1vZGU9Im92ZXJsYXkiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9ImVmZmVjdDFfZHJvcFNoYWRvdyIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9ImVmZmVjdDFfZHJvcFNoYWRvdyIgcmVzdWx0PSJzaGFwZSIvPgo8L2ZpbHRlcj4KPGxpbmVhckdyYWRpZW50IGlkPSJwYWludDBfbGluZWFyIiB4MT0iNDkuOTM5MiIgeTE9IjAuMjU3ODEyIiB4Mj0iNDkuOTM5MiIgeTI9Ijk5Ljc0MjMiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KPHN0b3Agc3RvcC1jb2xvcj0id2hpdGUiLz4KPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSJ3aGl0ZSIgc3RvcC1vcGFjaXR5PSIwIi8+CjwvbGluZWFyR3JhZGllbnQ+CjwvZGVmcz4KPC9zdmc+Cg=="
+    x="1245" y="295"
+    width="330" height="210"
+    preserveAspectRatio="xMidYMid meet"/>
+  <!-- Product name -->
+  <text x="1410" y="558"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="48" font-weight="700" fill="#ffffff" text-anchor="middle">Visual Studio Code</text>
+
+  <!-- Description lines -->
+  <text x="1410" y="618"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="30" font-weight="300" fill="#c4baea" text-anchor="middle">Lightweight editor with built-in Git,</text>
+  <text x="1410" y="658"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="30" font-weight="300" fill="#c4baea" text-anchor="middle">extensions, and AI coding support</text>
+
+  <!-- Divider -->
+  <rect x="1060" y="700" width="700" height="2" fill="#8b7fd4" fill-opacity="0.4"/>
+
+  <!-- URL label -->
+  <text x="1410" y="754"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="26" font-weight="600" fill="#8b7fd4" text-anchor="middle">Download at</text>
+  <text x="1410" y="800"
+    font-family="'Consolas', 'Courier New', monospace"
+    font-size="32" font-weight="400" fill="#ffffff" text-anchor="middle">https://code.visualstudio.com</text>
+
+  <!-- Install note -->
+  <text x="1410" y="862"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="26" font-weight="300" fill="#c4baea" text-anchor="middle">Use the stable release for your OS.</text>
+  <text x="1410" y="898"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="26" font-weight="300" fill="#c4baea" text-anchor="middle">Verify with: <tspan font-family="'Consolas', 'Courier New', monospace" fill="#8b7fd4">code --version</tspan></text>
 </svg>

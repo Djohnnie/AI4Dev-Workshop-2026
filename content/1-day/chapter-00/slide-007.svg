@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4" rx="0"/>
+
+  <!-- Title -->
+  <text
+    x="80" y="108"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="72"
+    font-weight="700"
+    fill="#ffffff"
+    letter-spacing="-1">Day 1 — What is on the agenda?</text>
+
+  <!-- Title underline -->
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
+
+  <!-- Chapter 1 -->
+  <text x="80" y="245" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="600" fill="#ffffff" letter-spacing="0">Chapter 1 — Welcome to the AI Revolution &amp; Power with Purpose</text>
+  <text x="80" y="296" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea" letter-spacing="1">AI and LLM foundations, where GitHub Copilot fits, and how to use it responsibly</text>
+
+  <!-- Chapter 2 -->
+  <text x="80" y="435" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="600" fill="#ffffff" letter-spacing="0">Chapter 2 — Meet Your New Best Friend &amp; Let It Take the Wheel</text>
+  <text x="80" y="486" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea" letter-spacing="1">Hands-on with completions, Chat, Agent Mode, Copilot CLI, and custom instructions</text>
+
+  <!-- Chapter 3 -->
+  <text x="80" y="625" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="600" fill="#ffffff" letter-spacing="0">Chapter 3 — Speak AI's Language: Mastering Prompts, Workflow &amp; Best Practices</text>
+  <text x="80" y="676" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea" letter-spacing="1">Precision prompting, context control, and the habits that make AI work for you</text>
+
+  <!-- Chapter 4 -->
+  <text x="80" y="815" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="600" fill="#ffffff" letter-spacing="0">Chapter 4 — Get Your Hands Dirty: Real-World AI in Action</text>
+  <text x="80" y="866" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea" letter-spacing="1">Testing, docs, debugging, and code review — followed by a hands-on build sprint</text>
+</svg>
