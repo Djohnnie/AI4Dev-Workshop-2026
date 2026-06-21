@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
   <defs>
     <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
       <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
@@ -15,7 +15,7 @@
   <!-- Title -->
   <text x="80" y="108"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Exercise 102 &#x2014; Stateless LLM Chat</text>
+    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Exercise 101 &#x2014; Token Visualizer</text>
 
   <!-- Title underline -->
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
@@ -24,10 +24,10 @@
   <text x="80" y="195"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
     font-size="34" font-weight="300" fill="#c4baea">
-    Build a terminal chat interface and see why an LLM is stateless by default.
+    Explore how LLMs see your text &#x2014; before any intelligence happens.
   </text>
 
-  <!-- ===== BOX 1: Build (top-left) ===== -->
+  <!-- ===== BOX 1: Configure (top-left) ===== -->
   <rect x="80" y="235" width="860" height="367" rx="12"
     fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="510" y="325" text-anchor="middle"
@@ -35,16 +35,16 @@
     font-size="56" font-weight="700" fill="#8b7fd4">01</text>
   <text x="510" y="400" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="38" font-weight="600" fill="#ffffff">Build</text>
+    font-size="38" font-weight="600" fill="#ffffff">Configure</text>
   <rect x="430" y="420" width="160" height="3" fill="#8b7fd4"/>
   <text x="510" y="466" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">Create a .NET terminal chat app</text>
+    font-size="28" font-weight="300" fill="#c4baea">Set your Azure OpenAI endpoint, API key</text>
   <text x="510" y="510" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">with Microsoft Agent Framework SDK</text>
+    font-size="28" font-weight="300" fill="#c4baea">and deployment via environment variables</text>
 
-  <!-- ===== BOX 2: Talk (top-right) ===== -->
+  <!-- ===== BOX 2: Run (top-right) ===== -->
   <rect x="980" y="235" width="860" height="367" rx="12"
     fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="1410" y="325" text-anchor="middle"
@@ -52,16 +52,16 @@
     font-size="56" font-weight="700" fill="#8b7fd4">02</text>
   <text x="1410" y="400" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="38" font-weight="600" fill="#ffffff">Talk</text>
+    font-size="38" font-weight="600" fill="#ffffff">Run</text>
   <rect x="1330" y="420" width="160" height="3" fill="#8b7fd4"/>
   <text x="1410" y="466" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">Send one prompt at a time</text>
+    font-size="28" font-weight="300" fill="#c4baea">cd exercises/chapter-01/101 &amp;&amp; dotnet run</text>
   <text x="1410" y="510" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">and print the model response</text>
+    font-size="28" font-weight="300" fill="#c4baea">A rich terminal UI will greet you</text>
 
-  <!-- ===== BOX 3: Omit History (bottom-left) ===== -->
+  <!-- ===== BOX 3: Experiment (bottom-left) ===== -->
   <rect x="80" y="632" width="860" height="367" rx="12"
     fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="510" y="722" text-anchor="middle"
@@ -69,16 +69,16 @@
     font-size="56" font-weight="700" fill="#8b7fd4">03</text>
   <text x="510" y="797" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="38" font-weight="600" fill="#ffffff">Omit History</text>
+    font-size="38" font-weight="600" fill="#ffffff">Experiment</text>
   <rect x="430" y="817" width="160" height="3" fill="#8b7fd4"/>
   <text x="510" y="863" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">Do not keep previous messages</text>
+    font-size="28" font-weight="300" fill="#c4baea">Paste English, C#, SQL, and Copilot prompts</text>
   <text x="510" y="907" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">between turns in the conversation</text>
+    font-size="28" font-weight="300" fill="#c4baea">Observe and compare the token counts</text>
 
-  <!-- ===== BOX 4: Observe (bottom-right) ===== -->
+  <!-- ===== BOX 4: Reflect (bottom-right) ===== -->
   <rect x="980" y="632" width="860" height="367" rx="12"
     fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="1410" y="722" text-anchor="middle"
@@ -86,13 +86,13 @@
     font-size="56" font-weight="700" fill="#8b7fd4">04</text>
   <text x="1410" y="797" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="38" font-weight="600" fill="#ffffff">Observe</text>
+    font-size="38" font-weight="600" fill="#ffffff">Reflect</text>
   <rect x="1330" y="817" width="160" height="3" fill="#8b7fd4"/>
   <text x="1410" y="863" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">Ask follow-up questions and notice</text>
+    font-size="28" font-weight="300" fill="#c4baea">Use your findings to answer</text>
   <text x="1410" y="907" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">the model has no memory by itself</text>
+    font-size="28" font-weight="300" fill="#c4baea">the discussion prompts in the exercise README</text>
 
 </svg>

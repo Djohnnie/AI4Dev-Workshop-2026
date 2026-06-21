@@ -15,7 +15,7 @@
   <!-- Title -->
   <text x="80" y="108"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Exercise 103 &#x2014; Chat History &amp; Roles</text>
+    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Exercise 102 &#x2014; Stateless LLM Chat</text>
 
   <!-- Title underline -->
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
@@ -24,10 +24,10 @@
   <text x="80" y="195"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
     font-size="34" font-weight="300" fill="#c4baea">
-    Extend the chat app with explicit state, roles, and conversation context.
+    Build a terminal chat interface and see why an LLM is stateless by default.
   </text>
 
-  <!-- ===== BOX 1: Extend (top-left) ===== -->
+  <!-- ===== BOX 1: Build (top-left) ===== -->
   <rect x="80" y="235" width="860" height="367" rx="12"
     fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="510" y="325" text-anchor="middle"
@@ -35,16 +35,16 @@
     font-size="56" font-weight="700" fill="#8b7fd4">01</text>
   <text x="510" y="400" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="38" font-weight="600" fill="#ffffff">Extend</text>
+    font-size="38" font-weight="600" fill="#ffffff">Build</text>
   <rect x="430" y="420" width="160" height="3" fill="#8b7fd4"/>
   <text x="510" y="466" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">Build on the Exercise 102 chat app</text>
+    font-size="28" font-weight="300" fill="#c4baea">Create a .NET terminal chat app</text>
   <text x="510" y="510" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">using Microsoft Agent Framework SDK</text>
+    font-size="28" font-weight="300" fill="#c4baea">with Microsoft Agent Framework SDK</text>
 
-  <!-- ===== BOX 2: Store Turns (top-right) ===== -->
+  <!-- ===== BOX 2: Talk (top-right) ===== -->
   <rect x="980" y="235" width="860" height="367" rx="12"
     fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="1410" y="325" text-anchor="middle"
@@ -52,16 +52,16 @@
     font-size="56" font-weight="700" fill="#8b7fd4">02</text>
   <text x="1410" y="400" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="38" font-weight="600" fill="#ffffff">Store Turns</text>
+    font-size="38" font-weight="600" fill="#ffffff">Talk</text>
   <rect x="1330" y="420" width="160" height="3" fill="#8b7fd4"/>
   <text x="1410" y="466" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">Keep previous user and assistant</text>
+    font-size="28" font-weight="300" fill="#c4baea">Send one prompt at a time</text>
   <text x="1410" y="510" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">messages in chat history</text>
+    font-size="28" font-weight="300" fill="#c4baea">and print the model response</text>
 
-  <!-- ===== BOX 3: Use Roles (bottom-left) ===== -->
+  <!-- ===== BOX 3: Omit History (bottom-left) ===== -->
   <rect x="80" y="632" width="860" height="367" rx="12"
     fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="510" y="722" text-anchor="middle"
@@ -69,16 +69,16 @@
     font-size="56" font-weight="700" fill="#8b7fd4">03</text>
   <text x="510" y="797" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="38" font-weight="600" fill="#ffffff">Use Roles</text>
+    font-size="38" font-weight="600" fill="#ffffff">Omit History</text>
   <rect x="430" y="817" width="160" height="3" fill="#8b7fd4"/>
   <text x="510" y="863" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">Separate user, assistant,</text>
+    font-size="28" font-weight="300" fill="#c4baea">Do not keep previous messages</text>
   <text x="510" y="907" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">and system instructions</text>
+    font-size="28" font-weight="300" fill="#c4baea">between turns in the conversation</text>
 
-  <!-- ===== BOX 4: Clarify State (bottom-right) ===== -->
+  <!-- ===== BOX 4: Observe (bottom-right) ===== -->
   <rect x="980" y="632" width="860" height="367" rx="12"
     fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="1410" y="722" text-anchor="middle"
@@ -86,13 +86,13 @@
     font-size="56" font-weight="700" fill="#8b7fd4">04</text>
   <text x="1410" y="797" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="38" font-weight="600" fill="#ffffff">Clarify State</text>
+    font-size="38" font-weight="600" fill="#ffffff">Observe</text>
   <rect x="1330" y="817" width="160" height="3" fill="#8b7fd4"/>
   <text x="1410" y="863" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">Compare responses with Exercise 102</text>
+    font-size="28" font-weight="300" fill="#c4baea">Ask follow-up questions and notice</text>
   <text x="1410" y="907" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">to see how apps provide memory</text>
+    font-size="28" font-weight="300" fill="#c4baea">the model has no memory by itself</text>
 
 </svg>

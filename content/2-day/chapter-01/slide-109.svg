@@ -120,7 +120,7 @@
   <!-- ── Reward arrows ── -->
 
   <!-- Reward YES → generator (green, curves back) -->
-  <path d="M 1400 390 Q 1680 240 1760 490 Q 1820 700 1210 750 Q 600 800 250 700" stroke="#4ecb71" stroke-width="3" fill="none" stroke-dasharray="8,4" marker-end="url(#arrowHeadGreen)"/>
+  <path d="M 1400 610 C 1500 620 1560 640 1600 650 C 1710 680 1790 720 1760 780 C 1680 900 820 860 250 700" stroke="#4ecb71" stroke-width="3" fill="none" stroke-dasharray="8,4" marker-end="url(#arrowHeadGreen)"/>
 
   <!-- Reward box (top right) -->
   <rect x="1580" y="300" width="300" height="120" rx="12" fill="#4ecb71" fill-opacity="0.12" stroke="#4ecb71" stroke-width="1.5"/>

@@ -10,42 +10,120 @@
   <rect width="1920" height="1080" fill="url(#bgGlow)"/>
 
   <!-- Left accent bar -->
-  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4" rx="0"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
   <!-- Title -->
-  <text
-    x="80" y="108"
+  <text x="80" y="108"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="72"
-    font-weight="700"
-    fill="#ffffff"
-    letter-spacing="-1">How LLMs Actually Work</text>
+    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">What Is an AI Model?</text>
 
   <!-- Title underline -->
-  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
-  <!-- Item 1: Tokens -->
-  <circle cx="92" cy="207" r="7" fill="#8b7fd4"/>
-  <text x="115" y="215" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff" letter-spacing="0">Tokens</text>
-  <text x="115" y="255" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea" letter-spacing="1">LLMs read tokens, not characters or words — roughly 3–4 chars each; 1,000 words is ~1,300 tokens</text>
+  <!-- Subtitle -->
+  <text x="960" y="210"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#c4baea" text-anchor="middle">Think of it as a trained mathematical system that has learned patterns from data and can apply them to new inputs.</text>
 
-  <!-- Item 2: Tokenisation -->
-  <circle cx="92" cy="355" r="7" fill="#8b7fd4"/>
-  <text x="115" y="363" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff" letter-spacing="0">Tokenisation</text>
-  <text x="115" y="403" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea" letter-spacing="1">Whitespace, punctuation, and camelCase boundaries all create separate tokens — not just whole words</text>
+  <!-- Progression rail -->
+  <rect x="170" y="284" width="1580" height="6" rx="3" fill="#8b7fd4" fill-opacity="0.35"/>
+  <circle cx="320" cy="287" r="16" fill="#8b7fd4"/>
+  <circle cx="960" cy="287" r="16" fill="#8b7fd4"/>
+  <circle cx="1600" cy="287" r="16" fill="#8b7fd4"/>
+  <text x="640" y="275"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="26" font-weight="600" fill="#8b7fd4" text-anchor="middle">subset</text>
+  <text x="1280" y="275"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="26" font-weight="600" fill="#8b7fd4" text-anchor="middle">subset</text>
 
-  <!-- Item 3: Embeddings -->
-  <circle cx="92" cy="503" r="7" fill="#8b7fd4"/>
-  <text x="115" y="511" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff" letter-spacing="0">Embeddings</text>
-  <text x="115" y="551" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea" letter-spacing="1">Each token maps to a high-dimensional vector; tokens with similar meaning cluster together mathematically</text>
+  <!-- Card 1 -->
+  <rect x="80" y="340" width="500" height="520" rx="20" fill="#ffffff" fill-opacity="0.08" stroke="#8b7fd4" stroke-width="2"/>
+  <text x="330" y="430"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="54" fill="#8b7fd4" text-anchor="middle">🧠</text>
+  <text x="330" y="492"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="38" font-weight="700" fill="#ffffff" text-anchor="middle">AI Model</text>
+  <rect x="150" y="524" width="360" height="2" fill="#8b7fd4" fill-opacity="0.4"/>
+  <text x="330" y="582"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea" text-anchor="middle">A trained system that maps</text>
+  <text x="330" y="618"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea" text-anchor="middle">inputs to outputs using</text>
+  <text x="330" y="654"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea" text-anchor="middle">patterns learned from data.</text>
+  <text x="330" y="724"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="24" font-weight="600" fill="#8b7fd4" text-anchor="middle">Examples</text>
+  <text x="330" y="764"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="26" font-weight="300" fill="#c4baea" text-anchor="middle">Spam filter, recommender,</text>
+  <text x="330" y="798"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="26" font-weight="300" fill="#c4baea" text-anchor="middle">fraud detector, OCR model</text>
 
-  <!-- Item 4: Next-Token Prediction -->
-  <circle cx="92" cy="651" r="7" fill="#8b7fd4"/>
-  <text x="115" y="659" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff" letter-spacing="0">Next-Token Prediction</text>
-  <text x="115" y="699" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea" letter-spacing="1">The model's only job: predict the next token; code generation runs this loop hundreds of times</text>
+  <!-- Card 2 -->
+  <rect x="710" y="340" width="500" height="520" rx="20" fill="#ffffff" fill-opacity="0.08" stroke="#8b7fd4" stroke-width="2"/>
+  <text x="960" y="430"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="54" fill="#8b7fd4" text-anchor="middle">✨</text>
+  <text x="960" y="492"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="38" font-weight="700" fill="#ffffff" text-anchor="middle">GenAI Model</text>
+  <rect x="780" y="524" width="360" height="2" fill="#8b7fd4" fill-opacity="0.4"/>
+  <text x="960" y="582"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea" text-anchor="middle">A model built to generate</text>
+  <text x="960" y="618"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea" text-anchor="middle">new content rather than only</text>
+  <text x="960" y="654"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea" text-anchor="middle">classify or score existing data.</text>
+  <text x="960" y="724"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="24" font-weight="600" fill="#8b7fd4" text-anchor="middle">Outputs</text>
+  <text x="960" y="764"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="26" font-weight="300" fill="#c4baea" text-anchor="middle">Text, code, images, audio,</text>
+  <text x="960" y="798"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="26" font-weight="300" fill="#c4baea" text-anchor="middle">video, design variations</text>
 
-  <!-- Item 5: Temperature & Sampling -->
-  <circle cx="92" cy="799" r="7" fill="#8b7fd4"/>
-  <text x="115" y="807" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff" letter-spacing="0">Temperature &amp; Sampling</text>
-  <text x="115" y="847" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea" letter-spacing="1">Low = deterministic, high = creative — temperature controls how random the output is; same prompt, different results</text>
+  <!-- Card 3 -->
+  <rect x="1340" y="340" width="500" height="520" rx="20" fill="#ffffff" fill-opacity="0.08" stroke="#8b7fd4" stroke-width="2"/>
+  <text x="1590" y="430"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="54" fill="#8b7fd4" text-anchor="middle">💬</text>
+  <text x="1590" y="492"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="38" font-weight="700" fill="#ffffff" text-anchor="middle">LLM</text>
+  <rect x="1410" y="524" width="360" height="2" fill="#8b7fd4" fill-opacity="0.4"/>
+  <text x="1590" y="582"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea" text-anchor="middle">A large language model is</text>
+  <text x="1590" y="618"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea" text-anchor="middle">a generative AI model focused</text>
+  <text x="1590" y="654"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea" text-anchor="middle">on language: text and code.</text>
+  <text x="1590" y="724"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="24" font-weight="600" fill="#8b7fd4" text-anchor="middle">Think</text>
+  <text x="1590" y="764"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="26" font-weight="300" fill="#c4baea" text-anchor="middle">chat, summarization, search</text>
+  <text x="1590" y="798"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="26" font-weight="300" fill="#c4baea" text-anchor="middle">assistants, and code copilots</text>
+
+  <!-- Bottom takeaway -->
+  <rect x="140" y="910" width="1640" height="110" rx="18" fill="#ffffff" fill-opacity="0.06" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="968"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="30" font-weight="300" fill="#c4baea" text-anchor="middle">So: every LLM is an AI model, and specifically a generative AI model — but not every AI model is an LLM.</text>
 </svg>

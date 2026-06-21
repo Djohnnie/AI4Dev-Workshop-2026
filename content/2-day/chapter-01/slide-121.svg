@@ -4,6 +4,9 @@
       <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
       <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
     </radialGradient>
+    <marker id="arrowHead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8b7fd4"/>
+    </marker>
   </defs>
 
   <!-- Background -->
@@ -12,106 +15,112 @@
   <!-- Left accent bar -->
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <!-- Subtle server icon -->
-  <g transform="translate(1605 72)" opacity="0.2">
-    <rect x="0" y="0" width="210" height="68" rx="14" fill="none" stroke="#c4baea" stroke-width="10"/>
-    <rect x="0" y="92" width="210" height="68" rx="14" fill="none" stroke="#c4baea" stroke-width="10"/>
-    <circle cx="44" cy="34" r="9" fill="#c4baea"/>
-    <circle cx="44" cy="126" r="9" fill="#c4baea"/>
-    <line x1="82" y1="34" x2="170" y2="34" stroke="#c4baea" stroke-width="8" stroke-linecap="round"/>
-    <line x1="82" y1="126" x2="170" y2="126" stroke="#c4baea" stroke-width="8" stroke-linecap="round"/>
-  </g>
-
-  <!-- Subtle connector icon -->
-  <g transform="translate(1500 842)" opacity="0.18">
-    <circle cx="42" cy="90" r="32" fill="none" stroke="#c4baea" stroke-width="10"/>
-    <circle cx="178" cy="90" r="32" fill="none" stroke="#c4baea" stroke-width="10"/>
-    <line x1="74" y1="90" x2="146" y2="90" stroke="#c4baea" stroke-width="10" stroke-linecap="round"/>
-    <line x1="110" y1="90" x2="110" y2="32" stroke="#c4baea" stroke-width="10" stroke-linecap="round"/>
-    <circle cx="110" cy="32" r="22" fill="none" stroke="#c4baea" stroke-width="10"/>
-  </g>
-
   <!-- Title -->
   <text x="80" y="108"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Exercise 105 &#x2014; MCP Tool Calls</text>
+    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">RAG — Grounding an LLM</text>
 
   <!-- Title underline -->
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
-  <!-- Overview text -->
-  <text x="80" y="195"
+  <!-- Subtitle -->
+  <text x="960" y="208"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#c4baea">
-    Move date and time tools out-of-process behind an MCP server.
-  </text>
+    font-size="34" font-weight="300" fill="#c4baea" text-anchor="middle">Retrieval-Augmented Generation grounds a model with external knowledge</text>
+  <text x="960" y="250"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#c4baea" text-anchor="middle">at runtime, so it answers from relevant evidence instead of memory alone.</text>
 
-  <!-- ===== BOX 1: Start From 104 (top-left) ===== -->
-  <rect x="80" y="235" width="860" height="367" rx="12"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="510" y="325" text-anchor="middle"
+  <!-- Flow cards -->
+  <rect x="90" y="300" width="420" height="420" rx="18" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="300" y="380"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="56" font-weight="700" fill="#8b7fd4">01</text>
-  <text x="510" y="400" text-anchor="middle"
+    font-size="54" fill="#8b7fd4" text-anchor="middle">📚</text>
+  <text x="300" y="440"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="38" font-weight="600" fill="#ffffff">Start From 104</text>
-  <rect x="430" y="420" width="160" height="3" fill="#8b7fd4"/>
-  <text x="510" y="466" text-anchor="middle"
+    font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">1. Retrieve Evidence</text>
+  <rect x="175" y="468" width="250" height="2" fill="#8b7fd4" fill-opacity="0.4"/>
+  <text x="300" y="526"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">Reuse the tool-enabled chat app</text>
-  <text x="510" y="510" text-anchor="middle"
+    font-size="27" font-weight="300" fill="#c4baea" text-anchor="middle">Find the most relevant facts</text>
+  <text x="300" y="562"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">and preserve the same behavior</text>
+    font-size="27" font-weight="300" fill="#c4baea" text-anchor="middle">from an external knowledge</text>
+  <text x="300" y="598"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="27" font-weight="300" fill="#c4baea" text-anchor="middle">source for this question.</text>
 
-  <!-- ===== BOX 2: Create MCP Server (top-right) ===== -->
-  <rect x="980" y="235" width="860" height="367" rx="12"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1410" y="325" text-anchor="middle"
+  <rect x="570" y="300" width="420" height="420" rx="18" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="780" y="380"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="56" font-weight="700" fill="#8b7fd4">02</text>
-  <text x="1410" y="400" text-anchor="middle"
+    font-size="54" fill="#8b7fd4" text-anchor="middle">🪟</text>
+  <text x="780" y="440"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="38" font-weight="600" fill="#ffffff">Create MCP Server</text>
-  <rect x="1330" y="420" width="160" height="3" fill="#8b7fd4"/>
-  <text x="1410" y="466" text-anchor="middle"
+    font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">2. Ground the Prompt</text>
+  <rect x="655" y="468" width="250" height="2" fill="#8b7fd4" fill-opacity="0.4"/>
+  <text x="780" y="526"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">Expose getDate and getTime</text>
-  <text x="1410" y="510" text-anchor="middle"
+    font-size="27" font-weight="300" fill="#c4baea" text-anchor="middle">That evidence is inserted into</text>
+  <text x="780" y="562"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">as external MCP tools</text>
+    font-size="27" font-weight="300" fill="#c4baea" text-anchor="middle">the prompt and context window</text>
+  <text x="780" y="598"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="27" font-weight="300" fill="#c4baea" text-anchor="middle">so the model is grounded.</text>
 
-  <!-- ===== BOX 3: Connect (bottom-left) ===== -->
-  <rect x="80" y="632" width="860" height="367" rx="12"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="510" y="722" text-anchor="middle"
+  <rect x="1050" y="300" width="420" height="420" rx="18" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1260" y="380"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="56" font-weight="700" fill="#8b7fd4">03</text>
-  <text x="510" y="797" text-anchor="middle"
+    font-size="54" fill="#8b7fd4" text-anchor="middle">✍️</text>
+  <text x="1260" y="440"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="38" font-weight="600" fill="#ffffff">Connect</text>
-  <rect x="430" y="817" width="160" height="3" fill="#8b7fd4"/>
-  <text x="510" y="863" text-anchor="middle"
+    font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">3. Generate</text>
+  <rect x="1135" y="468" width="250" height="2" fill="#8b7fd4" fill-opacity="0.4"/>
+  <text x="1260" y="526"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">Wire the chat app to the server</text>
-  <text x="510" y="907" text-anchor="middle"
+    font-size="27" font-weight="300" fill="#c4baea" text-anchor="middle">The model answers using both</text>
+  <text x="1260" y="562"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">instead of local in-process tools</text>
+    font-size="27" font-weight="300" fill="#c4baea" text-anchor="middle">its general training and the</text>
+  <text x="1260" y="598"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="27" font-weight="300" fill="#c4baea" text-anchor="middle">retrieved grounding context.</text>
 
-  <!-- ===== BOX 4: Compare (bottom-right) ===== -->
-  <rect x="980" y="632" width="860" height="367" rx="12"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1410" y="722" text-anchor="middle"
+  <rect x="1530" y="300" width="300" height="420" rx="18" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1680" y="380"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="56" font-weight="700" fill="#8b7fd4">04</text>
-  <text x="1410" y="797" text-anchor="middle"
+    font-size="54" fill="#8b7fd4" text-anchor="middle">⚠️</text>
+  <text x="1680" y="440"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="38" font-weight="600" fill="#ffffff">Compare</text>
-  <rect x="1330" y="817" width="160" height="3" fill="#8b7fd4"/>
-  <text x="1410" y="863" text-anchor="middle"
+    font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">Still Limited</text>
+  <rect x="1590" y="468" width="180" height="2" fill="#8b7fd4" fill-opacity="0.4"/>
+  <text x="1680" y="526"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">Understand MCP as a reusable</text>
-  <text x="1410" y="907" text-anchor="middle"
+    font-size="26" font-weight="300" fill="#c4baea" text-anchor="middle">RAG adds context at</text>
+  <text x="1680" y="560"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">tool boundary for AI apps</text>
+    font-size="26" font-weight="300" fill="#c4baea" text-anchor="middle">inference time; it does</text>
+  <text x="1680" y="594"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="26" font-weight="300" fill="#c4baea" text-anchor="middle">not retrain the model,</text>
+  <text x="1680" y="628"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="26" font-weight="300" fill="#c4baea" text-anchor="middle">fetch live state itself, or</text>
+  <text x="1680" y="662"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="26" font-weight="300" fill="#c4baea" text-anchor="middle">perform external actions.</text>
 
+  <!-- Connecting arrows -->
+  <path d="M 510 510 L 570 510" stroke="#8b7fd4" stroke-width="3" fill="none" marker-end="url(#arrowHead)"/>
+  <path d="M 990 510 L 1050 510" stroke="#8b7fd4" stroke-width="3" fill="none" marker-end="url(#arrowHead)"/>
+  <path d="M 1470 510 L 1530 510" stroke="#8b7fd4" stroke-width="3" fill="none" marker-end="url(#arrowHead)"/>
+
+  <!-- Bottom bridge -->
+  <rect x="140" y="800" width="1640" height="170" rx="18" fill="#ffffff" fill-opacity="0.06" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="858"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="700" fill="#8b7fd4" text-anchor="middle">RAG solves the grounding problem: give the LLM the right knowledge now.</text>
+  <text x="960" y="908"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="30" font-weight="300" fill="#c4baea" text-anchor="middle">The next step is different: what if the model needs live data or must interact with the outside world?</text>
 </svg>
