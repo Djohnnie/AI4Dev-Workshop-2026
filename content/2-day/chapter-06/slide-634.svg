@@ -17,32 +17,32 @@
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="54" font-weight="700" fill="#ffffff" letter-spacing="-1">Reviewable PRs Start Earlier Than the PR</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="54" font-weight="700" fill="#ffffff" letter-spacing="-1">Exceptions and Stack Traces - Start with the Real Failure</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
-  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">Copilot can improve review quality before the PR exists: scope, tests, risks, and the story the reviewer will have to understand.</text>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">The fastest debugging prompt usually starts with the exact exception, the first meaningful frame in your code, and what the app was trying to do.</text>
 
-  <rect x="120" y="290" width="780" height="560" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="510" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Before Opening the PR</text>
-  <rect x="285" y="377" width="450" height="3" fill="#8b7fd4"/>
-  <circle cx="202" cy="445" r="7" fill="#8b7fd4"/>
-  <text x="230" y="456" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">ask whether the change is too broad and should be split</text>
-  <circle cx="202" cy="520" r="7" fill="#8b7fd4"/>
-  <text x="230" y="531" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">identify missing tests, screenshots, or migration notes</text>
-  <circle cx="202" cy="595" r="7" fill="#8b7fd4"/>
-  <text x="230" y="606" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">surface risky files, hidden side effects, and rollback concerns</text>
-  <circle cx="202" cy="670" r="7" fill="#8b7fd4"/>
-  <text x="230" y="681" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">draft the reviewer checklist and "how to test" section</text>
+  <rect x="100" y="300" width="650" height="540" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="425" y="370" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">What to Pull Out</text>
+  <rect x="275" y="387" width="300" height="3" fill="#8b7fd4"/>
+  <circle cx="182" cy="455" r="7" fill="#8b7fd4"/>
+  <text x="210" y="466" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">exception type and message</text>
+  <circle cx="182" cy="530" r="7" fill="#8b7fd4"/>
+  <text x="210" y="541" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">first application frame in the stack trace</text>
+  <circle cx="182" cy="605" r="7" fill="#8b7fd4"/>
+  <text x="210" y="616" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">inputs, request, or user action that triggered it</text>
+  <circle cx="182" cy="680" r="7" fill="#8b7fd4"/>
+  <text x="210" y="691" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">expected behaviour versus what really happened</text>
 
-  <rect x="1020" y="290" width="780" height="560" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1410" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Prompt Pattern</text>
-  <rect x="1285" y="377" width="250" height="3" fill="#8b7fd4"/>
-  <rect x="1090" y="435" width="640" height="220" rx="20" fill="#8b7fd4" opacity="0.14"/>
-  <text x="1125" y="480" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">"Based on this diff and ticket, what would make this</text>
-  <text x="1125" y="515" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">PR easier to review? Suggest missing tests, unclear</text>
-  <text x="1125" y="550" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">naming, hidden risks, and whether the scope should</text>
-  <text x="1125" y="585" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">be split before I open the PR."</text>
-  <text x="1410" y="740" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">The cleanest review workflow starts with a cleaner change set.</text>
+  <rect x="820" y="300" width="1010" height="540" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1325" y="370" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Prompt Pattern</text>
+  <rect x="1195" y="387" width="260" height="3" fill="#8b7fd4"/>
+  <rect x="900" y="445" width="850" height="235" rx="20" fill="#8b7fd4" opacity="0.14"/>
+  <text x="935" y="490" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">"Here is the exception, stack trace, and the method on the first</text>
+  <text x="935" y="525" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">application frame. Explain the likely root cause, what assumption</text>
+  <text x="935" y="560" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">failed, and what data I should inspect next. Then suggest the</text>
+  <text x="935" y="595" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">smallest safe fix or experiment to confirm the hypothesis."</text>
+  <text x="1325" y="740" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Ask "what assumption failed?" and the debugging conversation gets sharper fast.</text>
 
-  <rect x="260" y="900" width="1400" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
-  <text x="960" y="943" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">Small, well-explained PRs are an AI-assisted quality decision, not just a team preference.</text>
+  <rect x="300" y="900" width="1320" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="943" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">Do not paraphrase the failure if you can paste the real evidence.</text>
 </svg>

@@ -13,36 +13,36 @@
     <Project Path="chapter-01\104\AgentFramework.ToolCalls.csproj" />
   </Folder>
   <Folder Name="/Chapter 1/Exercise 105/">
-    <Project Path="chapter-01\105\AgentFramework.McpSseServer\AgentFramework.McpSseServer.csproj" />
     <Project Path="chapter-01\105\AgentFramework.McpSseClient\AgentFramework.McpSseClient.csproj" />
+    <Project Path="chapter-01\105\AgentFramework.McpSseServer\AgentFramework.McpSseServer.csproj" />
   </Folder>
   <Folder Name="/Chapter 1/Exercise 106/">
     <Project Path="chapter-01\106\AgentFramework.AgentOrchestration\AgentFramework.AgentOrchestration.csproj" />
   </Folder>
   <Folder Name="/Chapter 2/" />
   <Folder Name="/Chapter 2/Exercise 201/">
-    <Project Path="chapter-02\201\Factorial\Factorial.csproj" />
     <Project Path="chapter-02\201\Factorial.Tests\Factorial.Tests.csproj" />
+    <Project Path="chapter-02\201\Factorial\Factorial.csproj" />
   </Folder>
   <Folder Name="/Chapter 2/Exercise 202/">
-    <Project Path="chapter-02\202\Palindrome\Palindrome.csproj" />
     <Project Path="chapter-02\202\Palindrome.Tests\Palindrome.Tests.csproj" />
+    <Project Path="chapter-02\202\Palindrome\Palindrome.csproj" />
   </Folder>
   <Folder Name="/Chapter 2/Exercise 203/">
-    <Project Path="chapter-02\203\Processor\Processor.csproj" />
     <Project Path="chapter-02\203\Processor.Tests\Processor.Tests.csproj" />
+    <Project Path="chapter-02\203\Processor\Processor.csproj" />
   </Folder>
   <Folder Name="/Chapter 2/Exercise 204/">
-    <Project Path="chapter-02\204\ShortestPath\ShortestPath.csproj" />
     <Project Path="chapter-02\204\ShortestPath.Tests\ShortestPath.Tests.csproj" />
+    <Project Path="chapter-02\204\ShortestPath\ShortestPath.csproj" />
   </Folder>
   <Folder Name="/Chapter 2/Exercise 205/">
-    <Project Path="chapter-02\205\CaesarCipher\CaesarCipher.csproj" />
     <Project Path="chapter-02\205\CaesarCipher.Tests\CaesarCipher.Tests.csproj" />
+    <Project Path="chapter-02\205\CaesarCipher\CaesarCipher.csproj" />
   </Folder>
   <Folder Name="/Chapter 2/Exercise 206/">
-    <Project Path="chapter-02\206\StringSearch\StringSearch.csproj" />
     <Project Path="chapter-02\206\StringSearch.Tests\StringSearch.Tests.csproj" />
+    <Project Path="chapter-02\206\StringSearch\StringSearch.csproj" />
   </Folder>
   <Folder Name="/Chapter 3/" />
   <Folder Name="/Chapter 3/Exercise 301/">
@@ -74,4 +74,12 @@
   <Folder Name="/Chapter 5/Exercise 502/">
     <Project Path="chapter-05\502\ContextPromptExtension.csproj" Id="8f2a7c41-6e3b-4d58-9c1a-3b5e2f8d4a60" />
   </Folder>
+  <Folder Name="/Chapter 6/" />
+  <Folder Name="/Chapter 6/Exercise 601/" />
+  <Folder Name="/Chapter 6/Exercise 602/" />
+  <Folder Name="/Chapter 6/Exercise 603/" />
+  <Folder Name="/Chapter 6/Exercise 604/" />
+  <Folder Name="/Chapter 6/Exercise 605/" />
+  <Folder Name="/Chapter 6/Exercise 606/" />
+  <Folder Name="/Chapter 6/Exercise 607/" />
 </Solution>

@@ -17,43 +17,40 @@
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="62" font-weight="700" fill="#ffffff" letter-spacing="-1">The Development Loop - Scaffold, Review, Refine</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff" letter-spacing="-1">Prompt Patterns for Feature Development</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
-  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">Copilot accelerates the loop, but you still own the decisions where a wrong assumption would be expensive.</text>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">Good development prompts constrain scope, attach the right files, and ask for a plan before a diff.</text>
 
-  <rect x="90" y="300" width="420" height="470" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="300" y="375" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">1. Clarify</text>
-  <rect x="220" y="392" width="160" height="3" fill="#8b7fd4"/>
-  <text x="300" y="465" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Confirm acceptance criteria</text>
-  <text x="300" y="515" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Ask which files are involved</text>
-  <text x="300" y="565" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Surface hidden assumptions</text>
-  <text x="300" y="655" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#8b7fd4">Best mode: Chat</text>
+  <rect x="90" y="295" width="550" height="520" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="365" y="365" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">1. Ask for a Plan</text>
+  <rect x="250" y="382" width="230" height="3" fill="#8b7fd4"/>
+  <rect x="150" y="430" width="430" height="170" rx="18" fill="#8b7fd4" opacity="0.14"/>
+  <text x="180" y="475" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">"Based on this ticket and</text>
+  <text x="180" y="508" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">#file:OrdersController.cs,</text>
+  <text x="180" y="541" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">list touched files, steps,</text>
+  <text x="180" y="574" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">and risks before coding."</text>
+  <text x="365" y="665" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Use when the path is unclear</text>
 
-  <rect x="540" y="300" width="420" height="470" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="750" y="375" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">2. Scaffold</text>
-  <rect x="670" y="392" width="160" height="3" fill="#8b7fd4"/>
-  <text x="750" y="465" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Generate structure and wiring</text>
-  <text x="750" y="515" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Follow existing conventions</text>
-  <text x="750" y="565" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Keep the first diff small</text>
-  <text x="750" y="655" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#8b7fd4">Best mode: Chat / Agent</text>
+  <rect x="685" y="295" width="550" height="520" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="365" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">2. Ask for a Scaffold</text>
+  <rect x="845" y="382" width="230" height="3" fill="#8b7fd4"/>
+  <rect x="745" y="430" width="430" height="170" rx="18" fill="#8b7fd4" opacity="0.14"/>
+  <text x="775" y="475" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">"Scaffold the endpoint,</text>
+  <text x="775" y="508" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">service, and test skeletons</text>
+  <text x="775" y="541" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">using #file:Program.cs and</text>
+  <text x="775" y="574" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">#file:OrdersTests.cs."</text>
+  <text x="960" y="665" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Use when you want conventions first</text>
 
-  <rect x="990" y="300" width="420" height="470" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1200" y="375" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">3. Review</text>
-  <rect x="1120" y="392" width="160" height="3" fill="#8b7fd4"/>
-  <text x="1200" y="465" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Check naming and readability</text>
-  <text x="1200" y="515" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Inspect business rules and errors</text>
-  <text x="1200" y="565" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Question security assumptions</text>
-  <text x="1200" y="655" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#8b7fd4">Best mode: You</text>
+  <rect x="1280" y="295" width="550" height="520" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1555" y="365" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">3. Limit the Diff</text>
+  <rect x="1440" y="382" width="230" height="3" fill="#8b7fd4"/>
+  <rect x="1340" y="430" width="430" height="170" rx="18" fill="#8b7fd4" opacity="0.14"/>
+  <text x="1370" y="475" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">"Implement only the happy</text>
+  <text x="1370" y="508" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">path first. Keep the diff</text>
+  <text x="1370" y="541" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">small and explain any</text>
+  <text x="1370" y="574" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">assumptions you make."</text>
+  <text x="1555" y="665" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Use when correctness matters more than speed</text>
 
-  <rect x="1440" y="300" width="390" height="470" rx="24" fill="#8b7fd4" fill-opacity="0.15" stroke="#8b7fd4" stroke-width="2"/>
-  <text x="1635" y="375" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">4. Refine</text>
-  <rect x="1555" y="392" width="160" height="3" fill="#8b7fd4"/>
-  <text x="1635" y="465" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Tighten the prompt</text>
-  <text x="1635" y="515" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Fill in edge cases</text>
-  <text x="1635" y="565" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Iterate with smaller diffs</text>
-  <text x="1635" y="655" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">Best mode: Mix and match</text>
-
-  <rect x="240" y="860" width="1440" height="95" rx="24" fill="#8b7fd4" opacity="0.18"/>
-  <text x="960" y="905" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="600" fill="#ffffff">Use Copilot for acceleration, not abdication: boilerplate and scaffolding are easy wins; business logic deserves review.</text>
-  <text x="960" y="940" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">If output gets generic, reduce the scope, attach better context, and ask for one smaller step.</text>
+  <rect x="300" y="885" width="1320" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="928" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">"Build this" prompts are weak. Scoped, anchored prompts produce better code.</text>
 </svg>

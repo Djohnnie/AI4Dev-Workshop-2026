@@ -27,6 +27,13 @@ Most exercises are written in **C# (.NET 10)** and follow the same project layou
 | [303](chapter-03/303/README.md) | [Code Obfuscator MCP Tool](chapter-03/303/README.md) | Chapter 3, Exercise 3 | Building an MCP tool | ⭐⭐⭐⭐ |
 | [501](chapter-05/501/README.md) | [Escape Room DI Demo](chapter-05/501/README.md) | Chapter 5, Exercise 1 | Prompting a custom DI container with Spectre.Console | ⭐⭐ |
 | [502](chapter-05/502/README.md) | [Context Prompt VSIX Demo](chapter-05/502/README.md) | Chapter 5, Exercise 2 | Prompting with no context, FIM context, and IDE context | ⭐⭐⭐ |
+| [601](chapter-06/601/README.md) | [GuildOps Discovery Sprint](chapter-06/601/README.md) | Chapter 6, Exercise 1 | Analysis and planning with Copilot on a .NET 10 solution | ⭐⭐ |
+| [602](chapter-06/602/README.md) | [Ship the Quest Approval Slice](chapter-06/602/README.md) | Chapter 6, Exercise 2 | Feature development workflow on .NET 10 | ⭐⭐⭐ |
+| [603](chapter-06/603/README.md) | [Test the Reward Engine](chapter-06/603/README.md) | Chapter 6, Exercise 3 | Testing, coverage, TDD, and BDD on .NET 10 | ⭐⭐⭐ |
+| [604](chapter-06/604/README.md) | [Refactor the Monster Ledger](chapter-06/604/README.md) | Chapter 6, Exercise 4 | Evidence-driven refactoring in .NET 10 | ⭐⭐⭐ |
+| [605](chapter-06/605/README.md) | [Document GuildOps Like It Will Outlive You](chapter-06/605/README.md) | Chapter 6, Exercise 5 | Documentation, ADRs, and diagrams for .NET 10 | ⭐⭐ |
+| [606](chapter-06/606/README.md) | [Hunt the Phantom Checkout Bug](chapter-06/606/README.md) | Chapter 6, Exercise 6 | Debugging with Playwright, logs, and traces in .NET 10 | ⭐⭐⭐ |
+| [607](chapter-06/607/README.md) | [The Pull Request Gauntlet](chapter-06/607/README.md) | Chapter 6, Exercise 7 | PR quality, Copilot review, and Autofix | ⭐⭐⭐ |
 | [501](chapter-05/501/README.md) | [Escape Room DI Demo](chapter-05/501/README.md) | Chapter 5, Exercise 1 | Prompting a custom DI container with Spectre.Console | ⭐⭐ |
 
 ---
@@ -39,6 +46,7 @@ Most exercises are written in **C# (.NET 10)** and follow the same project layou
 | Chapter 2 | [201 Factorial Calculator](chapter-02/201/README.md) · [202 Palindrome Checker](chapter-02/202/README.md) · [203 Mystery Processor](chapter-02/203/README.md) · [204 Shortest Path](chapter-02/204/README.md) · [205 Caesar Cipher](chapter-02/205/README.md) · [206 String Search](chapter-02/206/README.md) |
 | Chapter 3 | [301 Who Does Copilot Picture?](chapter-03/301/README.md) · [302 Tool Calls with Ollama](chapter-03/302/README.md) · [303 Code Obfuscator MCP Tool](chapter-03/303/README.md) |
 | Chapter 5 | [501 Escape Room DI Demo](chapter-05/501/README.md) · [502 Context Prompt VSIX Demo](chapter-05/502/README.md) |
+| Chapter 6 | [601 GuildOps Discovery Sprint](chapter-06/601/README.md) · [602 Ship the Quest Approval Slice](chapter-06/602/README.md) · [603 Test the Reward Engine](chapter-06/603/README.md) · [604 Refactor the Monster Ledger](chapter-06/604/README.md) · [605 Document GuildOps Like It Will Outlive You](chapter-06/605/README.md) · [606 Hunt the Phantom Checkout Bug](chapter-06/606/README.md) · [607 The Pull Request Gauntlet](chapter-06/607/README.md) |
 | Chapter 5 | [501 Escape Room DI Demo](chapter-05/501/README.md) |
 
 ---

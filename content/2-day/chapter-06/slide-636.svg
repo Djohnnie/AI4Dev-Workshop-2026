@@ -17,28 +17,31 @@
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff" letter-spacing="-1">Security in the Review Loop - CodeQL and Autofix</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="54" font-weight="700" fill="#ffffff" letter-spacing="-1">Logs, Traces, and Metrics - Read the Story Across Systems</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
-  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">Use Copilot not only to patch a finding, but to explain the vulnerability and check whether the same pattern exists elsewhere.</text>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">One signal tells part of the story. Correlating logs, traces, and metrics helps Copilot point at the real bottleneck or failure boundary.</text>
 
-  <rect x="90" y="300" width="550" height="520" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="365" y="370" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Workflow</text>
-  <rect x="240" y="387" width="250" height="3" fill="#8b7fd4"/>
-  <text x="365" y="460" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">CodeQL finds the vulnerable flow</text>
-  <text x="365" y="510" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Autofix proposes the semantic repair</text>
-  <text x="365" y="560" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">review the change before merge</text>
-  <text x="365" y="610" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">check for sibling vulnerabilities nearby</text>
+  <rect x="85" y="300" width="540" height="520" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="355" y="370" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Logs</text>
+  <rect x="255" y="387" width="200" height="3" fill="#8b7fd4"/>
+  <text x="355" y="455" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">what happened</text>
+  <text x="355" y="505" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">inputs and branch decisions</text>
+  <text x="355" y="555" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">error details and context</text>
 
-  <rect x="685" y="300" width="1145" height="520" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1257" y="370" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Prompt Pattern</text>
-  <rect x="1130" y="387" width="255" height="3" fill="#8b7fd4"/>
-  <rect x="770" y="445" width="980" height="210" rx="20" fill="#8b7fd4" opacity="0.14"/>
-  <text x="805" y="490" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">"Explain this CodeQL alert and the Autofix suggestion in plain language.</text>
-  <text x="805" y="525" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">What vulnerable data flow is being broken, what safe coding pattern is</text>
-  <text x="805" y="560" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">being introduced, and should I search for similar patterns elsewhere in</text>
-  <text x="805" y="595" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">this diff or codebase before approving?"</text>
-  <text x="1257" y="735" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">The review value is not only the patch - it is the explanation and the pattern search.</text>
+  <rect x="690" y="300" width="540" height="520" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="370" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Traces</text>
+  <rect x="860" y="387" width="200" height="3" fill="#8b7fd4"/>
+  <text x="960" y="455" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">where time went</text>
+  <text x="960" y="505" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">which dependency was slow</text>
+  <text x="960" y="555" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">which hop failed first</text>
 
-  <rect x="300" y="890" width="1320" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
-  <text x="960" y="933" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">Autofix is powerful because it understands the flow of unsafe data, not just suspicious text.</text>
+  <rect x="1295" y="300" width="540" height="520" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1565" y="370" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Metrics</text>
+  <rect x="1465" y="387" width="200" height="3" fill="#8b7fd4"/>
+  <text x="1565" y="455" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">how bad it is</text>
+  <text x="1565" y="505" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">how often it happens</text>
+  <text x="1565" y="555" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">when the spike began</text>
+
+  <rect x="270" y="885" width="1380" height="78" rx="36" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="930" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">Prompt idea: "Correlate these logs, the trace summary, and the latency spike window. What's the most likely cause and what should I verify next?"</text>
 </svg>

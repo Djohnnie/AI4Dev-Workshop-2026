@@ -370,17 +370,26 @@ By the end of this chapter, participants will be able to:
 
 ## 💡 Ideas for Exercises & Interactivity
 
-### Exercise: Test Coverage Sprint (20 min)
-Participants receive a 150-line module with zero tests. Goal: reach as high test coverage as possible in 15 minutes using Copilot. Measure coverage with the language's standard tool (Jest, pytest, go test -cover). Share results — who got highest coverage?
+### Exercise 601: GuildOps Discovery Sprint (15 min)
+Participants receive a vague feature brief for a planned .NET 10 "GuildOps" platform plus a partial existing code snapshot. Their job is to use Copilot to turn that into actors, workflows, risks, architecture options, and a first implementation plan without writing code.
 
-### Exercise: Documentation Makeover (10 min)
-Participants take their most poorly-documented function (from their own work or a provided sample) and use Copilot to generate full documentation. Peer review: is the generated doc accurate? Did it miss anything?
+### Exercise 602: Ship the Quest Approval Slice (20 min)
+Participants take a .NET 10 minimal API plus Blazor admin ticket and use Copilot to plan and scaffold a vertical slice: endpoint, service, UI interaction, and tests. The emphasis is moving from ticket to working set safely, not just generating code fast.
 
-### Exercise: Debug This! (10 min)
-Instructor presents a live bug (or uses a pre-written buggy snippet). The room collaborates to write the best Copilot prompt to identify and fix it. First correct answer wins.
+### Exercise 603: Test the Reward Engine (20 min)
+Participants harden a rule-heavy .NET 10 reward-calculation component with unit tests, integration tests, a small UI flow, and a coverage report. They practice TDD, BDD-style thinking, and asking Copilot to close meaningful coverage gaps instead of chasing a vanity number.
 
-### Exercise: PR Review Role-Play (10 min)
-Participants open a sample PR on GitHub. They request a Copilot review. Then they role-play as the PR author: accept, reject, or ask for clarification on each Copilot suggestion. Discuss: how does Copilot's review differ from a human's?
+### Exercise 604: Refactor the Monster Ledger (20 min)
+Participants receive a messy .NET 10 service with duplication, awkward names, and telemetry pointing to a hot path. They use Copilot to propose architectural and readability improvements, then review which refactors actually make sense.
+
+### Exercise 605: Document GuildOps Like It Will Outlive You (15 min)
+Participants use Copilot to draft inline docs, repo-local Markdown docs, an ADR, and a draw.io diagram saved as `.drawio.png` for a .NET 10 solution. Peer review focuses on accuracy, usefulness, and whether the docs would help the next developer.
+
+### Exercise 606: Hunt the Phantom Checkout Bug (20 min)
+Participants debug a flaky .NET 10 web flow using exceptions, stack traces, logs, traces, network evidence, and Playwright-driven reproduction. The exercise teaches them to give Copilot eyes and to leave behind a regression test or stronger observability signal.
+
+### Exercise 607: The Pull Request Gauntlet (15 min)
+Participants turn an issue into a reviewable PR package: better PR body, reviewer checklist, Copilot review, and CodeQL/Autofix discussion. They compare what Copilot should catch automatically versus what still needs human judgment.
 
 ---
 

@@ -17,32 +17,33 @@
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="54" font-weight="700" fill="#ffffff" letter-spacing="-1">Architectural Refactoring - Make the Design Better, Not Just Different</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="62" font-weight="700" fill="#ffffff" letter-spacing="-1">Coverage Reports - Turn Gaps into Better Tests</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
-  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">Ask for smaller responsibilities, cleaner boundaries, and safer extension points - not a fashionable rewrite.</text>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">Run coverage first, then ask Copilot to close the specific gaps instead of generating another generic batch of tests.</text>
 
-  <rect x="110" y="300" width="760" height="520" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="490" y="370" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Ask Copilot For</text>
-  <rect x="365" y="387" width="250" height="3" fill="#8b7fd4"/>
-  <circle cx="192" cy="450" r="7" fill="#8b7fd4"/>
-  <text x="220" y="461" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Clearer module and service boundaries</text>
-  <circle cx="192" cy="525" r="7" fill="#8b7fd4"/>
-  <text x="220" y="536" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Reduced coupling and better dependency direction</text>
-  <circle cx="192" cy="600" r="7" fill="#8b7fd4"/>
-  <text x="220" y="611" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Extracted orchestration from low-level details</text>
-  <circle cx="192" cy="675" r="7" fill="#8b7fd4"/>
-  <text x="220" y="686" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Extension points that match how the app really evolves</text>
+  <rect x="110" y="290" width="760" height="560" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="490" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Coverage-Driven Workflow</text>
+  <rect x="325" y="377" width="330" height="3" fill="#8b7fd4"/>
+  <circle cx="192" cy="445" r="7" fill="#8b7fd4"/>
+  <text x="220" y="456" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Generate a coverage report with your normal test runner</text>
+  <circle cx="192" cy="520" r="7" fill="#8b7fd4"/>
+  <text x="220" y="531" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Identify weak files, branches, and error paths</text>
+  <circle cx="192" cy="595" r="7" fill="#8b7fd4"/>
+  <text x="220" y="606" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Attach the file and ask Copilot for missing tests</text>
+  <circle cx="192" cy="670" r="7" fill="#8b7fd4"/>
+  <text x="220" y="681" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Re-run coverage and inspect what still matters</text>
 
-  <rect x="1010" y="300" width="800" height="520" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1410" y="370" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Prompt Pattern</text>
-  <rect x="1285" y="387" width="250" height="3" fill="#8b7fd4"/>
-  <rect x="1080" y="445" width="660" height="190" rx="20" fill="#8b7fd4" opacity="0.14"/>
-  <text x="1115" y="490" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">"Given #file:OrdersController.cs and</text>
-  <text x="1115" y="525" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">#file:OrderService.cs, suggest architectural</text>
-  <text x="1115" y="560" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">refactors that reduce coupling without a</text>
-  <text x="1115" y="595" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">rewrite. Rank them by impact, effort, and risk."</text>
-  <text x="1410" y="725" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">The keyword is sensible: ask for the next better design, not the perfect design.</text>
+  <rect x="1010" y="290" width="800" height="560" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Example Prompt</text>
+  <rect x="1290" y="377" width="240" height="3" fill="#8b7fd4"/>
+  <rect x="1080" y="430" width="660" height="250" rx="20" fill="#8b7fd4" opacity="0.14"/>
+  <text x="1115" y="480" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">"The coverage report shows OrderProcessor.cs</text>
+  <text x="1115" y="515" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">has 46% branch coverage. Looking at</text>
+  <text x="1115" y="550" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">#file:OrderProcessor.cs, suggest tests for the</text>
+  <text x="1115" y="585" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">missing branches and explain why each one</text>
+  <text x="1115" y="620" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">would improve confidence."</text>
+  <text x="1410" y="760" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Coverage tells you where the holes are; Copilot helps you turn those holes into concrete test ideas.</text>
 
-  <rect x="320" y="890" width="1280" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
-  <text x="960" y="933" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">A good architectural refactor lowers friction for the next feature, not just today's diagram.</text>
+  <rect x="280" y="900" width="1360" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="943" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">Use coverage as a compass, not a vanity metric: improve the risky gaps first.</text>
 </svg>
