@@ -28,9 +28,9 @@
 
 ![Slide 07 — Interactive poll D](slide-207.svg)
 
-## Slide 08 — Copilot Ghost-Text Suggestions
+## Slide 08 — Code Completions — Copilot Ghost-Text Suggestions
 
-![Slide 08 — Copilot Ghost-Text Suggestions](slide-208.svg)
+![Slide 08 — Code Completions — Copilot Ghost-Text Suggestions](slide-208.svg)
 
 ## Slide 09 — Browse Alternatives & Accept Incrementally
 
@@ -48,9 +48,9 @@
 
 → [Exercise 202 — Palindrome Checker](../../../exercises/chapter-02/202/README.md)
 
-## Slide 12 — Copilot Chat Mode: Ask
+## Slide 12 — Ask — Copilot Chat Mode: Ask
 
-![Slide 12 — Copilot Chat Mode: Ask](slide-212.svg)
+![Slide 12 — Ask — Copilot Chat Mode: Ask](slide-212.svg)
 
 ## Slide 13 — Exercise 203 — Mystery Processor
 
@@ -58,9 +58,9 @@
 
 → [Exercise 203 — Mystery Processor](../../../exercises/chapter-02/203/README.md)
 
-## Slide 14 — Copilot Chat Slash Commands
+## Slide 14 — Slash Commands — Copilot Chat Slash Commands
 
-![Slide 14 — Copilot Chat Slash Commands](slide-214.svg)
+![Slide 14 — Slash Commands — Copilot Chat Slash Commands](slide-214.svg)
 
 ## Slide 15 — Exercise 204 — Shortest Path
 
