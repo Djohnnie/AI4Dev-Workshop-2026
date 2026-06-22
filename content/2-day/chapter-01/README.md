@@ -1,4 +1,4 @@
-﻿[🏠 Workshop Home](../../../README.md) | [📊 Slides](SLIDES.md) | [← Chapter 0 — Introduction](../chapter-00/README.md) | [Chapter 2 — Meet Your New Best Friend: GitHub Copilot →](../chapter-02/README.md)
+[🏠 Workshop Home](../../../README.md) | [📊 Slides](SLIDES.md) | [← Chapter 0 — Introduction](../chapter-00/README.md) | [Chapter 2 — Meet Your New Best Friend: GitHub Copilot →](../chapter-02/README.md)
 
 ---
 
@@ -6,7 +6,7 @@
 
 > **Duration:** 90 minutes | Day 1, 09:00 – 10:30
 
-Set the stage for the entire workshop. Participants leave with a clear mental model of AI, Generative AI, and Large Language Models — and understand exactly where GitHub Copilot fits in the modern developer's world.
+Set the stage for the entire workshop. Starting from a few live polls, participants build a clear mental model of how AI evolved, the different flavours of machine learning, and how Generative AI and Large Language Models actually work — then put that theory into practice across six hands-on exercises that grow a simple chat app into a multi-agent system.
 
 ---
 
@@ -14,190 +14,168 @@ Set the stage for the entire workshop. Participants leave with a clear mental mo
 
 By the end of this chapter, participants will be able to:
 
-- Explain the difference between traditional AI, Generative AI, and LLMs in plain language
-- Describe how LLMs are trained and why they produce probabilistic output
-- Position GitHub Copilot within the broader AI ecosystem
-- Articulate what GitHub Copilot *is* — and what it is *not*
-- Feel excited and curious rather than intimidated about AI-assisted development
+- Trace the evolution of AI from rules-based systems through machine learning, deep learning, and generative AI
+- Distinguish supervised, unsupervised, and reinforcement learning, and explain the adversarial idea behind GANs and RLHF
+- Place AI Models, Generative AI, and LLMs in a clear taxonomy — and explain why every LLM is a GenAI model but not vice versa
+- Describe how LLMs work under the hood: tokens, embeddings, next-token prediction, and `temperature`
+- Explain why LLMs hallucinate, what a context window is, and how RAG grounds a model with external knowledge
+- Understand how tool calls, MCP, and agent orchestration extend an LLM beyond a stateless chatbot
 
 ---
 
 ## 📋 Content Outline
 
-### 1. The AI Landscape — A 10-Minute History (10 min)
-- From rules-based systems → machine learning → deep learning → generative AI
-  - **Rules-based / expert systems:** hand-coded if/then logic; fast and predictable but brittle — any scenario not explicitly programmed breaks the system
-  - **Machine learning:** models that *learn patterns from data* rather than following explicit rules; examples include spam filters, recommendation engines, fraud detection
-  - **Deep learning:** neural networks with many layers, made practical by GPUs and large datasets; breakthrough in image recognition (ImageNet 2012), then NLP
-  - **Generative AI:** models that produce *new content* (text, code, images, audio) rather than just classifying or predicting; a qualitative shift from prior AI — the model creates rather than labels
-  - Key point: each wave didn't replace the previous — they coexist; your IDE's spell-check is still rules-based; Netflix recommendations are ML; Copilot is generative AI
-- Key milestones: ImageNet, GPT series, Codex, GitHub Copilot (2021 → today)
-  - **2012 — AlexNet / ImageNet:** deep learning proved viable at scale; error rates halved overnight; the moment the research community took neural networks seriously
-  - **2017 — Transformer architecture** ("Attention Is All You Need", Vaswani et al.): the architectural foundation for all modern LLMs; replaced recurrent networks with self-attention
-  - **2018–2020 — GPT-1, GPT-2, GPT-3:** scaling transformers on internet text produced surprisingly capable language models; GPT-3 (175B parameters) shocked researchers with emergent capabilities
-  - **2021 — Codex & GitHub Copilot Technical Preview:** OpenAI Codex (GPT-3 fine-tuned on public GitHub code) became the first model to make AI code completion practical; Copilot launched to limited beta
-  - **2022 — Copilot GA + ChatGPT:** Copilot became generally available; ChatGPT (Nov 2022) brought generative AI to mainstream public consciousness; 100M users in 2 months
-  - **2023–2024 — Multi-model era:** GPT-4, Claude, Gemini; Copilot Chat added; Copilot Business and Enterprise tiers; GitHub Copilot opens to multiple model providers
-  - **2025–2026 — Agentic coding:** Agent Mode, MCP, Copilot Workspace; Copilot evolves from autocomplete tool to autonomous coding agent
-- "AI" is not one thing — a quick taxonomy
-  - **Narrow AI vs. AGI:** all tools in use today (including Copilot) are *narrow AI* — extraordinarily capable in a specific domain, zero common sense outside it; AGI (general human-level AI) remains theoretical
-  - **Discriminative AI:** models that classify or predict from existing data — "is this a cat?", "will this customer churn?"; most traditional ML falls here
-  - **Generative AI:** models that produce novel outputs — text, code, images, audio, video; trained to understand and recreate patterns, not just recognise them
-  - **Large Language Models (LLMs):** a specific type of generative AI trained on massive text/code corpora; the family that powers Copilot, ChatGPT, Claude, Gemini
-  - **Other AI categories to name-check:** Computer Vision, Speech Recognition, Recommender Systems, Reinforcement Learning — participants have used all of these without realising it
-  - **Where Copilot fits:** an LLM-based developer tool — generative AI, specifically a code-focused LLM accessed via IDE, browser, and CLI interfaces
+### 1. Opening — Live Polls
+- Three interactive polls open the workshop and gauge the room:
+  - **Poll A — What AI tools are you using?** (answering questions, writing text, generating images, coding, …)
+  - **Poll B — How happy are you with GenAI-related tools?** focused on coding tools like GitHub Copilot or Claude Code
+  - **Poll C — How do you feel about the impact GenAI may have on your job?** — deliberately polarizing, with nuances discussed afterwards
 
-### 2. How LLMs Actually Work (20 min)
-- Tokens, embeddings, and next-token prediction — explained visually
-  - **Tokens:** LLMs don't read characters or whole words — they read *tokens* (roughly 3–4 characters on average); "GitHub Copilot" is 3–4 tokens; a 1,000-word file is ~1,300 tokens
-  - **Tokenisation demo:** use [platform.openai.com/tokenizer](https://platform.openai.com/tokenizer) to show how code is split; highlight that whitespace, punctuation, and camelCase boundaries all create separate tokens
-  - **Embeddings:** each token is mapped to a high-dimensional vector (e.g., 12,288 numbers); tokens with similar meaning cluster together in this vector space — the model "understands" relationships between concepts mathematically
-  - **Next-token prediction:** the model's only job is to predict *the single most plausible next token* given all previous tokens; code generation is this loop running hundreds of times
-  - **Temperature & sampling:** the model outputs a probability distribution over all possible next tokens; temperature controls randomness — low = deterministic/predictable, high = creative/variable; same prompt can yield different outputs
-  - **Visual suggestion:** draw the loop on a whiteboard: `[token 1][token 2]...[token N] → predict token N+1 → append → repeat`
-- Why LLMs "hallucinate" and what that means for code generation
-  - **Definition:** the model generates output that is fluent and confident but factually wrong, invented, or logically broken — not because it is "lying" but because it is *completing a pattern*, not retrieving facts
-  - **Root cause:** there is no "knowledge database" being queried; the model learned statistical associations from training data and reproduces the most plausible-looking continuation
-  - **Code-specific hallucination examples:**
-    - Calling a method that doesn't exist on a library object (e.g., `array.flattenDeep()` in a language that doesn't have it)
-    - Generating a correct-looking but subtly wrong algorithm (off-by-one, wrong edge case)
-    - Inventing API signatures, parameter names, or return types that look plausible
-    - Producing code that compiles but does the wrong thing
-  - **Why this matters more in code than in prose:** broken prose is obvious; broken code can silently pass review, run in production, and cause real incidents
-  - **Mitigation:** always run generated code; write tests before accepting; use `/explain` to verify you understand what the code does; treat Copilot output as a *first draft*, not a finished product
-- The training pipeline: pre-training on public code, fine-tuning for code tasks
-  - **Pre-training:** the base model is trained on billions of tokens of public code from GitHub repos, documentation, Stack Overflow, technical books — it learns syntax, idioms, API patterns, and documentation styles across hundreds of languages
-  - **What "pre-trained" means practically:** Copilot has seen enormous quantities of React, Python, Rust, SQL, shell scripts — it has strong statistical intuitions about what "looks right" in each
-  - **Fine-tuning:** the pre-trained model is further trained on curated code-completion examples to improve task-specific performance (completing functions, fixing bugs, writing tests)
-  - **RLHF (Reinforcement Learning from Human Feedback):** human raters evaluate model outputs; the model is trained to prefer outputs that humans rated highly — this is how "helpfulness" and "safety" are shaped
-  - **Training cutoff:** the model's knowledge of libraries, APIs, and frameworks is frozen at its training cutoff date; it will not know about a package released after that date — always verify against current docs
-  - **GitHub-specific fine-tuning:** GitHub's models are specifically tuned on code-completion tasks at scale, giving them an advantage over general-purpose LLMs for programming tasks
-- Context windows: why "how much Copilot can see" matters
-  - **Definition:** the context window is the maximum number of tokens the model can process in a single inference call — everything Copilot "reads" before generating a suggestion must fit within this limit
-  - **Practical sizes:** models in 2025–2026 range from ~8K tokens (older/faster models) to 200K+ tokens (long-context models); a 200K token window can hold roughly 10,000–15,000 lines of code
-  - **What fills the context window:** open editor tabs, the current file, chat history, `#file` and `#selection` references, `copilot-instructions.md`, and Copilot's own system prompt all compete for space
-  - **When context is too small:** Copilot can't "see" the whole codebase simultaneously; it only knows what fits in the window — distant files, past conversations, and unused tabs are invisible to it
-  - **The "lost in the middle" problem:** research shows LLMs pay less attention to content in the *middle* of a long context; place the most critical information near the beginning or end of your prompt
-  - **Practical tip:** deliberately open the most relevant files in tabs before asking for help; use `#file` to explicitly attach key files rather than hoping Copilot finds them on its own
+### 2. The Evolution of AI
+- Four waves, each building on the last:
+  1. **Rules-Based Systems** — hand-coded if/then logic; fast and predictable but brittle, breaking on any unplanned scenario
+  2. **Machine Learning** — learns patterns from data; powers spam filters, recommendation engines, and fraud detection
+  3. **Deep Learning** — neural networks with many layers, made practical by GPUs; the breakthrough behind ImageNet 2012
+  4. **Generative AI** — produces new content (text, code, images); the model creates rather than classifies — Copilot lives here
 
-### 3. GitHub Copilot — The Big Picture (20 min)
-- What is GitHub Copilot? (AI pair programmer, not an autonomous agent)
-  - **Core metaphor:** Copilot is a knowledgeable colleague who types fast, has read every Stack Overflow answer, and is always available — but needs your direction and benefits from your review
-  - **It suggests; you decide:** every completion is a *proposal*; the developer retains full authorship, accountability, and judgment about whether to accept, modify, or reject
-  - **What it is NOT:** not a search engine, not a documentation lookup tool, not a guaranteed correct answer, not an autonomous system that acts without your approval
-  - **The "pair programmer" dynamic:** like a good pair-programming partner, Copilot proposes ideas, catches patterns, fills in boilerplate — and occasionally goes down the wrong path that you redirect
-  - **Accountability stays with you:** the moment you accept a suggestion and commit it, you own it — Copilot doesn't appear in `git blame`
-- History: GitHub + OpenAI Codex → now powered by multiple models (GPT-4o, Claude, Gemini, o3)
-  - **2021:** GitHub Copilot Technical Preview launched, exclusively powered by OpenAI Codex (GPT-3 fine-tuned on public GitHub code); limited beta access
-  - **June 2022:** General Availability — Copilot Individual at $10/month; became the fastest-adopted GitHub product ever
-  - **2023:** Copilot Chat added (conversational AI in the IDE); Copilot for Business launched with org-level controls; Copilot starts appearing on GitHub.com
-  - **2024:** Multi-model support introduced — users can choose GPT-4o, Claude Sonnet, Gemini; Copilot Enterprise with Knowledge Bases; Agent Mode preview
-  - **2025–2026:** Copilot is now a *platform* — MCP integration, Extensions ecosystem, Copilot Workspace, and a growing agentic capability set
-  - **Implication for today:** Copilot is no longer "one model" — it's a suite of AI capabilities across the entire GitHub platform, pluggable and extensible
-- GitHub Copilot product landscape:
-  - **Copilot in the IDE (completions + Chat):** the original product — ghost text completions as you type, plus a Chat panel for conversational assistance, inline chat for in-place edits, and Agent Mode for autonomous multi-step tasks; available in VS Code, JetBrains, Visual Studio, Neovim, and more
-  - **Copilot on GitHub.com (PR summaries, Copilot Chat in browser):** Chat available directly on github.com; automatic PR description generation from diffs; AI-powered code review with inline suggestions; Copilot-powered issue summarisation and triage
-  - **Copilot CLI:** the `gh copilot` extension for the GitHub CLI; `suggest` generates shell commands from natural language, `explain` demystifies cryptic commands; works in bash, zsh, PowerShell, fish
-  - **Copilot Workspace (agentic task completion):** starts from a GitHub Issue and autonomously plans, writes code, runs tests, and opens a PR; preview feature representing the agentic future of Copilot
-  - **Copilot Extensions & MCP:** first- and third-party extensions that add new tools to Copilot Chat (e.g., Jira, Sentry, internal APIs); MCP (Model Context Protocol) is an open standard for connecting AI models to external data sources and tools
-- Tiers: Copilot Free, Individual, Business, Enterprise
-  - **Copilot Free:** available to all GitHub users — 2,000 code completions/month, 50 chat messages/month, access to GPT-4o and Claude Sonnet 3.5; great for experimentation, limited for daily use
-  - **Copilot Individual ($10/month):** unlimited completions and chat messages, all available models, no training on your code (opt-out), personalised suggestions based on your coding patterns
-  - **Copilot Business ($19/user/month):** everything in Individual plus: organisation-level policy management, content exclusions, audit logs, no training on code by default, IP indemnity, usage metrics API
-  - **Copilot Enterprise ($39/user/month):** everything in Business plus: Copilot Knowledge Bases (RAG over internal docs/repos), organisation-level custom instructions, Copilot pull request summaries at scale, fine-tuned model options, Copilot Workspace access
+### 3. Types of Machine Learning
+- **Supervised Learning** — trains on labelled examples (input → correct output); spam detection, image classification, house-price prediction; needs a large labelled dataset
+- **Unsupervised Learning** — finds hidden patterns in unlabelled data; customer segmentation, anomaly detection, topic modelling; needs data only, no labels
+- **Reinforcement Learning** — an agent learns by trial and error via rewards; game-playing AI (AlphaGo), robot locomotion, RLHF for LLMs; needs an environment and a reward signal
 
-### 4. AI is Changing How We Build Software (15 min)
-- Developer productivity data (GitHub's research: 55% faster task completion)
-  - **The 2022 GitHub study:** developers using Copilot completed a representative coding task 55% faster than the control group; this was a controlled experiment, not a survey
-  - **The 2023 follow-up:** 88% of Copilot users reported feeling more focused; 74% said it helped them stay in the flow state longer by reducing context switches to documentation/search
-  - **McKinsey research (2023):** estimated up to 45% of developer time is spent on tasks where AI can provide meaningful assistance (boilerplate, testing, documentation, code review)
-  - **Important caveats:** gains vary significantly by task type (strongest for boilerplate, weakest for novel business logic), developer experience level, and domain; raw "lines of code" is a poor proxy for productivity
-  - **The flip side:** some studies show increased time spent on *review* of AI suggestions — the net benefit depends on how critically developers evaluate output
-- The shift from *writing* code to *reviewing and directing* code
-  - **The emerging role:** developers increasingly act as "code directors" — specifying intent, evaluating proposals, integrating outputs — rather than typing every character themselves
-  - **Natural language as a programming interface:** the ability to describe *what* you want in plain English and evaluate whether you got it is becoming as important as knowing *how* to write it
-  - **Analogy:** senior developers have always directed junior developers this way — AI makes that leverage available to everyone, at every experience level
-  - **What this requires:** you must understand the code well enough to judge whether Copilot's output is correct — reading and evaluating code is a distinct skill from writing it, and arguably harder
-  - **Risk:** developers who accept suggestions without understanding them accumulate invisible technical debt and security vulnerabilities; critical evaluation is non-negotiable
-- New skills that matter more, skills that matter less
-  - **More important:** system design and architecture thinking; code review and critical evaluation; prompt crafting and AI communication; domain knowledge and business logic; debugging complex distributed systems; security awareness; requirements decomposition
-  - **Less central (but still needed):** memorising language syntax and library APIs; writing boilerplate scaffolding; generating first drafts of unit tests and documentation; looking up common algorithmic patterns
-  - **The rise of "AI literacy":** understanding what AI can and can't do, when to trust it, how to guide it, and when to override it is becoming a core engineering competency — not a speciality
-  - **Soft skills amplified:** clear written communication, requirements definition, and problem decomposition — historically undervalued in engineering — become differentiators in an AI-assisted world
-- The "centaur" model: human + AI, not human vs. AI
-  - **Origin of the analogy:** after chess computers surpassed grandmasters, "freestyle chess" tournaments allowed human + computer teams — they consistently beat both pure humans *and* pure computers; the combination was stronger than either alone
-  - **Applied to software development:** human judgment (context, ethics, requirements, business knowledge, creativity) + AI speed (pattern matching, boilerplate, recall of APIs) = better outcomes than either alone
-  - **What the human brings that AI cannot:** understanding of *why* this software exists, who uses it, what failure looks like, what the organisation needs, and what the right tradeoff is
-  - **Why "AI will replace developers" misses the point:** the centaur model suggests the developers who thrive will be those who learn to work *with* AI effectively — the threat is not AI replacing developers, it's AI-fluent developers replacing AI-unfluent developers
-  - **Reframe for participants:** this workshop is about becoming the human half of a very capable centaur
+### 4. The Reinforcement Learning Loop
+- The cycle of **Agent → Environment → Interpreter → Model Improvement**: the agent chooses actions from its policy, the environment reacts and produces a new state, the interpreter evaluates the outcome and assigns a reward or penalty, and the reward updates the model weights
+- Over time the agent gradually learns better strategies
 
-### 5. Workshop Roadmap & Setup (10 min)
-- Walk through the 2-day agenda
-  - **Day 1 arc:** foundations (Ch 1) → hands-on Copilot in the IDE (Ch 2) → responsible and secure use (Ch 3) → advanced features and agentic coding (Ch 4)
-  - **Day 2 arc:** prompt engineering mastery (Ch 5) → Copilot across the full SDLC (Ch 6) → team practices and measuring impact (Ch 7) → capstone build (Ch 8)
-  - **How chapters build on each other:** each session assumes the prior one; participants who miss a session should review the README before the next
-  - **What participants will be able to do by end of Day 2:** complete a full feature cycle (design → code → test → document → PR) using Copilot at every step; apply prompt engineering; configure Copilot for their team
-- Confirm GitHub Copilot access and IDE setup (VS Code recommended)
-  - **GitHub account:** must be signed in to github.com; Copilot Free is available to all accounts — verify at [github.com/features/copilot](https://github.com/features/copilot)
-  - **VS Code setup:** install the *GitHub Copilot* and *GitHub Copilot Chat* extensions; sign in with GitHub account; look for the Copilot icon in the status bar (bottom right)
-  - **JetBrains alternative:** GitHub Copilot plugin available for IntelliJ IDEA, PyCharm, GoLand, WebStorm, etc. — install via Plugins marketplace and sign in; same features, slightly different keyboard shortcuts
-  - **GitHub Codespaces fallback:** if local setup fails, participants can use a pre-configured Codespace — Copilot works in the browser-based VS Code; provide the Codespace URL in advance
-  - **Internet connectivity check:** Copilot requires outbound HTTPS to `copilot-proxy.githubusercontent.com`; corporate proxies/firewalls are the #1 setup issue — verify before the session starts
-- Point to prerequisites and troubleshooting guide
-  - **Prerequisites checklist:** GitHub account, Copilot access confirmed, VS Code or JetBrains installed, extensions installed and signed in, `git` installed, language runtime for the workshop exercises (Node.js recommended)
-  - **Common setup issues to pre-empt:** extension shows error state (re-sign-in usually fixes it), proxy blocking Copilot requests (IT needs to whitelist the domain), free tier quota exhausted (upgrade or use Codespaces), JetBrains plugin not activating (restart IDE after install)
-  - **Verification test:** type a comment in a new file (`// function that returns the current date`) — if Copilot is working, ghost text should appear within a second or two
-  - **Where to get help during the workshop:** Slack/Teams channel for the workshop (post the link), or raise your hand — facilitators will circulate during exercises
+### 5. Generative AI — The GAN Idea
+- A **Generative Adversarial Network** pits two neural networks against each other: a *generator* tries to fool a *discriminator*, and the discriminator tries not to be fooled
+- The generator starts from random noise and learns to produce realistic images; the discriminator, trained on real photos, judges whether each result looks real and returns a reward or penalty
+- Over thousands of rounds the generator's output becomes indistinguishable from real — the same adversarial principle behind modern image generation and behind **RLHF** for aligning language models
+
+### 6. AI Is Not One Thing — A Quick Taxonomy
+- **Narrow AI vs. AGI** — everything in use today (including Copilot) is narrow AI; AGI remains theoretical
+- **Discriminative AI** — classifies or predicts from existing data (spam detection, churn prediction, most traditional ML)
+- **Generative AI** — produces new content: text, code, images, audio
+- **Large Language Models (LLMs)** — generative AI trained on text and code; powers Copilot, ChatGPT, Claude, Gemini
+- **Other categories** — Computer Vision, OCR, Speech Recognition, Recommender Systems — all already in everyday use
+- **Where Copilot fits** — LLM-based generative AI, a code-focused model accessed via IDE, browser, and CLI
+
+### 7. What Is an AI Model?
+- An **AI Model** is a trained mathematical system that maps inputs to outputs using patterns learned from data (spam filter, recommender, fraud detector, OCR)
+- A **GenAI Model** is built to generate new content rather than only classify or score — outputs include text, code, images, audio, video, and design variations
+- An **LLM** is a generative AI model focused on language (text and code) — chat, summarization, search assistants, code copilots
+- The nesting: every LLM is a GenAI model and an AI model, but not every AI model is an LLM
+
+### 8. How LLMs Actually Work
+- **Tokens** — LLMs read tokens, not characters or words (roughly 3–4 chars each; ~1,300 tokens per 1,000 words)
+- **Tokenisation** — whitespace, punctuation, and camelCase boundaries all create separate tokens
+- **Embeddings** — each token maps to a high-dimensional vector; similar meanings cluster together mathematically
+- **Next-Token Prediction** — the model's only job is predicting the next token; code generation runs this loop hundreds of times
+- **Temperature & Sampling** — low is deterministic, high is creative; the same prompt can yield different results
+
+### 9. LLM Temperature — Choosing the Right Setting
+- **0.0 – 0.3 — Factual & Analytical** — best for coding, data extraction, math, technical docs, customer support; consistent and deterministic (still a next-word predictor — always verify)
+- **0.3 – 0.7 — Standard Conversational** — best for general chat, summarization, translation, business writing; natural and coherent
+- **0.7 – 1.0+ — Creative** — best for brainstorming, creative writing, and poetry; diverse and imaginative
+- ⚠ **Past 1.0** the model may produce gibberish or lose context
+
+### 10. Hands-On — First Exercises (101–103)
+- **Exercise 101 — Token Visualizer:** configure an Azure OpenAI endpoint, run the terminal app, and compare token counts for English, C#, SQL, and Copilot prompts
+- **Exercise 102 — Stateless LLM Chat:** build a .NET terminal chat app with the Microsoft Agent Framework SDK that omits history, showing the LLM is stateless by default
+- **Exercise 103 — Chat History & Roles:** extend the app to store turns and separate user, assistant, and system roles, illustrating how apps add memory
+
+### 11. Why LLMs for Coding?
+- **Programming languages are languages** — syntax, grammar, and semantics are exactly what LLMs are built on
+- **Code is pattern-dense** — CRUD endpoints, design patterns, and boilerplate repeat across millions of repos
+- **Trained on vast public codebases** — GitHub, Stack Overflow, and docs offer highly structured examples
+- **Intent lives in the code** — function names, variable names, and comments describe what code should do
+- **Context is bidirectional** — code above and below the cursor both constrain the next token
+- **Errors have structure too** — stack traces and compiler messages follow predictable patterns
+
+### 12. Why LLMs "Hallucinate"
+- LLMs predict statistically likely tokens, they don't recall facts — there is no internal fact-checker
+- Training data contains noise (outdated APIs, deprecated packages, wrong answers), and the more specific or obscure the request, the riskier the output
+- The context window is the only truth; outside it the model fills gaps with learned patterns
+- Hallucinations feel trustworthy because the model is confidently wrong — always review what it generates
+
+### 13. The Training Pipeline
+- **Pre-training on raw text** — billions of tokens from web, books, and code teach language structure
+- **Self-supervised learning** — no labels needed; predicting the next token is the signal, and the text itself is the label
+- **Fine-tuning on curated data** — adapts the base model to follow instructions and write useful code
+- **RLHF** — human raters rank outputs, teaching the model what "helpful and correct" looks like
+- **The knowledge cutoff** — anything after the fixed training date is unknown
+- **Scale changes everything** — more parameters, data, and compute unlock emergent abilities
+
+### 14. Context Windows
+- The model's working memory — everything it can see at once: prompt, history, and injected context
+- Measured in tokens, not characters (a word is ~1.3 tokens; code is more token-dense)
+- What goes in the window matters; relevant files and clear instructions beat vague prompts
+- Nothing persists between sessions — every new chat starts blank
+- Bigger isn't always better — models can lose focus on content buried in the middle
+- GitHub Copilot manages context automatically, selecting open files, cursor position, and related code
+
+### 15. RAG — Grounding an LLM
+- **Retrieval-Augmented Generation** grounds a model with external knowledge at runtime so it answers from evidence rather than memory alone:
+  1. **Retrieve Evidence** — find the most relevant facts from an external knowledge source
+  2. **Ground the Prompt** — insert that evidence into the prompt and context window
+  3. **Generate** — answer using both general training and the retrieved grounding
+- **Still limited** — RAG adds context at inference time; it does not retrain the model, fetch live state itself, or perform external actions — which motivates the next topic: tools
+
+### 16. Hands-On — Tools & MCP (104–105)
+- **Exercise 104 — Tool Calls:** build on 103, expose `getDateTime` as an in-process function call, and watch tools give the LLM access to real-time data
+- **Exercise 105 — MCP Tool Calls:** move `getDate` and `getTime` out-of-process behind an MCP server and wire the chat app to it, understanding MCP as a reusable tool boundary
+
+### 17. Beyond Chatbots — What Makes an AI Agent?
+- **Autonomy & Action** — takes initiative and performs tasks, not just responds
+- **Memory & State** — maintains history and context across interactions
+- **Tool Integration** — uses APIs, functions, and external systems to get things done
+- **Planning & Reasoning** — makes decisions, chains actions, solves multi-step problems
+- **Reactive vs. Proactive** — chatbots wait for input; agents can trigger actions on conditions
+
+### 18. Agent Orchestration — Coordinating Intelligence
+- **Multi-Agent Systems** — specialized agents working together, each with its own expertise
+- **Workflow Automation** — agents pass work between each other to form pipelines
+- **Delegation & Specialization** — the right agent for the right job (code, data, planning)
+- **Shared Context** — agents share state with no silos
+- **Orchestration Layer** — routing, prioritization, and conflict resolution
+- **Emergent Capabilities** — orchestrated agents achieve complex goals together
+
+### 19. Hands-On — Agent Orchestration (106)
+- **Exercise 106 — Agent Orchestration:** use a summary agent to restate the latest question with context, route it to the right specialist agents (home, energy, car, photos), fan out the calls in parallel, then merge the results — inspecting routing with `/debug`
+
+### 20. Interactive Quizzes
+- **Quiz 1** — which temperature range is most consistent/deterministic for coding? (Answer: **0.0 – 0.3**)
+- **Quiz 2** — AlphaGo learning Go via a reward signal is which type of ML? (Answer: **Reinforcement Learning**)
+- **Quiz 3** — why does Copilot confidently call methods that don't exist? (Answer: **LLMs predict statistically likely tokens, not factually verified answers**)
 
 ---
 
 ## 🧪 Chapter 1 Exercises
 
-- [Exercise 101 — Token Visualizer](../../../exercises/chapter-01/exercise-101/README.md) — explore how prompts and code are split into tokens
-- [Exercise 102 — Stateless LLM Chat](../../../exercises/chapter-01/exercise-102/README.md) — build a first console chat agent backed by Azure OpenAI
-- [Exercise 103 — Chat History & Roles](../../../exercises/chapter-01/exercise-103/README.md) — add memory and persona prompts to the conversation
-- [Exercise 104 — Tool Calls](../../../exercises/chapter-01/exercise-104/README.md) — let the model call local C# functions for live date and time data
-- [Exercise 105 — MCP Tool Calls](../../../exercises/chapter-01/exercise-105/README.md) — move those tools behind an MCP server and connect remotely
-- [Exercise 106 — Agent Orchestration](../../../exercises/chapter-01/exercise-106/README.md) — route one question through multiple specialist agents and merge the result
-
----
-
-## 💡 Ideas for Exercises & Interactivity
-
-### Opening Quiz (5 min — run during intro)
-Use Mentimeter or Slido for live polling:
-- "Have you used GitHub Copilot before?" (Yes / No / Tried it briefly)
-- "What do you think Copilot is actually doing when it suggests code?" (multiple choice)
-- "How worried are you about AI replacing your job?" (scale 1–5)
-Revisit the last question at the end of Day 2.
-
-### LLM Vocabulary Bingo (5 min)
-Give each participant a bingo card with AI buzzwords (token, hallucination, fine-tuning, context window, RAG, embedding, prompt, model, inference, agent…). Mark them off as they come up during the chapter.
-
-### "Is This AI?" Gallery Walk (10 min — optional, good for larger groups)
-Post printed examples around the room: autocomplete in Gmail, Copilot suggestion, Google Translate, chess engine. Teams discuss and vote: "Is this Generative AI?"
-
-### Live Demo: Copilot's First Impression (10 min)
-Instructor opens a blank file, types a comment describing a simple function, and lets Copilot complete it. Then deliberately gives a vague prompt to show a hallucination. Debrief: what did we learn?
-
-### Token Visualizer Exercise (5 min)
-Direct participants to [platform.openai.com/tokenizer](https://platform.openai.com/tokenizer) or run [Exercise 101 — Token Visualizer](../../../exercises/chapter-01/exercise-101/README.md). Paste in a snippet of code and count tokens together. Builds intuition for context windows.
+- [Exercise 101 — Token Visualizer](../../../exercises/chapter-01/exercise-101/README.md) — explore how prompts and code are split into tokens using an Azure OpenAI-backed terminal app
+- [Exercise 102 — Stateless LLM Chat](../../../exercises/chapter-01/exercise-102/README.md) — build a first console chat app with the Microsoft Agent Framework SDK and see why an LLM is stateless by default
+- [Exercise 103 — Chat History & Roles](../../../exercises/chapter-01/exercise-103/README.md) — add explicit state, stored turns, and user/assistant/system roles to the conversation
+- [Exercise 104 — Tool Calls](../../../exercises/chapter-01/exercise-104/README.md) — expose `getDateTime` as an in-process function so the model can access real-time data
+- [Exercise 105 — MCP Tool Calls](../../../exercises/chapter-01/exercise-105/README.md) — move the date/time tools behind an MCP server and connect the chat app to it
+- [Exercise 106 — Agent Orchestration](../../../exercises/chapter-01/exercise-106/README.md) — route one question through a coordinator and specialist agents, then merge the result
 
 ---
 
 ## 🔗 Resources & References
 - [GitHub Copilot Docs](https://docs.github.com/en/copilot)
-- [GitHub Blog: Research on Copilot productivity](https://github.blog/2022-09-07-research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/)
-- [How GitHub Copilot is getting better at understanding your code](https://github.blog/2023-05-17-how-github-copilot-is-getting-better-at-understanding-your-code/)
-- [GitHub Copilot model choice](https://docs.github.com/en/copilot/using-github-copilot/ai-models/changing-the-ai-model-for-copilot-chat)
+- [Azure OpenAI Service](https://learn.microsoft.com/en-us/azure/ai-services/openai/)
+- [Microsoft Agent Framework](https://learn.microsoft.com/en-us/agent-framework/)
+- [Model Context Protocol (MCP)](https://modelcontextprotocol.io/)
+- [OpenAI Tokenizer](https://platform.openai.com/tokenizer) — visualise how text is split into tokens
 
 ---
 
 ## 🗒️ Facilitator Notes
-- Keep energy high — this is the first session after arrival
-- Don't get lost in deep ML theory; surface-level intuition is enough
-- Emphasize: Copilot is a *tool*, not a replacement. The theme of the whole workshop.
-- Bring backup: have the demo pre-recorded in case of internet issues
+- Open with the three polls to get the room talking; revisit Poll C at the end of the workshop to compare sentiment
+- Keep the ML theory at intuition level — the GAN and RL-loop diagrams are there to make adversarial training and rewards tangible, not to teach the math
+- Use the temperature table as a recurring reference; Quiz 1 calls back to it directly
+- The six exercises build on each other (102 → 103 → 104 → 105), so make sure participants finish each before moving on
+- Tie hallucinations, context windows, and RAG together as one story: the model only knows what's in the window, so grounding and tools are how we feed it the truth
 
 ---
 

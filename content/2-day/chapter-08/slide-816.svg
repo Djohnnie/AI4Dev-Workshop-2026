@@ -4,44 +4,80 @@
       <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
       <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
     </radialGradient>
-    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
-    </radialGradient>
   </defs>
 
   <rect width="1920" height="1080" fill="url(#bgGlow)"/>
-  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
-  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
-  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
-  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
-  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4" rx="0"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Interactive Quiz 21</text>
-  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
+  <g transform="translate(1440 58)" opacity="0.18">
+    <text x="0" y="54" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="700" fill="#c4baea">FINAL</text>
+    <text x="0" y="118" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#c4baea">LAB 801</text>
+  </g>
 
-  <rect x="80" y="190" width="1760" height="120" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="960" y="234" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="35" font-weight="600" fill="#ffffff">Your team wants a repeatable way to build future features with Copilot, not just one successful demo.</text>
-  <text x="960" y="278" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="35" font-weight="600" fill="#ffffff">Which approach is strongest?</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Lab 801 &#x2014; Multiplayer Ultimate Snake</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+  <text x="80" y="195" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea">The capstone turns the earlier single-player game into a shared room-based experience with live updates.</text>
 
-  <rect x="80" y="340" width="1760" height="150" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="415" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
-  <text x="155" y="428" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">A</text>
-  <text x="225" y="395" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="31" font-weight="300" fill="#c4baea">Add project instructions, reusable prompt files or skills, build in reviewable slices,</text>
-  <text x="225" y="430" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="31" font-weight="300" fill="#c4baea">generate tests and docs, then use Copilot review with humans making final judgments</text>
+  <rect x="80" y="235" width="980" height="740" rx="12" fill="#0f1226" fill-opacity="0.72" stroke="#8b7fd4" stroke-width="1.5"/>
 
-  <rect x="80" y="515" width="1760" height="150" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="590" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
-  <text x="155" y="603" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">B</text>
-  <text x="225" y="603" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea">Skip instructions and rely on one giant prompt every time so nothing gets constrained</text>
+  <rect x="120" y="278" width="900" height="86" rx="18" fill="rgba(255,255,255,0.06)" stroke="#8b7fd4" stroke-width="1.2"/>
+  <text x="156" y="314" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="600" fill="#c4baea">Chapter 8 · Lab 801</text>
+  <text x="156" y="344" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Ultimate Snake Rooms</text>
+  <text x="650" y="314" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="500" fill="#c4baea">Room</text>
+  <text x="650" y="344" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#7ee787">AB12</text>
+  <text x="770" y="314" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="500" fill="#c4baea">Players</text>
+  <text x="772" y="344" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#ffd866">2 / 4</text>
+  <text x="884" y="314" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="500" fill="#c4baea">Phase</text>
+  <text x="886" y="344" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff">Running</text>
 
-  <rect x="80" y="690" width="1760" height="150" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="765" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
-  <text x="155" y="778" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">C</text>
-  <text x="225" y="778" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea">Use only GitHub.com chat so no one needs local context, tests, or repository conventions</text>
+  <rect x="120" y="392" width="900" height="528" rx="18" fill="rgba(255,255,255,0.05)" stroke="#8b7fd4" stroke-width="1.2"/>
+  <rect x="160" y="432" width="700" height="432" rx="12" fill="#0b1022"/>
 
-  <rect x="80" y="865" width="1760" height="150" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="940" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
-  <text x="155" y="953" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">D</text>
-  <text x="225" y="953" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea">Trust Autofix and AI review to replace human review, test design, and architecture thinking</text>
+  <g stroke="rgba(139,127,212,0.18)" stroke-width="1">
+    <path d="M160 468 H860"/><path d="M160 504 H860"/><path d="M160 540 H860"/><path d="M160 576 H860"/><path d="M160 612 H860"/><path d="M160 648 H860"/><path d="M160 684 H860"/><path d="M160 720 H860"/><path d="M160 756 H860"/><path d="M160 792 H860"/><path d="M160 828 H860"/>
+    <path d="M196 432 V864"/><path d="M232 432 V864"/><path d="M268 432 V864"/><path d="M304 432 V864"/><path d="M340 432 V864"/><path d="M376 432 V864"/><path d="M412 432 V864"/><path d="M448 432 V864"/><path d="M484 432 V864"/><path d="M520 432 V864"/><path d="M556 432 V864"/><path d="M592 432 V864"/><path d="M628 432 V864"/><path d="M664 432 V864"/><path d="M700 432 V864"/><path d="M736 432 V864"/><path d="M772 432 V864"/><path d="M808 432 V864"/><path d="M844 432 V864"/>
+  </g>
+
+  <circle cx="628" cy="630" r="10" fill="#ff7b72"/>
+  <rect x="482" y="684" width="30" height="30" rx="6" fill="#3fb950"/>
+  <rect x="518" y="684" width="30" height="30" rx="6" fill="#3fb950"/>
+  <rect x="554" y="684" width="30" height="30" rx="6" fill="#ffd866"/>
+  <rect x="626" y="558" width="30" height="30" rx="6" fill="#58a6ff"/>
+  <rect x="626" y="594" width="30" height="30" rx="6" fill="#58a6ff"/>
+  <rect x="626" y="630" width="30" height="30" rx="6" fill="#b3a8ff"/>
+
+  <rect x="888" y="432" width="100" height="196" rx="16" fill="rgba(255,255,255,0.06)" stroke="#8b7fd4" stroke-width="1.2"/>
+  <text x="938" y="472" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Players</text>
+  <text x="938" y="516" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="700" fill="#ffd866">Alex</text>
+  <text x="938" y="540" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="300" fill="#c4baea">Host · 3</text>
+  <text x="938" y="584" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="700" fill="#58a6ff">Sam</text>
+  <text x="938" y="608" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="300" fill="#c4baea">Player · 2</text>
+
+  <text x="160" y="902" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">
+    <tspan x="160" dy="0">Shared room code, shared board, shared snack, and several</tspan>
+    <tspan x="160" dy="28">snakes visible at once.</tspan>
+  </text>
+
+  <rect x="1110" y="235" width="730" height="230" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1475" y="304" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#8b7fd4">1</text>
+  <text x="1475" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" fill="#ffffff">Build target</text>
+  <text x="1475" y="404" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Create a browser-based multiplayer Snake game with</text>
+  <text x="1475" y="438" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">room creation, joining by code, and a shared board.</text>
+
+  <rect x="1110" y="495" width="730" height="220" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1475" y="566" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#8b7fd4">2</text>
+  <text x="1475" y="626" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" fill="#ffffff">Core multiplayer twist</text>
+  <text x="1475" y="670" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">
+    <tspan x="1475" dy="0">Several snakes race toward one shared food item.</tspan>
+    <tspan x="1475" dy="32">The server decides who wins and what collides.</tspan>
+  </text>
+
+  <rect x="1110" y="745" width="730" height="250" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1475" y="806" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#8b7fd4">3</text>
+  <text x="1475" y="860" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" fill="#ffffff">Why it is the capstone</text>
+  <text x="1475" y="904" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">
+    <tspan x="1475" dy="0">This lab combines UI design, server state,</tspan>
+    <tspan x="1475" dy="32">real-time sync, Copilot workflow choices,</tspan>
+    <tspan x="1475" dy="32">and demo-ready behavior.</tspan>
+  </text>
 </svg>

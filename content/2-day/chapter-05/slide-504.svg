@@ -42,7 +42,7 @@
   <text x="1405" y="555" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#9a90c8">closed files, unindexed modules,</text>
   <text x="1405" y="595" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#9a90c8">the rest of your repository.</text>
   <text x="1405" y="675" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#9a90c8">Irrelevant open tabs and long chat</text>
-  <text x="1405" y="715" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#9a90c8">history consumes the window - and pushes</text>
+  <text x="1405" y="715" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#9a90c8">history consume the window - and pushes</text>
   <text x="1405" y="755" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#9a90c8">out what actually matters.</text>
 
   <rect x="330" y="850" width="1260" height="70" rx="35" fill="#8b7fd4" opacity="0.22"/>

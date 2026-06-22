@@ -4,45 +4,48 @@
       <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
       <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
     </radialGradient>
-    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
-    </radialGradient>
   </defs>
 
   <rect width="1920" height="1080" fill="url(#bgGlow)"/>
-  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
-  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
-  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
-  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
-  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4" rx="0"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Interactive Quiz 21 — Answer</text>
-  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
+  <g transform="translate(1460 58)" opacity="0.18">
+    <text x="0" y="54" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="700" fill="#c4baea">FINAL</text>
+    <text x="0" y="118" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#c4baea">EXPECTATIONS</text>
+  </g>
 
-  <rect x="80" y="190" width="1760" height="120" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="960" y="234" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="35" font-weight="600" fill="#ffffff">Your team wants a repeatable way to build future features with Copilot, not just one successful demo.</text>
-  <text x="960" y="278" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="35" font-weight="600" fill="#ffffff">Which approach is strongest?</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Lab 801 &#x2014; Expectations</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+  <text x="80" y="195" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea">Think in rooms, shared state, and real-time updates. A clean two-player experience is enough to prove the concept.</text>
 
-  <rect x="80" y="340" width="1760" height="150" rx="16" fill="#4ecb71" fill-opacity="0.12" stroke="#4ecb71" stroke-width="2"/>
-  <circle cx="155" cy="415" r="40" fill="#4ecb71" fill-opacity="0.8"/>
-  <text x="155" y="428" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">A</text>
-  <text x="225" y="395" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="31" font-weight="600" fill="#ffffff">Add project instructions, reusable prompt files or skills, build in reviewable slices,</text>
-  <text x="225" y="430" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="31" font-weight="600" fill="#ffffff">generate tests and docs, then use Copilot review with humans making final judgments</text>
-  <text x="1800" y="428" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#4ecb71">✓</text>
+  <rect x="80" y="245" width="860" height="350" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="510" y="314" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#8b7fd4">1</text>
+  <text x="510" y="368" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" fill="#ffffff">Room flow</text>
+  <text x="150" y="422" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">• One player can create a room and get a short code.</text>
+  <text x="150" y="464" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">• Another player can join with that code.</text>
+  <text x="150" y="506" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">• The UI shows the room code, player list, and room phase.</text>
 
-  <rect x="80" y="515" width="1760" height="150" rx="16" fill="#ffffff" fill-opacity="0.05" stroke="#8b7fd4" stroke-opacity="0.4" stroke-width="1.5"/>
-  <circle cx="155" cy="590" r="40" fill="#8b7fd4" fill-opacity="0.2"/>
-  <text x="155" y="603" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#8b7fd4">B</text>
-  <text x="225" y="603" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#8b7fd4">Skip instructions and rely on one giant prompt every time so nothing gets constrained</text>
+  <rect x="980" y="245" width="860" height="350" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="314" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#8b7fd4">2</text>
+  <text x="1410" y="368" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" fill="#ffffff">Shared gameplay</text>
+  <text x="1050" y="422" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">• All snakes move on the same shared board.</text>
+  <text x="1050" y="464" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">• There is one shared food item for everyone.</text>
+  <text x="1050" y="506" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">• The first snake to reach it gets the growth and score.</text>
 
-  <rect x="80" y="690" width="1760" height="150" rx="16" fill="#ffffff" fill-opacity="0.05" stroke="#8b7fd4" stroke-opacity="0.4" stroke-width="1.5"/>
-  <circle cx="155" cy="765" r="40" fill="#8b7fd4" fill-opacity="0.2"/>
-  <text x="155" y="778" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#8b7fd4">C</text>
-  <text x="225" y="778" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#8b7fd4">Use only GitHub.com chat so no one needs local context, tests, or repository conventions</text>
+  <rect x="80" y="615" width="860" height="360" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="510" y="694" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#8b7fd4">3</text>
+  <text x="510" y="748" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" fill="#ffffff">Synchronization rules</text>
+  <text x="150" y="800" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">• Clients send small input messages such as direction changes.</text>
+  <text x="150" y="842" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">• The server owns the room state and broadcasts updates.</text>
+  <text x="150" y="884" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">• Collisions against self or another snake must end that snake.</text>
 
-  <rect x="80" y="865" width="1760" height="150" rx="16" fill="#ffffff" fill-opacity="0.05" stroke="#8b7fd4" stroke-opacity="0.4" stroke-width="1.5"/>
-  <circle cx="155" cy="940" r="40" fill="#8b7fd4" fill-opacity="0.2"/>
-  <text x="155" y="953" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#8b7fd4">D</text>
-  <text x="225" y="953" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#8b7fd4">Trust Autofix and AI review to replace human review, test design, and architecture thinking</text>
+  <rect x="980" y="615" width="860" height="360" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="694" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#8b7fd4">4</text>
+  <text x="1410" y="748" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" fill="#ffffff">Good enough to ship</text>
+  <text x="1050" y="800" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">• `dotnet run` starts the app locally.</text>
+  <text x="1050" y="842" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">
+    <tspan x="1050" dy="0">• Two browsers can join the same room and see the same</tspan>
+    <tspan x="1050" dy="32">state.</tspan>
+  </text>
+  <text x="1050" y="916" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">• The result is playable and easy to explain in a live demo.</text>
 </svg>
