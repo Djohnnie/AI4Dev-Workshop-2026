@@ -24,30 +24,30 @@
     You would not paste an answer straight from the web - apply the same judgement to Copilot.
   </text>
 
-  <rect x="120" y="300" width="500" height="320" rx="28" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="370" y="395" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff">Think</text>
-  <rect x="270" y="425" width="200" height="3" fill="#8b7fd4"/>
-  <text x="370" y="500" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">does this fit my</text>
-  <text x="370" y="540" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">problem and context?</text>
-  <text x="370" y="585" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">do I understand it?</text>
+  <rect x="160" y="300" width="460" height="320" rx="28" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="390" y="395" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff">Think</text>
+  <rect x="290" y="425" width="200" height="3" fill="#8b7fd4"/>
+  <text x="390" y="500" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">does this fit my</text>
+  <text x="390" y="540" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">problem and context?</text>
+  <text x="390" y="585" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">do I understand it?</text>
 
-  <text x="695" y="475" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" fill="#8b7fd4" opacity="0.8">&#x2192;</text>
+  <text x="675" y="475" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" fill="#8b7fd4" opacity="0.8">&#x2192;</text>
 
-  <rect x="770" y="300" width="500" height="320" rx="28" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1020" y="395" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff">Implement</text>
-  <rect x="920" y="425" width="200" height="3" fill="#8b7fd4"/>
-  <text x="1020" y="500" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">adapt it to your</text>
-  <text x="1020" y="540" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">conventions and needs</text>
-  <text x="1020" y="585" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- never blind paste</text>
+  <rect x="730" y="300" width="460" height="320" rx="28" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="395" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff">Implement</text>
+  <rect x="860" y="425" width="200" height="3" fill="#8b7fd4"/>
+  <text x="960" y="500" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">adapt it to your</text>
+  <text x="960" y="540" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">conventions and needs</text>
+  <text x="960" y="585" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- never blind paste</text>
 
-  <text x="1345" y="475" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" fill="#8b7fd4" opacity="0.8">&#x2192;</text>
+  <text x="1245" y="475" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" fill="#8b7fd4" opacity="0.8">&#x2192;</text>
 
-  <rect x="1420" y="300" width="500" height="320" rx="28" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1620" y="395" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff">Test</text>
-  <rect x="1545" y="425" width="200" height="3" fill="#8b7fd4"/>
-  <text x="1620" y="500" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">verify it works and</text>
-  <text x="1620" y="540" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">is correct &amp; secure</text>
-  <text x="1620" y="585" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">before you trust it</text>
+  <rect x="1300" y="300" width="460" height="320" rx="28" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1530" y="395" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff">Test</text>
+  <rect x="1430" y="425" width="200" height="3" fill="#8b7fd4"/>
+  <text x="1530" y="500" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">verify it works and</text>
+  <text x="1530" y="540" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">is correct &amp; secure</text>
+  <text x="1530" y="585" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">before you trust it</text>
 
   <rect x="165" y="690" width="1590" height="150" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="230" y="760" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="600" fill="#ffffff">Critical thinking is non-negotiable</text>

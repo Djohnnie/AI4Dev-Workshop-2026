@@ -20,7 +20,7 @@
 
   <text x="80" y="108"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Interactive Quiz 7</text>
+    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Interactive Quiz 9 — Answer</text>
 
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
 
@@ -29,52 +29,55 @@
     fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="960" y="234" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="600" fill="#ffffff">Copilot's secret-blocking filter catches patterns before they reach your editor.</text>
+    font-size="36" font-weight="600" fill="#ffffff">A developer accepts a Copilot suggestion with a security bug and commits it.</text>
   <text x="960" y="278" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="600" fill="#ffffff">Which scenario is NOT protected by this filter?</text>
+    font-size="36" font-weight="600" fill="#ffffff">Who is accountable for that code in production?</text>
 
-  <!-- Answer A -->
+  <!-- Answer A (wrong) -->
   <rect x="80" y="340" width="1760" height="150" rx="16"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="415" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
+    fill="#ffffff" fill-opacity="0.05" stroke="#8b7fd4" stroke-opacity="0.4" stroke-width="1.5"/>
+  <circle cx="155" cy="415" r="40" fill="#8b7fd4" fill-opacity="0.2"/>
   <text x="155" y="428" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="700" fill="#ffffff">A</text>
+    font-size="36" font-weight="700" fill="#8b7fd4">A</text>
   <text x="225" y="428"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#c4baea">A completion containing a GitHub Personal Access Token (ghp_…)</text>
+    font-size="34" font-weight="300" fill="#8b7fd4">GitHub — Copilot generated the suggestion</text>
 
-  <!-- Answer B -->
+  <!-- Answer B (wrong) -->
   <rect x="80" y="515" width="1760" height="150" rx="16"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="590" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
+    fill="#ffffff" fill-opacity="0.05" stroke="#8b7fd4" stroke-opacity="0.4" stroke-width="1.5"/>
+  <circle cx="155" cy="590" r="40" fill="#8b7fd4" fill-opacity="0.2"/>
   <text x="155" y="603" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="700" fill="#ffffff">B</text>
+    font-size="36" font-weight="700" fill="#8b7fd4">B</text>
   <text x="225" y="603"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#c4baea">A completion containing an AWS Access Key (AKIA…)</text>
+    font-size="34" font-weight="300" fill="#8b7fd4">The model vendor — the LLM produced the output</text>
 
-  <!-- Answer C -->
+  <!-- Answer C (correct) -->
   <rect x="80" y="690" width="1760" height="150" rx="16"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="765" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
+    fill="#4ecb71" fill-opacity="0.12" stroke="#4ecb71" stroke-width="2"/>
+  <circle cx="155" cy="765" r="40" fill="#4ecb71" fill-opacity="0.8"/>
   <text x="155" y="778" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
     font-size="36" font-weight="700" fill="#ffffff">C</text>
   <text x="225" y="778"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#c4baea">A real API key you paste directly into Copilot Chat yourself</text>
+    font-size="34" font-weight="600" fill="#ffffff">The developer who accepted and committed it</text>
+  <text x="1800" y="778" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="42" font-weight="700" fill="#4ecb71">✓</text>
 
-  <!-- Answer D -->
+  <!-- Answer D (wrong) -->
   <rect x="80" y="865" width="1760" height="150" rx="16"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="940" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
+    fill="#ffffff" fill-opacity="0.05" stroke="#8b7fd4" stroke-opacity="0.4" stroke-width="1.5"/>
+  <circle cx="155" cy="940" r="40" fill="#8b7fd4" fill-opacity="0.2"/>
   <text x="155" y="953" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="700" fill="#ffffff">D</text>
+    font-size="36" font-weight="700" fill="#8b7fd4">D</text>
   <text x="225" y="953"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#c4baea">A suggestion that reproduces a known secret pattern from training data</text>
+    font-size="34" font-weight="300" fill="#8b7fd4">The team lead who approved the pull request</text>
 </svg>

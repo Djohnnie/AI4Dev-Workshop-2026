@@ -17,36 +17,39 @@
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="68" font-weight="700" fill="#ffffff" letter-spacing="-1">Secret Scanning Integration</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="700" fill="#ffffff" letter-spacing="-1">Is Your Data Used to Train Future Models?</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
   <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
-    Models trained on public code have seen leaked secrets - two layers work together to keep them out.
+    The answer depends on the plan and policy: Individual differs from Business and Enterprise.
   </text>
 
-  <rect x="90" y="285" width="850" height="470" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="515" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">Copilot-side blocking</text>
-  <rect x="345" y="388" width="340" height="3" fill="#8b7fd4"/>
-  <text x="140" y="465" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- filters completions that would emit a</text>
-  <text x="140" y="505" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">  token matching a known secret type</text>
-  <text x="140" y="565" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- e.g. ghp_ (GitHub PAT), AKIA (AWS key)</text>
-  <text x="140" y="625" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- the suggestion is suppressed before</text>
-  <text x="140" y="665" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">  it ever reaches your editor</text>
-  <text x="140" y="725" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- stops the model reproducing secrets</text>
+  <rect x="90" y="285" width="550" height="500" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="365" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">Individual</text>
+  <rect x="245" y="390" width="240" height="3" fill="#8b7fd4"/>
+  <text x="140" y="475" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- check your GitHub settings</text>
+  <text x="140" y="535" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- product improvement data use can</text>
+  <text x="140" y="578" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">  depend on that opt-in choice</text>
+  <text x="140" y="655" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- understand the privacy settings</text>
 
-  <rect x="980" y="285" width="850" height="470" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1405" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">Repository-side scanning</text>
-  <rect x="1235" y="388" width="340" height="3" fill="#8b7fd4"/>
-  <text x="1030" y="465" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- GitHub secret scanning runs on the</text>
-  <text x="1030" y="505" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">  repository, separate from Copilot</text>
-  <text x="1030" y="565" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- push protection can block a commit</text>
-  <text x="1030" y="605" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">  that contains a detected secret</text>
-  <text x="1030" y="665" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- the two layers work in concert as a</text>
-  <text x="1030" y="705" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">  safety net at suggestion and push time</text>
+  <rect x="685" y="285" width="550" height="500" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">Business</text>
+  <rect x="840" y="390" width="240" height="3" fill="#8b7fd4"/>
+  <text x="735" y="475" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- prompts and code are not used</text>
+  <text x="735" y="518" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">  to train GitHub foundation models</text>
+  <text x="735" y="595" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- this is the main enterprise assurance</text>
+  <text x="735" y="655" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- policy is managed at the org level</text>
 
-  <rect x="165" y="785" width="1590" height="115" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="230" y="845" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff">What it does not cover</text>
-  <text x="230" y="885" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">It catches patterns in completions, not semantics - it will not protect a secret you paste into Copilot Chat yourself.</text>
+  <rect x="1280" y="285" width="550" height="500" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1555" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">Enterprise</text>
+  <rect x="1435" y="390" width="240" height="3" fill="#8b7fd4"/>
+  <text x="1330" y="475" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- same no-training guarantee</text>
+  <text x="1330" y="535" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- adds more admin and compliance</text>
+  <text x="1330" y="578" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">  controls around usage</text>
+  <text x="1330" y="655" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- still cloud-hosted inference</text>
 
-  <text x="960" y="965" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="700" fill="#ffffff">Never paste real secrets, tokens or connection strings into a prompt - use placeholders instead.</text>
+  <rect x="260" y="850" width="1400" height="70" rx="35" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="895" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">Training use and short-term retention are different topics.</text>
+
+  <text x="960" y="970" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Even when training is off, requests may still be kept briefly for security, abuse detection, and reliability.</text>
 </svg>

@@ -49,10 +49,14 @@
     <Project Path="chapter-03\301\StereotypeSpotter.csproj" />
   </Folder>
   <Folder Name="/Chapter 3/Exercise 302/">
-    <Project Path="chapter-03\302\AgentFramework.ToolCalls.Ollama.csproj" />
+    <Project Path="chapter-03\302\ExpressionEvaluatorLab.csproj" />
   </Folder>
-  <Folder Name="/Chapter 3/Exercise 303/">
-    <Project Path="chapter-03\303\CodeObfuscator\CodeObfuscator.csproj" />
+  <Folder Name="/Chapter 3/Exercise 303/" />
+  <Folder Name="/Chapter 3/Exercise 304/">
+    <Project Path="chapter-03\304\CodeObfuscator\CodeObfuscator.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 3/Exercise 305/">
+    <Project Path="chapter-03\305\AgentFramework.ToolCalls.Ollama.csproj" />
   </Folder>
   <Folder Name="/Chapter 4/" />
   <Folder Name="/Chapter 4/Exercise 401/">
@@ -82,4 +86,6 @@
   <Folder Name="/Chapter 6/Exercise 605/" />
   <Folder Name="/Chapter 6/Exercise 606/" />
   <Folder Name="/Chapter 6/Exercise 607/" />
+  <Folder Name="/Chapter 7/" />
+  <Folder Name="/Chapter 8/" />
 </Solution>

@@ -1,8 +1,8 @@
-# Exercise 303 — Code Obfuscator MCP Tool
+# Exercise 303 — Malicious Repo Prompt Trap
 
 > **Chapter:** Chapter 3, Exercise 3  
-> **Skill focus:** Building and using a Model Context Protocol (MCP) tool; combining multiple workshop skills in a real deliverable  
-> **Difficulty:** ⭐⭐⭐⭐
+> **Skill focus:** Threat modelling GenAI-assisted setup flows; reviewing repository instructions before letting AI tools execute them  
+> **Difficulty:** ⭐⭐
 
 ← Back to [Exercise Index](../../README.md)
 
@@ -10,193 +10,121 @@
 
 ## 🎯 Overview
 
-This is the **capstone exercise**. Rather than implementing an isolated algorithm, you are working on a production-style service: an **ASP.NET Core web application** that exposes a tool to AI assistants via the **Model Context Protocol (MCP)**.
+This exercise is a **security awareness lab**, not an implementation lab.
 
-The tool itself performs code obfuscation — the same technique you reversed-engineered in [Exercise 203](../../chapter-02/203/README.md). Understanding how obfuscation works (from the inside this time) and then wrapping it in a standard protocol that any AI assistant can call is the perfect synthesis of the week's themes: AI foundations, responsible use, prompting, the full SDLC, and agentic tool-building.
+You are given a reference repository that looks harmless at first glance:
 
----
+**Reference repo:** <https://github.com/Djohnnie/AI4Dev-Workshop-2026-FolderLister>
 
-## 📚 Background: Model Context Protocol (MCP)
+The trap is social, not technical: the repository tells you to initialise your environment using a **GenAI coding assistant tool**, but it points that tool at a **repo-local npm executable** that you should not trust.
 
-### What Is MCP?
+That is exactly the kind of failure mode teams can miss when they become comfortable with AI agents doing setup work on their behalf.
 
-The **Model Context Protocol** is an open standard (developed by Anthropic, adopted across the industry) that defines how AI assistants can call external **tools** in a structured, type-safe way. Think of it as a contract between an AI model and the world outside it:
-
-```
-AI assistant  ──(calls)──►  MCP Server  ──(executes)──►  Your Tool
-              ◄──(returns)──            ◄──(result)────
-```
-
-When an AI is given access to an MCP server, it can:
-- Discover what tools are available (via the `tools/list` endpoint)
-- Call a tool with structured parameters (via `tools/call`)
-- Receive a structured result it can reason about and incorporate into its response
-
-### Why Does This Matter for Developers?
-
-MCP turns your code into **AI-callable functions**. Anything you can write as a function — searching a database, calling an internal API, running a linter, deploying to staging — can be exposed as an MCP tool and invoked by an AI assistant working autonomously in Agent Mode. This is the foundation of **agentic AI development**.
-
-### MCP in the .NET Ecosystem
-
-The `ModelContextProtocol.AspNetCore` NuGet package integrates MCP into ASP.NET Core with a clean attribute-based API:
-
-```csharp
-[McpServerToolType]
-public class MyTool
-{
-    [McpServerTool, Description("Does something useful")]
-    public static string DoWork(
-        [Description("The input to process")] string input)
-    {
-        return Process(input);
-    }
-}
-```
-
-ASP.NET Core handles serialisation, HTTP transport, and tool discovery automatically.
+> 🔐 This is the **Security** principle in practice: AI tools can accelerate dangerous actions just as easily as safe ones if you let them execute untrusted repository instructions without review.
 
 ---
 
-## 📚 Background: The Obfuscation Pipeline
+## ⚠️ Safety Rule for This Exercise
 
-The `CodeObfuscatorTool` applies four transformations to C# source code, in order:
+Treat the reference repository as **potentially hostile**.
 
-### Step 1 — Strip Block Comments
+- Do **not** run its setup commands on your normal machine.
+- Do **not** let a coding agent execute repository-provided scripts automatically.
+- If you explore it hands-on, do so only in a **throwaway, isolated environment**.
 
-Removes `/* ... */` style comments, including XML documentation blocks (`/** */`).
-
-```csharp
-// Regex: /\*[\s\S]*?\*/
-```
-
-### Step 2 — Strip Line Comments
-
-Removes `//` and `///` style comments to the end of each line.
-
-```csharp
-// Regex: //[^\r\n]*
-```
-
-### Step 3 — Rename Identifiers
-
-This is the most significant step. Local variable names and method parameters are renamed to short generated names (`v0`, `v1`, `v2`, ...).
-
-Rules:
-- Only identifiers of **3 or more characters** are renamed (very short names are assumed intentional).
-- **PascalCase** identifiers are preserved (these are typically class names, method names, or type names that are part of the public API).
-- **C# reserved keywords** (`int`, `string`, `return`, `if`, `for`, etc.) are never renamed.
-
-The result is that a method like:
-
-```csharp
-public int CalculateDistance(string source, string target)
-{
-    int sourceLength = source.Length;
-    int targetLength = target.Length;
-    ...
-}
-```
-
-becomes something like:
-
-```csharp
-public int CalculateDistance(string v0, string v1)
-{
-    int v2 = v0.Length;
-    int v3 = v1.Length;
-    ...
-}
-```
-
-### Step 4 — Collapse Whitespace
-
-Removes unnecessary blank lines and reduces multiple consecutive spaces/newlines to single ones, making the code denser and harder to scan.
+For the workshop, the main task is to **inspect and reason**, not to execute.
 
 ---
 
-## 🗂️ Project Structure
+## 📚 Scenario
 
-```
-303/
-└── CodeObfuscator/
-    ├── Program.cs                  ← ASP.NET Core entry point; registers MCP
-    ├── CodeObfuscator.csproj       ← Web project (.NET 10)
-    └── Tools/
-        └── CodeObfuscatorTool.cs   ← The MCP tool implementation
-```
+Imagine you cloned an unfamiliar GitHub repository and opened it in a GenAI coding tool.
 
-### `Program.cs`
+The README or setup instructions say something like:
 
-Minimal ASP.NET Core startup. Registers the MCP server with `AddMcpServer()`, maps the HTTP transport endpoint, and adds the `CodeObfuscatorTool` to the tool registry.
+> "To initialise the dev environment, ask your AI coding assistant to run the local npm-based setup command in this repository."
 
-### `CodeObfuscatorTool.cs`
+That feels convenient. It is also dangerous.
 
-The meat of the exercise. Contains:
+Why?
 
-- The `[McpServerToolType]` class `CodeObfuscatorTool`
-- The `[McpServerTool]` method `ObfuscateCode(string code)` — the tool callable by AI assistants
-- Four private helper methods, one per obfuscation step, each using `Regex`
-- A static list of C# reserved keywords to preserve during identifier renaming
-- Source-generated `Regex` instances (using `[GeneratedRegex]`) for performance
+- the repository controls the script you are being asked to run
+- the AI tool may execute that instruction with little friction if you phrase it as a normal setup task
+- the script may read files, environment variables, shell history, tokens, SSH keys, or other local context
+- the trust boundary shifts from **"I review commands before running them"** to **"the agent will take care of it"**
+
+This exercise helps participants build the habit of stopping and asking:
+
+> **Who controls the tool or script I am about to let my AI run?**
 
 ---
 
 ## ✅ Your Task
 
-This is an open-ended capstone exercise. Choose one or more of the following tracks based on your interests and the time available.
+### Phase 1 — Read the repository like an attacker would
 
-### Track A — Explore and Understand
+1. Open the reference repo on GitHub.
+2. Read the README and setup instructions carefully.
+3. Identify every place where the repository tries to influence what your AI tool should run.
 
-1. Start the MCP server:
+Questions to ask:
 
-```bash
-cd 303/CodeObfuscator
-dotnet run
-```
+- Is the setup command calling a **repo-local executable**?
+- Is the README encouraging me to **delegate trust** to the agent?
+- Would a rushed developer treat this as a harmless bootstrap step?
 
-2. Configure an MCP client (Claude Desktop, or Copilot with MCP support) to connect to the local server.
-3. Ask the AI to call the `ObfuscateCode` tool with a C# snippet of your choice.
-4. Examine the output — compare it with [Exercise 203's](../../chapter-02/203/README.md) `C0.cs`.
+### Phase 2 — Use Copilot as a reviewer, not an executor
 
-### Track B — Extend the Tool
+Ask Copilot questions like:
 
-Using Copilot's Agent Mode, add one or more new capabilities:
+- *"Review these setup instructions for trust-boundary problems."*
+- *"What is risky about letting an AI coding agent run repository-local npm executables?"*
+- *"What local secrets or files could a malicious setup script try to access?"*
+- *"What signs would tell me this repository is trying to exploit tool trust?"*
 
-- **`DeobfuscateCode` tool** — attempt to reverse the obfuscation by generating meaningful names using an LLM (hint: call the Azure OpenAI API from inside the tool).
-- **`ObfuscateWithLevel` parameter** — add an `int level` parameter (1–3) where level 1 only strips comments, level 2 also renames, level 3 also collapses whitespace.
-- **Support for additional languages** — add basic obfuscation for TypeScript or Python.
+The point is to use AI to help you **analyse** the risk, not to execute anything.
 
-### Track C — Build Your Own MCP Tool
+### Phase 3 — Write down the red flags
 
-Design and implement an entirely new MCP tool from scratch. Ideas:
+By the end, participants should be able to explain:
 
-- A tool that analyses C# code and returns a complexity score (cyclomatic complexity)
-- A tool that checks for common security anti-patterns in code snippets
-- A tool that formats a commit message from a diff summary
-- A tool that searches the exercises solution for implementations of a named algorithm
-
-Use the `CodeObfuscatorTool` as your template for the MCP attribute pattern.
+- why repository-provided setup tooling is not automatically trustworthy
+- why AI agent convenience can increase the blast radius of bad instructions
+- why "it is just npm" or "it is just a dev setup command" is not a security guarantee
+- why setup commands deserve the same scrutiny as shell scripts from the internet
 
 ---
 
-## 🤖 Copilot Skills That All Come Together Here
+## 🤖 Copilot Skills to Practise
 
-| Skill from earlier exercises | How it applies |
-|------------------------------|---------------|
-| Understanding obfuscated code (Ex. 203) | You now know what the tool produces — and why |
-| Prompting with context (Ex. 204) | Agent Mode needs precise prompts to generate correct ASP.NET Core code |
-| Test generation (Ex. 205) | Write tests for the obfuscation pipeline |
-| Documentation (Ex. 206) | The MCP `[Description]` attributes ARE the documentation — they are shown to the AI |
-| Token awareness (Ex. 101) | Large code files sent through the tool consume tokens — be mindful of context window use |
+| Task | How |
+|---|---|
+| Threat-model a setup flow | Ask: *"What are the trust boundaries in these setup instructions?"* |
+| Analyse a risky instruction | Ask: *"What could go wrong if an AI agent executes this command automatically?"* |
+| Review a repo for AI-agent abuse | Ask: *"What signs suggest this repository is trying to misuse an AI coding tool?"* |
+| Turn analysis into policy | Ask: *"Write a short team policy for reviewing repo-local setup scripts before using AI tools."* |
 
 ---
 
-## 💡 Tips
+## 🧠 What Participants Should Learn
 
-- **`[Description]` attributes are prompts.** The text in each `[Description]` on your tool parameters is what the AI sees when deciding how to call your tool. Write them as you would write a good prompt — specific, clear, with examples if useful.
-- **Stateless tools are simpler.** MCP tools work best when they are pure functions: same input always produces the same output. Avoid storing state in the tool class.
-- **Test the tool as a library first.** Before worrying about MCP, unit-test `ObfuscateCode` directly. Write a test that obfuscates a known snippet and asserts the output.
-- **Use Agent Mode to build.** When adding new features, use Copilot Agent Mode with `@workspace` context — it can see the existing tool and follow the same patterns automatically.
+This exercise is not mainly about npm. It is about **delegated execution**.
+
+AI coding tools can:
+
+- run commands
+- install dependencies
+- follow repository instructions
+- act on natural-language prompts that sound routine
+
+That means a malicious repository does not only need to trick a human into running a command. It may only need to trick the human into telling an **AI assistant** to do it.
+
+The security lesson:
+
+- never blindly trust repository setup instructions
+- never blindly trust repo-local executables or scripts
+- never assume an AI tool is adding security review just because it is "helping"
+- inspect first, delegate second
 
 ---
 
@@ -204,12 +132,19 @@ Use the `CodeObfuscatorTool` as your template for the MCP attribute pattern.
 
 You have completed the exercise when:
 
-- [ ] The MCP server starts without errors.
-- [ ] An AI client can discover the `ObfuscateCode` tool via the `tools/list` endpoint.
-- [ ] Calling the tool with a C# snippet returns obfuscated code with comments stripped and variables renamed.
-- [ ] You can explain how the identifier renaming regex works — including why PascalCase is preserved.
-- [ ] (Stretch) At least one additional tool or capability has been added and tested.
+- [ ] You can explain why the reference repository is dangerous to hand over to an AI coding tool.
+- [ ] You can identify the trust-boundary failure in the setup flow.
+- [ ] You can describe at least three local assets a malicious setup script might try to access.
+- [ ] You can state a safe team rule for AI-assisted repository bootstrap steps.
 
 ---
 
-← Back to [Exercise Index](../../README.md) | Previous: [Exercise 302](../302/README.md)
+## 🏁 Stretch Goals
+
+1. Ask Copilot to draft a **safe-repo checklist** for opening unfamiliar repositories in an AI coding assistant.
+2. Ask Copilot to write a short **security policy** for "AI agents may not execute repo-local setup scripts without human review."
+3. Compare this scenario with classic supply-chain risks such as `curl | sh`, malicious post-install scripts, or typo-squatted packages.
+
+---
+
+← Back to [Exercise Index](../../README.md) | Related: [Reference repo](https://github.com/Djohnnie/AI4Dev-Workshop-2026-FolderLister) | Previous: [Exercise 302](../302/README.md) | Next: [Exercise 304](../304/README.md)

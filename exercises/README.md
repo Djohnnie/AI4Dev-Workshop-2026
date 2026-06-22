@@ -23,8 +23,10 @@ Most exercises are written in **C# (.NET 10)** and follow the same project layou
 | [205](chapter-02/205/README.md) | [Caesar Cipher](chapter-02/205/README.md) | Chapter 2, Exercise 5 | Test generation with `/tests` | ⭐⭐ |
 | [206](chapter-02/206/README.md) | [String Search](chapter-02/206/README.md) | Chapter 2, Exercise 6 | Documentation & code review | ⭐⭐⭐ |
 | [301](chapter-03/301/README.md) | [Who Does Copilot Picture?](chapter-03/301/README.md) | Chapter 3, Exercise 1 | Fairness; spotting implicit bias in generated output | ⭐⭐ |
-| [302](chapter-03/302/README.md) | [Tool Calls with Ollama](chapter-03/302/README.md) | Chapter 3, Exercise 2 | Local models and tool calling | ⭐⭐ |
-| [303](chapter-03/303/README.md) | [Code Obfuscator MCP Tool](chapter-03/303/README.md) | Chapter 3, Exercise 3 | Building an MCP tool | ⭐⭐⭐⭐ |
+| [302](chapter-03/302/README.md) | [Infix/Postfix with Ask Mode](chapter-03/302/README.md) | Chapter 3, Exercise 2 | Understanding and safely implementing unfamiliar code with Copilot Ask mode | ⭐⭐⭐ |
+| [303](chapter-03/303/README.md) | [Malicious Repo Prompt Trap](chapter-03/303/README.md) | Chapter 3, Exercise 3 | Threat modelling AI-assisted setup flows in untrusted repositories | ⭐⭐ |
+| [304](chapter-03/304/README.md) | [Code Obfuscator MCP Tool](chapter-03/304/README.md) | Chapter 3, Exercise 4 | Building an MCP tool; malicious MCP trust awareness | ⭐⭐⭐⭐ |
+| [305](chapter-03/305/README.md) | [Tool Calls with Ollama](chapter-03/305/README.md) | Chapter 3, Exercise 5 | Local models and tool calling | ⭐⭐ |
 | [501](chapter-05/501/README.md) | [Escape Room DI Demo](chapter-05/501/README.md) | Chapter 5, Exercise 1 | Prompting a custom DI container with Spectre.Console | ⭐⭐ |
 | [502](chapter-05/502/README.md) | [Context Prompt VSIX Demo](chapter-05/502/README.md) | Chapter 5, Exercise 2 | Prompting with no context, FIM context, and IDE context | ⭐⭐⭐ |
 | [601](chapter-06/601/README.md) | [GuildOps Discovery Sprint](chapter-06/601/README.md) | Chapter 6, Exercise 1 | Analysis and planning with Copilot on a .NET 10 solution | ⭐⭐ |
@@ -44,7 +46,7 @@ Most exercises are written in **C# (.NET 10)** and follow the same project layou
 |---------|-----------|
 | Chapter 1 | [101 Token Visualizer](chapter-01/101/README.md) · [102 Stateless LLM Chat](chapter-01/102/README.md) · [103 Chat History & Roles](chapter-01/103/README.md) · [104 Tool Calls](chapter-01/104/README.md) · [105 MCP Tool Calls](chapter-01/105/README.md) · [106 Agent Orchestration](chapter-01/106/README.md) |
 | Chapter 2 | [201 Factorial Calculator](chapter-02/201/README.md) · [202 Palindrome Checker](chapter-02/202/README.md) · [203 Mystery Processor](chapter-02/203/README.md) · [204 Shortest Path](chapter-02/204/README.md) · [205 Caesar Cipher](chapter-02/205/README.md) · [206 String Search](chapter-02/206/README.md) |
-| Chapter 3 | [301 Who Does Copilot Picture?](chapter-03/301/README.md) · [302 Tool Calls with Ollama](chapter-03/302/README.md) · [303 Code Obfuscator MCP Tool](chapter-03/303/README.md) |
+| Chapter 3 | [301 Who Does Copilot Picture?](chapter-03/301/README.md) · [302 Infix/Postfix with Ask Mode](chapter-03/302/README.md) · [303 Malicious Repo Prompt Trap](chapter-03/303/README.md) · [304 Code Obfuscator MCP Tool](chapter-03/304/README.md) · [305 Tool Calls with Ollama](chapter-03/305/README.md) |
 | Chapter 5 | [501 Escape Room DI Demo](chapter-05/501/README.md) · [502 Context Prompt VSIX Demo](chapter-05/502/README.md) |
 | Chapter 6 | [601 GuildOps Discovery Sprint](chapter-06/601/README.md) · [602 Ship the Quest Approval Slice](chapter-06/602/README.md) · [603 Test the Reward Engine](chapter-06/603/README.md) · [604 Refactor the Monster Ledger](chapter-06/604/README.md) · [605 Document GuildOps Like It Will Outlive You](chapter-06/605/README.md) · [606 Hunt the Phantom Checkout Bug](chapter-06/606/README.md) · [607 The Pull Request Gauntlet](chapter-06/607/README.md) |
 | Chapter 5 | [501 Escape Room DI Demo](chapter-05/501/README.md) |
@@ -59,7 +61,7 @@ Most exercises are written in **C# (.NET 10)** and follow the same project layou
 - [Visual Studio 2022](https://visualstudio.microsoft.com/) or [VS Code](https://code.visualstudio.com/) with the C# Dev Kit
 - GitHub Copilot subscription (Free, Pro, or Business)
 - For Exercises 101 through 106: an Azure OpenAI resource with a deployed model
-- For Exercise 302: [Ollama](https://ollama.com/) running locally with a downloaded model
+- For Exercise 305: [Ollama](https://ollama.com/) running locally with a downloaded model
 
 ### Running Any Exercise
 

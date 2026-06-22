@@ -17,31 +17,45 @@
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="700" fill="#ffffff" letter-spacing="-1">Think of It as a Fast Junior Developer</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">The &#x201C;Public Code&#x201D; Filter</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
   <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
-    Eager and quick at the keyboard, but missing the bigger picture you carry in your head.
+    Before returning a completion, Copilot checks it against an index of known public code on GitHub.
   </text>
 
-  <rect x="90" y="285" width="850" height="500" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="515" y="365" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">Great at</text>
-  <rect x="395" y="395" width="240" height="3" fill="#8b7fd4"/>
-  <text x="140" y="480" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- typing and coding very fast</text>
-  <text x="140" y="540" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- boilerplate and repetitive code</text>
-  <text x="140" y="600" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- recalling common syntax and APIs</text>
-  <text x="140" y="660" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- offering a quick first draft</text>
+  <rect x="90" y="285" width="510" height="290" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="345" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">1 &#183; Generate</text>
+  <rect x="225" y="388" width="240" height="3" fill="#8b7fd4"/>
+  <text x="140" y="460" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- the model produces a</text>
+  <text x="140" y="500" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">  candidate suggestion</text>
+  <text x="140" y="545" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- not yet shown to you</text>
 
-  <rect x="980" y="285" width="850" height="500" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1405" y="365" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">Lacks</text>
-  <rect x="1285" y="395" width="240" height="3" fill="#8b7fd4"/>
-  <text x="1030" y="480" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- your architectural requirements</text>
-  <text x="1030" y="540" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- functional and business context</text>
-  <text x="1030" y="600" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- the &#x201C;why&#x201D; behind the system</text>
-  <text x="1030" y="660" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- accountability for the result</text>
+  <text x="640" y="445" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" fill="#8b7fd4" opacity="0.8">&#x2192;</text>
 
-  <rect x="430" y="850" width="1060" height="70" rx="35" fill="#8b7fd4" opacity="0.22"/>
-  <text x="960" y="895" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">You are the senior reviewer - guide it, review it, decide.</text>
+  <rect x="705" y="285" width="510" height="290" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">2 &#183; Compare</text>
+  <rect x="840" y="388" width="240" height="3" fill="#8b7fd4"/>
+  <text x="755" y="460" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- matched against the</text>
+  <text x="755" y="500" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">  public-code index</text>
+  <text x="755" y="545" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- similarity threshold applied</text>
 
-  <text x="960" y="970" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">It writes fast, but the architecture, requirements and final judgement stay firmly with you.</text>
+  <text x="1255" y="445" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" fill="#8b7fd4" opacity="0.8">&#x2192;</text>
+
+  <rect x="1320" y="285" width="510" height="290" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1575" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">3 &#183; Decide</text>
+  <rect x="1455" y="388" width="240" height="3" fill="#8b7fd4"/>
+  <text x="1370" y="460" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- above threshold = blocked</text>
+  <text x="1370" y="500" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- an alternative is offered</text>
+  <text x="1370" y="545" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">  or nothing is returned</text>
+
+  <rect x="165" y="615" width="1590" height="225" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="230" y="690" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="600" fill="#ffffff">What it does and does not catch</text>
+  <text x="230" y="748" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Targets near-verbatim reproduction of substantial blocks - short snippets (under ~150 chars) are usually exempt.</text>
+  <text x="230" y="795" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">It does not flag code merely inspired by, or structurally similar to, public code. It runs at suggestion time, not training time.</text>
+
+  <rect x="490" y="875" width="940" height="70" rx="35" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="920" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">A safety net against copy-paste, not a licence guarantee.</text>
+
+  <text x="960" y="990" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Opt-in for Individual; built into the IP indemnity terms for Business and Enterprise plans.</text>
 </svg>

@@ -53,7 +53,7 @@ By the end of this chapter, participants will be able to:
   - **Advanced alternative:** for demos or privacy-sensitive experiments, you can build the same pattern with your own local model instead of a hosted Copilot model
   - **Example:** Ollama can run a local coding model on your own machine and serve it over a local API
   - **Tradeoff:** you gain local control, but often give up quality, context length, speed, or convenience compared with frontier hosted models
-- Exercise 302 — Tool Calls with Ollama
+- Exercise 305 — Tool Calls with Ollama
   - **Workshop bridge:** reuse the Exercise 104 tool-calling idea, but swap the hosted model for a local Ollama model
   - **Learning goal:** show that tool calling is an application pattern, not something tied to one specific cloud provider
   - **Debrief:** compare local control, setup effort, and model quality against the hosted version
@@ -84,6 +84,10 @@ By the end of this chapter, participants will be able to:
   - **Fit for context:** a Copilot suggestion that's technically correct in isolation may be wrong for your specific use case — wrong data types, missing error handling, mismatched conventions, or incompatible library versions
   - **Attribution in practice:** some organisations require noting AI assistance in commit messages, PR descriptions, or code comments; check your organisation's policy; GitHub's Copilot IP indemnity applies regardless of whether you attribute
   - **The "junior developer" mental model:** treat Copilot like a capable junior developer who writes fast but doesn't know your specific codebase, business rules, or quality standards — every contribution needs a review
+- Exercise 302 — Infix/Postfix with Ask Mode
+  - **Workshop bridge:** implement one non-obvious algorithm with Copilot Ask mode instead of blindly taking the first completion
+  - **Learning goal:** turn Copilot into a teacher first, then a generator, so participants can explain the code they accept
+  - **Debrief:** if you cannot explain precedence, parentheses, and the two stacks, you do not own the implementation yet
 - Attribution and documentation: noting AI-assisted code in your workflow
   - **Why attribution matters:** even in the absence of a legal requirement, documentation of AI assistance helps teams understand how code was produced, identify sections that may need extra scrutiny, and build institutional knowledge about where AI assistance is most effective
   - **Commit message conventions:** some teams add a `[AI-assisted]` tag or `Co-authored-by: GitHub Copilot` trailer to commits that contain significant AI-generated code; this is optional but increasingly common in open-source projects
@@ -112,6 +116,14 @@ By the end of this chapter, participants will be able to:
   - **Copilot-side blocking:** Copilot now includes a filter that detects when a completion would contain a token matching the pattern of a known secret type (e.g., `ghp_` for GitHub PATs, `AKIA` for AWS access keys) and suppresses that suggestion
   - **What this doesn't cover:** the filter catches *patterns*, not semantics — a developer who manually types a secret into Copilot Chat is not protected; the filter applies to completions, not to chat responses that include secrets the user pasted in
   - **Training participants:** the key behaviour change is simple — never paste real secrets, tokens, connection strings, or credentials into Copilot Chat prompts, even to "help Copilot understand the context"; use placeholder values or environment variable references instead
+- Exercise 303 — Malicious Repo Prompt Trap
+  - **Workshop bridge:** inspect a repository that tries to steer an AI coding tool into running a repo-local setup executable
+  - **Learning goal:** show that AI convenience changes the attack surface when agents are allowed to execute untrusted repository instructions
+  - **Debrief:** never let a GenAI coding tool run repo-local setup commands until a human has inspected the executable, script, and trust boundary
+- Exercise 304 — Malicious MCP "Obfuscator" Demo
+  - **Workshop bridge:** use an apparently harmless MCP code obfuscator to discuss how tools can request sensitive context they never needed
+  - **Learning goal:** show that MCP trust must be reviewed continuously because a tool can "pull the rug" after it has earned confidence
+  - **Debrief:** a useful tool description is not proof of safe behavior; review context requests and access patterns every time
 - Never paste secrets, keys, or PII into Copilot Chat prompts
   - **Why this matters:** the Copilot Chat prompt is transmitted to an external model API; any data you paste becomes part of the request payload and may be logged temporarily by GitHub's infrastructure
   - **Common mistakes to avoid:** pasting a `.env` file to ask "what's wrong with my config", including a real JWT in a "can you decode this?" question, sharing a database connection string to ask about query optimisation, pasting customer data to demonstrate a data processing bug

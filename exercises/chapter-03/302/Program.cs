@@ -1,60 +1,43 @@
-using Microsoft.Extensions.AI;
-using OllamaSharp;
-using System.ComponentModel;
+using ExpressionEvaluatorLab;
 
-var endpoint = Environment.GetEnvironmentVariable("OLLAMA_ENDPOINT") ?? "http://localhost:11434";
-var model = Environment.GetEnvironmentVariable("OLLAMA_MODEL") ?? "qwen3-coder:30b";
+ExpressionScenario[] scenarios =
+[
+    new("1+2*3", "1 2 3 * +", 7),
+    new("(1+2)*3", "1 2 + 3 *", 9),
+    new("8/2+5", "8 2 / 5 +", 9),
+    new("7-(2+1)", "7 2 1 + -", 4)
+];
 
-IChatClient chatClient = new OllamaApiClient(new Uri(endpoint), model);
+Console.WriteLine("=== Exercise 302: Infix and postfix with Ask mode ===");
+Console.WriteLine("Use Copilot to explain the algorithm before you trust the code.");
+Console.WriteLine();
 
-var tools = new List<AITool>
+foreach (var scenario in scenarios)
 {
-    AIFunctionFactory.Create(GetTime),
-    AIFunctionFactory.Create(GetDate),
-};
+    RunScenario(scenario);
+}
 
-var agentClient = chatClient.AsAIAgent(
-    name: "ToolCallsWithOllama",
-    description: "An agent with tool calling capabilities backed by a local Ollama model",
-    tools: tools);
+Console.WriteLine();
+Console.WriteLine("If you cannot explain precedence, parentheses, and the postfix value stack, keep asking Copilot to teach it back.");
 
-var chatSession = await agentClient.CreateSessionAsync();
-
-while (true)
+static void RunScenario(ExpressionScenario scenario)
 {
-    Console.ForegroundColor = ConsoleColor.Green;
-    Console.Write("User > ");
-    Console.ForegroundColor = ConsoleColor.White;
-    var request = Console.ReadLine();
-
-    if (string.IsNullOrWhiteSpace(request))
+    try
     {
-        continue;
+        var actual = ExpressionEvaluator.Evaluate(scenario.InfixExpression);
+        var postfixOk = actual.PostfixExpression == scenario.ExpectedPostfix;
+        var valueOk = actual.Value == scenario.ExpectedValue;
+        var status = postfixOk && valueOk ? "OK" : "CHECK";
+
+        Console.WriteLine($"  {scenario.InfixExpression,-10} postfix: {actual.PostfixExpression,-15} value: {actual.Value} [{status}]");
     }
-
-    Console.ForegroundColor = ConsoleColor.Cyan;
-
-    var response = await agentClient.RunAsync(request, chatSession);
-    foreach (var message in response.Messages)
+    catch (NotImplementedException)
     {
-        if (!string.IsNullOrWhiteSpace(message.Text))
-        {
-            Console.Write("Assistant > ");
-            Console.WriteLine(message.Text);
-        }
+        Console.WriteLine("  [stub not completed yet - use Copilot Ask mode in ExpressionEvaluator.cs]");
     }
-
-    Console.WriteLine();
 }
 
-[Description("Gets the current time.")]
-static TimeSpan GetTime()
-{
-    return TimeProvider.System.GetLocalNow().TimeOfDay;
-}
-
-[Description("Gets the current date.")]
-static DateTime GetDate()
-{
-    return TimeProvider.System.GetLocalNow().Date;
-}
+internal readonly record struct ExpressionScenario(
+    string InfixExpression,
+    string ExpectedPostfix,
+    int ExpectedValue);

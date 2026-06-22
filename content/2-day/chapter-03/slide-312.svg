@@ -17,37 +17,37 @@
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Watch for Sensitive Data</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">No Keystrokes, Only Context</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
   <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
-    If it is visible in your prompt context, assume it can be sent to the hosted model.
+    Copilot sends event-based requests when you ask for help or a suggestion - not a live stream of every edit.
   </text>
 
-  <rect x="90" y="285" width="550" height="270" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="365" y="355" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">In your code</text>
-  <rect x="245" y="382" width="240" height="3" fill="#8b7fd4"/>
-  <text x="140" y="455" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- hardcoded secrets and tokens</text>
-  <text x="140" y="510" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- sensitive business logic</text>
+  <rect x="130" y="295" width="720" height="520" rx="28" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="490" y="380" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff">Not sent continuously</text>
+  <rect x="315" y="410" width="350" height="3" fill="#8b7fd4"/>
+  <circle cx="205" cy="505" r="7" fill="#8b7fd4"/>
+  <text x="235" y="516" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea">every raw keystroke</text>
+  <circle cx="205" cy="590" r="7" fill="#8b7fd4"/>
+  <text x="235" y="601" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea">a full live mirror of your screen</text>
+  <circle cx="205" cy="675" r="7" fill="#8b7fd4"/>
+  <text x="235" y="686" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea">constant background uploads of edits</text>
 
-  <rect x="685" y="285" width="550" height="270" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="960" y="355" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">In configs</text>
-  <rect x="840" y="382" width="240" height="3" fill="#8b7fd4"/>
-  <text x="735" y="455" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- connection strings and keys</text>
-  <text x="735" y="510" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- internal URLs and hostnames</text>
+  <text x="960" y="575" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="78" font-weight="700" fill="#8b7fd4" opacity="0.8">&#x2192;</text>
 
-  <rect x="1280" y="285" width="550" height="270" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1555" y="355" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">In open files</text>
-  <rect x="1435" y="382" width="240" height="3" fill="#8b7fd4"/>
-  <text x="1330" y="455" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- nearby tabs may be used</text>
-  <text x="1330" y="510" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- repo and file names can matter</text>
+  <rect x="1070" y="295" width="720" height="520" rx="28" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1430" y="380" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff">Sent per request</text>
+  <rect x="1255" y="410" width="350" height="3" fill="#8b7fd4"/>
+  <circle cx="1145" cy="505" r="7" fill="#8b7fd4"/>
+  <text x="1175" y="516" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea">the prompt or chat message</text>
+  <circle cx="1145" cy="590" r="7" fill="#8b7fd4"/>
+  <text x="1175" y="601" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea">surrounding code and included files</text>
+  <circle cx="1145" cy="675" r="7" fill="#8b7fd4"/>
+  <text x="1175" y="686" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea">IDE metadata and relevant diagnostics</text>
 
-  <rect x="165" y="610" width="1590" height="235" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="230" y="690" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="600" fill="#ffffff">Common leak paths</text>
-  <text x="230" y="755" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">variable names, sample credentials, copied stack traces, .env values, customer data, internal service names, TODO comments with real details</text>
+  <rect x="330" y="875" width="1260" height="70" rx="35" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="920" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">Think request payload, not keystroke logging.</text>
 
-  <rect x="1270" y="660" width="370" height="58" rx="29" fill="#8b7fd4" opacity="0.22"/>
-  <text x="1455" y="698" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">context can reveal more than code</text>
-
-  <text x="960" y="935" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="700" fill="#ffffff">Best practice: replace secrets with placeholders and keep sensitive files out of Copilot context.</text>
+  <text x="960" y="990" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">The data can still be sensitive - it is just batched and contextual rather than streamed.</text>
 </svg>
