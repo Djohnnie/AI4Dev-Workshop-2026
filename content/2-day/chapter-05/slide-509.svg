@@ -17,53 +17,45 @@
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Start With the Right Verb</text>
-  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+  <text x="80" y="100" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#8b7fd4" letter-spacing="2">SECTION 2 OF 5 &#183; THE ANATOMY OF A GOOD PROMPT</text>
+  <text x="80" y="170" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">The Four Ingredients</text>
+  <rect x="0" y="200" width="1920" height="4" fill="#8b7fd4"/>
 
-  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
-    The opening verb sets the register for everything that follows - each one signals a different kind of response.
+  <text x="80" y="265" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
+    Every great prompt has these - state the ones that matter, skip the ones that don't.
   </text>
 
-  <rect x="90" y="290" width="260" height="80" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="220" y="342" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="600" fill="#c4baea">Create</text>
-  <rect x="375" y="290" width="260" height="80" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="505" y="342" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="600" fill="#c4baea">Refactor</text>
-  <rect x="660" y="290" width="260" height="80" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="790" y="342" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="600" fill="#c4baea">Extract</text>
-  <rect x="945" y="290" width="260" height="80" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1075" y="342" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="600" fill="#c4baea">Convert</text>
-  <rect x="1230" y="290" width="260" height="80" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1360" y="342" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="600" fill="#c4baea">Migrate</text>
-  <rect x="1515" y="290" width="260" height="80" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1645" y="342" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="600" fill="#c4baea">Optimise</text>
+  <rect x="90" y="300" width="850" height="290" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="130" y="385" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="700" fill="#8b7fd4">Task</text>
+  <text x="320" y="385" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#9a90c8">what do you want?</text>
+  <rect x="130" y="408" width="200" height="3" fill="#8b7fd4"/>
+  <text x="130" y="475" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Verb-first and singular:</text>
+  <text x="130" y="525" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#ffffff">"Create", "Refactor",</text>
+  <text x="130" y="562" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#ffffff">"Explain", "Fix"</text>
 
-  <rect x="90" y="390" width="260" height="80" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="220" y="442" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="600" fill="#c4baea">Simplify</text>
-  <rect x="375" y="390" width="260" height="80" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="505" y="442" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="600" fill="#c4baea">Document</text>
-  <rect x="660" y="390" width="260" height="80" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="790" y="442" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="600" fill="#c4baea">Test</text>
-  <rect x="945" y="390" width="260" height="80" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1075" y="442" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="600" fill="#c4baea">Debug</text>
-  <rect x="1230" y="390" width="260" height="80" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1360" y="442" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="600" fill="#c4baea">Review</text>
-  <rect x="1515" y="390" width="260" height="80" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1645" y="442" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="600" fill="#c4baea">Explain</text>
+  <rect x="980" y="300" width="850" height="290" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1020" y="385" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="700" fill="#8b7fd4">Context</text>
+  <text x="1240" y="385" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#9a90c8">what's the environment?</text>
+  <rect x="1020" y="408" width="200" height="3" fill="#8b7fd4"/>
+  <text x="1020" y="475" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Language, framework, version,</text>
+  <text x="1020" y="525" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#ffffff">who calls it. "in TypeScript,</text>
+  <text x="1020" y="562" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#ffffff">using Express 5"</text>
 
-  <rect x="120" y="560" width="800" height="300" rx="24" fill="#ffffff" fill-opacity="0.04" stroke="#6a5fb8" stroke-width="1.5" stroke-dasharray="10 8"/>
-  <text x="520" y="635" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#9a90c8">Weak</text>
-  <rect x="420" y="660" width="200" height="3" fill="#6a5fb8"/>
-  <text x="520" y="730" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="30" fill="#9a90c8">"Refactor this"</text>
-  <text x="520" y="800" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#9a90c8">no goal - Copilot guesses what</text>
-  <text x="520" y="834" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#9a90c8">"better" means</text>
+  <rect x="90" y="615" width="850" height="290" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="130" y="700" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="700" fill="#8b7fd4">Examples</text>
+  <text x="370" y="700" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#9a90c8">show the shape</text>
+  <rect x="130" y="723" width="200" height="3" fill="#8b7fd4"/>
+  <text x="130" y="790" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Input/output pairs or a similar</text>
+  <text x="130" y="840" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#ffffff">function. "like formatCurrency,</text>
+  <text x="130" y="877" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#ffffff">but for percentages"</text>
 
-  <rect x="1000" y="560" width="800" height="300" rx="24" fill="#8b7fd4" fill-opacity="0.15" stroke="#8b7fd4" stroke-width="2"/>
-  <text x="1400" y="635" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Strong</text>
-  <rect x="1300" y="660" width="200" height="3" fill="#8b7fd4"/>
-  <text x="1400" y="725" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="26" fill="#c4baea">"Refactor this to reduce cyclomatic</text>
-  <text x="1400" y="763" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="26" fill="#c4baea">complexity without changing the</text>
-  <text x="1400" y="801" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="26" fill="#c4baea">public interface"</text>
-  <text x="1400" y="840" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#9a90c8">scope + measurable goal + constraint</text>
+  <rect x="980" y="615" width="850" height="290" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1020" y="700" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="700" fill="#8b7fd4">Constraints</text>
+  <text x="1330" y="700" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#9a90c8">what must it not do?</text>
+  <rect x="1020" y="723" width="200" height="3" fill="#8b7fd4"/>
+  <text x="1020" y="790" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Real limits only. "No new</text>
+  <text x="1020" y="840" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#ffffff">dependencies", "keep the public</text>
+  <text x="1020" y="877" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#ffffff">signature unchanged"</text>
 
-  <text x="960" y="925" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="700" fill="#c4baea">Same verb, very different result - the specifics carry the weight.</text>
+  <text x="960" y="975" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="700" fill="#c4baea">One task per prompt - Copilot trades depth for breadth when you bundle.</text>
 </svg>

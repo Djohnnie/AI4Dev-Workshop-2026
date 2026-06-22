@@ -1,7 +1,7 @@
-# Exercise 502 — Context Prompt VSIX Demo
+# Exercise 502 — Prompt Arena
 
 > **Chapter:** Chapter 5, Exercise 2  
-> **Skill focus:** Showing how prompt quality changes with no context, FIM context, and IDE context  
+> **Skill focus:** Turning prompt engineering rules into a shareable web game with a custom scoring chatbot  
 > **Difficulty:** ⭐⭐⭐
 
 ← Back to [Exercise Index](../../README.md)
@@ -10,13 +10,16 @@
 
 ## 🎯 Overview
 
-This exercise builds a small **Visual Studio 2026 extension** that adds a right-click command in the editor. The command opens a dialog where you enter a prompt and choose one of three context levels:
+This exercise builds **Prompt Arena**, a small **ASP.NET Core web app** you can deploy and share with workshop participants. Players paste a prompt into the app, and a custom LLM judge returns a score from **0% to 100%** based on how well the prompt follows **section 2 of chapter 5**:
 
-- **No context**
-- **FIM context**
-- **IDE context**
+- **Task**
+- **Context**
+- **Examples**
+- **Constraints**
+- whether the prompt is **one-shot** or **few-shot**
+- whether it avoids prompt **anti-patterns**
 
-The extension sends the prompt to **Azure OpenAI** through the **Microsoft Agent Framework** and shows how much better the model responds when it can see code around the cursor or the whole IDE state.
+The judge is itself a custom chatbot with a strong **system prompt** that forces it to score prompts consistently and explain what is missing.
 
 ---
 
@@ -24,51 +27,91 @@ The extension sends the prompt to **Azure OpenAI** through the **Microsoft Agent
 
 ```
 502/
-├── ContextPromptExtension.csproj
-├── ContextPromptPackage.cs
-├── ContextPromptCommand.cs
-├── ContextPromptDialog.cs
-├── ContextPromptOrchestrator.cs
-├── VisualStudioContextCollector.cs
-├── AzureOpenAiChatService.cs
-├── ContextPromptExtension.vsct
-├── source.extension.vsixmanifest
+├── PromptArena.csproj
+├── Program.cs
+├── ChallengeCatalog.cs
+├── PromptEvaluation.cs
+├── PromptScoringService.cs
+├── PromptScoringPrompts.cs
+├── PromptScoreRequest.cs
+└── wwwroot/
+    ├── app.js
+    ├── index.html
+    └── site.css
 └── README.md
 ```
 
+### What the app does
+
+- Serves a browser UI that participants can open from any device
+- Lets players paste prompts and get a **0–100** score
+- Shows which of the **four ingredients** were detected
+- Flags anti-patterns like vagueness or conflicting constraints
+- Distinguishes between **one-shot** and **few-shot** prompting
+- Includes several fun workshop challenge modes
+
 ---
 
-## ▶️ Build, Run & Debug
+## ✅ Your Task
 
-This is a **Visual Studio extension (VSIX)**, not a console app. It **must be built and run from Visual Studio 2026** — it cannot be built with `dotnet build` (the .NET SDK CLI does not run the VSSDK packaging targets). For that reason it is intentionally **not** part of `exercises.slnx`.
+### Phase 1 — Run the app locally
 
-1. Open `ContextPromptExtension.csproj` directly in **Visual Studio 2026**.
-2. Make sure the **Visual Studio extension development** workload is installed.
-3. Press **F5**. Visual Studio builds the `.vsix`, deploys it to the **experimental instance**, and launches a second Visual Studio (`devenv.exe /rootsuffix Exp`) with the extension loaded.
-4. In that second Visual Studio, open any code file, **right-click in the editor**, and choose **"Ask with Context..."**.
-
-> The first Visual Studio stays attached as the debugger, so you can set breakpoints in the extension code.
-
-If the menu item does not appear, reset the experimental instance and rebuild:
+1. Configure your model settings:
 
 ```powershell
-# Adjust the path to your VS 2026 install if needed
-& "C:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CreateExpInstance.exe" /Reset /VSInstance=18.0_Insiders /RootSuffix=Exp
+$env:OPENAI_ENDPOINT = "https://your-resource.openai.azure.com/"
+$env:OPENAI_KEY = "your-api-key"
+$env:OPENAI_MODEL = "gpt-4o"
 ```
+
+2. Run the web app:
+
+```bash
+cd 502
+dotnet build
+dotnet run
+```
+
+3. Open the URL shown in the terminal.
+4. Paste prompts into the game and see how the score changes as you improve them.
+
+### Phase 2 — Tune the scoring chatbot
+
+5. Open `PromptScoringPrompts.cs` and inspect the judge's **system prompt**.
+6. Refine the instructions so the score better matches the workshop rubric.
+7. Try prompts that deliberately test edge cases:
+   - strong task, weak context
+   - good examples, missing constraints
+   - vague wording with anti-patterns
+   - one-shot vs few-shot comparisons
+
+### Phase 3 — Make it workshop-ready
+
+8. Deploy the app so participants can use it in a browser.
+9. Add one or two of the challenge formats below.
+10. Compare how teams improve their score over multiple rounds.
 
 ---
 
+## 🎮 Fun Exercise Modes
 
-### No context
-Sends only the prompt.
+1. **Prompt Makeover Sprint**  
+   Give every team the same terrible prompt. They get 5 minutes to improve it and must break **80%**.
 
-### FIM context
-Sends a fixed number of lines before and after the cursor, plus the active line split at the caret position.
+2. **Few-Shot Smackdown**  
+   Start with a decent one-shot prompt, then add one or two examples and see whether the score jumps.
 
-### IDE context
-Sends the whole active file, the selected text, and the full contents of all other open tabs with file names.
+3. **Anti-Pattern Bingo**  
+   Hand out prompts containing vague asks, missing context, or conflicting constraints. Participants must identify the anti-pattern before fixing it.
 
-The dialog also shows a **Composed prompt preview** pane so you can inspect the full prompt/context payload. It refreshes when you change the context mode.
+4. **Constraint Cage Match**  
+   Ask teams to write a prompt with a strong task and context but very specific constraints like “no new packages” or “keep the signature unchanged.”
+
+5. **Leaderboard Relay**  
+   One participant writes the first version, the next adds context, the next adds examples, and the last removes anti-patterns. Score the prompt after each handoff.
+
+6. **Judge the Judge**  
+   Participants try to trick the scoring chatbot with borderline prompts and discuss whether the rubric is fair.
 
 ---
 
@@ -76,25 +119,44 @@ The dialog also shows a **Composed prompt preview** pane so you can inspect the 
 
 | Task | How |
 |------|-----|
-| Prompt a VSIX scaffold | Ask Copilot to create the package, command, and dialog |
-| Add cursor-aware context | Ask Copilot to include code around the caret |
-| Add IDE-wide context | Ask Copilot to gather the active file and open tabs |
-| Compare prompts | Run the same prompt with different context levels |
+| Build a web UI quickly | Ask Copilot to scaffold an ASP.NET Core app with static assets |
+| Design a strong system prompt | Ask Copilot to turn workshop rules into a strict scoring rubric |
+| Work with structured output | Ask Copilot to request and parse JSON from the model |
+| Iterate on product behaviour | Tune the judge until the scores match facilitator expectations |
 
 ---
 
 ## 🏁 Stretch Goals
 
-1. Add a live response streaming pane in the dialog.
-2. Add a fourth context mode for only the active selection.
-3. Replace the hardcoded Azure OpenAI settings with options later in the workshop.
+1. Add a public **leaderboard** backed by in-memory state or SQLite.
+2. Save each attempt and show how the score improved after each rewrite.
+3. Add a **team code name** and a timer for tournament mode.
+4. Add a “suggest an improved version” button that asks the LLM judge for a rewritten prompt.
+5. Add a deployment target such as Azure App Service or Container Apps.
 
 ---
 
-## Notes
+## 🧠 The Scoring Rubric
 
-- The Azure OpenAI endpoint, key, and model are intentionally hardcoded for the demo.
-- Install the extension in Visual Studio, then right-click inside a code file to launch it.
+The custom chatbot should score prompts with these ideas in mind:
+
+- **Task**: Is the ask clear and verb-first?
+- **Context**: Does the model know the environment, language, or constraints?
+- **Examples**: Is there a one-shot or few-shot example, sample input/output, or shape hint?
+- **Constraints**: Does the prompt say what must or must not happen?
+- **Anti-pattern avoidance**: Is the prompt specific, non-conflicting, and focused?
+
+The app's system prompt enforces the structure and returns a JSON scorecard to the UI.
+
+---
+
+## 🚀 Deployment Ideas
+
+- **Fastest**: deploy as an Azure App Service web app
+- **Portable**: containerize it and push to Azure Container Apps
+- **Workshop-friendly**: run it once centrally and give participants the URL
+
+As long as the deployment has `OPENAI_ENDPOINT`, `OPENAI_KEY`, and optionally `OPENAI_MODEL`, the app is ready to share.
 
 ---
 

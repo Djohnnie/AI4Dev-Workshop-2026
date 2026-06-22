@@ -11,16 +11,49 @@
   </defs>
 
   <rect width="1920" height="1080" fill="url(#bgGlow)"/>
-  <circle cx="1750" cy="150" r="460" fill="url(#circleGlow)"/>
-  <circle cx="1750" cy="150" r="320" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
-  <circle cx="160" cy="960" r="380" fill="url(#circleGlow)"/>
-  <circle cx="160" cy="960" r="260" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="1750" cy="150" r="430" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="960" y="240" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="600" font-weight="800" fill="#ffffff" opacity="0.05">4</text>
+  <g transform="translate(1470 60)" opacity="0.2">
+    <text x="0" y="58" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="58" font-weight="700" fill="#c4baea">@workspace · #file</text>
+    <text x="0" y="120" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" fill="#c4baea">map the repo · zoom in · compare results</text>
+  </g>
 
-  <text x="960" y="430" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#8b7fd4" letter-spacing="6">SECTION 4 OF 5</text>
-  <text x="960" y="560" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="86" font-weight="800" fill="#ffffff" letter-spacing="-2">Advanced Prompting Patterns</text>
-  <rect x="660" y="610" width="600" height="4" fill="#8b7fd4" rx="2"/>
-  <text x="960" y="700" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="300" fill="#c4baea" letter-spacing="1">Repeatable techniques for harder problems</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Exercise 503 &#x2014; Context Variables Playground</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+
+  <text x="80" y="195" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea">
+    Use a prebuilt .NET app to compare no variable, @workspace, and #file on the same discovery prompts.
+  </text>
+
+  <rect x="80" y="235" width="860" height="367" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="510" y="325" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">1</text>
+  <text x="510" y="400" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Map the repo</text>
+  <rect x="430" y="420" width="160" height="3" fill="#8b7fd4"/>
+  <text x="510" y="466" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Ask @workspace to map the project,</text>
+  <text x="510" y="510" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">its stack, and the likely hot spots</text>
+
+  <rect x="980" y="235" width="860" height="367" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="325" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">2</text>
+  <text x="1410" y="400" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Zoom to one file</text>
+  <rect x="1330" y="420" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1410" y="466" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Switch to #file when one file looks</text>
+  <text x="1410" y="510" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">important and inspect its exact role</text>
+
+  <rect x="80" y="632" width="860" height="367" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="510" y="722" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">3</text>
+  <text x="510" y="797" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Compare the delta</text>
+  <rect x="430" y="817" width="160" height="3" fill="#8b7fd4"/>
+  <text x="510" y="863" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Re-run the same prompt with and</text>
+  <text x="510" y="907" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">without variables to spot the delta</text>
+
+  <rect x="980" y="632" width="860" height="367" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="722" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">4</text>
+  <text x="1410" y="797" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Stay in playground mode</text>
+  <rect x="1330" y="817" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1410" y="863" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">No coding required - just explore,</text>
+  <text x="1410" y="907" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">compare answers, and discuss context fit</text>
 </svg>

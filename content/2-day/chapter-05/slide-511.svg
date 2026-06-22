@@ -17,38 +17,50 @@
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">One-Shot vs. Few-Shot</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Prompt Anti-Patterns</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
   <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
-    Default to one-shot; reach for examples when the pattern is non-standard or one-shot has already failed.
+    Three ways prompts go wrong - and the fix for each.
   </text>
 
-  <rect x="130" y="300" width="720" height="520" rx="28" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="490" y="385" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="700" fill="#ffffff">One-shot</text>
-  <rect x="340" y="412" width="300" height="3" fill="#8b7fd4"/>
-  <text x="490" y="470" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#8b7fd4">no examples - just the ask</text>
-  <circle cx="195" cy="545" r="7" fill="#8b7fd4"/>
-  <text x="225" y="556" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">the default for most tasks</text>
-  <circle cx="195" cy="615" r="7" fill="#8b7fd4"/>
-  <text x="225" y="626" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">great where the model has strong</text>
-  <text x="225" y="662" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">priors: sorting, CRUD, API calls</text>
-  <circle cx="195" cy="730" r="7" fill="#8b7fd4"/>
-  <text x="225" y="741" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">cheapest and fastest to write</text>
+  <rect x="90" y="300" width="560" height="560" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="370" y="385" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Vague task</text>
+  <rect x="270" y="410" width="200" height="3" fill="#8b7fd4"/>
+  <rect x="130" y="450" width="480" height="80" rx="12" fill="#1e1b33" stroke="#6a5fb8" stroke-width="1"/>
+  <text x="370" y="500" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="28" fill="#9a90c8">"make this better"</text>
+  <text x="370" y="595" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">"better" is undefined -</text>
+  <text x="370" y="629" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">faster? shorter? safer?</text>
+  <text x="370" y="700" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="#8b7fd4">The fix</text>
+  <text x="370" y="755" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">name a specific, measurable</text>
+  <text x="370" y="789" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">goal. Every adjective hides</text>
+  <text x="370" y="823" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">a precise meaning - use it.</text>
 
-  <rect x="1070" y="300" width="720" height="520" rx="28" fill="#8b7fd4" fill-opacity="0.15" stroke="#8b7fd4" stroke-width="2"/>
-  <text x="1430" y="385" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="700" fill="#ffffff">Few-shot</text>
-  <rect x="1280" y="412" width="300" height="3" fill="#8b7fd4"/>
-  <text x="1430" y="470" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#8b7fd4">1-3 examples, then the ask</text>
-  <circle cx="1135" cy="545" r="7" fill="#8b7fd4"/>
-  <text x="1165" y="556" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">custom DSLs, config formats</text>
-  <circle cx="1135" cy="615" r="7" fill="#8b7fd4"/>
-  <text x="1165" y="626" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">specific docs or response shapes</text>
-  <circle cx="1135" cy="685" r="7" fill="#8b7fd4"/>
-  <text x="1165" y="696" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">label them "Example:", then</text>
-  <text x="1165" y="732" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">"now apply the same pattern to..."</text>
-  <text x="1165" y="790" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#9a90c8">costs more tokens - worth it when quality lags</text>
+  <rect x="680" y="300" width="560" height="560" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="385" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Missing context</text>
+  <rect x="860" y="410" width="200" height="3" fill="#8b7fd4"/>
+  <rect x="720" y="450" width="480" height="80" rx="12" fill="#1e1b33" stroke="#6a5fb8" stroke-width="1"/>
+  <text x="960" y="500" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="28" fill="#9a90c8">"write a function"</text>
+  <text x="960" y="595" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">for what? in what language?</text>
+  <text x="960" y="629" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">it defaults to the average</text>
+  <text x="960" y="700" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="#8b7fd4">The fix</text>
+  <text x="960" y="755" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">answer the implicit questions:</text>
+  <text x="960" y="789" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">inputs, outputs, language,</text>
+  <text x="960" y="823" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">caller, failure behaviour.</text>
 
-  <rect x="430" y="880" width="1060" height="65" rx="32" fill="#8b7fd4" opacity="0.22"/>
-  <text x="960" y="922" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="600" fill="#ffffff" letter-spacing="1">An input/output example clarifies more than a paragraph of description.</text>
+  <rect x="1270" y="300" width="560" height="560" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1550" y="385" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Conflicting constraints</text>
+  <rect x="1450" y="410" width="200" height="3" fill="#8b7fd4"/>
+  <rect x="1310" y="450" width="480" height="80" rx="12" fill="#1e1b33" stroke="#6a5fb8" stroke-width="1"/>
+  <text x="1550" y="492" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#9a90c8">"make it fast but use a</text>
+  <text x="1550" y="520" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#9a90c8">nested loop"</text>
+  <text x="1550" y="595" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">it satisfies neither well -</text>
+  <text x="1550" y="629" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">a muddled compromise</text>
+  <text x="1550" y="700" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="#8b7fd4">The fix</text>
+  <text x="1550" y="755" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">name the tradeoff explicitly:</text>
+  <text x="1550" y="789" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">"O(n^2) is fine for n &lt; 100 -</text>
+  <text x="1550" y="823" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">optimise the inner loop".</text>
+
+  <rect x="510" y="905" width="900" height="60" rx="30" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="945" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="1">Specific beats subjective, every time.</text>
 </svg>

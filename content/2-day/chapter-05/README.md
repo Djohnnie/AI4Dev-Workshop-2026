@@ -249,25 +249,43 @@ Example bad prompts:
 - "make it work with TypeScript"
 - "add error handling"
 
-### Exercise: Escape Room DI Demo (15 min)
-Build a tiny Spectre.Console escape room in C# with the default .NET DI container. Then ask Copilot to replace the container with a custom one while keeping the game logic intact.
+### Exercise 501: Context Window Copilot Clone (20 min)
+Build a small Visual Studio 2026 extension that behaves like a tiny self-written GitHub Copilot clone. Run the same GPT-4o prompt with no context, FIM context, and open tabs context so participants can feel how context windows change the answer.
 
 Example prompt:
-- "Build a small custom DI container for this escape room app in C#. It must support singleton registrations, resolve constructor dependencies, and keep the Spectre.Console game working without changing the game logic."
+- "Create a Visual Studio extension command that opens a dialog with a prompt box and a context selector. Call a GPT-4o model, support no context, FIM context, and open tabs context, and show the composed prompt so we can compare the results."
 
-### Exercise: Context Prompt VSIX Demo (20 min)
-Build a Visual Studio 2026 extension that opens a prompt dialog from the editor context menu. Compare the same request with no context, FIM context, and IDE context so participants can feel the difference.
+### Exercise 502: Prompt Arena (20 min)
+Build a deployable .NET web app that acts like a prompt-rating game. Participants submit prompts, and a custom GPT-4o chatbot returns a score from 0% to 100% based on the four ingredients, one-shot or few-shot examples, and anti-pattern avoidance.
 
 Example prompt:
-- "Create a Visual Studio extension command that opens a dialog with a prompt box and a context selector. Send the prompt to Azure OpenAI using the Agent Framework, and make FIM context include a fixed number of lines before and after the cursor."
+- "Create a .NET web app with a textbox, a score panel, and a custom system prompt that judges whether a participant prompt includes task, context, examples, and constraints. Return JSON with a score and feedback."
 
-### Exercise: Context Variable Challenge (15 min)
-Participants are given a moderately complex, unfamiliar codebase. Using *only* `@workspace` and `#file` references (no scrolling through code manually), they must answer 5 questions:
-1. What database ORM does this project use?
-2. Where is authentication handled?
-3. What does the `processOrder` function do?
-4. Are there any TODO comments in the codebase?
-5. What testing framework is used?
+### Exercise 503: Context Variables Playground (15 min)
+Use a prebuilt .NET playground app and compare how Copilot answers when participants ask the same question with no variable, with `@workspace`, and with `#file`. The code is already there; the point is to experiment with context selection, not to build new features.
+
+Example prompts:
+- `@workspace map this project and tell me which files matter most for sprint health and incident digests.`
+- `#file:Services/AuthGateway.cs explain how dashboard access is validated and whether it looks production-ready.`
+- `@workspace are there any TODO comments in this exercise, and which one matters most?`
+
+### Exercise 504: Prompt Pattern Playground (15 min)
+Use a second prebuilt .NET playground app to try the advanced prompting patterns from section 4 on existing code. Participants can compare comment-driven, test-first, persona, stepwise, and diff-driven prompts against the same codebase without first inventing a task.
+
+Example prompts:
+- `#file:Services/ReleaseSummaryService.cs explain how the leading comment constrains the implementation.`
+- `#file:Services/ReleaseWindowCalculator.cs list the tests you would want before changing this calculator.`
+- `Act as a security reviewer. #file:Services/SecurityHeadersPolicy.cs what concerns do you see?`
+- `Compare #file:Services/LegacyAuditLogger.cs and #file:Services/StructuredAuditLogger.cs. Apply the same logging transform to #file:Services/LegacyBillingLogger.cs.`
+
+### Lab 501: Ultimate Snake with Instructions, Prompt Files, and Skills (25 min)
+Build the same Snake game from chapter 4 one more time, but now start from an almost-empty lab folder that already contains a repository instruction file, reusable prompt files, and a skill file. The lab is about feeling how much better Copilot performs when the repo itself carries the prompt engineering.
+
+Example flow:
+- open the lab and read `.github/copilot-instructions.md`
+- invoke the scaffold prompt file instead of typing the whole request from scratch
+- refine the follow-up prompt with task, context, examples, and constraints
+- use the skill file to review whether the finished game matches the lab checklist
 
 ### Exercise: Personal Custom Instructions (10 min)
 Each participant writes or improves their own `copilot-instructions.md` for a real project they work on. Peer review: does the other person's instructions make sense? Would it help Copilot?

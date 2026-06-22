@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Prompt Arena</title>
+    <link rel="stylesheet" href="site.css">
+</head>
+<body>
+    <main class="shell">
+        <section class="hero">
+            <p class="eyebrow">Exercise 502 · Chapter 5 Section 2</p>
+            <h1>Prompt Arena</h1>
+            <p class="lede">A deployable prompt game that scores prompts from <strong>0%</strong> to <strong>100%</strong> using the four-ingredient rubric, one-shot or few-shot detection, and anti-pattern checks.</p>
+        </section>
+
+        <section class="panel">
+            <div class="panel-heading">
+                <div>
+                    <h2>Challenge modes</h2>
+                    <p>Pick one for the room, then let the judge score every rewrite.</p>
+                </div>
+            </div>
+            <div id="challenge-list" class="challenge-grid"></div>
+        </section>
+
+        <section class="panel scorer">
+            <div class="panel-heading">
+                <div>
+                    <h2>Rate a prompt</h2>
+                    <p>Paste a participant prompt and let the custom chatbot judge it.</p>
+                </div>
+                <button id="sample-button" class="ghost-button" type="button">Load sample prompt</button>
+            </div>
+
+            <label class="field-label" for="prompt-input">Participant prompt</label>
+            <textarea id="prompt-input" rows="10" placeholder="Create a TypeScript function that validates email addresses for our Express 5 API. Use the existing validation helpers, return a typed result, and do not add new dependencies. Example: Input 'alice@example.com' -> valid."></textarea>
+
+            <div class="actions">
+                <button id="score-button" class="primary-button" type="button">Score prompt</button>
+                <p id="status" class="status">Ready for the next contender.</p>
+            </div>
+        </section>
+
+        <section id="result-panel" class="panel results hidden" aria-live="polite">
+            <div class="score-card">
+                <p class="score-label">Score</p>
+                <p id="score-value" class="score-value">0%</p>
+                <p id="verdict" class="verdict"></p>
+                <p id="style-chip" class="style-chip">none</p>
+            </div>
+
+            <div class="details-grid">
+                <article class="detail-card">
+                    <h3>Four ingredients</h3>
+                    <ul id="ingredient-list" class="check-list"></ul>
+                </article>
+
+                <article class="detail-card">
+                    <h3>Strengths</h3>
+                    <ul id="strength-list" class="bullet-list"></ul>
+                </article>
+
+                <article class="detail-card">
+                    <h3>Anti-patterns</h3>
+                    <ul id="anti-pattern-list" class="bullet-list"></ul>
+                </article>
+
+                <article class="detail-card">
+                    <h3>How to improve it</h3>
+                    <ul id="suggestion-list" class="bullet-list"></ul>
+                </article>
+
+                <article class="detail-card">
+                    <h3>Prompt-specific hints</h3>
+                    <ul id="hint-list" class="bullet-list"></ul>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

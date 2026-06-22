@@ -8,8 +8,8 @@
 - For **chapter 2** exercises, run the sibling test project directly.
   - Full test project: `dotnet test exercises/chapter-02/exercise-201/Factorial.Tests/Factorial.Tests.csproj`
   - Single xUnit test: `dotnet test exercises/chapter-02/exercise-201/Factorial.Tests/Factorial.Tests.csproj --filter "FullyQualifiedName~CalculateIteratively_Zero_ReturnsOne"`
-- Do **not** rely on `dotnet build exercises/exercises.slnx` from the CLI. The solution currently includes `chapter-05/exercise-502/ContextPromptExtension.csproj`, and that VSIX requires Visual Studio 2026 tooling.
-- **Exercise 502** must be opened directly in **Visual Studio 2026** and started with **F5**. Its debug profile launches the experimental instance with `devenv.exe /rootsuffix Exp`.
+- Do **not** rely on `dotnet build exercises/exercises.slnx` from the CLI. The solution currently includes `chapter-05/exercise-501/ContextPromptExtension.csproj`, and that VSIX requires Visual Studio 2026 tooling.
+- **Exercise 501** must be opened directly in **Visual Studio 2026** and started with **F5**. Its debug profile launches the experimental instance with `devenv.exe /rootsuffix Exp`.
 - There is **no repo-specific lint or format command** checked in today.
 
 ## High-level architecture
@@ -31,8 +31,8 @@
   - `Repositories/` is an in-memory persistence layer.
   - `TaskManager.http` is the manual verification harness for request/response scenarios.
 - **Chapter 5** mixes app types:
-  - `501` is a Spectre.Console escape-room console app wired with dependency injection.
-  - `502` is a Visual Studio VSIX, not a normal SDK-style console/web project.
+  - `501` is a Visual Studio VSIX prompt-context demo, not a normal SDK-style console/web project.
+  - `502` is a Spectre.Console escape-room console app wired with dependency injection.
 
 ## Key conventions
 

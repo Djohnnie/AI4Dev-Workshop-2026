@@ -78,10 +78,17 @@
   </Folder>
   <Folder Name="/Chapter 5/" />
   <Folder Name="/Chapter 5/Exercise 501/">
-    <Project Path="chapter-05\exercise-501\EscapeRoom.csproj" />
+    <Project Path="chapter-05\exercise-501\ContextPromptExtension.csproj" Id="8f2a7c41-6e3b-4d58-9c1a-3b5e2f8d4a60" />
   </Folder>
   <Folder Name="/Chapter 5/Exercise 502/">
-    <Project Path="chapter-05\exercise-502\ContextPromptExtension.csproj" Id="8f2a7c41-6e3b-4d58-9c1a-3b5e2f8d4a60" />
+    <Project Path="chapter-05\exercise-502\PromptArena.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 5/Exercise 503/">
+    <Project Path="chapter-05\exercise-503\ContextVariablesPlayground.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 5/Exercise 504/">
+    <Project Path="chapter-05\exercise-504\PromptPatternsPlayground.csproj" />
+    <Project Path="chapter-05\exercise-504\PromptPatternsPlayground.Tests\PromptPatternsPlayground.Tests.csproj" />
   </Folder>
   <Folder Name="/Chapter 6/" />
   <Folder Name="/Chapter 6/Exercise 601/" />

@@ -27,18 +27,18 @@
   <rect x="90" y="295" width="850" height="290" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="130" y="370" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Be directive, not preferential</text>
   <rect x="130" y="390" width="200" height="3" fill="#8b7fd4"/>
-  <text x="130" y="450" font-family="'Consolas', 'Courier New', monospace" font-size="26" fill="#9a90c8">"prefer named exports"</text>
+  <text x="130" y="450" font-family="'Consolas', 'Courier New', monospace" font-size="26" fill="#9a90c8">"prefer var for locals"</text>
   <text x="130" y="490" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">is treated as a suggestion. Use:</text>
-  <text x="130" y="545" font-family="'Consolas', 'Courier New', monospace" font-size="26" fill="#ffffff">"Always use named exports.</text>
-  <text x="130" y="577" font-family="'Consolas', 'Courier New', monospace" font-size="26" fill="#ffffff">Never use default exports."</text>
+  <text x="130" y="545" font-family="'Consolas', 'Courier New', monospace" font-size="26" fill="#ffffff">"Use explicit C# types for local</text>
+  <text x="130" y="577" font-family="'Consolas', 'Courier New', monospace" font-size="26" fill="#ffffff">variables. Do not use var."</text>
 
   <rect x="980" y="295" width="850" height="290" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="1020" y="370" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Scope so it won't break</text>
   <rect x="1020" y="390" width="200" height="3" fill="#8b7fd4"/>
-  <text x="1020" y="450" font-family="'Consolas', 'Courier New', monospace" font-size="26" fill="#9a90c8">"every file needs a header"</text>
-  <text x="1020" y="490" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">breaks on JSON/Markdown. Use:</text>
-  <text x="1020" y="545" font-family="'Consolas', 'Courier New', monospace" font-size="26" fill="#ffffff">"All .ts and .js files must</text>
-  <text x="1020" y="577" font-family="'Consolas', 'Courier New', monospace" font-size="26" fill="#ffffff">have a header comment."</text>
+  <text x="1020" y="450" font-family="'Consolas', 'Courier New', monospace" font-size="26" fill="#9a90c8">"every file needs XML docs"</text>
+  <text x="1020" y="490" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">breaks on tests and private helpers. Use:</text>
+  <text x="1020" y="545" font-family="'Consolas', 'Courier New', monospace" font-size="26" fill="#ffffff">"Add XML docs to public types and</text>
+  <text x="1020" y="577" font-family="'Consolas', 'Courier New', monospace" font-size="26" fill="#ffffff">public members in .cs files."</text>
 
   <rect x="90" y="615" width="850" height="290" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="130" y="690" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Organise by category</text>
@@ -54,5 +54,5 @@
   <text x="1020" y="807" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">a 100-line file it half-ignores when</text>
   <text x="1020" y="844" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">the budget runs out. Prioritise.</text>
 
-  <text x="960" y="965" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="700" fill="#c4baea">"Use zod for all input validation" - not "follow validation best practices".</text>
+  <text x="960" y="965" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="700" fill="#c4baea">"Use DataAnnotations for request validation" - not "follow validation best practices".</text>
 </svg>

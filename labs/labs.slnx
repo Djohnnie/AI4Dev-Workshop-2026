@@ -19,6 +19,12 @@
   <Folder Name="/Chapter 4/Solutions/Lab 402/">
     <Project Path="chapter-04\lab-402-solution\UltimateSnakeWeb.csproj" />
   </Folder>
+  <Folder Name="/Chapter 5/" />
+  <Folder Name="/Chapter 5/Lab 501/" />
+  <Folder Name="/Chapter 5/Solutions/" />
+  <Folder Name="/Chapter 5/Solutions/Lab 501/">
+    <Project Path="chapter-05\lab-501-solution\UltimateSnakeWeb.csproj" />
+  </Folder>
   <Folder Name="/Chapter 8/" />
   <Folder Name="/Chapter 8/Lab 801/" />
   <Folder Name="/Chapter 8/Solutions/" />

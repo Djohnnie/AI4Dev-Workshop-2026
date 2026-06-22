@@ -24,7 +24,7 @@
     Two ways to structure the work - break it into steps, or show the transformation by example.
   </text>
 
-  <rect x="90" y="295" width="850" height="540" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <rect x="90" y="270" width="850" height="590" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="130" y="370" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Stepwise decomposition</text>
   <rect x="130" y="392" width="200" height="3" fill="#8b7fd4"/>
   <text x="130" y="450" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Break a big task into 4-6 steps;</text>
@@ -38,20 +38,22 @@
   <text x="180" y="776" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Agent Mode does this automatically -</text>
   <text x="180" y="813" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">do it by hand in Chat mode</text>
 
-  <rect x="980" y="295" width="850" height="540" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <rect x="980" y="270" width="850" height="590" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="1020" y="370" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Diff-driven prompting</text>
   <rect x="1020" y="392" width="200" height="3" fill="#8b7fd4"/>
-  <text x="1020" y="450" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Show a before/after of a transform,</text>
-  <text x="1020" y="490" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">then ask Copilot to apply the same</text>
-  <text x="1020" y="530" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">pattern elsewhere.</text>
-  <text x="1020" y="600" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#9a90c8">"Before:" ... "After:" ... one line on</text>
-  <text x="1020" y="632" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#9a90c8">the change ... "Apply to this code"</text>
-  <circle cx="1040" cy="700" r="7" fill="#8b7fd4"/>
-  <text x="1070" y="711" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">showing beats describing - it infers</text>
-  <text x="1070" y="748" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">the exact edge cases and naming</text>
-  <circle cx="1040" cy="800" r="7" fill="#8b7fd4"/>
-  <text x="1070" y="811" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">watch for over-application - review output</text>
+  <text x="1020" y="450" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Show one real edit first,</text>
+  <text x="1020" y="490" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">then say: apply this same</text>
+  <text x="1020" y="530" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">pattern to the next file.</text>
+  <rect x="1020" y="555" width="760" height="140" rx="12" fill="#1e1b33" stroke="#8b7fd4" stroke-width="1"/>
+  <text x="1045" y="605" font-family="'Consolas', 'Courier New', monospace" font-size="21" fill="#c4baea">Before: logger.LogInformation("Saved " + orderId);</text>
+  <text x="1045" y="640" font-family="'Consolas', 'Courier New', monospace" font-size="21" fill="#c4baea">After:  logger.LogInformation("Saved {OrderId}", orderId);</text>
+  <text x="1045" y="675" font-family="'Consolas', 'Courier New', monospace" font-size="21" fill="#c4baea">Prompt: "Apply this logging change to PaymentService.cs"</text>
+  <circle cx="1040" cy="735" r="7" fill="#8b7fd4"/>
+  <text x="1070" y="746" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">examples transfer naming, shape, and</text>
+  <text x="1070" y="783" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">style faster than a prose description</text>
+  <circle cx="1040" cy="820" r="7" fill="#8b7fd4"/>
+  <text x="1070" y="831" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">review output - examples can over-apply</text>
 
-  <rect x="510" y="880" width="900" height="60" rx="30" fill="#8b7fd4" opacity="0.22"/>
+  <rect x="360" y="880" width="1200" height="60" rx="30" fill="#8b7fd4" opacity="0.22"/>
   <text x="960" y="920" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="1">Small focused steps and concrete examples both beat one big vague ask.</text>
 </svg>

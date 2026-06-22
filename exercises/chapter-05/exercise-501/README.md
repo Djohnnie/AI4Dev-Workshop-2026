@@ -1,8 +1,8 @@
-# Exercise 501 — Escape Room DI Demo
+# Exercise 501 — Context Window Copilot Clone
 
 > **Chapter:** Chapter 5, Exercise 1  
-> **Skill focus:** Prompting a small .NET app into place, then replacing the default DI container with a custom one  
-> **Difficulty:** ⭐⭐
+> **Skill focus:** Building a tiny Visual Studio Copilot clone and comparing no context, FIM context, and open tabs context with GPT-4o  
+> **Difficulty:** ⭐⭐⭐
 
 ← Back to [Exercise Index](../../README.md)
 
@@ -10,9 +10,13 @@
 
 ## 🎯 Overview
 
-This exercise builds a tiny escape room console app with **Spectre.Console** and the default .NET dependency injection container. It is intentionally small: three rooms, three riddles, a hint service, and a short summary screen.
+This exercise builds a small **Visual Studio 2026 extension** that acts like a tiny self-written GitHub Copilot clone. The command opens a dialog where you enter a prompt and choose one of three context levels:
 
-The app is designed to be a demo-friendly target for prompting. First, use Copilot to understand and extend the existing service graph. Then, later in the workshop, replace the built-in container with your own custom DI container prompt.
+- **No context**
+- **FIM context**
+- **Open tabs context**
+
+The extension sends the prompt to a **GPT-4o** model and shows how much better the model responds when it can see code around the cursor or the files you already have open.
 
 ---
 
@@ -20,61 +24,51 @@ The app is designed to be a demo-friendly target for prompting. First, use Copil
 
 ```
 501/
-├── EscapeRoom.csproj
-├── Program.cs
-├── EscapeRoomGame.cs
+├── ContextPromptExtension.csproj
+├── ContextPromptPackage.cs
+├── ContextPromptCommand.cs
+├── ContextPromptDialog.cs
+├── ContextPromptOrchestrator.cs
+├── VisualStudioContextCollector.cs
+├── AzureOpenAiChatService.cs
+├── ContextPromptExtension.vsct
+├── source.extension.vsixmanifest
 └── README.md
 ```
 
-### What the app does
+---
 
-- Shows a Spectre.Console title screen
-- Walks the player through three escape-room riddles
-- Gives up to three attempts per room
-- Shows hints after failed attempts
-- Prints a final summary table with the result of each room
+## ▶️ Build, Run & Debug
+
+This is a **Visual Studio extension (VSIX)**, not a console app. It **must be built and run from Visual Studio 2026** — it cannot be built with `dotnet build` (the .NET SDK CLI does not run the VSSDK packaging targets).
+
+1. Open `ContextPromptExtension.csproj` directly in **Visual Studio 2026**.
+2. Make sure the **Visual Studio extension development** workload is installed.
+3. Press **F5**. Visual Studio builds the `.vsix`, deploys it to the **experimental instance**, and launches a second Visual Studio (`devenv.exe /rootsuffix Exp`) with the extension loaded.
+4. In that second Visual Studio, open any code file, **right-click in the editor**, and choose **"Ask with Context..."**.
+
+> The first Visual Studio stays attached as the debugger, so you can set breakpoints in the extension code.
+
+If the menu item does not appear, reset the experimental instance and rebuild:
+
+```powershell
+# Adjust the path to your VS 2026 install if needed
+& "C:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CreateExpInstance.exe" /Reset /VSInstance=18.0_Insiders /RootSuffix=Exp
+```
 
 ---
 
-## ✅ Your Task
 
-### Phase 1 — Run the demo
+### No context
+Sends only the prompt.
 
-1. Open `Program.cs` and notice the default .NET DI setup.
-2. Run the app:
+### FIM context
+Sends a fixed number of lines before and after the cursor, plus the active line split at the caret position.
 
-```bash
-cd 501
-dotnet run
-```
+### Open tabs context
+Sends the active file and the full contents of the other open tabs with their file names, so the model can follow the same relationships your editor already shows you.
 
-3. Play through the room and see how the services work together.
-
-### Phase 2 — Prompt for the replacement
-
-4. Ask Copilot to replace the `ServiceCollection` setup with your own custom DI container.
-5. Keep the game code unchanged if possible.
-6. Ask Copilot to preserve constructor injection for:
-   - `IEscapeRoomGame`
-   - `IEscapeRoomScript`
-   - `IHintService`
-   - `IEscapeRoomUi`
-
-### Phase 3 — Improve the prompt
-
-7. Try a vague prompt first:
-
-```text
-build a custom di container
-```
-
-8. Then try a better prompt:
-
-```text
-Build a small custom DI container for this escape room app in C#.
-It must support singleton registrations, resolve constructor dependencies,
-and keep the Spectre.Console game working without changing the game logic.
-```
+The dialog also shows a **Composed prompt preview** pane so you can inspect the full prompt/context payload. It refreshes when you change the context mode.
 
 ---
 
@@ -82,18 +76,25 @@ and keep the Spectre.Console game working without changing the game logic.
 
 | Task | How |
 |------|-----|
-| Prompt the app scaffold | Ask Copilot to build a small Spectre.Console console app |
-| Replace the container | Ask Copilot to implement a custom DI container |
-| Improve prompt quality | Compare vague vs specific container prompts |
-| Refactor safely | Ask Copilot to keep the game logic unchanged while changing wiring |
+| Prompt a VSIX scaffold | Ask Copilot to create the package, command, and dialog |
+| Add cursor-aware context | Ask Copilot to include code around the caret |
+| Add open-tabs context | Ask Copilot to gather the active file and related open tabs |
+| Compare prompts | Run the same prompt with different context levels |
 
 ---
 
 ## 🏁 Stretch Goals
 
-1. Add one more room and see how much of the app Copilot can extend cleanly.
-2. Ask Copilot to add transient service support to the custom container.
-3. Ask Copilot to make the output look more dramatic using Spectre.Console panels and tables.
+1. Add a live response streaming pane in the dialog.
+2. Add a fourth context mode for only the active selection.
+3. Replace the hardcoded Azure OpenAI settings with options later in the workshop.
+
+---
+
+## Notes
+
+- The GPT-4o endpoint, key, and model are intentionally hardcoded for the demo.
+- Install the extension in Visual Studio, then right-click inside a code file to launch it.
 
 ---
 

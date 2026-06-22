@@ -17,23 +17,23 @@
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Comment-Driven Development</text>
-  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+  <text x="80" y="100" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#8b7fd4" letter-spacing="2">SECTION 4 OF 5 &#183; ADVANCED PROMPTING PATTERNS</text>
+  <text x="80" y="170" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Comment-Driven Development</text>
+  <rect x="0" y="200" width="1920" height="4" fill="#8b7fd4"/>
 
-  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
+  <text x="80" y="265" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
     Write the spec as comments first - they sit at the highest-weight position and become the specification.
   </text>
 
   <rect x="90" y="290" width="980" height="620" rx="20" fill="#1e1b33" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="130" y="355" font-family="'Consolas', 'Courier New', monospace" font-size="27" fill="#6a5fb8">/**</text>
-  <text x="130" y="392" font-family="'Consolas', 'Courier New', monospace" font-size="27" fill="#c4baea"> * Rate-limits calls per client key.</text>
-  <text x="130" y="429" font-family="'Consolas', 'Courier New', monospace" font-size="27" fill="#c4baea"> * @param key   client identifier</text>
-  <text x="130" y="466" font-family="'Consolas', 'Courier New', monospace" font-size="27" fill="#c4baea"> * @param limit max calls per window</text>
-  <text x="130" y="503" font-family="'Consolas', 'Courier New', monospace" font-size="27" fill="#c4baea"> * @returns true if allowed, false if</text>
-  <text x="130" y="540" font-family="'Consolas', 'Courier New', monospace" font-size="27" fill="#c4baea"> *          over the limit</text>
-  <text x="130" y="577" font-family="'Consolas', 'Courier New', monospace" font-size="27" fill="#6a5fb8"> */</text>
-  <text x="130" y="630" font-family="'Consolas', 'Courier New', monospace" font-size="27" fill="#c4baea">// use a sliding window in Redis</text>
-  <text x="130" y="667" font-family="'Consolas', 'Courier New', monospace" font-size="27" fill="#c4baea">// evict timestamps older than window</text>
+  <text x="130" y="355" font-family="'Consolas', 'Courier New', monospace" font-size="27" fill="#6a5fb8">/// &lt;summary&gt;</text>
+  <text x="130" y="392" font-family="'Consolas', 'Courier New', monospace" font-size="27" fill="#c4baea">/// Rate-limits calls per client key.</text>
+  <text x="130" y="429" font-family="'Consolas', 'Courier New', monospace" font-size="27" fill="#6a5fb8">/// &lt;/summary&gt;</text>
+  <text x="130" y="466" font-family="'Consolas', 'Courier New', monospace" font-size="27" fill="#c4baea">/// &lt;param name="key"&gt;Client identifier.&lt;/param&gt;</text>
+  <text x="130" y="503" font-family="'Consolas', 'Courier New', monospace" font-size="27" fill="#c4baea">/// &lt;param name="limit"&gt;Max calls per window.&lt;/param&gt;</text>
+  <text x="130" y="540" font-family="'Consolas', 'Courier New', monospace" font-size="27" fill="#c4baea">/// &lt;returns&gt;True if allowed, false otherwise.&lt;/returns&gt;</text>
+  <text x="130" y="593" font-family="'Consolas', 'Courier New', monospace" font-size="27" fill="#c4baea">// use a sliding window in Redis</text>
+  <text x="130" y="630" font-family="'Consolas', 'Courier New', monospace" font-size="27" fill="#c4baea">// evict timestamps older than window</text>
 
   <rect x="130" y="710" width="900" height="160" rx="12" fill="#8b7fd4" fill-opacity="0.18" stroke="#8b7fd4" stroke-width="1.5" stroke-dasharray="8 6"/>
   <text x="580" y="775" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#ffffff">Copilot generates the body &#x2193;</text>
@@ -43,8 +43,8 @@
   <text x="1150" y="360" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">How to do it</text>
   <rect x="1150" y="380" width="200" height="3" fill="#8b7fd4"/>
   <circle cx="1170" cy="445" r="7" fill="#8b7fd4"/>
-  <text x="1200" y="456" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">write the JSDoc with @param,</text>
-  <text x="1200" y="492" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">@returns, @throws</text>
+  <text x="1200" y="456" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">write XML comments with</text>
+  <text x="1200" y="492" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">&lt;summary&gt;, &lt;param&gt;, &lt;returns&gt;</text>
   <circle cx="1170" cy="555" r="7" fill="#8b7fd4"/>
   <text x="1200" y="566" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">add inline comments for each</text>
   <text x="1200" y="602" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">major step</text>

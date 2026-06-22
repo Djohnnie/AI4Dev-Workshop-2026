@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prompt Pattern Playground</title>
+    <link rel="stylesheet" href="site.css" />
+</head>
+<body>
+    <main class="page">
+        <section class="hero">
+            <p class="eyebrow">Exercise 504</p>
+            <h1>Prompt Pattern Playground</h1>
+            <p>
+                One codebase, multiple prompting strategies. Use the files in this project to practise
+                comment-driven, test-first, persona, stepwise, and diff-driven prompting without first
+                building a new app.
+            </p>
+        </section>
+
+        <section class="grid">
+            <article class="card">
+                <h2>Comment-driven</h2>
+                <p>Start from the annotated summary service.</p>
+                <pre>#file:Services/ReleaseSummaryService.cs explain how the leading comment constrains the implementation.</pre>
+            </article>
+
+            <article class="card">
+                <h2>Test-first</h2>
+                <p>Ask for edge cases before you change logic.</p>
+                <pre>#file:Services/ReleaseWindowCalculator.cs list the tests you would want before changing this calculator.</pre>
+            </article>
+
+            <article class="card">
+                <h2>Persona</h2>
+                <p>Use a reviewer lens against the security policy.</p>
+                <pre>Act as a security reviewer. #file:Services/SecurityHeadersPolicy.cs what concerns do you see?</pre>
+            </article>
+
+            <article class="card">
+                <h2>Diff-driven</h2>
+                <p>Show one real transform, then reapply it.</p>
+                <pre>Compare #file:Services/LegacyAuditLogger.cs and #file:Services/StructuredAuditLogger.cs. Apply the same logging transform to #file:Services/LegacyBillingLogger.cs.</pre>
+            </article>
+        </section>
+
+        <section class="links">
+            <a href="/api/scenarios">/api/scenarios</a>
+            <a href="/api/release-windows">/api/release-windows</a>
+            <a href="/api/headers-preview">/api/headers-preview</a>
+            <a href="/api/log-samples">/api/log-samples</a>
+            <a href="/api/release-summary">/api/release-summary</a>
+            <a href="/api/import-preview">/api/import-preview</a>
+        </section>
+    </main>
+</body>
+</html>

@@ -34,8 +34,10 @@ Most exercises are written in **C# (.NET 10)** and follow the same project layou
 | [405](chapter-04/exercise-405/README.md) | [Explore Copilot on GitHub.com](chapter-04/exercise-405/README.md) | Chapter 4, Exercise 5 | Browser-first repo chat, issue triage, PR review, and online agent workflows | ⭐⭐ |
 | [406](chapter-04/exercise-406/README.md) | [Create a Repository Instruction File](chapter-04/exercise-406/README.md) | Chapter 4, Exercise 6 | Teaching Copilot your conventions, stack, tests, and output preferences through repo instructions | ⭐ |
 | [407](chapter-04/exercise-407/README.md) | [Experiment with Prompt Files and Skill Files](chapter-04/exercise-407/README.md) | Chapter 4, Exercise 7 | Comparing manual prompt-file workflows with auto-invoked SKILL.md processes | ⭐⭐ |
-| [501](chapter-05/exercise-501/README.md) | [Escape Room DI Demo](chapter-05/exercise-501/README.md) | Chapter 5, Exercise 1 | Prompting a custom DI container with Spectre.Console | ⭐⭐ |
-| [502](chapter-05/exercise-502/README.md) | [Context Prompt VSIX Demo](chapter-05/exercise-502/README.md) | Chapter 5, Exercise 2 | Prompting with no context, FIM context, and IDE context | ⭐⭐⭐ |
+| [501](chapter-05/exercise-501/README.md) | [Context Window Copilot Clone](chapter-05/exercise-501/README.md) | Chapter 5, Exercise 1 | Comparing GPT-4o with no context, FIM context, and open tabs context in Visual Studio | ⭐⭐⭐ |
+| [502](chapter-05/exercise-502/README.md) | [Prompt Arena](chapter-05/exercise-502/README.md) | Chapter 5, Exercise 2 | A deployable web game that scores prompts against the four-ingredient rubric | ⭐⭐⭐ |
+| [503](chapter-05/exercise-503/README.md) | [Context Variables Playground](chapter-05/exercise-503/README.md) | Chapter 5, Exercise 3 | A prebuilt .NET app for comparing no variable, @workspace, and #file prompts | ⭐⭐ |
+| [504](chapter-05/exercise-504/README.md) | [Prompt Pattern Playground](chapter-05/exercise-504/README.md) | Chapter 5, Exercise 4 | A prebuilt .NET app for trying comment-driven, test-first, persona, stepwise, and diff-driven prompts | ⭐⭐ |
 | [601](chapter-06/exercise-601/README.md) | [GuildOps Discovery Sprint](chapter-06/exercise-601/README.md) | Chapter 6, Exercise 1 | Analysis and planning with Copilot on a .NET 10 solution | ⭐⭐ |
 | [602](chapter-06/exercise-602/README.md) | [Ship the Quest Approval Slice](chapter-06/exercise-602/README.md) | Chapter 6, Exercise 2 | Feature development workflow on .NET 10 | ⭐⭐⭐ |
 | [603](chapter-06/exercise-603/README.md) | [Test the Reward Engine](chapter-06/exercise-603/README.md) | Chapter 6, Exercise 3 | Testing, coverage, TDD, and BDD on .NET 10 | ⭐⭐⭐ |
@@ -43,7 +45,7 @@ Most exercises are written in **C# (.NET 10)** and follow the same project layou
 | [605](chapter-06/exercise-605/README.md) | [Document GuildOps Like It Will Outlive You](chapter-06/exercise-605/README.md) | Chapter 6, Exercise 5 | Documentation, ADRs, and diagrams for .NET 10 | ⭐⭐ |
 | [606](chapter-06/exercise-606/README.md) | [Hunt the Phantom Checkout Bug](chapter-06/exercise-606/README.md) | Chapter 6, Exercise 6 | Debugging with Playwright, logs, and traces in .NET 10 | ⭐⭐⭐ |
 | [607](chapter-06/exercise-607/README.md) | [The Pull Request Gauntlet](chapter-06/exercise-607/README.md) | Chapter 6, Exercise 7 | PR quality, Copilot review, and Autofix | ⭐⭐⭐ |
-| [501](chapter-05/exercise-501/README.md) | [Escape Room DI Demo](chapter-05/exercise-501/README.md) | Chapter 5, Exercise 1 | Prompting a custom DI container with Spectre.Console | ⭐⭐ |
+| [501](chapter-05/exercise-501/README.md) | [Context Window Copilot Clone](chapter-05/exercise-501/README.md) | Chapter 5, Exercise 1 | Comparing GPT-4o with no context, FIM context, and open tabs context in Visual Studio | ⭐⭐⭐ |
 
 ---
 
@@ -55,9 +57,9 @@ Most exercises are written in **C# (.NET 10)** and follow the same project layou
 | Chapter 2 | [201 Factorial Calculator](chapter-02/exercise-201/README.md) · [202 Palindrome Checker](chapter-02/exercise-202/README.md) · [203 Mystery Processor](chapter-02/exercise-203/README.md) · [204 Shortest Path](chapter-02/exercise-204/README.md) · [205 Caesar Cipher](chapter-02/exercise-205/README.md) · [206 String Search](chapter-02/exercise-206/README.md) |
 | Chapter 3 | [301 Who Does Copilot Picture?](chapter-03/exercise-301/README.md) · [302 Infix/Postfix with Ask Mode](chapter-03/exercise-302/README.md) · [303 Malicious Repo Prompt Trap](chapter-03/exercise-303/README.md) · [304 Code Obfuscator MCP Tool](chapter-03/exercise-304/README.md) · [305 Tool Calls with Ollama](chapter-03/exercise-305/README.md) |
 | Chapter 4 | [401 Rename a Field with Agent Mode](chapter-04/exercise-401/README.md) · [402 Add Input Validation](chapter-04/exercise-402/README.md) · [403 Paginate, Filter and Sort](chapter-04/exercise-403/README.md) · [404 Vibe-Code a Slot Machine](chapter-04/exercise-404/README.md) · [405 Explore Copilot on GitHub.com](chapter-04/exercise-405/README.md) · [406 Create a Repository Instruction File](chapter-04/exercise-406/README.md) · [407 Experiment with Prompt Files and Skill Files](chapter-04/exercise-407/README.md) |
-| Chapter 5 | [501 Escape Room DI Demo](chapter-05/exercise-501/README.md) · [502 Context Prompt VSIX Demo](chapter-05/exercise-502/README.md) |
+| Chapter 5 | [501 Context Window Copilot Clone](chapter-05/exercise-501/README.md) · [502 Prompt Arena](chapter-05/exercise-502/README.md) · [503 Context Variables Playground](chapter-05/exercise-503/README.md) · [504 Prompt Pattern Playground](chapter-05/exercise-504/README.md) |
 | Chapter 6 | [601 GuildOps Discovery Sprint](chapter-06/exercise-601/README.md) · [602 Ship the Quest Approval Slice](chapter-06/exercise-602/README.md) · [603 Test the Reward Engine](chapter-06/exercise-603/README.md) · [604 Refactor the Monster Ledger](chapter-06/exercise-604/README.md) · [605 Document GuildOps Like It Will Outlive You](chapter-06/exercise-605/README.md) · [606 Hunt the Phantom Checkout Bug](chapter-06/exercise-606/README.md) · [607 The Pull Request Gauntlet](chapter-06/exercise-607/README.md) |
-| Chapter 5 | [501 Escape Room DI Demo](chapter-05/exercise-501/README.md) |
+| Chapter 5 | [501 Context Window Copilot Clone](chapter-05/exercise-501/README.md) · [502 Prompt Arena](chapter-05/exercise-502/README.md) · [503 Context Variables Playground](chapter-05/exercise-503/README.md) · [504 Prompt Pattern Playground](chapter-05/exercise-504/README.md) |
 
 ---
 

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Context Variables Playground</title>
+    <link rel="stylesheet" href="site.css" />
+</head>
+<body>
+    <main class="page">
+        <section class="hero">
+            <p class="eyebrow">Exercise 503</p>
+            <h1>Context Variables Playground</h1>
+            <p>
+                This app is already finished. Open the codebase in Copilot Chat and use it to compare
+                repo-wide prompts, exact-file prompts, and the same question with no variable at all.
+            </p>
+        </section>
+
+        <section class="grid">
+            <article class="card">
+                <h2>Try @workspace first</h2>
+                <p>Map the project before manually opening files.</p>
+                <pre>@workspace map this project and tell me which files I should inspect first to understand sprint health and incident digests.</pre>
+            </article>
+
+            <article class="card">
+                <h2>Then zoom in with #file</h2>
+                <p>Use one file when you want a precise explanation.</p>
+                <pre>#file:Services/AuthGateway.cs explain how dashboard access is validated and whether this looks production-ready.</pre>
+            </article>
+
+            <article class="card">
+                <h2>Compare the delta</h2>
+                <p>Ask the same question twice and see what context changes.</p>
+                <pre>Explain what determines the risk band in this app.</pre>
+            </article>
+
+            <article class="card">
+                <h2>Useful endpoints</h2>
+                <ul>
+                    <li><a href="/api/summary">/api/summary</a></li>
+                    <li><a href="/api/work-items">/api/work-items</a></li>
+                    <li><a href="/api/incidents">/api/incidents</a></li>
+                    <li><a href="/api/questions">/api/questions</a></li>
+                </ul>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
