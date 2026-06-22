@@ -53,7 +53,7 @@
   <text x="1635" y="565" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Iterate with smaller diffs</text>
   <text x="1635" y="655" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">Best mode: Mix and match</text>
 
-  <rect x="240" y="860" width="1440" height="95" rx="24" fill="#8b7fd4" opacity="0.18"/>
+  <rect x="170" y="860" width="1580" height="95" rx="24" fill="#8b7fd4" opacity="0.18"/>
   <text x="960" y="905" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="600" fill="#ffffff">Use Copilot for acceleration, not abdication: boilerplate and scaffolding are easy wins; business logic deserves review.</text>
   <text x="960" y="940" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">If output gets generic, reduce the scope, attach better context, and ask for one smaller step.</text>
 </svg>

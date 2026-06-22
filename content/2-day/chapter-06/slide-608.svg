@@ -47,6 +47,6 @@
   <text x="1110" y="685" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">"Outline the safest migration path for feature X</text>
   <text x="1110" y="717" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">and list the questions we still need to answer."</text>
 
-  <rect x="310" y="905" width="1300" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
+  <rect x="200" y="905" width="1520" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
   <text x="960" y="948" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">Ask for trade-offs, evidence, and open questions - that is where analysis value comes from.</text>
 </svg>

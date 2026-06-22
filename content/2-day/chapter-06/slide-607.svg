@@ -49,6 +49,6 @@
   <text x="1110" y="695" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">"Map the steps needed to add feature X safely.</text>
   <text x="1110" y="728" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">Highlight dependencies, tests, and unknowns."</text>
 
-  <rect x="360" y="905" width="1200" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
+  <rect x="210" y="905" width="1500" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
   <text x="960" y="948" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">Brownfield analysis is not "understand everything" - it is "understand enough to act safely".</text>
 </svg>

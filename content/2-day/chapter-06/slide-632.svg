@@ -4,40 +4,50 @@
       <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
       <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
     </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
   <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="55" font-weight="700" fill="#ffffff" letter-spacing="-1">Exercise 605 - Document GuildOps Like It Will Outlive You</text>
-  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
-  <text x="80" y="195" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea">Draft inline docs, repo-local Markdown, ADRs, and draw.io diagrams for a .NET 10 solution without losing technical accuracy.</text>
+  <text x="80" y="95" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#8b7fd4" letter-spacing="2.5">SECTION 6 OF 7  ·  COPILOT FOR DEBUGGING</text>
+  <text x="80" y="167" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="700" fill="#ffffff" letter-spacing="-1">From Symptom to Root Cause, Faster</text>
+  <rect x="0" y="197" width="1920" height="4" fill="#8b7fd4"/>
+  <text x="80" y="257" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea" letter-spacing="1">Paste the error, describe the bug — Copilot recognises the pattern.</text>
 
-  <rect x="80" y="235" width="860" height="367" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="510" y="325" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">01</text>
-  <text x="510" y="400" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Read</text>
-  <rect x="430" y="420" width="160" height="3" fill="#8b7fd4"/>
-  <text x="510" y="466" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Ask what future maintainers would</text>
-  <text x="510" y="510" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">struggle to understand quickly</text>
+  <!-- Left panel -->
+  <rect x="130" y="297" width="720" height="575" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="490" y="371" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Diagnose</text>
+  <rect x="178" y="387" width="260" height="3" fill="#8b7fd4"/>
+  <circle cx="192" cy="452" r="7" fill="#8b7fd4"/>
+  <text x="220" y="463" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Paste exceptions &amp; stack traces directly</text>
+  <circle cx="192" cy="522" r="7" fill="#8b7fd4"/>
+  <text x="220" y="533" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">@terminal reads your shell output for you</text>
+  <circle cx="192" cy="592" r="7" fill="#8b7fd4"/>
+  <text x="220" y="603" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Rubber duck: describe the bug, get a lead</text>
+  <circle cx="192" cy="662" r="7" fill="#8b7fd4"/>
+  <text x="220" y="673" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Analyse structured log output &amp; traces</text>
 
-  <rect x="980" y="235" width="860" height="367" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1410" y="325" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">02</text>
-  <text x="1410" y="400" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Write</text>
-  <rect x="1330" y="420" width="160" height="3" fill="#8b7fd4"/>
-  <text x="1410" y="466" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Generate inline docs, README text,</text>
-  <text x="1410" y="510" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">and feature docs in /docs</text>
+  <!-- Right panel -->
+  <rect x="1070" y="297" width="720" height="575" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1430" y="371" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Fix</text>
+  <rect x="1118" y="387" width="260" height="3" fill="#8b7fd4"/>
+  <circle cx="1132" cy="452" r="7" fill="#8b7fd4"/>
+  <text x="1160" y="463" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">/fix with an explicit failure description</text>
+  <circle cx="1132" cy="522" r="7" fill="#8b7fd4"/>
+  <text x="1160" y="533" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Attach failing test output to narrow scope</text>
+  <circle cx="1132" cy="592" r="7" fill="#8b7fd4"/>
+  <text x="1160" y="603" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Correlate events across multiple services</text>
+  <circle cx="1132" cy="662" r="7" fill="#8b7fd4"/>
+  <text x="1160" y="673" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Debug async race conditions &amp; edge cases</text>
 
-  <rect x="80" y="632" width="860" height="367" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="510" y="722" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">03</text>
-  <text x="510" y="797" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Diagram</text>
-  <rect x="430" y="817" width="160" height="3" fill="#8b7fd4"/>
-  <text x="510" y="863" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Outline a draw.io diagram that can be</text>
-  <text x="510" y="907" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">saved and reviewed as .drawio.png</text>
-
-  <rect x="980" y="632" width="860" height="367" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1410" y="722" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">04</text>
-  <text x="1410" y="797" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Refresh</text>
-  <rect x="1330" y="817" width="160" height="3" fill="#8b7fd4"/>
-  <text x="1410" y="863" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Ask what would go stale first and how</text>
-  <text x="1410" y="907" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">docs should stay in the PR workflow</text>
+  <rect x="560" y="920" width="800" height="62" rx="31" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="959" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="1">Copilot is a rubber duck that talks back.</text>
 </svg>

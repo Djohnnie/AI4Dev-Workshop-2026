@@ -4,40 +4,63 @@
       <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
       <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
     </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
   <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff" letter-spacing="-1">Exercise 606 - Hunt the Phantom Checkout Bug</text>
-  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
-  <text x="80" y="195" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea">Debug a flaky .NET 10 web flow with exceptions, logs, traces, screenshots, network evidence, and Playwright-driven reproduction.</text>
+  <text x="80" y="95" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#8b7fd4" letter-spacing="2.5">SECTION 7 OF 7  ·  COPILOT IN THE PR LIFECYCLE</text>
+  <text x="80" y="167" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="700" fill="#ffffff" letter-spacing="-1">AI From Commit to Merge</text>
+  <rect x="0" y="197" width="1920" height="4" fill="#8b7fd4"/>
+  <text x="80" y="257" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea" letter-spacing="1">Descriptions, reviews, and fixes — without the wait.</text>
 
-  <rect x="80" y="235" width="860" height="367" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="510" y="325" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">01</text>
-  <text x="510" y="400" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Repro</text>
-  <rect x="430" y="420" width="160" height="3" fill="#8b7fd4"/>
-  <text x="510" y="466" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Define the failing scenario and turn</text>
-  <text x="510" y="510" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">a flaky report into a repeatable path</text>
+  <!-- Panel 1: PR Descriptions -->
+  <rect x="80" y="297" width="560" height="580" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="360" y="367" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">PR Descriptions</text>
+  <rect x="128" y="382" width="240" height="3" fill="#8b7fd4"/>
+  <circle cx="142" cy="447" r="7" fill="#8b7fd4"/>
+  <text x="170" y="458" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Click sparkle → structured summary</text>
+  <circle cx="142" cy="517" r="7" fill="#8b7fd4"/>
+  <text x="170" y="528" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">What changed, why, and how to test</text>
+  <circle cx="142" cy="587" r="7" fill="#8b7fd4"/>
+  <text x="170" y="598" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Consistent PR format across the team</text>
+  <circle cx="142" cy="657" r="7" fill="#8b7fd4"/>
+  <text x="170" y="668" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Edit the draft — add business context</text>
 
-  <rect x="980" y="235" width="860" height="367" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1410" y="325" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">02</text>
-  <text x="1410" y="400" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Observe</text>
-  <rect x="1330" y="420" width="160" height="3" fill="#8b7fd4"/>
-  <text x="1410" y="466" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Correlate stack traces, logs, traces,</text>
-  <text x="1410" y="510" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">metrics, and browser-side evidence</text>
+  <!-- Panel 2: Code Review -->
+  <rect x="680" y="297" width="560" height="580" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="367" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Code Review</text>
+  <rect x="728" y="382" width="240" height="3" fill="#8b7fd4"/>
+  <circle cx="742" cy="447" r="7" fill="#8b7fd4"/>
+  <text x="770" y="458" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Request Copilot as a reviewer on GitHub</text>
+  <circle cx="742" cy="517" r="7" fill="#8b7fd4"/>
+  <text x="770" y="528" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Line-level suggestions with explanations</text>
+  <circle cx="742" cy="587" r="7" fill="#8b7fd4"/>
+  <text x="770" y="598" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">One-click apply suggestions from browser</text>
+  <circle cx="742" cy="657" r="7" fill="#8b7fd4"/>
+  <text x="770" y="668" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Frees humans to focus on deeper concerns</text>
 
-  <rect x="80" y="632" width="860" height="367" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="510" y="722" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">03</text>
-  <text x="510" y="797" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Hypothesize</text>
-  <rect x="430" y="817" width="160" height="3" fill="#8b7fd4"/>
-  <text x="510" y="863" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Ask what assumption failed and what</text>
-  <text x="510" y="907" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">smallest experiment would prove it</text>
+  <!-- Panel 3: Autofix -->
+  <rect x="1280" y="297" width="560" height="580" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1560" y="367" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Copilot Autofix</text>
+  <rect x="1328" y="382" width="240" height="3" fill="#8b7fd4"/>
+  <circle cx="1342" cy="447" r="7" fill="#8b7fd4"/>
+  <text x="1370" y="458" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">CodeQL surfaces security vulnerabilities</text>
+  <circle cx="1342" cy="517" r="7" fill="#8b7fd4"/>
+  <text x="1370" y="528" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Copilot generates the semantic fix</text>
+  <circle cx="1342" cy="587" r="7" fill="#8b7fd4"/>
+  <text x="1370" y="598" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Understands data flow — not just syntax</text>
+  <circle cx="1342" cy="657" r="7" fill="#8b7fd4"/>
+  <text x="1370" y="668" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Always review before merging</text>
 
-  <rect x="980" y="632" width="860" height="367" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1410" y="722" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">04</text>
-  <text x="1410" y="797" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Prove</text>
-  <rect x="1330" y="817" width="160" height="3" fill="#8b7fd4"/>
-  <text x="1410" y="863" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Leave behind a regression test or</text>
-  <text x="1410" y="907" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">better observability for next time</text>
+  <rect x="560" y="930" width="800" height="62" rx="31" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="969" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="1">Copilot didn't replace the reviewer — it removed the easy issues first.</text>
 </svg>

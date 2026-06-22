@@ -17,40 +17,32 @@
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff" letter-spacing="-1">Docs as Code - Markdown That Lives with the Repo</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#ffffff" letter-spacing="-1">Diagrams in Markdown - Draw.io and *.drawio.png</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
-  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">README files, ADRs, runbooks, onboarding notes, and feature docs are easier to trust when they ship in the same pull request as the code.</text>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">Use diagrams that render inside Markdown like normal images, but still reopen in draw.io for easy editing and repo-based versioning.</text>
 
-  <rect x="95" y="305" width="540" height="500" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="365" y="375" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">What to Create</text>
-  <rect x="220" y="392" width="290" height="3" fill="#8b7fd4"/>
-  <text x="365" y="465" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">project README and quickstart</text>
-  <text x="365" y="515" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">feature docs in /docs</text>
-  <text x="365" y="565" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">ADRs and design rationale</text>
-  <text x="365" y="615" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">runbooks and troubleshooting notes</text>
-  <text x="365" y="665" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">onboarding and local setup guides</text>
+  <rect x="90" y="300" width="550" height="520" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="365" y="370" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Why *.drawio.png Works</text>
+  <rect x="220" y="387" width="290" height="3" fill="#8b7fd4"/>
+  <text x="365" y="460" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">renders directly in README and docs pages</text>
+  <text x="365" y="510" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">embedded draw.io data keeps it editable</text>
+  <text x="365" y="560" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">one file for preview, source, and sharing</text>
+  <text x="365" y="610" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">lives in git with the surrounding docs</text>
+  <text x="365" y="700" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#8b7fd4">Visual docs without losing editability</text>
 
-  <rect x="690" y="305" width="540" height="500" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="960" y="375" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Why It Works</text>
-  <rect x="820" y="392" width="280" height="3" fill="#8b7fd4"/>
-  <text x="960" y="465" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">versioned together with the code</text>
-  <text x="960" y="515" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">reviewed in the same PR conversation</text>
-  <text x="960" y="565" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">branched, tagged, and released together</text>
-  <text x="960" y="615" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">easy to patch when the implementation shifts</text>
-  <text x="960" y="665" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">closer to the developers who know the context</text>
+  <rect x="685" y="300" width="1145" height="520" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1257" y="370" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">What to Ask Copilot For</text>
+  <rect x="1085" y="387" width="345" height="3" fill="#8b7fd4"/>
+  <circle cx="780" cy="455" r="7" fill="#8b7fd4"/>
+  <text x="808" y="466" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">system context diagrams, sequence flows, deployment views, and integration maps</text>
+  <circle cx="780" cy="530" r="7" fill="#8b7fd4"/>
+  <text x="808" y="541" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">component names, responsibilities, arrows, labels, and the Markdown text around the diagram</text>
+  <circle cx="780" y="605" r="7" fill="#8b7fd4"/>
+  <text x="808" y="616" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">updates after an architecture change: "What should this diagram show now that we added a queue?"</text>
+  <rect x="770" y="675" width="980" height="115" rx="18" fill="#8b7fd4" opacity="0.14"/>
+  <text x="805" y="722" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">Prompt idea: "@workspace Outline the nodes and connections for a</text>
+  <text x="805" y="757" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">draw.io diagram of this app, then draft the Markdown section that explains it."</text>
 
-  <rect x="1285" y="305" width="540" height="500" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1555" y="375" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Prompt Pattern</text>
-  <rect x="1410" y="392" width="290" height="3" fill="#8b7fd4"/>
-  <rect x="1360" y="445" width="390" height="220" rx="20" fill="#8b7fd4" opacity="0.14"/>
-  <text x="1390" y="490" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">"@workspace Create</text>
-  <text x="1390" y="522" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">docs/order-import.md</text>
-  <text x="1390" y="554" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">for new developers.</text>
-  <text x="1390" y="586" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">Include workflow, important</text>
-  <text x="1390" y="618" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">files, config, failure modes,</text>
-  <text x="1390" y="650" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">and a local test path."</text>
-  <text x="1555" y="730" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Ask for audience-specific docs, not generic repo summaries.</text>
-
-  <rect x="250" y="900" width="1420" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
-  <text x="960" y="943" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">If docs live beside the code, keeping them current becomes normal engineering work.</text>
+  <rect x="280" y="890" width="1400" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="933" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">The best diagram is the one people can see immediately and still edit later.</text>
 </svg>

@@ -49,6 +49,6 @@
   <text x="1110" y="695" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">"Draft user stories, acceptance criteria, and an</text>
   <text x="1110" y="728" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">API outline before implementation starts."</text>
 
-  <rect x="430" y="905" width="1060" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
+  <rect x="270" y="905" width="1380" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
   <text x="960" y="948" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">Greenfield analysis is about shaping the problem before the code shapes you.</text>
 </svg>

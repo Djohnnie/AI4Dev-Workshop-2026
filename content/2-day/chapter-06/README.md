@@ -370,17 +370,14 @@ By the end of this chapter, participants will be able to:
 
 ## 💡 Ideas for Exercises & Interactivity
 
-### Exercise 601: GuildOps Discovery Sprint (15 min)
-Participants receive a vague feature brief for a planned .NET 10 "GuildOps" platform plus a partial existing code snapshot. Their job is to use Copilot to turn that into actors, workflows, risks, architecture options, and a first implementation plan without writing code.
+### Exercise 601: Short URL Discovery Sprint (15 min)
+Participants receive a greenfield brief for a .NET 10 short URL service that must generate aliases, redirect users, and track usage statistics. Their job is to use Copilot to turn that into actors, requirements, architecture options, risks, ADRs, and an implementation plan before they vibe code a first solution.
 
-### Exercise 602: Ship the Quest Approval Slice (20 min)
-Participants take a .NET 10 minimal API plus Blazor admin ticket and use Copilot to plan and scaffold a vertical slice: endpoint, service, UI interaction, and tests. The emphasis is moving from ticket to working set safely, not just generating code fast.
+### Exercise 602: Expression Evaluator Test Lab (20 min)
+Participants use an existing .NET 10 infix/postfix expression evaluator to experiment with four test workflows: writing tests on existing code, TDD, BDD with Reqnroll, and getting code coverage. The emphasis is comparing how Copilot helps with each testing style instead of treating testing as one monolithic activity.
 
-### Exercise 603: Test the Reward Engine (20 min)
-Participants harden a rule-heavy .NET 10 reward-calculation component with unit tests, integration tests, a small UI flow, and a coverage report. They practice TDD, BDD-style thinking, and asking Copilot to close meaningful coverage gaps instead of chasing a vanity number.
-
-### Exercise 604: Refactor the Monster Ledger (20 min)
-Participants receive a messy .NET 10 service with duplication, awkward names, and telemetry pointing to a hot path. They use Copilot to propose architectural and readability improvements, then review which refactors actually make sense.
+### Exercise 603: Optimize Edit Distance (20 min)
+Participants start from a deliberately slow .NET 10 Levenshtein edit-distance implementation, measure it with logs, metrics, tests, and BenchmarkDotNet, then use Copilot to refactor the algorithm into something faster without changing the result.
 
 ### Exercise 605: Document GuildOps Like It Will Outlive You (15 min)
 Participants use Copilot to draft inline docs, repo-local Markdown docs, an ADR, and a draw.io diagram saved as `.drawio.png` for a .NET 10 solution. Peer review focuses on accuracy, usefulness, and whether the docs would help the next developer.

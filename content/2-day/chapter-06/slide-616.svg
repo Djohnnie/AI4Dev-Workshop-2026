@@ -17,34 +17,32 @@
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff" letter-spacing="-1">Test Types - Unit, Integration, and Automated UI</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="700" fill="#ffffff" letter-spacing="-1">TDD with Copilot - Red, Green, Refactor</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
-  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">Copilot can help across the whole test pyramid, but the right prompt depends on the kind of confidence you need.</text>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">Copilot makes the loop faster, but TDD still works only if the failing test really defines the behaviour.</text>
 
-  <rect x="90" y="300" width="550" height="520" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="365" y="372" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Unit Tests</text>
-  <rect x="260" y="389" width="210" height="3" fill="#8b7fd4"/>
-  <text x="365" y="465" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">fastest feedback</text>
-  <text x="365" y="515" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">small scope, isolated logic</text>
-  <text x="365" y="565" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">great for edge cases and branches</text>
-  <text x="365" y="655" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#8b7fd4">Best Copilot use: /tests + edge-case prompts</text>
+  <rect x="130" y="305" width="500" height="470" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="380" y="378" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">1. Red</text>
+  <rect x="300" y="395" width="160" height="3" fill="#8b7fd4"/>
+  <text x="380" y="470" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">describe the behaviour first</text>
+  <text x="380" y="520" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">ask Copilot to draft the failing test</text>
+  <text x="380" y="570" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">verify it actually fails</text>
 
-  <rect x="685" y="300" width="550" height="520" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="960" y="372" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Integration Tests</text>
-  <rect x="830" y="389" width="260" height="3" fill="#8b7fd4"/>
-  <text x="960" y="465" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">components working together</text>
-  <text x="960" y="515" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">service + DB, API + repository</text>
-  <text x="960" y="565" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">more setup, more realistic confidence</text>
-  <text x="960" y="655" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#8b7fd4">Best Copilot use: setup, fixtures, wiring</text>
+  <rect x="710" y="305" width="500" height="470" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="378" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">2. Green</text>
+  <rect x="880" y="395" width="160" height="3" fill="#8b7fd4"/>
+  <text x="960" y="470" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">attach the test as context</text>
+  <text x="960" y="520" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">ask Copilot to make it pass</text>
+  <text x="960" y="570" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">keep the first implementation small</text>
 
-  <rect x="1280" y="300" width="550" height="520" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1555" y="372" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Automated UI Tests</text>
-  <rect x="1400" y="389" width="310" height="3" fill="#8b7fd4"/>
-  <text x="1555" y="465" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">critical user journeys</text>
-  <text x="1555" y="515" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">browser flows and selectors</text>
-  <text x="1555" y="565" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">highest realism, highest maintenance</text>
-  <text x="1555" y="655" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#8b7fd4">Best Copilot use: Playwright scaffolding</text>
+  <rect x="1290" y="305" width="500" height="470" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1540" y="378" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">3. Refactor</text>
+  <rect x="1460" y="395" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1540" y="470" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">clean up after tests are green</text>
+  <text x="1540" y="520" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">ask Copilot to simplify structure</text>
+  <text x="1540" y="570" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">preserve behaviour, improve clarity</text>
 
-  <rect x="260" y="885" width="1400" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
-  <text x="960" y="928" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">Different tests answer different questions. Ask Copilot for the right kind of confidence.</text>
+  <rect x="160" y="835" width="1600" height="120" rx="24" fill="#8b7fd4" opacity="0.18"/>
+  <text x="960" y="885" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="600" fill="#ffffff">Prompt pattern: "Here is `#file:UserValidatorTests.cs`. Write the smallest implementation that makes these tests pass."</text>
+  <text x="960" y="925" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Copilot accelerates TDD when the tests express intent clearly and the scope stays narrow.</text>
 </svg>

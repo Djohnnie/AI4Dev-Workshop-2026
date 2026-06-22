@@ -17,32 +17,35 @@
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="60" font-weight="700" fill="#ffffff" letter-spacing="-1">Readability Refactors Developers Feel Every Day</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="60" font-weight="700" fill="#ffffff" letter-spacing="-1">Safer Structural Refactoring - Create Seams, Reduce Coupling</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
-  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">Readability is a delivery optimization: clearer code makes the next bug easier to find and the next feature cheaper to add.</text>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">Big changes get safer when you introduce boundaries first: adapters, interfaces, wrappers, and anti-corruption layers.</text>
 
-  <rect x="120" y="290" width="780" height="560" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="510" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Everyday Improvements</text>
-  <rect x="325" y="377" width="370" height="3" fill="#8b7fd4"/>
-  <circle cx="202" cy="445" r="7" fill="#8b7fd4"/>
-  <text x="230" y="456" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Better names for variables, methods, and concepts</text>
-  <circle cx="202" cy="520" r="7" fill="#8b7fd4"/>
-  <text x="230" y="531" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Smaller functions with one obvious purpose</text>
-  <circle cx="202" cy="595" r="7" fill="#8b7fd4"/>
-  <text x="230" y="606" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Early returns instead of deep nesting</text>
-  <circle cx="202" cy="670" r="7" fill="#8b7fd4"/>
-  <text x="230" y="681" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Named helpers instead of giant boolean expressions</text>
+  <rect x="90" y="300" width="560" height="520" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="370" y="370" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Create a Seam</text>
+  <rect x="255" y="387" width="230" height="3" fill="#8b7fd4"/>
+  <text x="370" y="465" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">wrap the legacy dependency</text>
+  <text x="370" y="515" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">extract an interface or gateway</text>
+  <text x="370" y="565" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">add tests around the boundary</text>
+  <text x="370" y="655" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#8b7fd4">Then refactor behind the seam</text>
 
-  <rect x="1020" y="290" width="780" height="560" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1410" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Prompt Pattern</text>
-  <rect x="1285" y="377" width="250" height="3" fill="#8b7fd4"/>
-  <rect x="1090" y="445" width="640" height="190" rx="20" fill="#8b7fd4" opacity="0.14"/>
-  <text x="1125" y="490" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">"Refactor this method for readability only.</text>
-  <text x="1125" y="525" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">Do not change behaviour or public API.</text>
-  <text x="1125" y="560" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">Prefer early returns, smaller helpers, clearer</text>
-  <text x="1125" y="595" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">names, and less nesting."</text>
-  <text x="1410" y="720" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Readable code improves both human maintenance and future Copilot suggestions.</text>
+  <rect x="700" y="300" width="560" height="520" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="980" y="370" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Useful Patterns</text>
+  <rect x="865" y="387" width="230" height="3" fill="#8b7fd4"/>
+  <text x="980" y="465" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">adapter or wrapper</text>
+  <text x="980" y="515" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">strangler pattern for migrations</text>
+  <text x="980" y="565" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">anti-corruption layer at boundaries</text>
+  <text x="980" y="655" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#8b7fd4">Make the risky edge explicit</text>
 
-  <rect x="300" y="900" width="1320" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
-  <text x="960" y="943" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">If a future teammate can understand it faster, the refactor paid off.</text>
+  <rect x="1310" y="300" width="520" height="520" rx="24" fill="#8b7fd4" fill-opacity="0.15" stroke="#8b7fd4" stroke-width="2"/>
+  <text x="1570" y="370" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Prompt Pattern</text>
+  <rect x="1450" y="387" width="240" height="3" fill="#8b7fd4"/>
+  <text x="1570" y="465" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">"Show me how to introduce</text>
+  <text x="1570" y="500" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">a seam around this payment</text>
+  <text x="1570" y="535" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">provider integration so we can</text>
+  <text x="1570" y="570" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">refactor in smaller, testable steps."</text>
+  <text x="1570" y="680" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Safer refactoring is usually incremental refactoring.</text>
+
+  <rect x="240" y="900" width="1440" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="943" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">Don't refactor the whole mess at once. Create a boundary, then move one piece at a time.</text>
 </svg>
