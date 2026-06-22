@@ -13,28 +13,41 @@
   </g>
   <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Recap &#x2014; Chapter 2</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
-  <text x="80" y="195" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea">Meet Your New Best Friend: GitHub Copilot introduced the core surfaces and the day-to-day experience of coding with assistance.</text>
+  <text x="80" y="195" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea">Meet Your New Best Friend: GitHub Copilot introduced the core surfaces and the day-to-day experience of coding with assistance.</text>
   <rect x="80" y="235" width="980" height="740" rx="12" fill="#0f1226" fill-opacity="0.72" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="120" y="306" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">What Chapter 2 gave you</text>
   <rect x="120" y="352" width="900" height="150" rx="20" fill="rgba(255,255,255,0.05)" stroke="#8b7fd4" stroke-width="1.2"/>
   <text x="160" y="412" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Copilot as a coding companion</text>
-  <text x="160" y="462" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">You practiced using suggestions, chat, and in-editor help to turn partial intent into working code faster.</text>
+  <text x="160" y="462" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">
+    <tspan x="160" dy="0">You practiced using suggestions, chat, and in-editor help</tspan>
+    <tspan x="160" dy="32">to turn partial intent into working code faster.</tspan>
+  </text>
   <rect x="120" y="536" width="900" height="160" rx="20" fill="rgba(255,255,255,0.05)" stroke="#8b7fd4" stroke-width="1.2"/>
   <text x="160" y="596" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Prompting in the small</text>
-  <text x="160" y="646" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Lab 201 showed how Ask mode, inline chat, and ghost text can finish a focused feature when the scope is clear and constrained.</text>
+  <text x="160" y="646" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">
+    <tspan x="160" dy="0">Lab 201 showed how Ask mode, inline chat, and ghost text</tspan>
+    <tspan x="160" dy="32">can finish a focused feature when the scope is clear and constrained.</tspan>
+  </text>
   <rect x="120" y="730" width="900" height="160" rx="20" fill="rgba(255,255,255,0.05)" stroke="#8b7fd4" stroke-width="1.2"/>
   <text x="160" y="790" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Foundation for later chapters</text>
-  <text x="160" y="840" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Before orchestration, plans, or room-based systems, you first learned how to guide AI inside a small implementation loop.</text>
+  <text x="160" y="840" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">
+    <tspan x="160" dy="0">Before orchestration, plans, or room-based systems,</tspan>
+    <tspan x="160" dy="32">you first learned how to guide AI inside a small implementation loop.</tspan>
+  </text>
   <rect x="1110" y="235" width="730" height="220" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="1475" y="306" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#8b7fd4">1</text>
   <text x="1475" y="366" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" fill="#ffffff">Core surfaces</text>
-  <text x="1475" y="410" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Ask mode, inline chat, and autocomplete each help in a</text>
-  <text x="1475" y="444" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">different moment of the coding loop.</text>
-  <rect x="1110" y="495" width="730" height="220" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1475" y="566" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#8b7fd4">2</text>
-  <text x="1475" y="626" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" fill="#ffffff">Constraint can teach</text>
-  <text x="1475" y="670" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Limiting the allowed surfaces made the interaction style</text>
-  <text x="1475" y="704" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">visible instead of hiding it behind one big automation step.</text>
+  <text x="1475" y="410" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">
+    <tspan x="1475" dy="0">Ask mode, inline chat, and autocomplete each help</tspan>
+    <tspan x="1475" dy="32">in a different moment of the coding loop.</tspan>
+  </text>
+  <rect x="1110" y="490" width="730" height="220" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1475" y="561" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#8b7fd4">2</text>
+  <text x="1475" y="621" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" fill="#ffffff">Constraint can teach</text>
+  <text x="1475" y="665" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">
+    <tspan x="1475" dy="0">Limiting the allowed surfaces made the interaction</tspan>
+    <tspan x="1475" dy="32">style visible instead of hiding it behind one big step.</tspan>
+  </text>
   <rect x="1110" y="745" width="730" height="230" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="1475" y="806" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#8b7fd4">3</text>
   <text x="1475" y="860" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" fill="#ffffff">Key takeaway</text>
