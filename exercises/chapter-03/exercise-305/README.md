@@ -36,7 +36,7 @@ That lets you compare:
 ## Project structure
 
 ```text
-305/
+exercise-305/
 ├── AgentFramework.ToolCalls.Ollama.csproj
 ├── Program.cs
 └── Properties/
@@ -67,7 +67,7 @@ That lets you compare:
 3. Run the app:
 
    ```bash
-   cd exercises/chapter-03/305
+   cd exercises/chapter-03/exercise-305
    dotnet run
    ```
 

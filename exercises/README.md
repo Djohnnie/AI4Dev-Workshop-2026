@@ -43,7 +43,6 @@ Most exercises are written in **C# (.NET 10)** and follow the same project layou
 | [603](chapter-06/exercise-603/README.md) | [Optimize Edit Distance](chapter-06/exercise-603/README.md) | Chapter 6, Exercise 3 | Refactoring naive recursive Levenshtein distance with logs, metrics, tests, and BenchmarkDotNet | ⭐⭐⭐ |
 | [604](chapter-06/exercise-604/README.md) | [Draw.io Playground with MCP and *.drawio.png](chapter-06/exercise-604/README.md) | Chapter 6, Exercise 4 | Draw.io, DrawIO MCP, and editable diagram artifacts in Markdown-friendly repos | ⭐⭐ |
 | [605](chapter-06/exercise-605/README.md) | [Hunt the Cursed Theme Park Checkout Bug](chapter-06/exercise-605/README.md) | Chapter 6, Exercise 5 | Debugging multiple runtime exceptions with Playwright, logs, and browser evidence in a haunted .NET 10 checkout flow | ⭐⭐⭐ |
-| [501](chapter-05/exercise-501/README.md) | [Context Window Copilot Clone](chapter-05/exercise-501/README.md) | Chapter 5, Exercise 1 | Comparing GPT-4o with no context, FIM context, and open tabs context in Visual Studio | ⭐⭐⭐ |
 
 ---
 
@@ -57,7 +56,6 @@ Most exercises are written in **C# (.NET 10)** and follow the same project layou
 | Chapter 4 | [401 Rename a Field with Agent Mode](chapter-04/exercise-401/README.md) · [402 Add Input Validation](chapter-04/exercise-402/README.md) · [403 Paginate, Filter and Sort](chapter-04/exercise-403/README.md) · [404 Vibe-Code a Slot Machine](chapter-04/exercise-404/README.md) · [405 Explore Copilot on GitHub.com](chapter-04/exercise-405/README.md) · [406 Create a Repository Instruction File](chapter-04/exercise-406/README.md) · [407 Experiment with Prompt Files and Skill Files](chapter-04/exercise-407/README.md) |
 | Chapter 5 | [501 Context Window Copilot Clone](chapter-05/exercise-501/README.md) · [502 Prompt Arena](chapter-05/exercise-502/README.md) · [503 Context Variables Playground](chapter-05/exercise-503/README.md) · [504 Prompt Pattern Playground](chapter-05/exercise-504/README.md) |
 | Chapter 6 | [601 Short URL Discovery Sprint](chapter-06/exercise-601/README.md) · [602 Expression Evaluator Test Lab](chapter-06/exercise-602/README.md) · [603 Optimize Edit Distance](chapter-06/exercise-603/README.md) · [604 Draw.io Playground with MCP and *.drawio.png](chapter-06/exercise-604/README.md) · [605 Hunt the Cursed Theme Park Checkout Bug](chapter-06/exercise-605/README.md) |
-| Chapter 5 | [501 Context Window Copilot Clone](chapter-05/exercise-501/README.md) · [502 Prompt Arena](chapter-05/exercise-502/README.md) · [503 Context Variables Playground](chapter-05/exercise-503/README.md) · [504 Prompt Pattern Playground](chapter-05/exercise-504/README.md) |
 
 ---
 

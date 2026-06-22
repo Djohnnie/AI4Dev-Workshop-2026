@@ -14,6 +14,8 @@ Whether you join us for a full day or two, you will leave with working knowledge
 
 Every chapter is paired with a self-contained coding exercise. Open the [**Exercises**](exercises/README.md) folder for the full index, setup instructions, and individual exercise guides.
 
+For longer, build-a-real-app challenges, open the [**Labs**](labs/README.md) folder — a progressive series that rebuilds *Ultimate Snake* with a new GitHub Copilot technique at each chapter, all the way to a multiplayer capstone.
+
 ---
 
 ## 🗓️ Timetable

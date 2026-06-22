@@ -24,7 +24,7 @@ In the sample app, the agent starts with a child-like persona, remembers the con
 ## 🗂️ Project Structure
 
 ```text
-103/
+exercise-103/
 ├── AgentFramework.ChatHistoryAndPersona.csproj
 ├── Program.cs
 └── Properties/
@@ -37,7 +37,7 @@ In the sample app, the agent starts with a child-like persona, remembers the con
 2. Run the console app:
 
    ```bash
-   cd exercises/chapter-01/103
+   cd exercises/chapter-01/exercise-103
    dotnet run
    ```
 

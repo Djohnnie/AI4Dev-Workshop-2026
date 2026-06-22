@@ -47,7 +47,7 @@ The tokeniser used by GPT-4, GPT-4o, and GPT-4o-mini is called **cl100k_base** a
 ## 🗂️ Project Structure
 
 ```
-101/
+exercise-101/
 ├── Program.cs              ← Entry point; drives the interactive UI
 ├── TokenVisualizer.csproj  ← Project file (.NET 10, console app)
 └── Properties/
@@ -99,7 +99,7 @@ Alternatively, edit `Properties/launchSettings.json` to add these as `environmen
 ### 2. Run the Application
 
 ```bash
-cd exercises/chapter-01/101
+cd exercises/chapter-01/exercise-101
 dotnet run
 ```
 

@@ -37,7 +37,7 @@ The **Microsoft Agent Framework** is a set of libraries and tools that enable de
 ## 🗂️ Project Structure
 
 ```
-102/
+exercise-102/
 ├── AgentFramework.Chat.csproj    ← .NET 10 Console application project
 └── Program.cs                   ← Main chat agent implementation
 ```
@@ -66,7 +66,7 @@ The project references three key NuGet packages:
 
 2. **Build and run the application:**
    ```bash
-   cd exercises/chapter-01/102
+   cd exercises/chapter-01/exercise-102
    dotnet build
    dotnet run
    ```
@@ -106,7 +106,7 @@ set OPENAI_KEY=your-api-key
 
 **Cross-platform (.NET User Secrets):**
 ```bash
-cd exercises/chapter-01/102
+cd exercises/chapter-01/exercise-102
 dotnet user-secrets init
 dotnet user-secrets set "OPENAI_ENDPOINT" "https://your-resource.openai.azure.com/"
 dotnet user-secrets set "OPENAI_KEY" "your-api-key"

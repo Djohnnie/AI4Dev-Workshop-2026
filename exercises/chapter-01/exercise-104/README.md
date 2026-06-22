@@ -26,7 +26,7 @@ The model decides when to call them, and then uses the returned values in its re
 ## 🗂️ Project Structure
 
 ```text
-104/
+exercise-104/
 ├── AgentFramework.ToolCalls.csproj
 ├── Program.cs
 └── Properties/
@@ -39,7 +39,7 @@ The model decides when to call them, and then uses the returned values in its re
 2. Run the app:
 
    ```bash
-   cd exercises/chapter-01/104
+   cd exercises/chapter-01/exercise-104
    dotnet run
    ```
 

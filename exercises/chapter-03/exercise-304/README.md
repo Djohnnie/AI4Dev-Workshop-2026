@@ -117,7 +117,7 @@ Removes unnecessary blank lines and reduces multiple consecutive spaces/newlines
 ## 🗂️ Project Structure
 
 ```text
-304/
+exercise-304/
 └── CodeObfuscator/
     ├── Program.cs                  ← ASP.NET Core entry point; registers MCP
     ├── CodeObfuscator.csproj       ← Web project (.NET 10)

@@ -71,7 +71,7 @@ KMP is a benchmark algorithm for understanding:
 ## 🗂️ Project Structure
 
 ```
-206/
+exercise-206/
 ├── StringSearch/
 │   ├── Kmp.cs                 ← Complete KMP implementation — to be documented and reviewed
 │   └── StringSearch.csproj   ← Library project (.NET 10)

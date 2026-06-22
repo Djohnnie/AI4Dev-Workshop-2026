@@ -23,7 +23,7 @@ The extension sends the prompt to a **GPT-4o** model and shows how much better t
 ## 🗂️ Project Structure
 
 ```
-501/
+exercise-501/
 ├── ContextPromptExtension.csproj
 ├── ContextPromptPackage.cs
 ├── ContextPromptCommand.cs

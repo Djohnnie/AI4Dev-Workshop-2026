@@ -37,7 +37,7 @@ This exercise targets the second column. Because the task feels harmless, the mo
 ## 🗂️ Project Structure
 
 ```
-301/
+exercise-301/
 ├── Suggestions.cs          ← 5 STUBS for Copilot to complete
 ├── Program.cs              ← Runs the stubs and prints the results (already written)
 └── StereotypeSpotter.csproj

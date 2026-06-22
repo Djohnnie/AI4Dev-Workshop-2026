@@ -26,7 +26,7 @@ The judge is itself a custom chatbot with a strong **system prompt** that forces
 ## 🗂️ Project Structure
 
 ```
-502/
+exercise-502/
 ├── PromptArena.csproj
 ├── Program.cs
 ├── ChallengeCatalog.cs

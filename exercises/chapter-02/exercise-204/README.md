@@ -68,7 +68,7 @@ When implementing Dijkstra, developers frequently introduce these mistakes:
 ## 🗂️ Project Structure
 
 ```
-204/
+exercise-204/
 ├── ShortestPath/
 │   ├── Dijkstra.cs            ← Buggy implementation — find and fix the defects
 │   └── ShortestPath.csproj   ← Library project (.NET 10)

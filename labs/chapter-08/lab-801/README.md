@@ -4,6 +4,8 @@
 > **Skill focus:** Combining the workshop topics into one larger end-to-end build  
 > **Difficulty:** ⭐⭐⭐⭐⭐
 
+← Back to [Labs Index](../../README.md)
+
 ---
 
 ## 🎯 Goal
@@ -118,3 +120,7 @@ A possible solution is available in:
 ```text
 ../lab-801-solution
 ```
+
+---
+
+← Back to [Labs Index](../../README.md) | Previous: [Lab 601 — Ultimate Snake Across the Entire Lifecycle](../../chapter-06/lab-601/README.md)

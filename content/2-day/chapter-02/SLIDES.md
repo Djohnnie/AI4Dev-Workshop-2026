@@ -1,8 +1,8 @@
-﻿# Slides
+﻿# Chapter 2 — Meet Your New Best Friend: GitHub Copilot
 
-## Slide 01 — Title
+## Slide 01 — AI4Dev
 
-![Slide 01 — Title](slide-201.svg)
+![Slide 01 — AI4Dev](slide-201.svg)
 
 ## Slide 02 — Chapter 2 — Meet Your New Best Friend: GitHub Copilot
 

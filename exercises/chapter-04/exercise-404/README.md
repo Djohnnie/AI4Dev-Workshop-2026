@@ -21,7 +21,7 @@ You are not building from a starter project. Instead, you will give Copilot CLI 
 Create a fresh app inside this exercise folder. A good target structure is:
 
 ```text
-404/
+exercise-404/
 ├── README.md
 └── LuckySlots/
     ├── LuckySlots.csproj
@@ -40,7 +40,7 @@ A finished reference implementation is available in [`exercise-404-solution`](..
 
 ### Phase 1 — Set up the challenge
 
-1. Open a terminal in the `404` folder.
+1. Open a terminal in the `exercise-404` folder.
 2. Launch Copilot CLI.
 3. Tell it to create a fresh **.NET 10 WinForms** app called `LuckySlots`.
 

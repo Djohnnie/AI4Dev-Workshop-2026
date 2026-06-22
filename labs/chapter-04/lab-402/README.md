@@ -4,6 +4,8 @@
 > **Skill focus:** Building a small web app **from an empty folder** with **GitHub Copilot CLI**  
 > **Difficulty:** ⭐⭐⭐⭐
 
+← Back to [Labs Index](../../README.md)
+
 ---
 
 ## 🎯 Goal
@@ -32,21 +34,20 @@ The final app should:
 
 ## 🛠️ Suggested workflow
 
-1. Use `gh copilot suggest` to generate the initial scaffold commands.
-2. Use `gh copilot explain` whenever a generated command is unfamiliar.
-3. Create a minimal .NET 10 web app that serves static files.
-4. Add HTML, CSS, and JavaScript for the browser game.
-5. Re-run Copilot CLI for the next command when you are unsure what to do next.
+1. Install the GitHub Copilot CLI (`winget install GitHub.Copilot`, `brew install copilot-cli`, or `npm install -g @github/copilot`) and run `/login` on first launch.
+2. Open a terminal in this folder and start the CLI.
+3. Describe the goal in plain language and let the CLI propose the shell commands to scaffold a minimal .NET 10 web app that serves static files.
+4. **Read every command before approving it** — the CLI runs `dotnet`, file, and shell commands itself once you confirm.
+5. Iterate: add HTML, CSS, and JavaScript for the browser game, and ask the CLI for the next step whenever you are unsure what to do.
 
 ---
 
 ## 💬 Example prompts for Copilot CLI
 
-```bash
-gh copilot suggest "create a new .NET 10 web app in the current folder"
-gh copilot suggest "show me the PowerShell command to create a wwwroot folder with index.html styles.css and snake.js"
-gh copilot suggest "run this ASP.NET Core web app locally"
-gh copilot explain "dotnet new web --framework net10.0"
+```text
+Create a new .NET 10 web app in the current folder that serves static files from wwwroot.
+Add a wwwroot folder with index.html, styles.css, and snake.js, then run the app locally.
+Explain what "dotnet new web --framework net10.0" does before you run it.
 ```
 
 ---
@@ -69,3 +70,7 @@ A complete solution is available in:
 ```text
 ../lab-402-solution
 ```
+
+---
+
+← Back to [Labs Index](../../README.md) | Previous: [Lab 401 — Ultimate Snake Web](../../chapter-04/lab-401/README.md) | Next: [Lab 501 — Ultimate Snake with Instructions, Prompt Files, and Skills](../../chapter-05/lab-501/README.md)

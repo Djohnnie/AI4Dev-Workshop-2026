@@ -54,7 +54,7 @@ Both approaches are correct; the recursive version is more elegant but can stack
 ## 🗂️ Project Structure
 
 ```
-201/
+exercise-201/
 ├── Factorial/
 │   ├── Calculator.cs          ← Implementation — your Copilot playground
 │   └── Factorial.csproj       ← Library project (.NET 10)

@@ -26,7 +26,7 @@ The project also supports `/debug`, which makes the internal agent-to-agent flow
 ## 🗂️ Project Structure
 
 ```text
-106/
+exercise-106/
 └── AgentFramework.AgentOrchestration/
     ├── Agents/
     ├── Base/

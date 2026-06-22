@@ -1,8 +1,8 @@
 # Chapter 0 — Introduction
 
-## Slide 01 — Title
+## Slide 01 — AI4Dev
 
-![Slide 01 — Title](slide-001.svg)
+![Slide 01 — AI4Dev](slide-001.svg)
 
 ## Slide 02 — Who is your trainer?
 

@@ -4,6 +4,8 @@
 > **Skill focus:** Rebuilding Ultimate Snake while deliberately using the full AI-assisted lifecycle from analysis through review  
 > **Difficulty:** ⭐⭐⭐⭐
 
+← Back to [Labs Index](../../README.md)
+
 ---
 
 ## 🎯 Goal
@@ -193,3 +195,7 @@ Context-asset reference:
 ```text
 ..\..\chapter-05\lab-501-solution
 ```
+
+---
+
+← Back to [Labs Index](../../README.md) | Previous: [Lab 501 — Ultimate Snake with Instructions, Prompt Files, and Skills](../../chapter-05/lab-501/README.md) | Next: [Lab 801 — Multiplayer Ultimate Snake](../../chapter-08/lab-801/README.md)

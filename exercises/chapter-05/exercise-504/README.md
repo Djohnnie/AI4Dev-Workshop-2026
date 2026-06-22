@@ -25,7 +25,7 @@ The goal is to try the **same codebase** with different prompting strategies and
 ## 🗂️ Project Structure
 
 ```
-504/
+exercise-504/
 ├── PromptPatternsPlayground.csproj
 ├── Program.cs
 ├── Endpoints/

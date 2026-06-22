@@ -23,7 +23,7 @@ The goal is to build intuition for **when repo-wide context helps** and **when a
 ## 🗂️ Project Structure
 
 ```
-503/
+exercise-503/
 ├── ContextVariablesPlayground.csproj
 ├── Program.cs
 ├── Endpoints/

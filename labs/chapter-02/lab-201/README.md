@@ -4,6 +4,8 @@
 > **Skill focus:** Building a complete console game with GitHub Copilot Chat (Ask), inline chat, and ghost text  
 > **Difficulty:** ⭐⭐⭐
 
+← Back to [Labs Index](../../README.md)
+
 ---
 
 ## 🎯 Goal
@@ -107,3 +109,7 @@ A complete working reference implementation is available in the sibling folder:
 ```text
 ../lab-201-solution
 ```
+
+---
+
+← Back to [Labs Index](../../README.md) | Next: [Lab 401 — Ultimate Snake Web](../../chapter-04/lab-401/README.md)

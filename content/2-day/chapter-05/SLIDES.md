@@ -1,12 +1,12 @@
-# Slides
+﻿# Chapter 5 — Speak AI's Language: Mastering Prompts & Context
 
-## Slide 01 — Title
+## Slide 01 — AI4Dev
 
-![Slide 01 — Title](slide-501.svg)
+![Slide 01 — AI4Dev](slide-501.svg)
 
-## Slide 02 — Chapter 5 — Speak AI's Language: Mastering Prompts &amp; Context
+## Slide 02 — Chapter 5 — Speak AI's Language: Mastering Prompts & Context
 
-![Slide 02 — Chapter 5 — Speak AI's Language: Mastering Prompts &amp; Context](slide-502.svg)
+![Slide 02 — Chapter 5 — Speak AI's Language: Mastering Prompts & Context](slide-502.svg)
 
 ## Slide 03 — Better Prompts, Better Code
 

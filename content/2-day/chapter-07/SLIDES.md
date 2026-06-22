@@ -1,8 +1,8 @@
-﻿# Slides
+﻿# Chapter 7 — Level Up: Best Practices for AI-Powered Development
 
-## Slide 01 — Title
+## Slide 01 — AI4Dev
 
-![Slide 01 — Title](slide-701.svg)
+![Slide 01 — AI4Dev](slide-701.svg)
 
 ## Slide 02 — Chapter 7 — Level Up: Best Practices for AI-Powered Development
 

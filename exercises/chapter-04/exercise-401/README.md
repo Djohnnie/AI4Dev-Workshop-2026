@@ -19,7 +19,7 @@ This is exactly the kind of sweep Agent Mode was built for. Instead of hunting a
 ## 🗂️ Project Structure
 
 ```
-401/
+exercise-401/
 └── TaskManager/
     ├── TaskManager.csproj
     ├── Program.cs                   ← entry point, DI wiring

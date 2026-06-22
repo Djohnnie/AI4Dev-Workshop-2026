@@ -56,7 +56,7 @@ Once you have identified the algorithm, you will find it described thoroughly in
 ## 🗂️ Project Structure
 
 ```
-203/
+exercise-203/
 ├── Processor/
 │   ├── C0.cs                  ← Obfuscated implementation — the puzzle
 │   └── Processor.csproj       ← Library project (.NET 10)

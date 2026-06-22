@@ -1,8 +1,8 @@
-﻿# Slides
+﻿# Chapter 6 — AI Across the Entire Software Lifecycle
 
-## Slide 01 — Title
+## Slide 01 — AI4Dev
 
-![Slide 01 — Title](slide-601.svg)
+![Slide 01 — AI4Dev](slide-601.svg)
 
 ## Slide 02 — Chapter 6 — AI Across the Entire Software Lifecycle
 

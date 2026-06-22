@@ -19,7 +19,7 @@ This is exactly the scenario Plan Mode was designed for. Instead of diving strai
 ## 🗂️ Project Structure
 
 ```
-403/
+exercise-403/
 └── TaskManager/
     ├── TaskManager.csproj
     ├── TaskManager.http             ← seed requests + post-feature test cases

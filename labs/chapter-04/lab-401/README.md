@@ -4,6 +4,8 @@
 > **Skill focus:** Using **GitHub Copilot Agent Mode** to build a small web app end to end  
 > **Difficulty:** ⭐⭐⭐
 
+← Back to [Labs Index](../../README.md)
+
 ---
 
 ## 🎯 Goal
@@ -97,3 +99,7 @@ A complete solution is available in:
 ```text
 ../lab-401-solution
 ```
+
+---
+
+← Back to [Labs Index](../../README.md) | Previous: [Lab 201 — Ultimate Snake](../../chapter-02/lab-201/README.md) | Next: [Lab 402 — Ultimate Snake from Scratch with Copilot CLI](../../chapter-04/lab-402/README.md)

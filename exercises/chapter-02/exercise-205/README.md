@@ -60,7 +60,7 @@ The Caesar cipher provides essentially **zero real security** — there are only
 ## 🗂️ Project Structure
 
 ```
-205/
+exercise-205/
 ├── CaesarCipher/
 │   ├── Cipher.cs              ← Complete, correct implementation
 │   └── CaesarCipher.csproj   ← Library project (.NET 10)

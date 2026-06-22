@@ -51,7 +51,7 @@ An alternative — and slightly more efficient — approach uses two pointers wa
 ## 🗂️ Project Structure
 
 ```
-202/
+exercise-202/
 ├── Palindrome/
 │   ├── Checker.cs             ← Implementation — to be generated with Copilot
 │   └── Palindrome.csproj      ← Library project (.NET 10)

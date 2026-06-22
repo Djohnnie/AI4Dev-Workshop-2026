@@ -68,7 +68,7 @@ That idea is elegant, but it can feel slippery until someone walks through it ca
 ## 🗂️ Project Structure
 
 ```text
-302/
+exercise-302/
 ├── ExpressionEvaluatorLab.csproj
 ├── Program.cs               ← Runs sample cases and checks postfix + result
 ├── ExpressionEvaluator.cs   ← Contains the single TODO method
@@ -125,7 +125,7 @@ Good prompt examples:
 9. Run the program:
 
    ```bash
-   cd exercises/chapter-03/302
+   cd exercises/chapter-03/exercise-302
    dotnet run
    ```
 

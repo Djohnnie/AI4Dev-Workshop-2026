@@ -26,7 +26,7 @@ That makes the tools reusable by other apps without copying their implementation
 ## 🗂️ Project Structure
 
 ```text
-105/
+exercise-105/
 ├── AgentFramework.McpSseServer/
 │   ├── Program.cs
 │   └── Properties/

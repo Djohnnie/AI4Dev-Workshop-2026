@@ -1,8 +1,8 @@
-﻿# Slides
+﻿# Chapter 3 — Power with Purpose: Using AI Responsibly
 
-## Slide 01 — Title
+## Slide 01 — AI4Dev
 
-![Slide 01 — Title](slide-301.svg)
+![Slide 01 — AI4Dev](slide-301.svg)
 
 ## Slide 02 — Chapter 3 — Power with Purpose: Using AI Responsibly
 

@@ -19,7 +19,7 @@ Validation is a cross-cutting concern — it typically touches the model, the en
 ## 🗂️ Project Structure
 
 ```
-402/
+exercise-402/
 └── TaskManager/
     ├── TaskManager.csproj
     ├── TaskManager.http             ← includes invalid-input test cases

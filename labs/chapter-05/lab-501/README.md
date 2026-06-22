@@ -4,6 +4,8 @@
 > **Skill focus:** Reusing `copilot-instructions.md`, prompt files, and a skill file while vibe-coding the same Snake game from chapter 4  
 > **Difficulty:** ⭐⭐⭐⭐
 
+← Back to [Labs Index](../../README.md)
+
 ---
 
 ## 🎯 Goal
@@ -117,3 +119,7 @@ A complete solution is available in:
 ```text
 ../lab-501-solution
 ```
+
+---
+
+← Back to [Labs Index](../../README.md) | Previous: [Lab 402 — Ultimate Snake from Scratch with Copilot CLI](../../chapter-04/lab-402/README.md) | Next: [Lab 601 — Ultimate Snake Across the Entire Lifecycle](../../chapter-06/lab-601/README.md)
