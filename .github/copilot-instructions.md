@@ -1,14 +1,14 @@
-# GitHub Copilot instructions
+﻿# GitHub Copilot instructions
 
 ## Build, test, and run
 
 - Prefer **targeted project commands** from the repository root instead of a whole-repo CLI build.
-  - Build a single exercise: `dotnet build exercises/chapter-04/401/TaskManager/TaskManager.csproj`
-  - Run a standalone exercise: `dotnet run --project exercises/chapter-04/401/TaskManager/TaskManager.csproj`
+  - Build a single exercise: `dotnet build exercises/chapter-04/exercise-401/TaskManager/TaskManager.csproj`
+  - Run a standalone exercise: `dotnet run --project exercises/chapter-04/exercise-401/TaskManager/TaskManager.csproj`
 - For **chapter 2** exercises, run the sibling test project directly.
-  - Full test project: `dotnet test exercises/chapter-02/201/Factorial.Tests/Factorial.Tests.csproj`
-  - Single xUnit test: `dotnet test exercises/chapter-02/201/Factorial.Tests/Factorial.Tests.csproj --filter "FullyQualifiedName~CalculateIteratively_Zero_ReturnsOne"`
-- Do **not** rely on `dotnet build exercises/exercises.slnx` from the CLI. The solution currently includes `chapter-05/502/ContextPromptExtension.csproj`, and that VSIX requires Visual Studio 2026 tooling.
+  - Full test project: `dotnet test exercises/chapter-02/exercise-201/Factorial.Tests/Factorial.Tests.csproj`
+  - Single xUnit test: `dotnet test exercises/chapter-02/exercise-201/Factorial.Tests/Factorial.Tests.csproj --filter "FullyQualifiedName~CalculateIteratively_Zero_ReturnsOne"`
+- Do **not** rely on `dotnet build exercises/exercises.slnx` from the CLI. The solution currently includes `chapter-05/exercise-502/ContextPromptExtension.csproj`, and that VSIX requires Visual Studio 2026 tooling.
 - **Exercise 502** must be opened directly in **Visual Studio 2026** and started with **F5**. Its debug profile launches the experimental instance with `devenv.exe /rootsuffix Exp`.
 - There is **no repo-specific lint or format command** checked in today.
 

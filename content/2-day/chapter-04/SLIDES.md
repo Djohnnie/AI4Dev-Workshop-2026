@@ -1,4 +1,4 @@
-# Slides
+﻿# Slides
 
 ## Slide 01 — Title
 
@@ -46,146 +46,172 @@
 
 ![Slide 11 — MCP — Extending Agent Mode](slide-411.svg)
 
-## Slide 12 — Live Demo — Validate Every Endpoint and Test It
+## Slide 12 — Copilot Edits
 
-![Slide 12 — Live Demo — Validate Every Endpoint and Test It](slide-412.svg)
+![Slide 12 — Copilot Edits](slide-412.svg)
 
-## Slide 13 — Copilot Edits
+## Slide 13 — Inline Chat vs. Edits vs. Agent Mode
 
-![Slide 13 — Copilot Edits](slide-413.svg)
+![Slide 13 — Inline Chat vs. Edits vs. Agent Mode](slide-413.svg)
 
-## Slide 14 — Inline Chat vs. Edits vs. Agent Mode
+## Slide 14 — The Working Set
 
-![Slide 14 — Inline Chat vs. Edits vs. Agent Mode](slide-414.svg)
+![Slide 14 — The Working Set](slide-414.svg)
 
-## Slide 15 — The Working Set
+## Slide 15 — Iterating: Accept, Reject, Undo
 
-![Slide 15 — The Working Set](slide-415.svg)
+![Slide 15 — Iterating: Accept, Reject, Undo](slide-415.svg)
 
-## Slide 16 — Iterating: Accept, Reject, Undo
+## Slide 16 — Exercise 401 — Rename a Field with Agent Mode
 
-![Slide 16 — Iterating: Accept, Reject, Undo](slide-416.svg)
+![Slide 16 — Exercise 401 — Rename a Field with Agent Mode](slide-416.svg)
 
-## Slide 17 — Live Demo — Rename a Field Across Four Files
+→ [Exercise 401 — Rename a Field with Agent Mode](../../../exercises/chapter-04/exercise-401/README.md)
 
-![Slide 17 — Live Demo — Rename a Field Across Four Files](slide-417.svg)
+## Slide 17 — Exercise 402 — Add Input Validation
 
-## Slide 18 — Exercise 401 — Rename a Field with Agent Mode
+![Slide 17 — Exercise 402 — Add Input Validation](slide-417.svg)
 
-![Slide 18 — Exercise 401 — Rename a Field with Agent Mode](slide-418.svg)
-
-→ [Exercise 401 — Rename a Field with Agent Mode](../../../exercises/chapter-04/401/README.md)
-
-## Slide 19 — Exercise 402 — Add Input Validation
-
-![Slide 19 — Exercise 402 — Add Input Validation](slide-419.svg)
-
-→ [Exercise 402 — Add Input Validation](../../../exercises/chapter-04/402/README.md)
+→ [Exercise 402 — Add Input Validation](../../../exercises/chapter-04/exercise-402/README.md)
 
 <!-- Section 2 — Plan Mode -->
 
-## Slide 20 — Plan Mode — What Is Plan Mode?
+## Slide 18 — Plan Mode — What Is Plan Mode?
 
-![Slide 20 — Plan Mode — What Is Plan Mode?](slide-420.svg)
+![Slide 18 — Plan Mode — What Is Plan Mode?](slide-418.svg)
 
-## Slide 21 — How Plan Mode Works
+## Slide 19 — How Plan Mode Works
 
-![Slide 21 — How Plan Mode Works](slide-421.svg)
+![Slide 19 — How Plan Mode Works](slide-419.svg)
 
-## Slide 22 — Step 1 & 2 — From Questions to Blueprint
+## Slide 20 — Step 1 & 2 — From Questions to Blueprint
 
-![Slide 22 — Step 1 & 2 — From Questions to Blueprint](slide-422.svg)
+![Slide 20 — Step 1 & 2 — From Questions to Blueprint](slide-420.svg)
 
-## Slide 23 — Step 3 & 4 — Review, Then Execute
+## Slide 21 — Step 3 & 4 — Review, Then Execute
 
-![Slide 23 — Step 3 & 4 — Review, Then Execute](slide-423.svg)
+![Slide 21 — Step 3 & 4 — Review, Then Execute](slide-421.svg)
 
-## Slide 24 — Live Demo — Design a New Feature with Plan Mode
+## Slide 22 — Exercise 403 — Paginate, Filter and Sort
 
-![Slide 24 — Live Demo — Design a New Feature with Plan Mode](slide-424.svg)
+![Slide 22 — Exercise 403 — Paginate, Filter and Sort](slide-422.svg)
 
-## Slide 25 — Exercise 403 — Paginate, Filter and Sort
-
-![Slide 25 — Exercise 403 — Paginate, Filter and Sort](slide-425.svg)
-
-→ [Exercise 403 — Paginate, Filter and Sort](../../../exercises/chapter-04/403/README.md)
+→ [Exercise 403 — Paginate, Filter and Sort](../../../exercises/chapter-04/exercise-403/README.md)
 
 <!-- Section 3 — GitHub Copilot CLI -->
 
-## Slide 26 — Copilot CLI — Installing GitHub Copilot CLI
+## Slide 23 — Copilot CLI — Installing GitHub Copilot CLI
 
-![Slide 26 — Copilot CLI — Installing GitHub Copilot CLI](slide-426.svg)
+![Slide 23 — Copilot CLI — Installing GitHub Copilot CLI](slide-423.svg)
 
-## Slide 27 — The Workflow Shift — Running Outside the IDE
+## Slide 24 — The Workflow Shift — Running Outside the IDE
 
-![Slide 27 — The Workflow Shift — Running Outside the IDE](slide-427.svg)
+![Slide 24 — The Workflow Shift — Running Outside the IDE](slide-424.svg)
 
-## Slide 28 — More Than Code — Everything in Your Directory
+## Slide 25 — More Than Code — Everything in Your Directory
 
-![Slide 28 — More Than Code — Everything in Your Directory](slide-428.svg)
+![Slide 25 — More Than Code — Everything in Your Directory](slide-425.svg)
 
-## Slide 29 — Shell Commands — Agentic Development in Action
+## Slide 26 — Shell Commands — Agentic Development in Action
 
-![Slide 29 — Shell Commands — Agentic Development in Action](slide-429.svg)
+![Slide 26 — Shell Commands — Agentic Development in Action](slide-426.svg)
 
-## Slide 30 — Exercise 404 — Build a Dev Dashboard
+## Slide 27 — Exercise 404 — Vibe-Code a Slot Machine
 
-![Slide 30 — Exercise 404 — Build a Dev Dashboard](slide-430.svg)
+![Slide 27 — Exercise 404 — Vibe-Code a Slot Machine](slide-427.svg)
 
-→ [Exercise 404 — Build a Dev Dashboard](../../../exercises/chapter-04/404/README.md)
-
-## Slide 31 — Live Demo — Find Every TODO in One Line
-
-![Slide 31 — Live Demo — Find Every TODO in One Line](slide-431.svg)
+→ [Exercise 404 — Vibe-Code a Slot Machine](../../../exercises/chapter-04/exercise-404/README.md)
 
 <!-- Section 4 — Copilot on GitHub.com -->
 
-## Slide 32 — TODO — On GitHub.com — Five Surfaces in the Browser
+## Slide 28 — Copilot on GitHub.com — Five Surfaces in the Browser
 
-![Slide 32 — TODO — On GitHub.com — Five Surfaces in the Browser](slide-432.svg)
+![Slide 28 — Copilot on GitHub.com — Five Surfaces in the Browser](slide-428.svg)
 
-## Slide 33 — TODO — Copilot Code Review, Up Close
+## Slide 29 — Copilot Code Review, Up Close
 
-![Slide 33 — TODO — Copilot Code Review, Up Close](slide-433.svg)
+![Slide 29 — Copilot Code Review, Up Close](slide-429.svg)
+
+## Slide 30 — Exercise 405 — Explore Copilot on GitHub.com
+
+![Slide 30 — Exercise 405 — Explore Copilot on GitHub.com](slide-430.svg)
+
+→ [Exercise 405 — Explore Copilot on GitHub.com](../../../exercises/chapter-04/exercise-405/README.md)
 
 <!-- Section 5 — Custom Instructions -->
 
-## Slide 34 — TODO — Custom Instructions — Three Layers of Instructions
+## Slide 31 — Custom Instructions — Three Layers of Instructions
 
-![Slide 34 — TODO — Custom Instructions — Three Layers of Instructions](slide-434.svg)
+![Slide 31 — Custom Instructions — Three Layers of Instructions](slide-431.svg)
 
-## Slide 35 — TODO — What to Put in the File
+## Slide 32 — What to Put in the File
 
-![Slide 35 — TODO — What to Put in the File](slide-435.svg)
+![Slide 32 — What to Put in the File](slide-432.svg)
+
+## Slide 33 — Exercise 406 — Create a Repository Instruction File
+
+![Slide 33 — Exercise 406 — Create a Repository Instruction File](slide-433.svg)
+
+→ [Exercise 406 — Create a Repository Instruction File](../../../exercises/chapter-04/exercise-406/README.md)
 
 <!-- Section 6 — Prompt Files & Skill Files -->
 
-## Slide 36 — TODO — Prompt & Skill Files — Anatomy of a Prompt File
+## Slide 34 — Prompt Files & Skill Files — Anatomy of a Prompt File
 
-![Slide 36 — TODO — Prompt & Skill Files — Anatomy of a Prompt File](slide-436.svg)
+![Slide 34 — Prompt Files & Skill Files — Anatomy of a Prompt File](slide-434.svg)
 
-## Slide 37 — TODO — Prompt Files vs. Skill Files
+## Slide 35 — Prompt Files vs. Skill Files
 
-![Slide 37 — TODO — Prompt Files vs. Skill Files](slide-437.svg)
+![Slide 35 — Prompt Files vs. Skill Files](slide-435.svg)
 
-## Slide 38 — TODO — Your Daily-Driver Toolkit
+## Slide 36 — Exercise 407 — Experiment with Prompt Files and Skill Files
 
-![Slide 38 — TODO — Your Daily-Driver Toolkit](slide-438.svg)
+![Slide 36 — Exercise 407 — Experiment with Prompt Files and Skill Files](slide-436.svg)
 
-## Slide 39 — Lab 401 — Ultimate Snake Web
+→ [Exercise 407 — Experiment with Prompt Files and Skill Files](../../../exercises/chapter-04/exercise-407/README.md)
 
-![Slide 39 — Lab 401 — Ultimate Snake Web](slide-439.svg)
+## Slide 37 — Your Daily-Driver Toolkit
+
+![Slide 37 — Your Daily-Driver Toolkit](slide-437.svg)
+
+## Slide 38 — Interactive Quiz 10
+
+![Slide 38 — Interactive Quiz 10](slide-438.svg)
+
+## Slide 39 — Interactive Quiz 10 — Answer
+
+![Slide 39 — Interactive Quiz 10 — Answer](slide-439.svg)
+
+## Slide 40 — Interactive Quiz 11
+
+![Slide 40 — Interactive Quiz 11](slide-440.svg)
+
+## Slide 41 — Interactive Quiz 11 — Answer
+
+![Slide 41 — Interactive Quiz 11 — Answer](slide-441.svg)
+
+## Slide 42 — Interactive Quiz 12
+
+![Slide 42 — Interactive Quiz 12](slide-442.svg)
+
+## Slide 43 — Interactive Quiz 12 — Answer
+
+![Slide 43 — Interactive Quiz 12 — Answer](slide-443.svg)
+
+## Slide 44 — Lab 401 — Ultimate Snake Web
+
+![Slide 44 — Lab 401 — Ultimate Snake Web](slide-444.svg)
 
 → [Lab 401 — Ultimate Snake Web](../../../labs/chapter-04/lab-401/README.md)
 
-## Slide 40 — Lab 401 — Expectations
+## Slide 45 — Lab 401 — Expectations
 
-![Slide 40 — Lab 401 — Expectations](slide-440.svg)
+![Slide 45 — Lab 401 — Expectations](slide-445.svg)
 
 → [Lab 401 — Ultimate Snake Web](../../../labs/chapter-04/lab-401/README.md)
 
-## Slide 41 — Lab 402 — Ultimate Snake with Copilot CLI
+## Slide 46 — Lab 402 — Ultimate Snake with Copilot CLI
 
-![Slide 41 — Lab 402 — Ultimate Snake with Copilot CLI](slide-441.svg)
+![Slide 46 — Lab 402 — Ultimate Snake with Copilot CLI](slide-446.svg)
 
 → [Lab 402 — Ultimate Snake from Scratch with GitHub Copilot CLI](../../../labs/chapter-04/lab-402/README.md)

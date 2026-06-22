@@ -17,40 +17,40 @@
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">The Working Set</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Iterating: Accept, Reject, Undo</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
   <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
-    The working set is the list of files Copilot Edits is allowed to change - four ways to fill it.
+    Each file gets a standard diff (red removed, green added) and its own Accept / Reject.
   </text>
 
-  <rect x="90" y="300" width="850" height="300" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="130" y="375" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Adding files</text>
-  <rect x="130" y="395" width="200" height="3" fill="#8b7fd4"/>
-  <circle cx="150" cy="450" r="6" fill="#8b7fd4"/>
-  <text x="180" y="461" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">drag &amp; drop from the Explorer</text>
-  <circle cx="150" cy="500" r="6" fill="#8b7fd4"/>
-  <text x="180" y="511" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">the + (Add Files) button, search by name</text>
-  <circle cx="150" cy="550" r="6" fill="#8b7fd4"/>
-  <text x="180" y="561" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">type #file:name.ts in the prompt</text>
-  <circle cx="150" cy="585" r="6" fill="#8b7fd4" opacity="0"/>
-  <text x="180" y="595" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea" opacity="0">x</text>
+  <rect x="90" y="300" width="560" height="280" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="370" y="385" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Accept All</text>
+  <rect x="290" y="405" width="160" height="3" fill="#8b7fd4"/>
+  <text x="370" y="470" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Apply every change across</text>
+  <text x="370" y="507" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">the working set once you</text>
+  <text x="370" y="544" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">are satisfied with the diffs.</text>
 
-  <rect x="980" y="300" width="850" height="300" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1020" y="375" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Keep it focused</text>
-  <rect x="1020" y="395" width="200" height="3" fill="#8b7fd4"/>
-  <circle cx="1040" cy="450" r="6" fill="#8b7fd4"/>
-  <text x="1070" y="461" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">"Add Open Editors" pulls in all tabs</text>
-  <circle cx="1040" cy="500" r="6" fill="#8b7fd4"/>
-  <text x="1070" y="511" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">remove a file with the x next to it</text>
-  <circle cx="1040" cy="550" r="6" fill="#8b7fd4"/>
-  <text x="1070" y="561" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">only include what needs to change</text>
+  <rect x="680" y="300" width="560" height="280" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="385" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Reject All</text>
+  <rect x="880" y="405" width="160" height="3" fill="#8b7fd4"/>
+  <text x="960" y="470" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Discard everything and</text>
+  <text x="960" y="507" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">return every file to its</text>
+  <text x="960" y="544" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">pre-edit state in one click.</text>
 
-  <rect x="90" y="635" width="1740" height="220" rx="24" fill="#8b7fd4" fill-opacity="0.15" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="960" y="720" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">The sweet spot: 3-8 files</text>
-  <text x="960" y="785" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Too few and you might as well use inline chat. Too many and the model misses cross-file consistency.</text>
-  <text x="960" y="825" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">More than ~10 files? Consider Agent Mode instead.</text>
+  <rect x="1270" y="300" width="560" height="280" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1550" y="385" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Per-file</text>
+  <rect x="1470" y="405" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1550" y="470" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Each file has its own</text>
+  <text x="1550" y="507" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Accept/Reject - keep 3,</text>
+  <text x="1550" y="544" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">reject 1, untouched rest.</text>
+
+  <rect x="90" y="615" width="1740" height="240" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="130" y="685" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Don't reject everything when a change is partially right</text>
+  <rect x="130" y="707" width="320" height="3" fill="#8b7fd4"/>
+  <text x="130" y="765" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Accept what's correct, then write a follow-up prompt on just the files that need adjusting:</text>
+  <text x="130" y="812" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#8b7fd4">"The UserService changes are correct, but the test file should use Vitest's vi.fn() not Jest's jest.fn()."</text>
 
   <rect x="510" y="900" width="900" height="60" rx="30" fill="#8b7fd4" opacity="0.22"/>
-  <text x="960" y="940" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="1">A focused working set produces consistent edits.</text>
+  <text x="960" y="940" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="1">Standard Ctrl+Z still works after accepting.</text>
 </svg>

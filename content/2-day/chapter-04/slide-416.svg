@@ -4,53 +4,100 @@
       <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
       <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
     </radialGradient>
-    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
-    </radialGradient>
   </defs>
 
   <rect width="1920" height="1080" fill="url(#bgGlow)"/>
-  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
-  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
-  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
-  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Iterating: Accept, Reject, Undo</text>
+  <g transform="translate(1535 56)" opacity="0.2">
+    <text x="0" y="62"
+      font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+      font-size="58" font-weight="700" fill="#c4baea">Agent Mode</text>
+    <text x="0" y="126"
+      font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+      font-size="38" font-weight="600" fill="#c4baea">rename across files</text>
+  </g>
+
+  <g transform="translate(1490 832)" opacity="0.18">
+    <rect x="0" y="0" width="240" height="120" rx="18" fill="none" stroke="#c4baea" stroke-width="10"/>
+    <line x1="36" y1="42" x2="198" y2="42" stroke="#c4baea" stroke-width="8" stroke-linecap="round"/>
+    <line x1="36" y1="76" x2="126" y2="76" stroke="#c4baea" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="168" cy="76" r="14" fill="none" stroke="#c4baea" stroke-width="8"/>
+  </g>
+
+  <text x="80" y="108"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Exercise 401 &#x2014; Rename a Field with Agent Mode</text>
+
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
-  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
-    Each file gets a standard diff (red removed, green added) and its own Accept / Reject.
+  <text x="80" y="195"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#c4baea">
+    Use Agent Mode to rename a field across an entire ASP.NET Core codebase without touching a single file manually.
   </text>
 
-  <rect x="90" y="300" width="560" height="280" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="370" y="385" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Accept All</text>
-  <rect x="290" y="405" width="160" height="3" fill="#8b7fd4"/>
-  <text x="370" y="470" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Apply every change across</text>
-  <text x="370" y="507" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">the working set once you</text>
-  <text x="370" y="544" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">are satisfied with the diffs.</text>
+  <rect x="80" y="235" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="510" y="325" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="56" font-weight="700" fill="#8b7fd4">1</text>
+  <text x="510" y="400" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="38" font-weight="600" fill="#ffffff">Start</text>
+  <rect x="430" y="420" width="160" height="3" fill="#8b7fd4"/>
+  <text x="510" y="466" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Run dotnet run and confirm the</text>
+  <text x="510" y="510" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">/tasks endpoint responds</text>
 
-  <rect x="680" y="300" width="560" height="280" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="960" y="385" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Reject All</text>
-  <rect x="880" y="405" width="160" height="3" fill="#8b7fd4"/>
-  <text x="960" y="470" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Discard everything and</text>
-  <text x="960" y="507" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">return every file to its</text>
-  <text x="960" y="544" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">pre-edit state in one click.</text>
+  <rect x="980" y="235" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="325" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="56" font-weight="700" fill="#8b7fd4">2</text>
+  <text x="1410" y="400" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="38" font-weight="600" fill="#ffffff">Rename</text>
+  <rect x="1330" y="420" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1410" y="466" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Ask Agent Mode to rename Name</text>
+  <text x="1410" y="510" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">to Title across the entire codebase</text>
 
-  <rect x="1270" y="300" width="560" height="280" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1550" y="385" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Per-file</text>
-  <rect x="1470" y="405" width="160" height="3" fill="#8b7fd4"/>
-  <text x="1550" y="470" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Each file has its own</text>
-  <text x="1550" y="507" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Accept/Reject - keep 3,</text>
-  <text x="1550" y="544" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">reject 1, untouched rest.</text>
+  <rect x="80" y="632" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="510" y="722" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="56" font-weight="700" fill="#8b7fd4">3</text>
+  <text x="510" y="797" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="38" font-weight="600" fill="#ffffff">Review</text>
+  <rect x="430" y="817" width="160" height="3" fill="#8b7fd4"/>
+  <text x="510" y="863" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Inspect every diff in the diff view</text>
+  <text x="510" y="907" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">before accepting any change</text>
 
-  <rect x="90" y="615" width="1740" height="240" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="130" y="685" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Don't reject everything when a change is partially right</text>
-  <rect x="130" y="707" width="320" height="3" fill="#8b7fd4"/>
-  <text x="130" y="765" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Accept what's correct, then write a follow-up prompt on just the files that need adjusting:</text>
-  <text x="130" y="812" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#8b7fd4">"The UserService changes are correct, but the test file should use Vitest's vi.fn() not Jest's jest.fn()."</text>
-
-  <rect x="510" y="900" width="900" height="60" rx="30" fill="#8b7fd4" opacity="0.22"/>
-  <text x="960" y="940" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="1">Standard Ctrl+Z still works after accepting.</text>
+  <rect x="980" y="632" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="722" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="56" font-weight="700" fill="#8b7fd4">4</text>
+  <text x="1410" y="797" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="38" font-weight="600" fill="#ffffff">Verify</text>
+  <rect x="1330" y="817" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1410" y="863" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Run dotnet build and check that</text>
+  <text x="1410" y="907" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">the JSON response shows title</text>
 </svg>

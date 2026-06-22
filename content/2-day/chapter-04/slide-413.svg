@@ -11,14 +11,51 @@
   </defs>
 
   <rect width="1920" height="1080" fill="url(#bgGlow)"/>
-  <circle cx="1750" cy="150" r="460" fill="url(#circleGlow)"/>
-  <circle cx="1750" cy="150" r="320" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
-  <circle cx="160" cy="960" r="380" fill="url(#circleGlow)"/>
-  <circle cx="160" cy="960" r="260" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="960" y="430" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#8b7fd4" letter-spacing="6">IN SECTION 1 — AGENT MODE</text>
-  <text x="960" y="560" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="96" font-weight="800" fill="#ffffff" letter-spacing="-2">Copilot Edits</text>
-  <rect x="660" y="610" width="600" height="4" fill="#8b7fd4" rx="2"/>
-  <text x="960" y="700" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="300" fill="#c4baea" letter-spacing="1">Multi-file editing — you choose the files, Copilot keeps them consistent</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Inline Chat vs. Edits vs. Agent Mode</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
+    Three tools for three scopes - pick by how many files change and how much you want to direct.
+  </text>
+
+  <rect x="90" y="300" width="560" height="560" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="370" y="390" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Inline Chat</text>
+  <rect x="270" y="418" width="200" height="3" fill="#8b7fd4"/>
+  <text x="370" y="480" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="#8b7fd4">One file</text>
+  <text x="370" y="560" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Acts on the selection in</text>
+  <text x="370" y="597" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">the active file only.</text>
+  <text x="370" y="660" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">No awareness of other</text>
+  <text x="370" y="697" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">files - you manage</text>
+  <text x="370" y="734" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">consistency yourself.</text>
+  <text x="370" y="815" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#8b7fd4">Ctrl+I</text>
+
+  <rect x="680" y="300" width="560" height="560" rx="24" fill="#8b7fd4" fill-opacity="0.15" stroke="#8b7fd4" stroke-width="2"/>
+  <text x="960" y="390" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Copilot Edits</text>
+  <rect x="860" y="418" width="200" height="3" fill="#8b7fd4"/>
+  <text x="960" y="480" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="#8b7fd4">A few files - you choose</text>
+  <text x="960" y="560" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">You define a working set,</text>
+  <text x="960" y="597" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">describe the change once.</text>
+  <text x="960" y="660" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Consistent, coordinated</text>
+  <text x="960" y="697" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">edits - fast, predictable,</text>
+  <text x="960" y="734" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">human-directed.</text>
+  <text x="960" y="815" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#8b7fd4">Ctrl+Shift+I</text>
+
+  <rect x="1270" y="300" width="560" height="560" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1550" y="390" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Agent Mode</text>
+  <rect x="1450" y="418" width="200" height="3" fill="#8b7fd4"/>
+  <text x="1550" y="480" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="#8b7fd4">Many files - it chooses</text>
+  <text x="1550" y="560" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">You set a goal; it decides</text>
+  <text x="1550" y="597" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">which files to touch.</text>
+  <text x="1550" y="660" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Runs commands, iterates,</text>
+  <text x="1550" y="697" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">self-corrects. Use when</text>
+  <text x="1550" y="734" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">you don't know the files.</text>
+
+  <rect x="430" y="905" width="1060" height="60" rx="30" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="945" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="1">Know the files - use Edits. Don't - use Agent Mode.</text>
 </svg>

@@ -1,4 +1,4 @@
-# Slides
+﻿# Slides
 
 ## Slide 01 — Title
 
@@ -38,7 +38,7 @@
 
 ![Slide 09 — Exercise 601 — GuildOps Discovery Sprint](slide-609.svg)
 
-→ [Exercise 601 — GuildOps Discovery Sprint](../../../exercises/chapter-06/601/README.md)
+→ [Exercise 601 — GuildOps Discovery Sprint](../../../exercises/chapter-06/exercise-601/README.md)
 
 <!-- Section 2 — Copilot for Development -->
 
@@ -62,7 +62,7 @@
 
 ![Slide 14 — Exercise 602 — Ship the Quest Approval Slice](slide-614.svg)
 
-→ [Exercise 602 — Ship the Quest Approval Slice](../../../exercises/chapter-06/602/README.md)
+→ [Exercise 602 — Ship the Quest Approval Slice](../../../exercises/chapter-06/exercise-602/README.md)
 
 <!-- Section 3 — Copilot for Testing -->
 
@@ -90,7 +90,7 @@
 
 ![Slide 20 — Exercise 603 — Test the Reward Engine](slide-620.svg)
 
-→ [Exercise 603 — Test the Reward Engine](../../../exercises/chapter-06/603/README.md)
+→ [Exercise 603 — Test the Reward Engine](../../../exercises/chapter-06/exercise-603/README.md)
 
 <!-- Section 4 — Copilot for Refactoring -->
 
@@ -118,7 +118,7 @@
 
 ![Slide 26 — Exercise 604 — Refactor the Monster Ledger](slide-626.svg)
 
-→ [Exercise 604 — Refactor the Monster Ledger](../../../exercises/chapter-06/604/README.md)
+→ [Exercise 604 — Refactor the Monster Ledger](../../../exercises/chapter-06/exercise-604/README.md)
 
 <!-- Section 5 — Copilot for Documentation -->
 
@@ -146,7 +146,7 @@
 
 ![Slide 32 — Exercise 605 — Document GuildOps Like It Will Outlive You](slide-632.svg)
 
-→ [Exercise 605 — Document GuildOps Like It Will Outlive You](../../../exercises/chapter-06/605/README.md)
+→ [Exercise 605 — Document GuildOps Like It Will Outlive You](../../../exercises/chapter-06/exercise-605/README.md)
 
 <!-- Section 6 — Copilot for Debugging & Root Cause Analysis -->
 
@@ -174,7 +174,7 @@
 
 ![Slide 38 — Exercise 606 — Hunt the Phantom Checkout Bug](slide-638.svg)
 
-→ [Exercise 606 — Hunt the Phantom Checkout Bug](../../../exercises/chapter-06/606/README.md)
+→ [Exercise 606 — Hunt the Phantom Checkout Bug](../../../exercises/chapter-06/exercise-606/README.md)
 
 <!-- Section 7 — Copilot in the Pull-Request Lifecycle -->
 
@@ -202,4 +202,4 @@
 
 ![Slide 44 — Exercise 607 — The Pull Request Gauntlet](slide-644.svg)
 
-→ [Exercise 607 — The Pull Request Gauntlet](../../../exercises/chapter-06/607/README.md)
+→ [Exercise 607 — The Pull Request Gauntlet](../../../exercises/chapter-06/exercise-607/README.md)

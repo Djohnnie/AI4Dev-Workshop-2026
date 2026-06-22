@@ -17,73 +17,35 @@
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Shell Commands &#x2014; Agentic Development in Action</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Copilot Code Review, Up Close</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
   <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
-    Copilot CLI does not just suggest &#x2014; it invokes real binaries in your shell, with your approval.
+    A pre-flight check that catches obvious issues before human reviewers spend their time.
   </text>
 
-  <!-- Card 1: dotnet CLI -->
-  <rect x="80" y="280" width="425" height="380" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="120" y="355" font-family="'Consolas', 'Courier New', monospace" font-size="38" font-weight="700" fill="#8b7fd4">dotnet</text>
-  <rect x="120" y="375" width="170" height="3" fill="#8b7fd4"/>
-  <circle cx="143" cy="425" r="6" fill="#8b7fd4"/>
-  <text x="162" y="434" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#c4baea">dotnet new webapi -n Api</text>
-  <circle cx="143" cy="472" r="6" fill="#8b7fd4"/>
-  <text x="162" y="481" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#c4baea">dotnet build / test</text>
-  <circle cx="143" cy="519" r="6" fill="#8b7fd4"/>
-  <text x="162" y="528" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#c4baea">dotnet publish -c Release</text>
-  <circle cx="143" cy="566" r="6" fill="#8b7fd4"/>
-  <text x="162" y="575" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#c4baea">dotnet add package X</text>
+  <rect x="90" y="295" width="850" height="290" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="130" y="370" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">What it catches</text>
+  <rect x="130" y="390" width="200" height="3" fill="#8b7fd4"/>
+  <text x="130" y="450" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- logic bugs: off-by-one, missing null checks</text>
+  <text x="130" y="490" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- security: SQL injection, XSS, missing auth</text>
+  <text x="130" y="530" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- performance: N+1, unbounded loops</text>
+  <text x="130" y="570" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- not style or formatting - no nit comments</text>
 
-  <!-- Card 2: Git -->
-  <rect x="525" y="280" width="425" height="380" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="565" y="355" font-family="'Consolas', 'Courier New', monospace" font-size="38" font-weight="700" fill="#8b7fd4">git</text>
-  <rect x="565" y="375" width="170" height="3" fill="#8b7fd4"/>
-  <circle cx="588" cy="425" r="6" fill="#8b7fd4"/>
-  <text x="607" y="434" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#c4baea">git commit -am "feat: ..."</text>
-  <circle cx="588" cy="472" r="6" fill="#8b7fd4"/>
-  <text x="607" y="481" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#c4baea">git branch feature/x</text>
-  <circle cx="588" cy="519" r="6" fill="#8b7fd4"/>
-  <text x="607" y="528" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#c4baea">git log --oneline --graph</text>
-  <circle cx="588" cy="566" r="6" fill="#8b7fd4"/>
-  <text x="607" y="575" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#c4baea">git tag v1.0.0 -m "..."</text>
+  <rect x="980" y="295" width="850" height="290" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1020" y="370" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">How to use it</text>
+  <rect x="1020" y="390" width="200" height="3" fill="#8b7fd4"/>
+  <text x="1020" y="450" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- request "Copilot" in the Reviewers panel</text>
+  <text x="1020" y="490" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- inline comments, each explaining why</text>
+  <text x="1020" y="530" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- "Apply suggestion" commits the fix</text>
+  <text x="1020" y="570" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- reply, resolve, or mark "Won't fix"</text>
 
-  <!-- Card 3: Docker -->
-  <rect x="970" y="280" width="425" height="380" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1010" y="355" font-family="'Consolas', 'Courier New', monospace" font-size="38" font-weight="700" fill="#8b7fd4">docker</text>
-  <rect x="1010" y="375" width="170" height="3" fill="#8b7fd4"/>
-  <circle cx="1033" cy="425" r="6" fill="#8b7fd4"/>
-  <text x="1052" y="434" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#c4baea">docker build -t app .</text>
-  <circle cx="1033" cy="472" r="6" fill="#8b7fd4"/>
-  <text x="1052" y="481" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#c4baea">docker-compose up -d</text>
-  <circle cx="1033" cy="519" r="6" fill="#8b7fd4"/>
-  <text x="1052" y="528" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#c4baea">docker ps / docker logs</text>
-  <circle cx="1033" cy="566" r="6" fill="#8b7fd4"/>
-  <text x="1052" y="575" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#c4baea">docker exec -it app sh</text>
+  <rect x="90" y="620" width="1740" height="225" rx="24" fill="#8b7fd4" fill-opacity="0.15" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="130" y="690" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">It complements human review - it does not replace it</text>
+  <rect x="130" y="712" width="320" height="3" fill="#8b7fd4"/>
+  <text x="130" y="770" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Humans still own architecture, business-logic correctness, and organisational context.</text>
+  <text x="130" y="810" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Copilot Autofix can also suggest fixes for CodeQL security alerts - review before applying.</text>
 
-  <!-- Card 4: kubectl -->
-  <rect x="1415" y="280" width="425" height="380" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1455" y="355" font-family="'Consolas', 'Courier New', monospace" font-size="38" font-weight="700" fill="#8b7fd4">kubectl</text>
-  <rect x="1455" y="375" width="170" height="3" fill="#8b7fd4"/>
-  <circle cx="1478" cy="425" r="6" fill="#8b7fd4"/>
-  <text x="1497" y="434" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#c4baea">kubectl apply -f app.yaml</text>
-  <circle cx="1478" cy="472" r="6" fill="#8b7fd4"/>
-  <text x="1497" y="481" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#c4baea">kubectl get pods -n prod</text>
-  <circle cx="1478" cy="519" r="6" fill="#8b7fd4"/>
-  <text x="1497" y="528" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#c4baea">kubectl logs pod/my-app</text>
-  <circle cx="1478" cy="566" r="6" fill="#8b7fd4"/>
-  <text x="1497" y="575" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#c4baea">kubectl rollout restart</text>
-
-  <!-- Bottom card: The agentic loop -->
-  <rect x="80" y="695" width="1760" height="240" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="120" y="763" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Your approval. Every time.</text>
-  <rect x="120" y="783" width="200" height="3" fill="#8b7fd4"/>
-  <text x="120" y="831" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Before each command, Copilot CLI shows exactly what it will run &#x2014; you confirm or cancel.</text>
-  <text x="120" y="871" font-family="'Consolas', 'Courier New', monospace" font-size="25" fill="#8b7fd4">reason &#x2192; pick tool &#x2192; show command &#x2192; await approval &#x2192; execute &#x2192; read output &#x2192; adapt</text>
-  <text x="120" y="909" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Any binary in your PATH is in scope &#x2014; this is real agentic execution, not just MCP tool calls.</text>
-
-  <rect x="430" y="960" width="1060" height="65" rx="32" fill="#8b7fd4" opacity="0.22"/>
-  <text x="960" y="1002" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="600" fill="#ffffff" letter-spacing="1">Copilot CLI asks before every command &#x2014; you are always in control.</text>
+  <rect x="430" y="890" width="1060" height="65" rx="32" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="932" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="600" fill="#ffffff" letter-spacing="1">Let it clear the obvious - so humans review what matters.</text>
 </svg>

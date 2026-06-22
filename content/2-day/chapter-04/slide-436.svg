@@ -17,39 +17,113 @@
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="100" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#8b7fd4" letter-spacing="2">SECTION 6 OF 6 &#183; PROMPT &amp; SKILL FILES</text>
-  <text x="80" y="170" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Anatomy of a Prompt File</text>
-  <rect x="0" y="200" width="1920" height="4" fill="#8b7fd4"/>
+  <g transform="translate(1450 60)" opacity="0.18">
+    <text x="0" y="60"
+      font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+      font-size="48" font-weight="700" fill="#c4baea">.github/prompts/</text>
+    <text x="0" y="118"
+      font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+      font-size="34" font-weight="600" fill="#c4baea">.github/skills/&lt;name&gt;/SKILL.md</text>
+  </g>
 
-  <text x="80" y="265" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
-    A .prompt.md in .github/prompts/ - a great one-off prompt, captured and version-controlled forever.
+  <text x="80" y="108"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Exercise 407 &#x2014; Experiment with Prompt Files and Skill Files</text>
+
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+
+  <text x="80" y="195"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="32" font-weight="300" fill="#c4baea">
+    No starter app - use a tiny sandbox repo and compare what happens when you invoke the prompt versus when the agent loads the skill.
   </text>
 
-  <rect x="90" y="345" width="1000" height="620" rx="20" fill="#1e1b33" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="120" y="405" font-family="'Consolas', 'Courier New', monospace" font-size="28" fill="#6a5fb8">.github/prompts/create-rest-endpoint.prompt.md</text>
-  <rect x="120" y="425" width="940" height="2" fill="#8b7fd4" opacity="0.4"/>
-  <text x="120" y="485" font-family="'Consolas', 'Courier New', monospace" font-size="30" fill="#8b7fd4">---</text>
-  <text x="120" y="530" font-family="'Consolas', 'Courier New', monospace" font-size="30" fill="#c4baea">title: Create REST Endpoint</text>
-  <text x="120" y="575" font-family="'Consolas', 'Courier New', monospace" font-size="30" fill="#c4baea">description: Scaffold a CRUD endpoint</text>
-  <text x="120" y="620" font-family="'Consolas', 'Courier New', monospace" font-size="30" fill="#c4baea">mode: agent</text>
-  <text x="120" y="665" font-family="'Consolas', 'Courier New', monospace" font-size="30" fill="#8b7fd4">---</text>
-  <text x="120" y="725" font-family="'Consolas', 'Courier New', monospace" font-size="30" fill="#ffffff">Create a REST endpoint for</text>
-  <text x="120" y="768" font-family="'Consolas', 'Courier New', monospace" font-size="30" fill="#ffffff">${input:resourceName} following the</text>
-  <text x="120" y="811" font-family="'Consolas', 'Courier New', monospace" font-size="30" fill="#ffffff">patterns in #file:src/routes/users.ts.</text>
-  <text x="120" y="854" font-family="'Consolas', 'Courier New', monospace" font-size="30" fill="#ffffff">Use AppError for errors and write</text>
-  <text x="120" y="897" font-family="'Consolas', 'Courier New', monospace" font-size="30" fill="#ffffff">Vitest tests for happy + error paths.</text>
+  <rect x="90" y="260" width="560" height="310" rx="18"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="370" y="345" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="52" font-weight="700" fill="#8b7fd4">1</text>
+  <text x="370" y="410" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="600" fill="#ffffff">Create a prompt file</text>
+  <rect x="290" y="428" width="160" height="3" fill="#8b7fd4"/>
+  <text x="370" y="474" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="27" font-weight="300" fill="#c4baea">Add a reusable .prompt.md in</text>
+  <text x="370" y="512" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="27" font-weight="300" fill="#c4baea">.github/prompts and invoke it yourself</text>
 
-  <rect x="1130" y="345" width="700" height="620" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1170" y="410" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">The parts</text>
-  <rect x="1170" y="430" width="200" height="3" fill="#8b7fd4"/>
-  <text x="1170" y="495" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="700" fill="#8b7fd4">title</text>
-  <text x="1170" y="532" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">shown in the VS Code picker</text>
-  <text x="1170" y="595" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="700" fill="#8b7fd4">mode</text>
-  <text x="1170" y="632" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">ask &#183; edit &#183; agent</text>
-  <text x="1170" y="695" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="700" fill="#8b7fd4">${input:...}</text>
-  <text x="1170" y="732" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">prompts for a value at run time</text>
-  <text x="1170" y="795" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="700" fill="#8b7fd4">#file:...</text>
-  <text x="1170" y="832" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">attaches context every time</text>
-  <text x="1170" y="898" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Invoke with # in Chat - a</text>
-  <text x="1170" y="932" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">30-min task becomes 90 seconds.</text>
+  <rect x="680" y="260" width="560" height="310" rx="18"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="345" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="52" font-weight="700" fill="#8b7fd4">2</text>
+  <text x="960" y="410" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="600" fill="#ffffff">Create a skill file</text>
+  <rect x="880" y="428" width="160" height="3" fill="#8b7fd4"/>
+  <text x="960" y="474" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="27" font-weight="300" fill="#c4baea">Add SKILL.md in .github/skills</text>
+  <text x="960" y="512" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="27" font-weight="300" fill="#c4baea">and describe when the agent should use it</text>
+
+  <rect x="1270" y="260" width="560" height="310" rx="18"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1550" y="345" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="52" font-weight="700" fill="#8b7fd4">3</text>
+  <text x="1550" y="410" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="600" fill="#ffffff">Compare behaviour</text>
+  <rect x="1470" y="428" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1550" y="474" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="27" font-weight="300" fill="#c4baea">Notice the difference between</text>
+  <text x="1550" y="512" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="27" font-weight="300" fill="#c4baea">manual invocation and auto-loading</text>
+
+  <rect x="90" y="595" width="840" height="340" rx="20"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="130" y="680"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="700" fill="#ffffff">Experiment ideas</text>
+  <rect x="130" y="700" width="180" height="3" fill="#8b7fd4"/>
+  <text x="130" y="762"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="27" font-weight="300" fill="#c4baea">- encode the same task both ways and compare</text>
+  <text x="130" y="800"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="27" font-weight="300" fill="#c4baea">- tighten the skill description and test trigger quality</text>
+  <text x="130" y="838"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="27" font-weight="300" fill="#c4baea">- make one prompt file strict and another flexible</text>
+  <text x="130" y="876"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="27" font-weight="300" fill="#c4baea">- try scaffolding, review, and test-writing examples</text>
+
+  <rect x="980" y="595" width="850" height="340" rx="20"
+    fill="#8b7fd4" fill-opacity="0.15" stroke="#8b7fd4" stroke-width="2"/>
+  <text x="1020" y="680"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="700" fill="#ffffff">The point of the exercise</text>
+  <rect x="1020" y="700" width="230" height="3" fill="#8b7fd4"/>
+  <text x="1020" y="762"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="27" font-weight="300" fill="#c4baea">Prompt files are for tasks you choose deliberately.</text>
+  <text x="1020" y="800"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="27" font-weight="300" fill="#c4baea">Skill files are for processes the agent should reach for.</text>
+  <text x="1020" y="838"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="27" font-weight="300" fill="#c4baea">This lab is about feeling that difference in practice.</text>
+  <text x="1020" y="890"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="25" font-weight="300" fill="#8b7fd4">Small repo, quick loops, lots of comparison.</text>
+  <text x="1020" y="922"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="25" font-weight="300" fill="#8b7fd4">Iterate on the files until Copilot behaves more predictably.</text>
 </svg>

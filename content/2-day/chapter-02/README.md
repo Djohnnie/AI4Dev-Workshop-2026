@@ -1,4 +1,4 @@
-[🏠 Workshop Home](../../../README.md) | [📊 Slides](SLIDES.md) | [← Chapter 1 — Welcome to the AI Revolution!](../chapter-01/README.md) | [Chapter 3 — Power with Purpose: Using AI Responsibly →](../chapter-03/README.md)
+﻿[🏠 Workshop Home](../../../README.md) | [📊 Slides](SLIDES.md) | [← Chapter 1 — Welcome to the AI Revolution!](../chapter-01/README.md) | [Chapter 3 — Power with Purpose: Using AI Responsibly →](../chapter-03/README.md)
 
 ---
 
@@ -208,12 +208,12 @@ By the end of this chapter, participants will be able to:
 
 ## 🧪 Chapter 2 Exercises
 
-- [Exercise 201 — Factorial Calculator](../../../exercises/chapter-02/201/README.md) — practise ghost-text completions and compare iterative versus recursive solutions
-- [Exercise 202 — Palindrome Checker](../../../exercises/chapter-02/202/README.md) — steer ghost-text with line-by-line comments and review the generated logic carefully
-- [Exercise 203 — Mystery Processor](../../../exercises/chapter-02/203/README.md) — use `/explain` to understand obfuscated code before looking at the tests
-- [Exercise 204 — Shortest Path](../../../exercises/chapter-02/204/README.md) — repair a buggy Dijkstra implementation with better `/fix` prompts
-- [Exercise 205 — Caesar Cipher](../../../exercises/chapter-02/205/README.md) — generate a starter test suite with `/tests` and improve the coverage
-- [Exercise 206 — String Search](../../../exercises/chapter-02/206/README.md) — use `/doc` to document existing KMP code and make it easier to understand
+- [Exercise 201 — Factorial Calculator](../../../exercises/chapter-02/exercise-201/README.md) — practise ghost-text completions and compare iterative versus recursive solutions
+- [Exercise 202 — Palindrome Checker](../../../exercises/chapter-02/exercise-202/README.md) — steer ghost-text with line-by-line comments and review the generated logic carefully
+- [Exercise 203 — Mystery Processor](../../../exercises/chapter-02/exercise-203/README.md) — use `/explain` to understand obfuscated code before looking at the tests
+- [Exercise 204 — Shortest Path](../../../exercises/chapter-02/exercise-204/README.md) — repair a buggy Dijkstra implementation with better `/fix` prompts
+- [Exercise 205 — Caesar Cipher](../../../exercises/chapter-02/exercise-205/README.md) — generate a starter test suite with `/tests` and improve the coverage
+- [Exercise 206 — String Search](../../../exercises/chapter-02/exercise-206/README.md) — use `/doc` to document existing KMP code and make it easier to understand
 
 ---
 

@@ -1,4 +1,4 @@
-# Chapter 1 — Welcome to the AI Revolution!
+﻿# Chapter 1 — Welcome to the AI Revolution!
 
 ## Slide 01 — AI4Dev
 
@@ -56,19 +56,19 @@
 
 ![Slide 14 — Exercise 101 — Token Visualizer](slide-114.svg)
 
-→ [Exercise 101 — Token Visualizer](../../../exercises/chapter-01/101/README.md)
+→ [Exercise 101 — Token Visualizer](../../../exercises/chapter-01/exercise-101/README.md)
 
 ## Slide 15 — Exercise 102 — Stateless LLM Chat
 
 ![Slide 15 — Exercise 102 — Stateless LLM Chat](slide-115.svg)
 
-→ [Exercise 102 — Stateless LLM Chat](../../../exercises/chapter-01/102/README.md)
+→ [Exercise 102 — Stateless LLM Chat](../../../exercises/chapter-01/exercise-102/README.md)
 
 ## Slide 16 — Exercise 103 — Chat History & Roles
 
 ![Slide 16 — Exercise 103 — Chat History & Roles](slide-116.svg)
 
-→ [Exercise 103 — Chat History & Roles](../../../exercises/chapter-01/103/README.md)
+→ [Exercise 103 — Chat History & Roles](../../../exercises/chapter-01/exercise-103/README.md)
 
 ## Slide 17 — Why LLMs for Coding?
 
@@ -94,13 +94,13 @@
 
 ![Slide 22 — Exercise 104 — Tool Calls](slide-122.svg)
 
-→ [Exercise 104 — Tool Calls](../../../exercises/chapter-01/104/README.md)
+→ [Exercise 104 — Tool Calls](../../../exercises/chapter-01/exercise-104/README.md)
 
 ## Slide 23 — Exercise 105 — MCP Tool Calls
 
 ![Slide 23 — Exercise 105 — MCP Tool Calls](slide-123.svg)
 
-→ [Exercise 105 — MCP Tool Calls](../../../exercises/chapter-01/105/README.md)
+→ [Exercise 105 — MCP Tool Calls](../../../exercises/chapter-01/exercise-105/README.md)
 
 ## Slide 24 — Beyond Chatbots — What Makes an AI Agent?
 
@@ -114,7 +114,7 @@
 
 ![Slide 26 — Exercise 106 — Agent Orchestration](slide-126.svg)
 
-→ [Exercise 106 — Agent Orchestration](../../../exercises/chapter-01/106/README.md)
+→ [Exercise 106 — Agent Orchestration](../../../exercises/chapter-01/exercise-106/README.md)
 
 ## Slide 27 — Interactive Quiz 1
 

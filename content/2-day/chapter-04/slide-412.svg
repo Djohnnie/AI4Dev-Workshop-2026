@@ -11,37 +11,45 @@
   </defs>
 
   <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <!-- play / demo glyph -->
-  <g transform="translate(1610 70)" opacity="0.22">
-    <circle cx="120" cy="120" r="96" fill="none" stroke="#c4baea" stroke-width="10"/>
-    <path d="M95 75 L170 120 L95 165 Z" fill="#c4baea"/>
-  </g>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Copilot Edits</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#8b7fd4" letter-spacing="3">LIVE DEMO</text>
-  <text x="80" y="190" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="68" font-weight="700" fill="#ffffff" letter-spacing="-1">Validate Every Endpoint - and Test It</text>
-  <rect x="0" y="222" width="1920" height="4" fill="#8b7fd4"/>
-
-  <text x="80" y="290" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
-    A small Express / FastAPI app with no validation. One prompt to Agent Mode:
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
+    Multi-file editing for bounded changes: you pick the files, describe the change once, and review the coordinated diffs.
   </text>
 
-  <rect x="90" y="335" width="1740" height="120" rx="16" fill="#1e1b33" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="130" y="410" font-family="'Consolas', 'Courier New', monospace" font-size="34" font-weight="400" fill="#c4baea">&gt; Add input validation to all API endpoints and write tests for them.</text>
+  <rect x="90" y="295" width="560" height="300" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="130" y="370" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">When it fits best</text>
+  <rect x="130" y="390" width="200" height="3" fill="#8b7fd4"/>
+  <text x="130" y="450" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- you already know the files to change</text>
+  <text x="130" y="490" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- the update must stay consistent across them</text>
+  <text x="130" y="530" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- you want a faster loop than inline chat</text>
 
-  <text x="80" y="540" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Narrate the loop as it runs</text>
-  <rect x="80" y="560" width="320" height="3" fill="#8b7fd4"/>
+  <rect x="680" y="295" width="560" height="300" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="720" y="370" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">The workflow</text>
+  <rect x="720" y="390" width="200" height="3" fill="#8b7fd4"/>
+  <text x="720" y="450" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">1. Add a working set of related files</text>
+  <text x="720" y="490" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">2. Ask for the coordinated change once</text>
+  <text x="720" y="530" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">3. Review, accept, reject, or refine per file</text>
 
-  <circle cx="105" cy="625" r="7" fill="#8b7fd4"/>
-  <text x="135" y="636" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">"It's scanning the routes directory" - reads the existing code first</text>
-  <circle cx="105" cy="690" r="7" fill="#8b7fd4"/>
-  <text x="135" y="701" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">"Now it's adding validation to the POST handler" - coordinated multi-file edits</text>
-  <circle cx="105" cy="755" r="7" fill="#8b7fd4"/>
-  <text x="135" y="766" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">Pause at the approval prompt - show the dialog, explain the command, then approve</text>
-  <circle cx="105" cy="820" r="7" fill="#8b7fd4"/>
-  <text x="135" y="831" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">"A test failed - watch it fix itself" - the self-correction moment lands the point</text>
+  <rect x="1270" y="295" width="560" height="300" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1310" y="370" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Compared to Agent Mode</text>
+  <rect x="1310" y="390" width="200" height="3" fill="#8b7fd4"/>
+  <text x="1310" y="450" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Edits is guided and predictable.</text>
+  <text x="1310" y="490" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Agent Mode is broader and more autonomous.</text>
+  <text x="1310" y="530" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Use Edits when scope is known and bounded.</text>
 
-  <rect x="90" y="890" width="1740" height="80" rx="16" fill="#8b7fd4" opacity="0.18"/>
-  <text x="960" y="938" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff">~3-5 minutes of real time. Pre-run it twice to know the timing - and keep a recording as backup.</text>
+  <rect x="160" y="650" width="1600" height="220" rx="24" fill="#8b7fd4" fill-opacity="0.15" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="718" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">The working-set advantage</text>
+  <text x="960" y="775" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">A rename across model, service, endpoint, and tests becomes one prompt instead of four separate chats.</text>
+  <text x="960" y="820" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">You still own the review: the diffs are the product.</text>
+
+  <rect x="430" y="915" width="1060" height="55" rx="27" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="952" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="600" fill="#ffffff" letter-spacing="1">When you know the files, Copilot Edits is the shortest path from prompt to consistent diff.</text>
 </svg>

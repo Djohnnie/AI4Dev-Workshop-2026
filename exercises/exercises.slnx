@@ -1,82 +1,87 @@
-<Solution>
+﻿<Solution>
   <Folder Name="/Chapter 1/" />
   <Folder Name="/Chapter 1/Exercise 101/">
-    <Project Path="chapter-01\101\TokenVisualizer.csproj" />
+    <Project Path="chapter-01\exercise-101\TokenVisualizer.csproj" />
   </Folder>
   <Folder Name="/Chapter 1/Exercise 102/">
-    <Project Path="chapter-01\102\AgentFramework.Chat.csproj" />
+    <Project Path="chapter-01\exercise-102\AgentFramework.Chat.csproj" />
   </Folder>
   <Folder Name="/Chapter 1/Exercise 103/">
-    <Project Path="chapter-01\103\AgentFramework.ChatHistoryAndPersona.csproj" />
+    <Project Path="chapter-01\exercise-103\AgentFramework.ChatHistoryAndPersona.csproj" />
   </Folder>
   <Folder Name="/Chapter 1/Exercise 104/">
-    <Project Path="chapter-01\104\AgentFramework.ToolCalls.csproj" />
+    <Project Path="chapter-01\exercise-104\AgentFramework.ToolCalls.csproj" />
   </Folder>
   <Folder Name="/Chapter 1/Exercise 105/">
-    <Project Path="chapter-01\105\AgentFramework.McpSseClient\AgentFramework.McpSseClient.csproj" />
-    <Project Path="chapter-01\105\AgentFramework.McpSseServer\AgentFramework.McpSseServer.csproj" />
+    <Project Path="chapter-01\exercise-105\AgentFramework.McpSseClient\AgentFramework.McpSseClient.csproj" />
+    <Project Path="chapter-01\exercise-105\AgentFramework.McpSseServer\AgentFramework.McpSseServer.csproj" />
   </Folder>
   <Folder Name="/Chapter 1/Exercise 106/">
-    <Project Path="chapter-01\106\AgentFramework.AgentOrchestration\AgentFramework.AgentOrchestration.csproj" />
+    <Project Path="chapter-01\exercise-106\AgentFramework.AgentOrchestration\AgentFramework.AgentOrchestration.csproj" />
   </Folder>
   <Folder Name="/Chapter 2/" />
   <Folder Name="/Chapter 2/Exercise 201/">
-    <Project Path="chapter-02\201\Factorial.Tests\Factorial.Tests.csproj" />
-    <Project Path="chapter-02\201\Factorial\Factorial.csproj" />
+    <Project Path="chapter-02\exercise-201\Factorial.Tests\Factorial.Tests.csproj" />
+    <Project Path="chapter-02\exercise-201\Factorial\Factorial.csproj" />
   </Folder>
   <Folder Name="/Chapter 2/Exercise 202/">
-    <Project Path="chapter-02\202\Palindrome.Tests\Palindrome.Tests.csproj" />
-    <Project Path="chapter-02\202\Palindrome\Palindrome.csproj" />
+    <Project Path="chapter-02\exercise-202\Palindrome.Tests\Palindrome.Tests.csproj" />
+    <Project Path="chapter-02\exercise-202\Palindrome\Palindrome.csproj" />
   </Folder>
   <Folder Name="/Chapter 2/Exercise 203/">
-    <Project Path="chapter-02\203\Processor.Tests\Processor.Tests.csproj" />
-    <Project Path="chapter-02\203\Processor\Processor.csproj" />
+    <Project Path="chapter-02\exercise-203\Processor.Tests\Processor.Tests.csproj" />
+    <Project Path="chapter-02\exercise-203\Processor\Processor.csproj" />
   </Folder>
   <Folder Name="/Chapter 2/Exercise 204/">
-    <Project Path="chapter-02\204\ShortestPath.Tests\ShortestPath.Tests.csproj" />
-    <Project Path="chapter-02\204\ShortestPath\ShortestPath.csproj" />
+    <Project Path="chapter-02\exercise-204\ShortestPath.Tests\ShortestPath.Tests.csproj" />
+    <Project Path="chapter-02\exercise-204\ShortestPath\ShortestPath.csproj" />
   </Folder>
   <Folder Name="/Chapter 2/Exercise 205/">
-    <Project Path="chapter-02\205\CaesarCipher.Tests\CaesarCipher.Tests.csproj" />
-    <Project Path="chapter-02\205\CaesarCipher\CaesarCipher.csproj" />
+    <Project Path="chapter-02\exercise-205\CaesarCipher.Tests\CaesarCipher.Tests.csproj" />
+    <Project Path="chapter-02\exercise-205\CaesarCipher\CaesarCipher.csproj" />
   </Folder>
   <Folder Name="/Chapter 2/Exercise 206/">
-    <Project Path="chapter-02\206\StringSearch.Tests\StringSearch.Tests.csproj" />
-    <Project Path="chapter-02\206\StringSearch\StringSearch.csproj" />
+    <Project Path="chapter-02\exercise-206\StringSearch.Tests\StringSearch.Tests.csproj" />
+    <Project Path="chapter-02\exercise-206\StringSearch\StringSearch.csproj" />
   </Folder>
   <Folder Name="/Chapter 3/" />
   <Folder Name="/Chapter 3/Exercise 301/">
-    <Project Path="chapter-03\301\StereotypeSpotter.csproj" />
+    <Project Path="chapter-03\exercise-301\StereotypeSpotter.csproj" />
   </Folder>
   <Folder Name="/Chapter 3/Exercise 302/">
-    <Project Path="chapter-03\302\ExpressionEvaluatorLab.csproj" />
+    <Project Path="chapter-03\exercise-302\ExpressionEvaluatorLab.csproj" />
   </Folder>
   <Folder Name="/Chapter 3/Exercise 303/" />
   <Folder Name="/Chapter 3/Exercise 304/">
-    <Project Path="chapter-03\304\CodeObfuscator\CodeObfuscator.csproj" />
+    <Project Path="chapter-03\exercise-304\CodeObfuscator\CodeObfuscator.csproj" />
   </Folder>
   <Folder Name="/Chapter 3/Exercise 305/">
-    <Project Path="chapter-03\305\AgentFramework.ToolCalls.Ollama.csproj" />
+    <Project Path="chapter-03\exercise-305\AgentFramework.ToolCalls.Ollama.csproj" />
   </Folder>
   <Folder Name="/Chapter 4/" />
   <Folder Name="/Chapter 4/Exercise 401/">
-    <Project Path="chapter-04\401\TaskManager\TaskManager.csproj" />
+    <Project Path="chapter-04\exercise-401\TaskManager\TaskManager.csproj" />
   </Folder>
   <Folder Name="/Chapter 4/Exercise 402/">
-    <Project Path="chapter-04\402\TaskManager\TaskManager.csproj" />
+    <Project Path="chapter-04\exercise-402\TaskManager\TaskManager.csproj" />
   </Folder>
   <Folder Name="/Chapter 4/Exercise 403/">
-    <Project Path="chapter-04\403\TaskManager\TaskManager.csproj" />
+    <Project Path="chapter-04\exercise-403\TaskManager\TaskManager.csproj" />
   </Folder>
-  <Folder Name="/Chapter 4/Exercise 404/">
-    <Project Path="chapter-04\404\DevDash\DevDash.csproj" />
+  <Folder Name="/Chapter 4/Exercise 404/" />
+  <Folder Name="/Chapter 4/Exercise 405/" />
+  <Folder Name="/Chapter 4/Exercise 406/" />
+  <Folder Name="/Chapter 4/Exercise 407/" />
+  <Folder Name="/Chapter 4/Solutions/" />
+  <Folder Name="/Chapter 4/Solutions/Exercise 404/">
+    <Project Path="chapter-04\exercise-404-solution\LuckySlots\LuckySlots.csproj" />
   </Folder>
   <Folder Name="/Chapter 5/" />
   <Folder Name="/Chapter 5/Exercise 501/">
-    <Project Path="chapter-05\501\EscapeRoom.csproj" />
+    <Project Path="chapter-05\exercise-501\EscapeRoom.csproj" />
   </Folder>
   <Folder Name="/Chapter 5/Exercise 502/">
-    <Project Path="chapter-05\502\ContextPromptExtension.csproj" Id="8f2a7c41-6e3b-4d58-9c1a-3b5e2f8d4a60" />
+    <Project Path="chapter-05\exercise-502\ContextPromptExtension.csproj" Id="8f2a7c41-6e3b-4d58-9c1a-3b5e2f8d4a60" />
   </Folder>
   <Folder Name="/Chapter 6/" />
   <Folder Name="/Chapter 6/Exercise 601/" />

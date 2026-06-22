@@ -4,100 +4,72 @@
       <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
       <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
     </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
   <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <g transform="translate(1535 56)" opacity="0.2">
-    <text x="0" y="62"
-      font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-      font-size="58" font-weight="700" fill="#c4baea">Plan Mode</text>
-    <text x="0" y="126"
-      font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-      font-size="38" font-weight="600" fill="#c4baea">design before you build</text>
-  </g>
-
-  <g transform="translate(1490 832)" opacity="0.18">
-    <rect x="0" y="0" width="240" height="120" rx="18" fill="none" stroke="#c4baea" stroke-width="10"/>
-    <line x1="36" y1="42" x2="198" y2="42" stroke="#c4baea" stroke-width="8" stroke-linecap="round"/>
-    <line x1="36" y1="76" x2="126" y2="76" stroke="#c4baea" stroke-width="8" stroke-linecap="round"/>
-    <circle cx="168" cy="76" r="14" fill="none" stroke="#c4baea" stroke-width="8"/>
-  </g>
-
-  <text x="80" y="108"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Exercise 403 &#x2014; Paginate, Filter and Sort</text>
-
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">More Than Code &#x2014; Everything in Your Directory</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
-  <text x="80" y="195"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#c4baea">
-    Use Plan Mode to design and implement query parameters for the GET /tasks endpoint.
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
+    Open a terminal in any folder &#x2014; code, docs, slides, configs, and projects are all in scope.
   </text>
 
-  <rect x="80" y="235" width="860" height="367" rx="12"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="510" y="325" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="56" font-weight="700" fill="#8b7fd4">01</text>
-  <text x="510" y="400" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="38" font-weight="600" fill="#ffffff">Start</text>
-  <rect x="430" y="420" width="160" height="3" fill="#8b7fd4"/>
-  <text x="510" y="466" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">Run the app and add a few tasks</text>
-  <text x="510" y="510" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">to have data to work with</text>
+  <!-- Card 1: Documentation -->
+  <rect x="80" y="280" width="560" height="400" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="120" y="355" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Documentation</text>
+  <rect x="120" y="375" width="200" height="3" fill="#8b7fd4"/>
+  <circle cx="143" cy="430" r="6" fill="#8b7fd4"/>
+  <text x="165" y="439" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">README and CHANGELOG files</text>
+  <circle cx="143" cy="479" r="6" fill="#8b7fd4"/>
+  <text x="165" y="488" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">API reference from source code</text>
+  <circle cx="143" cy="528" r="6" fill="#8b7fd4"/>
+  <text x="165" y="537" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Architecture decision records</text>
+  <circle cx="143" cy="577" r="6" fill="#8b7fd4"/>
+  <text x="165" y="586" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">OpenAPI / Swagger specs</text>
 
-  <rect x="980" y="235" width="860" height="367" rx="12"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1410" y="325" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="56" font-weight="700" fill="#8b7fd4">02</text>
-  <text x="1410" y="400" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="38" font-weight="600" fill="#ffffff">Plan</text>
-  <rect x="1330" y="420" width="160" height="3" fill="#8b7fd4"/>
-  <text x="1410" y="466" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">Switch to Plan Mode and describe</text>
-  <text x="1410" y="510" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">pagination, filtering and sorting</text>
+  <!-- Card 2: Slides & Diagrams -->
+  <rect x="680" y="280" width="560" height="400" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="720" y="355" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Slides &amp; Diagrams</text>
+  <rect x="720" y="375" width="200" height="3" fill="#8b7fd4"/>
+  <circle cx="743" cy="430" r="6" fill="#8b7fd4"/>
+  <text x="765" y="439" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">SVG slides and visual assets</text>
+  <circle cx="743" cy="479" r="6" fill="#8b7fd4"/>
+  <text x="765" y="488" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Markdown decks (Marp, Reveal.js)</text>
+  <circle cx="743" cy="528" r="6" fill="#8b7fd4"/>
+  <text x="765" y="537" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Architecture diagrams from code</text>
+  <circle cx="743" cy="577" r="6" fill="#8b7fd4"/>
+  <text x="765" y="586" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Speaker notes and scripts</text>
 
-  <rect x="80" y="632" width="860" height="367" rx="12"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="510" y="722" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="56" font-weight="700" fill="#8b7fd4">03</text>
-  <text x="510" y="797" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="38" font-weight="600" fill="#ffffff">Review</text>
-  <rect x="430" y="817" width="160" height="3" fill="#8b7fd4"/>
-  <text x="510" y="863" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">Read every step of the plan</text>
-  <text x="510" y="907" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">before approving execution</text>
+  <!-- Card 3: Code & Projects -->
+  <rect x="1280" y="280" width="560" height="400" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1320" y="355" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Code &amp; Projects</text>
+  <rect x="1320" y="375" width="200" height="3" fill="#8b7fd4"/>
+  <circle cx="1343" cy="430" r="6" fill="#8b7fd4"/>
+  <text x="1365" y="439" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Scaffold entire new solutions</text>
+  <circle cx="1343" cy="479" r="6" fill="#8b7fd4"/>
+  <text x="1365" y="488" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Update configs across a monorepo</text>
+  <circle cx="1343" cy="528" r="6" fill="#8b7fd4"/>
+  <text x="1365" y="537" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Dockerfiles and CI/CD pipelines</text>
+  <circle cx="1343" cy="577" r="6" fill="#8b7fd4"/>
+  <text x="1365" y="586" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Multiple projects in one pass</text>
 
-  <rect x="980" y="632" width="860" height="367" rx="12"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1410" y="722" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="56" font-weight="700" fill="#8b7fd4">04</text>
-  <text x="1410" y="797" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="38" font-weight="600" fill="#ffffff">Execute</text>
-  <rect x="1330" y="817" width="160" height="3" fill="#8b7fd4"/>
-  <text x="1410" y="863" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">Approve the plan and verify</text>
-  <text x="1410" y="907" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="28" font-weight="300" fill="#c4baea">the new query parameters work</text>
+  <!-- Bottom card -->
+  <rect x="80" y="710" width="1760" height="210" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="120" y="780" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">The directory is your canvas</text>
+  <rect x="120" y="800" width="200" height="3" fill="#8b7fd4"/>
+  <text x="120" y="849" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">There is no file type restriction &#x2014; code, config, markdown, SVGs, and data files are all in scope.</text>
+  <text x="120" y="891" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Ask once, change many &#x2014; Copilot reads what is there, generates what is missing, and reorganises the rest.</text>
+
+  <rect x="360" y="945" width="1200" height="65" rx="32" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="987" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="600" fill="#ffffff" letter-spacing="1">From a single terminal, the whole project is your workspace &#x2014; no editor required.</text>
 </svg>

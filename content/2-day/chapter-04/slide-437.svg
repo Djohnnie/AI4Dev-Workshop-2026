@@ -17,40 +17,37 @@
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Prompt Files vs. Skill Files</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Your Daily-Driver Toolkit</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
   <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
-    Same goal - reuse expertise. The difference is who decides to load it: you, or the agent.
+    Six tools, one principle - reach for the right scope, and review everything you keep.
   </text>
 
-  <rect x="130" y="285" width="720" height="540" rx="28" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="490" y="370" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="700" fill="#ffffff">Prompt file</text>
-  <rect x="340" y="400" width="300" height="3" fill="#8b7fd4"/>
-  <text x="490" y="460" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#8b7fd4">You invoke it</text>
-  <circle cx="195" cy="535" r="7" fill="#8b7fd4"/>
-  <text x="225" y="546" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">pick it from the Chat picker</text>
-  <circle cx="195" cy="605" r="7" fill="#8b7fd4"/>
-  <text x="225" y="616" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">a named task you run on demand</text>
-  <circle cx="195" cy="675" r="7" fill="#8b7fd4"/>
-  <text x="225" y="686" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">.github/prompts/*.prompt.md</text>
-  <circle cx="195" cy="745" r="7" fill="#8b7fd4"/>
-  <text x="225" y="756" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">e.g. "scaffold an endpoint"</text>
+  <rect x="90" y="290" width="850" height="170" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="130" y="355" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Agent Mode</text>
+  <text x="130" y="410" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Goal in, work done. You approve at</text>
+  <text x="130" y="443" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">every checkpoint.</text>
 
-  <rect x="1070" y="285" width="720" height="540" rx="28" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1430" y="370" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="700" fill="#ffffff">Skill file</text>
-  <rect x="1280" y="400" width="300" height="3" fill="#8b7fd4"/>
-  <text x="1430" y="460" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#8b7fd4">The agent reaches for it</text>
-  <circle cx="1135" cy="535" r="7" fill="#8b7fd4"/>
-  <text x="1165" y="546" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">it reads each description, decides</text>
-  <circle cx="1135" cy="605" r="7" fill="#8b7fd4"/>
-  <text x="1165" y="616" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">an expert process for a work type</text>
-  <circle cx="1135" cy="675" r="7" fill="#8b7fd4"/>
-  <text x="1165" y="686" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">.github/skills/&lt;name&gt;/SKILL.md</text>
-  <circle cx="1135" cy="745" r="7" fill="#8b7fd4"/>
-  <text x="1165" y="756" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">can bundle runnable scripts</text>
+  <rect x="980" y="290" width="850" height="170" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1020" y="355" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Copilot Edits &amp; CLI</text>
+  <text x="1020" y="410" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Coordinated multi-file edits in the IDE;</text>
+  <text x="1020" y="443" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">suggest &amp; explain in the terminal.</text>
 
-  <rect x="200" y="855" width="1520" height="105" rx="24" fill="#8b7fd4" opacity="0.18"/>
-  <text x="960" y="900" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="600" fill="#ffffff">Prompt file = a reusable prompt you invoke deliberately. Skill file = an expert process the agent applies on its own.</text>
-  <text x="960" y="937" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">SKILL.md follows the open agentskills spec - compatible with Copilot, Claude, and other agents.</text>
+  <rect x="90" y="490" width="850" height="170" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="130" y="555" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">On GitHub.com</text>
+  <text x="130" y="610" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">PR descriptions, code review, issue</text>
+  <text x="130" y="643" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">triage, and natural-language search.</text>
+
+  <rect x="980" y="490" width="850" height="170" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1020" y="555" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Instructions &amp; Files</text>
+  <text x="1020" y="610" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Custom instructions set the defaults;</text>
+  <text x="1020" y="643" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">prompt &amp; skill files capture expertise.</text>
+
+  <rect x="160" y="710" width="1600" height="150" rx="24" fill="#8b7fd4" fill-opacity="0.15" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="775" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">The thread through all six</text>
+  <text x="960" y="828" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Copilot gets the head start - you stay in control, and you own everything you commit.</text>
+
+  <rect x="510" y="905" width="900" height="60" rx="30" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="945" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">From occasional user to confident daily driver.</text>
 </svg>

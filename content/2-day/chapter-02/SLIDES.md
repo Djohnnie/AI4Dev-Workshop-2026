@@ -1,4 +1,4 @@
-# Slides
+﻿# Slides
 
 ## Slide 01 — Title
 
@@ -40,13 +40,13 @@
 
 ![Slide 10 — Exercise 201 — Factorial Calculator](slide-210.svg)
 
-→ [Exercise 201 — Factorial Calculator](../../../exercises/chapter-02/201/README.md)
+→ [Exercise 201 — Factorial Calculator](../../../exercises/chapter-02/exercise-201/README.md)
 
 ## Slide 11 — Exercise 202 — Palindrome Checker
 
 ![Slide 11 — Exercise 202 — Palindrome Checker](slide-211.svg)
 
-→ [Exercise 202 — Palindrome Checker](../../../exercises/chapter-02/202/README.md)
+→ [Exercise 202 — Palindrome Checker](../../../exercises/chapter-02/exercise-202/README.md)
 
 ## Slide 12 — Ask — Copilot Chat Mode: Ask
 
@@ -56,7 +56,7 @@
 
 ![Slide 13 — Exercise 203 — Mystery Processor](slide-213.svg)
 
-→ [Exercise 203 — Mystery Processor](../../../exercises/chapter-02/203/README.md)
+→ [Exercise 203 — Mystery Processor](../../../exercises/chapter-02/exercise-203/README.md)
 
 ## Slide 14 — Slash Commands — Copilot Chat Slash Commands
 
@@ -66,7 +66,7 @@
 
 ![Slide 15 — Exercise 204 — Shortest Path](slide-215.svg)
 
-→ [Exercise 204 — Shortest Path](../../../exercises/chapter-02/204/README.md)
+→ [Exercise 204 — Shortest Path](../../../exercises/chapter-02/exercise-204/README.md)
 
 ## Slide 16 — Copilot Chat Slash Command: /tests
 
@@ -76,7 +76,7 @@
 
 ![Slide 17 — Exercise 205 — Caesar Cipher](slide-217.svg)
 
-→ [Exercise 205 — Caesar Cipher](../../../exercises/chapter-02/205/README.md)
+→ [Exercise 205 — Caesar Cipher](../../../exercises/chapter-02/exercise-205/README.md)
 
 ## Slide 18 — Inline Chat and /doc
 
@@ -86,7 +86,7 @@
 
 ![Slide 19 — Exercise 206 — String Search](slide-219.svg)
 
-→ [Exercise 206 — String Search](../../../exercises/chapter-02/206/README.md)
+→ [Exercise 206 — String Search](../../../exercises/chapter-02/exercise-206/README.md)
 
 ## Slide 20 — Interactive Quiz 4
 

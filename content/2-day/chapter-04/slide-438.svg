@@ -15,39 +15,60 @@
   <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
   <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
-  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4" rx="0"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Your Daily-Driver Toolkit</text>
-  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+  <text x="80" y="108"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Interactive Quiz 10</text>
 
-  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
-    Six tools, one principle - reach for the right scope, and review everything you keep.
-  </text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
 
-  <rect x="90" y="290" width="850" height="170" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="130" y="355" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Agent Mode</text>
-  <text x="130" y="410" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Goal in, work done. You approve at</text>
-  <text x="130" y="443" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">every checkpoint.</text>
+  <rect x="80" y="190" width="1760" height="120" rx="16"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="234" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="600" fill="#ffffff">Which activity is the best fit for GitHub Copilot on GitHub.com,</text>
+  <text x="960" y="278" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="600" fill="#ffffff">without cloning the repository locally first?</text>
 
-  <rect x="980" y="290" width="850" height="170" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1020" y="355" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Copilot Edits &amp; CLI</text>
-  <text x="1020" y="410" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Coordinated multi-file edits in the IDE;</text>
-  <text x="1020" y="443" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">suggest &amp; explain in the terminal.</text>
+  <rect x="80" y="340" width="1760" height="150" rx="16"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <circle cx="155" cy="415" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
+  <text x="155" y="428" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="700" fill="#ffffff">A</text>
+  <text x="225" y="428"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#c4baea">Editing a local minimal API project across multiple files with direct file-system access</text>
 
-  <rect x="90" y="490" width="850" height="170" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="130" y="555" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">On GitHub.com</text>
-  <text x="130" y="610" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">PR descriptions, code review, issue</text>
-  <text x="130" y="643" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">triage, and natural-language search.</text>
+  <rect x="80" y="515" width="1760" height="150" rx="16"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <circle cx="155" cy="590" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
+  <text x="155" y="603" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="700" fill="#ffffff">B</text>
+  <text x="225" y="603"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#c4baea">Scaffolding and compiling a new desktop app entirely from your local CLI session</text>
 
-  <rect x="980" y="490" width="850" height="170" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1020" y="555" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Instructions &amp; Files</text>
-  <text x="1020" y="610" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Custom instructions set the defaults;</text>
-  <text x="1020" y="643" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">prompt &amp; skill files capture expertise.</text>
+  <rect x="80" y="690" width="1760" height="150" rx="16"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <circle cx="155" cy="765" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
+  <text x="155" y="778" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="700" fill="#ffffff">C</text>
+  <text x="225" y="778"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#c4baea">Running a Windows Forms app and iterating on local UI bugs from your terminal</text>
 
-  <rect x="160" y="710" width="1600" height="150" rx="24" fill="#8b7fd4" fill-opacity="0.15" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="960" y="775" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">The thread through all six</text>
-  <text x="960" y="828" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Copilot gets the head start - you stay in control, and you own everything you commit.</text>
-
-  <rect x="510" y="905" width="900" height="60" rx="30" fill="#8b7fd4" opacity="0.22"/>
-  <text x="960" y="945" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">From occasional user to confident daily driver.</text>
+  <rect x="80" y="865" width="1760" height="150" rx="16"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <circle cx="155" cy="940" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
+  <text x="155" y="953" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="700" fill="#ffffff">D</text>
+  <text x="225" y="953"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#c4baea">Recapping an open issue, reviewing a PR, and asking repo questions in the browser</text>
 </svg>

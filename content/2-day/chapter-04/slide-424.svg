@@ -11,37 +11,54 @@
   </defs>
 
   <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <!-- play / demo glyph -->
-  <g transform="translate(1610 70)" opacity="0.22">
-    <circle cx="120" cy="120" r="96" fill="none" stroke="#c4baea" stroke-width="10"/>
-    <path d="M95 75 L170 120 L95 165 Z" fill="#c4baea"/>
-  </g>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">The Workflow Shift &#x2014; Running Outside the IDE</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#8b7fd4" letter-spacing="3">LIVE DEMO</text>
-  <text x="80" y="190" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff" letter-spacing="-1">Design a New Feature with Plan Mode</text>
-  <rect x="0" y="222" width="1920" height="4" fill="#8b7fd4"/>
-
-  <text x="80" y="290" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
-    A new REST endpoint with filtering, sorting, validation, and integration tests — planned before a file is touched.
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
+    In large codebases, Copilot Chat competes for IDE resources. The CLI does the heavy lifting in its own process.
   </text>
 
-  <rect x="90" y="335" width="1740" height="110" rx="16" fill="#1e1b33" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="130" y="404" font-family="'Consolas', 'Courier New', monospace" font-size="32" font-weight="400" fill="#c4baea">&gt; Add a paginated product search endpoint with filters, sorting, and full integration tests.</text>
+  <!-- Left card: Why step outside? -->
+  <rect x="90" y="280" width="850" height="370" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="130" y="353" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Why step outside?</text>
+  <rect x="130" y="373" width="220" height="3" fill="#8b7fd4"/>
+  <circle cx="153" cy="420" r="6" fill="#8b7fd4"/>
+  <text x="175" y="429" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">IDE extensions share one process — Git,</text>
+  <text x="175" y="462" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">formatters, and Chat all compete for resources</text>
+  <circle cx="153" cy="506" r="6" fill="#8b7fd4"/>
+  <text x="175" y="515" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">In large monorepos a substantial agent task</text>
+  <text x="175" y="548" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">can freeze VS Code entirely</text>
+  <circle cx="153" cy="592" r="6" fill="#8b7fd4"/>
+  <text x="175" y="601" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">The CLI runs in a separate process — the</text>
+  <text x="175" y="634" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">IDE stays responsive while the work runs</text>
 
-  <text x="80" y="535" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Narrate each Plan Mode stage as it unfolds</text>
-  <rect x="80" y="555" width="380" height="3" fill="#8b7fd4"/>
+  <!-- Right card: What you keep -->
+  <rect x="980" y="280" width="850" height="370" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1020" y="353" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">What you keep</text>
+  <rect x="1020" y="373" width="220" height="3" fill="#8b7fd4"/>
+  <circle cx="1043" cy="420" r="6" fill="#8b7fd4"/>
+  <text x="1065" y="429" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">The CLI connects to your active VS Code</text>
+  <text x="1065" y="462" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">instance — full workspace context, no loss</text>
+  <circle cx="1043" cy="506" r="6" fill="#8b7fd4"/>
+  <text x="1065" y="515" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Supports @ mentions and file additions</text>
+  <text x="1065" y="548" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">directly from the editor context menu</text>
+  <circle cx="1043" cy="592" r="6" fill="#8b7fd4"/>
+  <text x="1065" y="601" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">No Keep / Undo dialogs — tasks finish</text>
+  <text x="1065" y="634" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">autonomously; review the Git diff when done</text>
 
-  <circle cx="105" cy="615" r="7" fill="#8b7fd4"/>
-  <text x="135" y="626" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">Show the clarifying questions appearing — answer scope, library, and test-framework choices live</text>
-  <circle cx="105" cy="680" r="7" fill="#8b7fd4"/>
-  <text x="135" y="691" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">Read the generated blueprint together — point out a pitfall Copilot already caught</text>
-  <circle cx="105" cy="745" r="7" fill="#8b7fd4"/>
-  <text x="135" y="756" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">Revise one step live to show the review loop — then approve the final plan</text>
-  <circle cx="105" cy="810" r="7" fill="#8b7fd4"/>
-  <text x="135" y="821" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">Hand off to Agent Mode — watch it implement exactly what was planned, step by step</text>
+  <!-- Bottom card: When to reach for CLI -->
+  <rect x="90" y="685" width="1740" height="220" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="130" y="755" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Reach for CLI when...</text>
+  <rect x="130" y="775" width="200" height="3" fill="#8b7fd4"/>
+  <text x="130" y="825" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Repo-wide refactors &#183; Large monorepos with many sub-projects &#183; Parallel agent tasks across projects (fleet)</text>
+  <text x="130" y="868" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Chat stays the right tool for single-file edits, quick explanations, and inline completions.</text>
 
-  <rect x="90" y="880" width="1740" height="80" rx="16" fill="#8b7fd4" opacity="0.18"/>
-  <text x="960" y="928" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff">~6-8 minutes. Pre-run to lock down the question flow — and keep a recording as backup.</text>
+  <rect x="380" y="945" width="1160" height="65" rx="32" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="987" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="600" fill="#ffffff" letter-spacing="1">No context lost — the CLI and the IDE share the same workspace awareness.</text>
 </svg>

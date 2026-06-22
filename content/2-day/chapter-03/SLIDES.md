@@ -1,4 +1,4 @@
-# Slides
+﻿# Slides
 
 ## Slide 01 — Title
 
@@ -26,7 +26,7 @@
 
 ![Slide 06 — Exercise 301 — Who Does Copilot Picture?](slide-306.svg)
 
-→ [Exercise 301 — Who Does Copilot Picture?](../../../exercises/chapter-03/301/README.md)
+→ [Exercise 301 — Who Does Copilot Picture?](../../../exercises/chapter-03/exercise-301/README.md)
 
 <!-- Principle 2 — Reliability & Safety -->
 
@@ -42,7 +42,7 @@
 
 ![Slide 09 — Exercise 302 — Infix/Postfix with Ask Mode](slide-309.svg)
 
-→ [Exercise 302 — Infix/Postfix with Ask Mode](../../../exercises/chapter-03/302/README.md)
+→ [Exercise 302 — Infix/Postfix with Ask Mode](../../../exercises/chapter-03/exercise-302/README.md)
 
 <!-- Principle 3 — Privacy & Security -->
 
@@ -74,13 +74,13 @@
 
 ![Slide 16 — Exercise 303 — Malicious Repo Prompt Trap](slide-316.svg)
 
-→ [Exercise 303 — Malicious Repo Prompt Trap](../../../exercises/chapter-03/303/README.md)
+→ [Exercise 303 — Malicious Repo Prompt Trap](../../../exercises/chapter-03/exercise-303/README.md)
 
 ## Slide 17 — Exercise 304 — Malicious MCP "Obfuscator" Demo
 
 ![Slide 17 — Exercise 304 — Malicious MCP "Obfuscator" Demo](slide-317.svg)
 
-→ [Exercise 304 — Code Obfuscator MCP Tool](../../../exercises/chapter-03/304/README.md)
+→ [Exercise 304 — Code Obfuscator MCP Tool](../../../exercises/chapter-03/exercise-304/README.md)
 
 <!-- Principle 4 — Inclusiveness -->
 
@@ -112,7 +112,7 @@
 
 ![Slide 24 — Exercise 305 — Tool Calls with Ollama](slide-324.svg)
 
-→ [Exercise 305 — Tool Calls with Ollama](../../../exercises/chapter-03/305/README.md)
+→ [Exercise 305 — Tool Calls with Ollama](../../../exercises/chapter-03/exercise-305/README.md)
 
 <!-- Principle 5 — Transparency -->
 

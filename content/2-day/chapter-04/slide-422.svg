@@ -4,65 +4,100 @@
       <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
       <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
     </radialGradient>
-    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
-    </radialGradient>
   </defs>
 
   <rect width="1920" height="1080" fill="url(#bgGlow)"/>
-  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
-  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
-  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
-  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="68" font-weight="700" fill="#ffffff" letter-spacing="-1">Step 1 &amp; 2 — From Questions to Blueprint</text>
+  <g transform="translate(1535 56)" opacity="0.2">
+    <text x="0" y="62"
+      font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+      font-size="58" font-weight="700" fill="#c4baea">Plan Mode</text>
+    <text x="0" y="126"
+      font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+      font-size="38" font-weight="600" fill="#c4baea">design before you build</text>
+  </g>
+
+  <g transform="translate(1490 832)" opacity="0.18">
+    <rect x="0" y="0" width="240" height="120" rx="18" fill="none" stroke="#c4baea" stroke-width="10"/>
+    <line x1="36" y1="42" x2="198" y2="42" stroke="#c4baea" stroke-width="8" stroke-linecap="round"/>
+    <line x1="36" y1="76" x2="126" y2="76" stroke="#c4baea" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="168" cy="76" r="14" fill="none" stroke="#c4baea" stroke-width="8"/>
+  </g>
+
+  <text x="80" y="108"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Exercise 403 &#x2014; Paginate, Filter and Sort</text>
+
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
-  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
-    Copilot first clarifies what you need, then maps out how to build it — all in plain language.
+  <text x="80" y="195"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#c4baea">
+    Use Plan Mode to design and implement query parameters for the GET /tasks endpoint.
   </text>
 
-  <!-- Vertical divider -->
-  <line x1="960" y1="248" x2="960" y2="990" stroke="#8b7fd4" stroke-width="1.5" opacity="0.4"/>
+  <rect x="80" y="235" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="510" y="325" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="56" font-weight="700" fill="#8b7fd4">1</text>
+  <text x="510" y="400" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="38" font-weight="600" fill="#ffffff">Start</text>
+  <rect x="430" y="420" width="160" height="3" fill="#8b7fd4"/>
+  <text x="510" y="466" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Run the app and add a few tasks</text>
+  <text x="510" y="510" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">to have data to work with</text>
 
-  <!-- Left panel: Step 1 — Clarifying Questions -->
-  <text x="120" y="285" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="#8b7fd4" letter-spacing="3">STEP 1</text>
-  <text x="120" y="345" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">Clarifying Questions</text>
-  <rect x="120" y="365" width="280" height="3" fill="#8b7fd4"/>
+  <rect x="980" y="235" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="325" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="56" font-weight="700" fill="#8b7fd4">2</text>
+  <text x="1410" y="400" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="38" font-weight="600" fill="#ffffff">Plan</text>
+  <rect x="1330" y="420" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1410" y="466" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Switch to Plan Mode and describe</text>
+  <text x="1410" y="510" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">pagination, filtering and sorting</text>
 
-  <circle cx="148" cy="433" r="7" fill="#8b7fd4"/>
-  <text x="178" y="444" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Copilot reads your high-level goal</text>
-  <circle cx="148" cy="498" r="7" fill="#8b7fd4"/>
-  <text x="178" y="509" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Scans your existing codebase for context</text>
-  <circle cx="148" cy="563" r="7" fill="#8b7fd4"/>
-  <text x="178" y="574" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Asks targeted questions about scope,</text>
-  <text x="178" y="610" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">libraries, and design decisions</text>
-  <circle cx="148" cy="663" r="7" fill="#8b7fd4"/>
-  <text x="178" y="674" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">You answer — scope is locked before</text>
-  <text x="178" y="710" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Copilot generates anything</text>
+  <rect x="80" y="632" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="510" y="722" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="56" font-weight="700" fill="#8b7fd4">3</text>
+  <text x="510" y="797" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="38" font-weight="600" fill="#ffffff">Review</text>
+  <rect x="430" y="817" width="160" height="3" fill="#8b7fd4"/>
+  <text x="510" y="863" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Read every step of the plan</text>
+  <text x="510" y="907" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">before approving execution</text>
 
-  <rect x="120" y="800" width="760" height="70" rx="16" fill="#ffffff" fill-opacity="0.08" stroke="#8b7fd4" stroke-width="1"/>
-  <text x="500" y="843" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="400" fill="#c4baea">No more "that's not what I meant" moments.</text>
-
-  <!-- Right panel: Step 2 — Step-by-Step Blueprint -->
-  <text x="1000" y="285" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="#8b7fd4" letter-spacing="3">STEP 2</text>
-  <text x="1000" y="345" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">Step-by-Step Blueprint</text>
-  <rect x="1000" y="365" width="280" height="3" fill="#8b7fd4"/>
-
-  <circle cx="1028" cy="433" r="7" fill="#8b7fd4"/>
-  <text x="1058" y="444" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Generates a structured list of actionable steps</text>
-  <circle cx="1028" cy="498" r="7" fill="#8b7fd4"/>
-  <text x="1058" y="509" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Highlights potential pitfalls upfront</text>
-  <circle cx="1028" cy="563" r="7" fill="#8b7fd4"/>
-  <text x="1058" y="574" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Proposes a logic flow in plain language</text>
-  <circle cx="1028" cy="628" r="7" fill="#8b7fd4"/>
-  <text x="1058" y="639" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Sub-tasks with clear dependencies</text>
-  <circle cx="1028" cy="693" r="7" fill="#8b7fd4"/>
-  <text x="1058" y="704" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Everything visible and editable before</text>
-  <text x="1058" y="740" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">execution starts</text>
-
-  <rect x="1000" y="800" width="800" height="70" rx="16" fill="#ffffff" fill-opacity="0.08" stroke="#8b7fd4" stroke-width="1"/>
-  <text x="1400" y="843" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="400" fill="#c4baea">The blueprint is editable — this is not a one-way output.</text>
+  <rect x="980" y="632" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="722" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="56" font-weight="700" fill="#8b7fd4">4</text>
+  <text x="1410" y="797" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="38" font-weight="600" fill="#ffffff">Execute</text>
+  <rect x="1330" y="817" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1410" y="863" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Approve the plan and verify</text>
+  <text x="1410" y="907" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">the new query parameters work</text>
 </svg>
