@@ -1,0 +1,19 @@
+@CursedThemePark_HostAddress = http://localhost:5080
+
+### Happy path
+POST {{CursedThemePark_HostAddress}}/api/demo/happy-path
+
+### Ghost Train VIP
+POST {{CursedThemePark_HostAddress}}/api/demo/ghost-train-vip
+
+### Thunder Loop Weather
+POST {{CursedThemePark_HostAddress}}/api/demo/thunder-loop-weather
+
+### Haunted Popcorn
+POST {{CursedThemePark_HostAddress}}/api/demo/haunted-popcorn
+
+### Zero Group Discount
+POST {{CursedThemePark_HostAddress}}/api/demo/zero-group-discount
+
+### Encore Dispatch
+POST {{CursedThemePark_HostAddress}}/api/demo/encore-dispatch

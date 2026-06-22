@@ -24,25 +24,32 @@
   <rect x="120" y="290" width="780" height="560" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="510" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Start with /doc</text>
   <rect x="345" y="377" width="330" height="3" fill="#8b7fd4"/>
-  <circle cx="202" cy="445" r="7" fill="#8b7fd4"/>
-  <text x="230" y="456" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Generate JSDoc, XML docs, Javadoc, or Python docstrings</text>
-  <circle cx="202" cy="520" r="7" fill="#8b7fd4"/>
-  <text x="230" y="531" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Capture parameters, return values, and thrown errors</text>
-  <circle cx="202" cy="595" r="7" fill="#8b7fd4"/>
-  <text x="230" y="606" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Ask for examples, caveats, and "when to use this" guidance</text>
-  <circle cx="202" cy="670" r="7" fill="#8b7fd4"/>
-  <text x="230" y="681" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Update stale comments immediately after a refactor or bug fix</text>
+  <circle cx="202" cy="438" r="7" fill="#8b7fd4"/>
+  <text x="230" y="448" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Generate JSDoc, XML docs, Javadoc,</text>
+  <text x="230" y="482" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">or Python docstrings</text>
+  <circle cx="202" cy="528" r="7" fill="#8b7fd4"/>
+  <text x="230" y="538" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Capture parameters, return values,</text>
+  <text x="230" y="572" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">and thrown errors</text>
+  <circle cx="202" cy="618" r="7" fill="#8b7fd4"/>
+  <text x="230" y="628" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Ask for examples, caveats, and</text>
+  <text x="230" y="662" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">"when to use this" guidance</text>
+  <circle cx="202" cy="708" r="7" fill="#8b7fd4"/>
+  <text x="230" y="718" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Update stale comments immediately</text>
+  <text x="230" y="752" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">after a refactor or bug fix</text>
 
   <rect x="1020" y="290" width="780" height="560" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="1410" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Prompt Pattern</text>
   <rect x="1285" y="377" width="250" height="3" fill="#8b7fd4"/>
-  <rect x="1090" y="445" width="640" height="220" rx="20" fill="#8b7fd4" opacity="0.14"/>
-  <text x="1125" y="490" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">"Document this method for maintainers, not just the</text>
-  <text x="1125" y="525" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">compiler. Explain the business intent, important side</text>
-  <text x="1125" y="560" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">effects, failure modes, and when callers should use it.</text>
-  <text x="1125" y="595" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">Include a short example and keep it accurate to</text>
-  <text x="1125" y="630" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">#file:OrderService.cs."</text>
-  <text x="1410" y="735" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">The best inline docs answer "why?" and "when?" - not just "what type?".</text>
+  <rect x="1080" y="430" width="660" height="270" rx="20" fill="#8b7fd4" opacity="0.14"/>
+  <text x="1115" y="478" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">"Document this method for maintainers,</text>
+  <text x="1115" y="512" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">not just the compiler. Explain the</text>
+  <text x="1115" y="546" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">business intent, important side</text>
+  <text x="1115" y="580" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">effects, failure modes, and when</text>
+  <text x="1115" y="614" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">callers should use it. Include a</text>
+  <text x="1115" y="648" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">short example and keep it accurate to</text>
+  <text x="1115" y="682" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">#file:OrderService.cs."</text>
+  <text x="1410" y="748" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">The best inline docs answer "why?" and "when?" -</text>
+  <text x="1410" y="782" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">not just "what type?".</text>
 
   <rect x="300" y="900" width="1320" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
   <text x="960" y="943" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">Good inline docs reduce rediscovery work for both humans and future Copilot prompts.</text>

@@ -19,32 +19,40 @@
 
   <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="55" font-weight="700" fill="#ffffff" letter-spacing="-1">Keep Documentation Honest - Refresh It with Every Change</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
-  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">Copilot can review docs against code, update stale sections, and turn diffs, incidents, and releases into useful written guidance.</text>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea" letter-spacing="1">Copilot can review docs against code, update stale sections, and turn</text>
+  <text x="80" y="243" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea" letter-spacing="1">diffs, incidents, and releases into useful written guidance.</text>
 
   <rect x="120" y="290" width="780" height="560" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="510" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Maintenance Loop</text>
   <rect x="305" y="377" width="410" height="3" fill="#8b7fd4"/>
-  <circle cx="202" cy="445" r="7" fill="#8b7fd4"/>
-  <text x="230" y="456" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Find docstrings and README sections made stale by a refactor</text>
-  <circle cx="202" cy="520" r="7" fill="#8b7fd4"/>
-  <text x="230" y="531" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Draft changelog entries, release notes, and migration guidance</text>
-  <circle cx="202" cy="595" r="7" fill="#8b7fd4"/>
-  <text x="230" y="606" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Turn incidents and support questions into runbooks and FAQ pages</text>
-  <circle cx="202" cy="670" r="7" fill="#8b7fd4"/>
-  <text x="230" y="681" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Keep onboarding notes aligned with the current project shape</text>
+  <circle cx="202" cy="438" r="7" fill="#8b7fd4"/>
+  <text x="230" y="448" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Find docstrings and README sections</text>
+  <text x="230" y="482" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">made stale by a refactor</text>
+  <circle cx="202" cy="528" r="7" fill="#8b7fd4"/>
+  <text x="230" y="538" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Draft changelog entries, release notes,</text>
+  <text x="230" y="572" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">and migration guidance</text>
+  <circle cx="202" cy="618" r="7" fill="#8b7fd4"/>
+  <text x="230" y="628" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Turn incidents and support questions</text>
+  <text x="230" y="662" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">into runbooks and FAQ pages</text>
+  <circle cx="202" cy="708" r="7" fill="#8b7fd4"/>
+  <text x="230" y="718" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Keep onboarding notes aligned with</text>
+  <text x="230" y="752" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">the current project shape</text>
 
   <rect x="1020" y="290" width="780" height="560" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="1410" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Useful Prompts</text>
   <rect x="1265" y="377" width="290" height="3" fill="#8b7fd4"/>
-  <rect x="1090" y="435" width="640" height="250" rx="20" fill="#8b7fd4" opacity="0.14"/>
-  <text x="1125" y="480" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">"Based on this PR diff and #file:README.md, which</text>
-  <text x="1125" y="515" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">sections are now outdated? Update them and draft a</text>
-  <text x="1125" y="550" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">release note for end users."</text>
-  <text x="1125" y="610" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">"Turn these incident notes into a runbook with</text>
-  <text x="1125" y="645" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">symptoms, probable causes, recovery steps, and the</text>
-  <text x="1125" y="680" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">signals we should watch next time."</text>
-  <text x="1410" y="740" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Treat docs as part of the deliverable, not cleanup work for later.</text>
+  <rect x="1080" y="430" width="660" height="285" rx="20" fill="#8b7fd4" opacity="0.14"/>
+  <text x="1115" y="474" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">"Based on this PR diff and #file:README.md,</text>
+  <text x="1115" y="508" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">which sections are now outdated? Update</text>
+  <text x="1115" y="542" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">them and draft a release note for end users."</text>
+  <text x="1115" y="600" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">"Turn these incident notes into a runbook</text>
+  <text x="1115" y="634" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">with symptoms, probable causes, recovery</text>
+  <text x="1115" y="668" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">steps, and the signals we should watch</text>
+  <text x="1115" y="702" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">next time."</text>
+  <text x="1410" y="752" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Treat docs as part of the deliverable,</text>
+  <text x="1410" y="786" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">not cleanup work for later.</text>
 
   <rect x="270" y="900" width="1380" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
-  <text x="960" y="943" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">The easiest way to keep docs useful is to update them in the same change that updates the software.</text>
+  <text x="960" y="938" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="1">The easiest way to keep docs useful is to update them</text>
+  <text x="960" y="970" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="1">in the same change that updates the software.</text>
 </svg>

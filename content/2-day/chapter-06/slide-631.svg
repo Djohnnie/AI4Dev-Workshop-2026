@@ -9,35 +9,36 @@
   <rect width="1920" height="1080" fill="url(#bgGlow)"/>
   <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="55" font-weight="700" fill="#ffffff" letter-spacing="-1">Exercise 605 - Document GuildOps Like It Will Outlive You</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff" letter-spacing="-1">Exercise 604 - Draw.io Playground with MCP and *.drawio.png</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
-  <text x="80" y="195" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea">Draft inline docs, repo-local Markdown, ADRs, and draw.io diagrams for a .NET 10 solution without losing technical accuracy.</text>
+  <text x="80" y="190" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea">Play with Draw.io, the DrawIO MCP server, and editable *.drawio.png files.</text>
+  <text x="80" y="228" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea">Keep it fun, readable, and easy to review in the repo.</text>
 
   <rect x="80" y="235" width="860" height="367" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="510" y="325" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">1</text>
-  <text x="510" y="400" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Read</text>
+  <text x="510" y="400" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Prompt</text>
   <rect x="430" y="420" width="160" height="3" fill="#8b7fd4"/>
-  <text x="510" y="466" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Ask what future maintainers would</text>
-  <text x="510" y="510" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">struggle to understand quickly</text>
+  <text x="510" y="466" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Ask Copilot for a playful system,</text>
+  <text x="510" y="510" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">plus nodes, edges, and labels</text>
 
   <rect x="980" y="235" width="860" height="367" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="1410" y="325" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">2</text>
-  <text x="1410" y="400" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Write</text>
+  <text x="1410" y="400" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Sketch</text>
   <rect x="1330" y="420" width="160" height="3" fill="#8b7fd4"/>
-  <text x="1410" y="466" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Generate inline docs, README text,</text>
-  <text x="1410" y="510" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">and feature docs in /docs</text>
+  <text x="1410" y="466" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Use DrawIO MCP or draw.io to</text>
+  <text x="1410" y="510" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">group, rename, and simplify</text>
 
   <rect x="80" y="632" width="860" height="367" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="510" y="722" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">3</text>
-  <text x="510" y="797" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Diagram</text>
+  <text x="510" y="797" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Save</text>
   <rect x="430" y="817" width="160" height="3" fill="#8b7fd4"/>
-  <text x="510" y="863" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Outline a draw.io diagram that can be</text>
-  <text x="510" y="907" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">saved and reviewed as .drawio.png</text>
+  <text x="510" y="863" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Commit a *.drawio.png that previews</text>
+  <text x="510" y="907" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">cleanly in Markdown and PRs</text>
 
   <rect x="980" y="632" width="860" height="367" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="1410" y="722" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">4</text>
-  <text x="1410" y="797" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Refresh</text>
+  <text x="1410" y="797" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Remix</text>
   <rect x="1330" y="817" width="160" height="3" fill="#8b7fd4"/>
-  <text x="1410" y="863" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Ask what would go stale first and how</text>
-  <text x="1410" y="907" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">docs should stay in the PR workflow</text>
+  <text x="1410" y="863" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Reopen it, improve readability, and</text>
+  <text x="1410" y="907" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">review it like a real repo artifact</text>
 </svg>

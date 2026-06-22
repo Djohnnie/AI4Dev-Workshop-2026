@@ -93,11 +93,31 @@
   <Folder Name="/Chapter 6/" />
   <Folder Name="/Chapter 6/Exercise 601/" />
   <Folder Name="/Chapter 6/Exercise 602/" />
-  <Folder Name="/Chapter 6/Exercise 603/" />
+  <Folder Name="/Chapter 6/Exercise 603/">
+    <Project Path="chapter-06\exercise-603\EditDistanceWorkshop\EditDistanceWorkshop.csproj" />
+    <Project Path="chapter-06\exercise-603\EditDistanceWorkshop.Tests\EditDistanceWorkshop.Tests.csproj" />
+    <Project Path="chapter-06\exercise-603\EditDistanceWorkshop.Benchmarks\EditDistanceWorkshop.Benchmarks.csproj" />
+  </Folder>
   <Folder Name="/Chapter 6/Exercise 604/" />
-  <Folder Name="/Chapter 6/Exercise 605/" />
-  <Folder Name="/Chapter 6/Exercise 606/" />
-  <Folder Name="/Chapter 6/Exercise 607/" />
+  <Folder Name="/Chapter 6/Solutions/Exercise 604/" />
+  <Folder Name="/Chapter 6/Exercise 605/">
+    <Project Path="chapter-06\exercise-605\CursedThemePark\CursedThemePark.csproj" />
+    <Project Path="chapter-06\exercise-605\CursedThemePark.Tests\CursedThemePark.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 6/Solutions/" />
+  <Folder Name="/Chapter 6/Solutions/Exercise 601/">
+    <Project Path="chapter-06\exercise-601-solution\ShortUrlWorkshop\ShortUrlWorkshop.csproj" />
+    <Project Path="chapter-06\exercise-601-solution\ShortUrlWorkshop.Tests\ShortUrlWorkshop.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 6/Solutions/Exercise 602/">
+    <Project Path="chapter-06\exercise-602-solution\ExpressionEvaluatorWorkshop\ExpressionEvaluatorWorkshop.csproj" />
+    <Project Path="chapter-06\exercise-602-solution\ExpressionEvaluatorWorkshop.Tests\ExpressionEvaluatorWorkshop.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Chapter 6/Solutions/Exercise 603/">
+    <Project Path="chapter-06\exercise-603-solution\EditDistanceWorkshop.Solution\EditDistanceWorkshop.Solution.csproj" />
+    <Project Path="chapter-06\exercise-603-solution\EditDistanceWorkshop.Solution.Tests\EditDistanceWorkshop.Solution.Tests.csproj" />
+    <Project Path="chapter-06\exercise-603-solution\EditDistanceWorkshop.Solution.Benchmarks\EditDistanceWorkshop.Solution.Benchmarks.csproj" />
+  </Folder>
   <Folder Name="/Chapter 7/" />
   <Folder Name="/Chapter 8/" />
 </Solution>

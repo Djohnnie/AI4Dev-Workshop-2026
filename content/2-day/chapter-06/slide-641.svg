@@ -19,7 +19,8 @@
 
   <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff" letter-spacing="-1">Security in the Review Loop - CodeQL and Autofix</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
-  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">Use Copilot not only to patch a finding, but to explain the vulnerability and check whether the same pattern exists elsewhere.</text>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea" letter-spacing="1">Use Copilot not only to patch a finding, but to explain the vulnerability</text>
+  <text x="80" y="243" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea" letter-spacing="1">and check whether the same pattern exists elsewhere.</text>
 
   <rect x="90" y="300" width="550" height="520" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="365" y="370" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Workflow</text>
@@ -40,5 +41,6 @@
   <text x="1257" y="735" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">The review value is not only the patch - it is the explanation and the pattern search.</text>
 
   <rect x="300" y="890" width="1320" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
-  <text x="960" y="933" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">Autofix is powerful because it understands the flow of unsafe data, not just suspicious text.</text>
+  <text x="960" y="922" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="1">Autofix is powerful because it understands the flow of unsafe data,</text>
+  <text x="960" y="954" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="1">not just suspicious text.</text>
 </svg>

@@ -2,7 +2,7 @@
 
 namespace EditDistanceWorkshop.Tests;
 
-public class UnitTest1
+public class SlowEditDistanceCalculatorTests
 {
     [Fact]
     public void Calculate_ReturnsExpectedDistance_ForWorkshopScenario()

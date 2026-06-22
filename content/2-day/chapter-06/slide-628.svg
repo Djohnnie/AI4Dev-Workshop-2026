@@ -19,7 +19,8 @@
 
   <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff" letter-spacing="-1">Docs as Code - Markdown That Lives with the Repo</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
-  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">README files, ADRs, runbooks, onboarding notes, and feature docs are easier to trust when they ship in the same pull request as the code.</text>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea" letter-spacing="1">README files, ADRs, runbooks, onboarding notes, and feature docs</text>
+  <text x="80" y="243" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea" letter-spacing="1">are easier to trust when they ship in the same pull request as the code.</text>
 
   <rect x="95" y="305" width="540" height="500" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="365" y="375" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">What to Create</text>
@@ -35,9 +36,11 @@
   <rect x="820" y="392" width="280" height="3" fill="#8b7fd4"/>
   <text x="960" y="465" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">versioned together with the code</text>
   <text x="960" y="515" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">reviewed in the same PR conversation</text>
-  <text x="960" y="565" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">branched, tagged, and released together</text>
-  <text x="960" y="615" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">easy to patch when the implementation shifts</text>
-  <text x="960" y="665" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">closer to the developers who know the context</text>
+  <text x="960" y="565" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">branched, tagged, and released together</text>
+  <text x="960" y="608" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">easy to patch when the</text>
+  <text x="960" y="642" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">implementation shifts</text>
+  <text x="960" y="698" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">closer to the developers</text>
+  <text x="960" y="732" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">who know the context</text>
 
   <rect x="1285" y="305" width="540" height="500" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="1555" y="375" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Prompt Pattern</text>
@@ -49,7 +52,8 @@
   <text x="1390" y="586" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">Include workflow, important</text>
   <text x="1390" y="618" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">files, config, failure modes,</text>
   <text x="1390" y="650" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">and a local test path."</text>
-  <text x="1555" y="730" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Ask for audience-specific docs, not generic repo summaries.</text>
+  <text x="1555" y="724" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Ask for audience-specific docs,</text>
+  <text x="1555" y="758" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">not generic repo summaries.</text>
 
   <rect x="250" y="900" width="1420" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
   <text x="960" y="943" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">If docs live beside the code, keeping them current becomes normal engineering work.</text>

@@ -19,7 +19,8 @@
 
   <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="51" font-weight="700" fill="#ffffff" letter-spacing="-1">Copilot Review and Human Review Do Different Jobs</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
-  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">The highest-value workflow is not AI or human review. It is AI first for technical friction, then humans for product and architecture judgement.</text>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea" letter-spacing="1">The highest-value workflow is not AI or human review. It is AI first for technical friction,</text>
+  <text x="80" y="243" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea" letter-spacing="1">then humans for product and architecture judgement.</text>
 
   <rect x="120" y="290" width="780" height="560" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="510" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Copilot Review</text>

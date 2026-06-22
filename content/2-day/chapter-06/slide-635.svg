@@ -43,5 +43,6 @@
   <text x="1565" y="555" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">when the spike began</text>
 
   <rect x="270" y="885" width="1380" height="78" rx="36" fill="#8b7fd4" opacity="0.22"/>
-  <text x="960" y="930" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">Prompt idea: "Correlate these logs, the trace summary, and the latency spike window. What's the most likely cause and what should I verify next?"</text>
+  <text x="960" y="922" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="1">Prompt idea: "Correlate these logs, the trace summary, and the latency spike window.</text>
+  <text x="960" y="954" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="1">What's the most likely cause and what should I verify next?"</text>
 </svg>

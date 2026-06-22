@@ -19,7 +19,8 @@
 
   <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="50" font-weight="700" fill="#ffffff" letter-spacing="-1">Give the Agent Eyes - Playwright, Screenshots, DOM, and Network</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
-  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">When the bug is visible in the UI, let the agent reproduce it and inspect what the user actually experiences.</text>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea" letter-spacing="1">When the bug is visible in the UI, let the agent reproduce it</text>
+  <text x="80" y="243" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea" letter-spacing="1">and inspect what the user actually experiences.</text>
 
   <rect x="120" y="290" width="780" height="560" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="510" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">What the Agent Can See</text>
@@ -41,7 +42,8 @@
   <text x="1125" y="515" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">Capture the failing step, inspect console errors,</text>
   <text x="1125" y="550" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">note the network request that fails, and summarize</text>
   <text x="1125" y="585" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">what the UI did versus what it should have done."</text>
-  <text x="1410" y="740" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">A visible bug often becomes obvious once the agent can watch the scenario unfold.</text>
+  <text x="1410" y="732" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">A visible bug often becomes obvious once</text>
+  <text x="1410" y="766" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">the agent can watch the scenario unfold.</text>
 
   <rect x="260" y="900" width="1400" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
   <text x="960" y="943" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">If the defect lives in behaviour, give Copilot behavioural evidence - not just source code.</text>

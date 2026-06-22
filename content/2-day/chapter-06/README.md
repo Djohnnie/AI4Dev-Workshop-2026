@@ -379,14 +379,14 @@ Participants use an existing .NET 10 infix/postfix expression evaluator to exper
 ### Exercise 603: Optimize Edit Distance (20 min)
 Participants start from a deliberately slow .NET 10 Levenshtein edit-distance implementation, measure it with logs, metrics, tests, and BenchmarkDotNet, then use Copilot to refactor the algorithm into something faster without changing the result.
 
-### Exercise 605: Document GuildOps Like It Will Outlive You (15 min)
-Participants use Copilot to draft inline docs, repo-local Markdown docs, an ADR, and a draw.io diagram saved as `.drawio.png` for a .NET 10 solution. Peer review focuses on accuracy, usefulness, and whether the docs would help the next developer.
+### Exercise 604: Draw.io Playground with MCP and *.drawio.png (15 min)
+Participants use Copilot and the DrawIO MCP server to sketch, refine, and review a fun diagram artifact. They save the result as `*.drawio.png`, discuss how it behaves in Markdown and draw.io, and compare whether the diagram is playful, readable, and useful enough to keep in a real repo.
 
-### Exercise 606: Hunt the Phantom Checkout Bug (20 min)
-Participants debug a flaky .NET 10 web flow using exceptions, stack traces, logs, traces, network evidence, and Playwright-driven reproduction. The exercise teaches them to give Copilot eyes and to leave behind a regression test or stronger observability signal.
+### Exercise 605: Hunt the Cursed Theme Park Checkout Bug (20 min)
+Participants debug a haunted .NET 10 checkout flow that hides multiple runtime exceptions behind VIP rides, cursed snacks, storm safety checks, and encore dispatch logic. The exercise teaches them to reproduce failures with UI evidence, logs, traces, and tests, then turn each cursed path into a regression-proof fix.
 
-### Exercise 607: The Pull Request Gauntlet (15 min)
-Participants turn an issue into a reviewable PR package: better PR body, reviewer checklist, Copilot review, and CodeQL/Autofix discussion. They compare what Copilot should catch automatically versus what still needs human judgment.
+### Lab 601: Ultimate Snake Across the Entire Lifecycle (30 min)
+Participants rebuild the familiar web-based Snake game one more time, but now they must use the whole chapter 6 workflow: analysis first, implementation in slices, validation and debugging, lightweight documentation and diagrams, and a PR-ready summary of the result.
 
 ---
 

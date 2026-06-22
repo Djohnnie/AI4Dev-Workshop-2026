@@ -19,7 +19,8 @@
 
   <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="50" font-weight="700" fill="#ffffff" letter-spacing="-1">From Issue to PR - Plan, Implement, Summarize, Iterate</text>
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
-  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">The strongest GitHub-side workflow is continuous: better issues create better plans, better diffs, and better pull requests.</text>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea" letter-spacing="1">The strongest GitHub-side workflow is continuous: better issues create better plans,</text>
+  <text x="80" y="243" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea" letter-spacing="1">better diffs, and better pull requests.</text>
 
   <rect x="120" y="300" width="1680" height="500" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="300" y="420" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Issue</text>
@@ -47,9 +48,11 @@
   <line x1="1080" y1="455" x2="1220" y2="455" stroke="#8b7fd4" stroke-width="4"/>
   <line x1="1420" y1="455" x2="1560" y2="455" stroke="#8b7fd4" stroke-width="4"/>
 
-  <rect x="350" y="650" width="1220" height="90" rx="20" fill="#8b7fd4" opacity="0.14"/>
-  <text x="960" y="705" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="23" fill="#ffffff">Useful prompt: "Summarize this PR for three audiences: the reviewer, the release notes, and the support team."</text>
+  <rect x="260" y="640" width="1400" height="110" rx="20" fill="#8b7fd4" opacity="0.14"/>
+  <text x="960" y="690" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">Useful prompt: "Summarize this PR for three audiences:</text>
+  <text x="960" y="724" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">the reviewer, the release notes, and the support team."</text>
 
   <rect x="250" y="900" width="1420" height="68" rx="34" fill="#8b7fd4" opacity="0.22"/>
-  <text x="960" y="943" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">The more intentional the issue, the better the PR experience for authors, reviewers, and everyone downstream.</text>
+  <text x="960" y="922" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="1">The more intentional the issue, the better the PR experience</text>
+  <text x="960" y="954" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="1">for authors, reviewers, and everyone downstream.</text>
 </svg>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cursed Theme Park Checkout</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #2f2a58;
+      color: #fff;
+    }
+
+    body {
+      margin: 0;
+      background: radial-gradient(circle at top, #524a96 0%, #3c356c 55%, #2f2a58 100%);
+    }
+
+    main {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 48px 32px 72px;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: 3rem;
+    }
+
+    .lead {
+      max-width: 980px;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #d8d1f0;
+      margin-bottom: 28px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 18px;
+      margin-bottom: 24px;
+    }
+
+    .card,
+    .panel {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(139, 127, 212, 0.75);
+      border-radius: 18px;
+      padding: 18px 18px 20px;
+      box-shadow: 0 12px 32px rgba(12, 10, 30, 0.25);
+    }
+
+    .card h2 {
+      margin: 0 0 10px;
+      font-size: 1.2rem;
+      color: #fff;
+    }
+
+    .tag {
+      display: inline-block;
+      margin-bottom: 10px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: rgba(139, 127, 212, 0.22);
+      color: #cfc5f2;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+
+    .card p,
+    .panel p,
+    li {
+      color: #d8d1f0;
+      line-height: 1.5;
+    }
+
+    button {
+      margin-top: 10px;
+      width: 100%;
+      border: 0;
+      border-radius: 12px;
+      padding: 12px 14px;
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #fff;
+      background: linear-gradient(135deg, #8b7fd4, #685cb8);
+      cursor: pointer;
+    }
+
+    button:hover {
+      filter: brightness(1.08);
+    }
+
+    .panels {
+      display: grid;
+      grid-template-columns: minmax(300px, 1fr) minmax(300px, 1fr);
+      gap: 18px;
+    }
+
+    pre {
+      white-space: pre-wrap;
+      word-break: break-word;
+      font-family: Consolas, "Courier New", monospace;
+      background: rgba(11, 9, 24, 0.42);
+      border-radius: 12px;
+      padding: 16px;
+      min-height: 180px;
+      color: #f5f1ff;
+    }
+
+    code {
+      color: #fff4b3;
+    }
+
+    @media (max-width: 900px) {
+      .panels {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Cursed Theme Park Checkout</h1>
+    <p class="lead">
+      A haunted .NET checkout flow for debugging practice. Trigger the cursed scenarios below, inspect the crash,
+      and use Copilot to trace which assumption fails first.
+    </p>
+
+    <section class="grid" id="scenario-grid"></section>
+
+    <section class="panels">
+      <article class="panel">
+        <h2>How participants can work this exercise</h2>
+        <ol>
+          <li>Run one cursed scenario from the UI or <code>CursedThemePark.http</code>.</li>
+          <li>Inspect the failing request, logs, and stack trace.</li>
+          <li>Narrow the fault to one broken assumption.</li>
+          <li>Fix it and turn the repro into a regression test.</li>
+        </ol>
+      </article>
+
+      <article class="panel">
+        <h2>Latest result</h2>
+        <pre id="result">Choose a scenario to run the haunted checkout.</pre>
+      </article>
+    </section>
+  </main>
+
+  <script>
+    const result = document.getElementById("result");
+    const scenarioGrid = document.getElementById("scenario-grid");
+
+    async function loadScenarios() {
+      const response = await fetch("/api/scenarios");
+      const scenarios = await response.json();
+
+      for (const scenario of scenarios) {
+        const card = document.createElement("article");
+        card.className = "card";
+        card.innerHTML = `
+          <span class="tag">${scenario.expectedException}</span>
+          <h2>${scenario.title}</h2>
+          <p>${scenario.guestReport}</p>
+          <button type="button">Run ${scenario.id}</button>
+        `;
+
+        card.querySelector("button").addEventListener("click", async () => {
+          result.textContent = `Running ${scenario.id}...`;
+
+          const response = await fetch(`/api/demo/${scenario.id}`, { method: "POST" });
+          const body = await response.text();
+
+          if (response.ok) {
+            result.textContent = `Scenario: ${scenario.id}\nStatus: ${response.status}\n\n${body}`;
+            return;
+          }
+
+          result.textContent =
+            `Scenario: ${scenario.id}\nStatus: ${response.status}\n\n` +
+            `Guest report: ${scenario.guestReport}\n\n` +
+            `${body || "The server failed before it could return a clean response."}`;
+        });
+
+        scenarioGrid.appendChild(card);
+      }
+    }
+
+    loadScenarios().catch((error) => {
+      result.textContent = `Failed to load scenarios.\n\n${error}`;
+    });
+  </script>
+</body>
+</html>

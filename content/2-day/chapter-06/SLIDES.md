@@ -136,11 +136,11 @@
 
 ![Slide 30 — Keep Documentation Honest — Refresh It with Every Change](slide-630.svg)
 
-## Slide 31 — Exercise 605 — Document GuildOps Like It Will Outlive You
+## Slide 31 — Exercise 604 — Draw.io Playground with MCP and *.drawio.png
 
-![Slide 31 — Exercise 605 — Document GuildOps Like It Will Outlive You](slide-631.svg)
+![Slide 31 — Exercise 604 — Draw.io Playground with MCP and *.drawio.png](slide-631.svg)
 
-→ [Exercise 605 — Document GuildOps Like It Will Outlive You](../../../exercises/chapter-06/exercise-605/README.md)
+→ [Exercise 604 — Draw.io Playground with MCP and *.drawio.png](../../../exercises/chapter-06/exercise-604/README.md)
 
 <!-- Section 6 — Copilot for Debugging & Root Cause Analysis -->
 
@@ -164,11 +164,11 @@
 
 ![Slide 36 — Reproduce, Narrow, Verify — The AI Debugging Loop](slide-636.svg)
 
-## Slide 37 — Exercise 606 — Hunt the Phantom Checkout Bug
+## Slide 37 — Exercise 605 — Hunt the Cursed Theme Park Checkout Bug
 
-![Slide 37 — Exercise 606 — Hunt the Phantom Checkout Bug](slide-637.svg)
+![Slide 37 — Exercise 605 — Hunt the Cursed Theme Park Checkout Bug](slide-637.svg)
 
-→ [Exercise 606 — Hunt the Phantom Checkout Bug](../../../exercises/chapter-06/exercise-606/README.md)
+→ [Exercise 605 — Hunt the Cursed Theme Park Checkout Bug](../../../exercises/chapter-06/exercise-605/README.md)
 
 <!-- Section 7 — Copilot in the Pull-Request Lifecycle -->
 
@@ -192,8 +192,14 @@
 
 ![Slide 42 — From Issue to PR — Plan, Implement, Summarize, Iterate](slide-642.svg)
 
-## Slide 43 — Exercise 607 — The Pull Request Gauntlet
+## Slide 43 — Lab 601 — Ultimate Snake Across the Entire Lifecycle
 
-![Slide 43 — Exercise 607 — The Pull Request Gauntlet](slide-643.svg)
+![Slide 43 — Lab 601 — Ultimate Snake Across the Entire Lifecycle](slide-643.svg)
 
-→ [Exercise 607 — The Pull Request Gauntlet](../../../exercises/chapter-06/exercise-607/README.md)
+→ [Lab 601 — Ultimate Snake Across the Entire Lifecycle](../../../labs/chapter-06/lab-601/README.md)
+
+## Slide 44 — Lab 601 — Expectations
+
+![Slide 44 — Lab 601 — Expectations](slide-644.svg)
+
+→ [Lab 601 — Ultimate Snake Across the Entire Lifecycle](../../../labs/chapter-06/lab-601/README.md)
