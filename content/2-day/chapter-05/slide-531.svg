@@ -19,7 +19,7 @@
 
   <text x="80" y="108"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Interactive Quiz 16</text>
+    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Interactive Quiz 14</text>
 
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
 
@@ -27,10 +27,10 @@
     fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="960" y="234" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="600" fill="#ffffff">Before vibe-coding a new feature, which chapter 6 move gives Copilot</text>
+    font-size="36" font-weight="600" fill="#ffffff">Which prompt best uses task, context, examples,</text>
   <text x="960" y="278" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="600" fill="#ffffff">the strongest starting point across the whole lifecycle?</text>
+    font-size="36" font-weight="600" fill="#ffffff">and constraints together?</text>
 
   <rect x="80" y="340" width="1760" height="150" rx="16"
     fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
@@ -40,7 +40,7 @@
     font-size="36" font-weight="700" fill="#ffffff">A</text>
   <text x="225" y="428"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#c4baea">Start coding immediately and let the first compiler error define the scope</text>
+    font-size="34" font-weight="300" fill="#c4baea">Help with my auth code</text>
 
   <rect x="80" y="515" width="1760" height="150" rx="16"
     fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
@@ -50,7 +50,7 @@
     font-size="36" font-weight="700" fill="#ffffff">B</text>
   <text x="225" y="603"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#c4baea">Skip planning and ask Copilot for the PR description before any code exists</text>
+    font-size="34" font-weight="300" fill="#c4baea">Write a function that validates tokens</text>
 
   <rect x="80" y="690" width="1760" height="150" rx="16"
     fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
@@ -58,12 +58,9 @@
   <text x="155" y="778" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
     font-size="36" font-weight="700" fill="#ffffff">C</text>
-  <text x="225" y="745"
+  <text x="225" y="778"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="33" font-weight="300" fill="#c4baea">Turn the brief into requirements, actors, risks, architecture options,</text>
-  <text x="225" y="785"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="33" font-weight="300" fill="#c4baea">and an implementation plan before generating code</text>
+    font-size="34" font-weight="300" fill="#c4baea">Fix login, make it clean, and maybe add tests too</text>
 
   <rect x="80" y="865" width="1760" height="150" rx="16"
     fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
@@ -71,7 +68,10 @@
   <text x="155" y="953" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
     font-size="36" font-weight="700" fill="#ffffff">D</text>
-  <text x="225" y="953"
+  <text x="225" y="923"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#c4baea">Wait until release day to think about tests, diagnostics, and reviewability</text>
+    font-size="31" font-weight="300" fill="#c4baea">Create an Express TypeScript middleware that validates a JWT from the</text>
+  <text x="225" y="958"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="31" font-weight="300" fill="#c4baea">Authorization header, returns { error: "Unauthorized" }, and adds no new packages</text>
 </svg>

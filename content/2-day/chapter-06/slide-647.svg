@@ -19,7 +19,7 @@
 
   <text x="80" y="108"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Interactive Quiz 16</text>
+    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Interactive Quiz 18</text>
 
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
 
@@ -27,10 +27,7 @@
     fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="960" y="234" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="600" fill="#ffffff">Before vibe-coding a new feature, which chapter 6 move gives Copilot</text>
-  <text x="960" y="278" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="600" fill="#ffffff">the strongest starting point across the whole lifecycle?</text>
+    font-size="36" font-weight="600" fill="#ffffff">Which statement best reflects Copilot's role in the pull request lifecycle?</text>
 
   <rect x="80" y="340" width="1760" height="150" rx="16"
     fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
@@ -40,7 +37,7 @@
     font-size="36" font-weight="700" fill="#ffffff">A</text>
   <text x="225" y="428"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#c4baea">Start coding immediately and let the first compiler error define the scope</text>
+    font-size="34" font-weight="300" fill="#c4baea">If Copilot reviews the PR, human reviewers are no longer needed for architecture or business logic</text>
 
   <rect x="80" y="515" width="1760" height="150" rx="16"
     fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
@@ -50,7 +47,7 @@
     font-size="36" font-weight="700" fill="#ffffff">B</text>
   <text x="225" y="603"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#c4baea">Skip planning and ask Copilot for the PR description before any code exists</text>
+    font-size="34" font-weight="300" fill="#c4baea">Copilot is mainly for styling comments and should not be used for PR descriptions or review checklists</text>
 
   <rect x="80" y="690" width="1760" height="150" rx="16"
     fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
@@ -58,12 +55,9 @@
   <text x="155" y="778" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
     font-size="36" font-weight="700" fill="#ffffff">C</text>
-  <text x="225" y="745"
+  <text x="225" y="778"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="33" font-weight="300" fill="#c4baea">Turn the brief into requirements, actors, risks, architecture options,</text>
-  <text x="225" y="785"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="33" font-weight="300" fill="#c4baea">and an implementation plan before generating code</text>
+    font-size="34" font-weight="300" fill="#c4baea">Autofix should always be merged immediately because CodeQL has already proven the patch is perfect</text>
 
   <rect x="80" y="865" width="1760" height="150" rx="16"
     fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
@@ -71,7 +65,10 @@
   <text x="155" y="953" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
     font-size="36" font-weight="700" fill="#ffffff">D</text>
-  <text x="225" y="953"
+  <text x="225" y="923"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#c4baea">Wait until release day to think about tests, diagnostics, and reviewability</text>
+    font-size="31" font-weight="300" fill="#c4baea">Copilot can draft PR descriptions, surface likely bugs, and suggest fixes,</text>
+  <text x="225" y="958"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="31" font-weight="300" fill="#c4baea">while humans still judge product correctness, architecture, and final merge readiness</text>
 </svg>

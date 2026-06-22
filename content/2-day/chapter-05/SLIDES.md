@@ -130,14 +130,38 @@
 
 ![Slide 28 — The Prompt Engineer's Checklist](slide-528.svg)
 
-## Slide 29 — Lab 501 — Ultimate Snake with Instructions & Prompt Files
+## Slide 29 — Interactive Quiz 13
 
-![Slide 29 — Lab 501 — Ultimate Snake with Instructions & Prompt Files](slide-529.svg)
+![Slide 29 — Interactive Quiz 13](slide-529.svg)
+
+## Slide 30 — Interactive Quiz 13 — Answer
+
+![Slide 30 — Interactive Quiz 13 — Answer](slide-530.svg)
+
+## Slide 31 — Interactive Quiz 14
+
+![Slide 31 — Interactive Quiz 14](slide-531.svg)
+
+## Slide 32 — Interactive Quiz 14 — Answer
+
+![Slide 32 — Interactive Quiz 14 — Answer](slide-532.svg)
+
+## Slide 33 — Interactive Quiz 15
+
+![Slide 33 — Interactive Quiz 15](slide-533.svg)
+
+## Slide 34 — Interactive Quiz 15 — Answer
+
+![Slide 34 — Interactive Quiz 15 — Answer](slide-534.svg)
+
+## Slide 35 — Lab 501 — Ultimate Snake with Instructions & Prompt Files
+
+![Slide 35 — Lab 501 — Ultimate Snake with Instructions & Prompt Files](slide-536.svg)
 
 → [Lab 501 — Ultimate Snake with Instructions, Prompt Files, and Skills](../../../labs/chapter-05/lab-501/README.md)
 
-## Slide 30 — Lab 501 — Expectations
+## Slide 36 — Lab 501 — Expectations
 
-![Slide 30 — Lab 501 — Expectations](slide-530.svg)
+![Slide 36 — Lab 501 — Expectations](slide-535.svg)
 
 → [Lab 501 — Ultimate Snake with Instructions, Prompt Files, and Skills](../../../labs/chapter-05/lab-501/README.md)

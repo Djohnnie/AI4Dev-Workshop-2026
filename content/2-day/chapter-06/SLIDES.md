@@ -192,14 +192,38 @@
 
 ![Slide 42 — From Issue to PR — Plan, Implement, Summarize, Iterate](slide-642.svg)
 
-## Slide 43 — Lab 601 — Ultimate Snake Across the Entire Lifecycle
+## Slide 43 — Interactive Quiz 16
 
-![Slide 43 — Lab 601 — Ultimate Snake Across the Entire Lifecycle](slide-643.svg)
+![Slide 43 — Interactive Quiz 16](slide-643.svg)
+
+## Slide 44 — Interactive Quiz 16 — Answer
+
+![Slide 44 — Interactive Quiz 16 — Answer](slide-644.svg)
+
+## Slide 45 — Interactive Quiz 17
+
+![Slide 45 — Interactive Quiz 17](slide-645.svg)
+
+## Slide 46 — Interactive Quiz 17 — Answer
+
+![Slide 46 — Interactive Quiz 17 — Answer](slide-646.svg)
+
+## Slide 47 — Interactive Quiz 18
+
+![Slide 47 — Interactive Quiz 18](slide-647.svg)
+
+## Slide 48 — Interactive Quiz 18 — Answer
+
+![Slide 48 — Interactive Quiz 18 — Answer](slide-648.svg)
+
+## Slide 49 — Lab 601 — Ultimate Snake Across the Entire Lifecycle
+
+![Slide 49 — Lab 601 — Ultimate Snake Across the Entire Lifecycle](slide-649.svg)
 
 → [Lab 601 — Ultimate Snake Across the Entire Lifecycle](../../../labs/chapter-06/lab-601/README.md)
 
-## Slide 44 — Lab 601 — Expectations
+## Slide 50 — Lab 601 — Expectations
 
-![Slide 44 — Lab 601 — Expectations](slide-644.svg)
+![Slide 50 — Lab 601 — Expectations](slide-650.svg)
 
 → [Lab 601 — Ultimate Snake Across the Entire Lifecycle](../../../labs/chapter-06/lab-601/README.md)

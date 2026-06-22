@@ -36,14 +36,38 @@
 
 ![Slide 09 — Recap — Chapter 7](slide-811.svg)
 
-## Slide 10 — Lab 801 — Multiplayer Ultimate Snake
+## Slide 10 — Interactive Quiz 19
 
-![Slide 10 — Lab 801 — Multiplayer Ultimate Snake](slide-805.svg)
+![Slide 10 — Interactive Quiz 19](slide-812.svg)
+
+## Slide 11 — Interactive Quiz 19 — Answer
+
+![Slide 11 — Interactive Quiz 19 — Answer](slide-813.svg)
+
+## Slide 12 — Interactive Quiz 20
+
+![Slide 12 — Interactive Quiz 20](slide-814.svg)
+
+## Slide 13 — Interactive Quiz 20 — Answer
+
+![Slide 13 — Interactive Quiz 20 — Answer](slide-815.svg)
+
+## Slide 14 — Interactive Quiz 21
+
+![Slide 14 — Interactive Quiz 21](slide-816.svg)
+
+## Slide 15 — Interactive Quiz 21 — Answer
+
+![Slide 15 — Interactive Quiz 21 — Answer](slide-817.svg)
+
+## Slide 16 — Lab 801 — Multiplayer Ultimate Snake
+
+![Slide 16 — Lab 801 — Multiplayer Ultimate Snake](slide-818.svg)
 
 → [Lab 801 — Multiplayer Ultimate Snake](../../../labs/chapter-08/lab-801/README.md)
 
-## Slide 11 — Lab 801 — Expectations
+## Slide 17 — Lab 801 — Expectations
 
-![Slide 11 — Lab 801 — Expectations](slide-806.svg)
+![Slide 17 — Lab 801 — Expectations](slide-819.svg)
 
 → [Lab 801 — Multiplayer Ultimate Snake](../../../labs/chapter-08/lab-801/README.md)

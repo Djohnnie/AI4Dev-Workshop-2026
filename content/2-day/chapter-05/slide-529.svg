@@ -4,55 +4,74 @@
       <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
       <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
     </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
   <rect width="1920" height="1080" fill="url(#bgGlow)"/>
-  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
-
-  <g transform="translate(1410 58)" opacity="0.2">
-    <text x="0" y="54" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="700" fill="#c4baea">SNAKE</text>
-    <text x="0" y="122" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="700" fill="#c4baea">PROMPT LAB</text>
-  </g>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4" rx="0"/>
 
   <text x="80" y="108"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="68" font-weight="700" fill="#ffffff" letter-spacing="-1">Lab 501 &#x2014; Expectations</text>
+    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Interactive Quiz 13</text>
 
-  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
 
-  <text x="80" y="195"
+  <rect x="80" y="190" width="1760" height="120" rx="16"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="234" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="32" font-weight="300" fill="#c4baea">Shape the prompt context first, then let Copilot</text>
-  <text x="80" y="232"
+    font-size="36" font-weight="600" fill="#ffffff">Which action most directly improves Copilot's next suggestion</text>
+  <text x="960" y="278" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="32" font-weight="300" fill="#c4baea">build and refine the familiar Snake game.</text>
+    font-size="36" font-weight="600" fill="#ffffff">before you type any new prompt?</text>
 
-  <rect x="80" y="245" width="860" height="350" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="510" y="314" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#8b7fd4">1</text>
-  <text x="510" y="368" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" fill="#ffffff">Participant goal</text>
-  <text x="140" y="422" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">• Turn the starter into the same playable Snake game.</text>
-  <text x="140" y="474" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">• Use repo instructions and prompt files before</text>
-  <text x="168" y="506" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">free-form prompting.</text>
-  <text x="140" y="558" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">• Refine with chapter 5 prompt structure, not random retries.</text>
+  <rect x="80" y="340" width="1760" height="150" rx="16"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <circle cx="155" cy="415" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
+  <text x="155" y="428" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="700" fill="#ffffff">A</text>
+  <text x="225" y="428"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#c4baea">Open more unrelated tabs so Copilot has more total context to rank</text>
 
-  <rect x="980" y="245" width="860" height="350" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1410" y="314" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#8b7fd4">2</text>
-  <text x="1410" y="368" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" fill="#ffffff">Expected behaviors</text>
-  <text x="1040" y="422" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">• Space starts and pauses the game.</text>
-  <text x="1040" y="466" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">• Arrow keys change direction without instant reversal.</text>
-  <text x="1040" y="510" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">• Wrap, growth, self-collision, and HUD updates all work.</text>
+  <rect x="80" y="515" width="1760" height="150" rx="16"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <circle cx="155" cy="590" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
+  <text x="155" y="603" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="700" fill="#ffffff">B</text>
+  <text x="225" y="583"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#c4baea">Open the related interface, service, and test files</text>
+  <text x="225" y="623"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#c4baea">and close tabs from unrelated work</text>
 
-  <rect x="80" y="615" width="860" height="360" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="510" y="694" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#8b7fd4">3</text>
-  <text x="510" y="748" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" fill="#ffffff">How to use chapter 5 well</text>
-  <text x="140" y="792" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">• Start from the prompt files instead of rewriting setup prompts.</text>
-  <text x="140" y="852" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">• Add task, context, examples, and constraints in follow-ups.</text>
-  <text x="140" y="912" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">• Use the skill file or a review prompt to validate the result.</text>
+  <rect x="80" y="690" width="1760" height="150" rx="16"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <circle cx="155" cy="765" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
+  <text x="155" y="778" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="700" fill="#ffffff">C</text>
+  <text x="225" y="778"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#c4baea">Switch to a different model before every function you ask Copilot to write</text>
 
-  <rect x="980" y="615" width="860" height="360" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1410" y="694" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#8b7fd4">4</text>
-  <text x="1410" y="748" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" fill="#ffffff">Facilitator expectation</text>
-  <text x="1040" y="792" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">• The real win is seeing how durable prompt context improves output.</text>
-  <text x="1040" y="852" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">• Participants should leave with a playable game and better prompts.</text>
-  <text x="1040" y="912" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">• It is still vibe-coding, but now with intention.</text>
+  <rect x="80" y="865" width="1760" height="150" rx="16"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <circle cx="155" cy="940" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
+  <text x="155" y="953" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="700" fill="#ffffff">D</text>
+  <text x="225" y="953"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#c4baea">Delete imports so Copilot has to infer the libraries and types on its own</text>
 </svg>
