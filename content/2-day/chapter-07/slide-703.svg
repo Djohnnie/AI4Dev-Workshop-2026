@@ -15,28 +15,66 @@
   <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
   <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
-  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4" rx="0"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Interactive Quiz 19</text>
-  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff" letter-spacing="-1">Copilot Best Practices - Start with the Right Job</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea" letter-spacing="1">Use Copilot where it is strongest, then pick the interaction mode</text>
+  <text x="80" y="242" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea" letter-spacing="1">that matches the task in front of you.</text>
 
-  <rect x="120" y="220" width="1680" height="180" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="960" y="295" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="600" fill="#ffffff">Placeholder question</text>
-  <text x="960" y="350" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">Add the final chapter 7 quiz question here.</text>
+  <rect x="120" y="275" width="520" height="530" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="380" y="345" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Where Copilot Shines</text>
+  <rect x="215" y="362" width="240" height="3" fill="#8b7fd4"/>
+  <circle cx="170" cy="430" r="7" fill="#8b7fd4"/>
+  <text x="198" y="438" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Tests, repetitive code,</text>
+  <text x="198" y="470" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">and scaffolding</text>
+  <circle cx="170" cy="505" r="7" fill="#8b7fd4"/>
+  <text x="198" y="518" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Debugging syntax issues</text>
+  <text x="198" y="550" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">and explaining code</text>
+  <circle cx="170" cy="580" r="7" fill="#8b7fd4"/>
+  <text x="198" y="598" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Generating regexes and</text>
+  <text x="198" y="630" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">boilerplate quickly</text>
+  <circle cx="170" cy="655" r="7" fill="#8b7fd4"/>
+  <text x="198" y="678" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Large drafts you can refine</text>
+  <text x="198" y="709" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">instead of start from zero</text>
 
-  <rect x="120" y="450" width="1680" height="110" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="170" y="520" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">A</text>
-  <text x="250" y="520" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea">Placeholder answer option A</text>
+  <rect x="700" y="275" width="520" height="530" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="345" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Use Inline Suggestions</text>
+  <rect x="800" y="362" width="250" height="3" fill="#8b7fd4"/>
+  <circle cx="750" cy="430" r="7" fill="#8b7fd4"/>
+  <text x="778" y="438" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">The next step is</text>
+  <text x="778" y="470" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">local and predictable</text>
+  <circle cx="750" cy="505" r="7" fill="#8b7fd4"/>
+  <text x="778" y="518" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">You want low-friction</text>
+  <text x="778" y="550" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">flow while typing</text>
+  <circle cx="750" cy="580" r="7" fill="#8b7fd4"/>
+  <text x="778" y="598" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">The surrounding code</text>
+  <text x="778" y="630" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">already provides</text>
+  <text x="778" y="658" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">strong context</text>
+  <circle cx="750" cy="655" r="7" fill="#8b7fd4"/>
+  <text x="778" y="678" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">You are iterating inside</text>
+  <text x="778" y="710" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">one file or one function</text>
 
-  <rect x="120" y="590" width="1680" height="110" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="170" y="660" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">B</text>
-  <text x="250" y="660" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea">Placeholder answer option B</text>
+  <rect x="1280" y="275" width="520" height="530" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1540" y="345" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Use Chat or Agents</text>
+  <rect x="1385" y="362" width="220" height="3" fill="#8b7fd4"/>
+  <circle cx="1330" cy="430" r="7" fill="#8b7fd4"/>
+  <text x="1358" y="438" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">You need reasoning,</text>
+  <text x="1358" y="470" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">explanation, or</text>
+  <text x="1358" y="498" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">comparison</text>
+  <circle cx="1330" cy="505" r="7" fill="#8b7fd4"/>
+  <text x="1358" y="526" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">The change spans</text>
+  <text x="1358" y="554" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">multiple files or</text>
+  <text x="1358" y="582" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">larger code blocks</text>
+  <circle cx="1330" cy="580" r="7" fill="#8b7fd4"/>
+  <text x="1358" y="612" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">You want iterative</text>
+  <text x="1358" y="640" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">refinement instead</text>
+  <text x="1358" y="668" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">of one guess</text>
+  <circle cx="1330" cy="655" r="7" fill="#8b7fd4"/>
+  <text x="1358" y="678" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">The task needs tools,</text>
+  <text x="1358" y="710" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">verification, or a persona</text>
 
-  <rect x="120" y="730" width="1680" height="110" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="170" y="800" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">C</text>
-  <text x="250" y="800" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea">Placeholder answer option C</text>
-
-  <rect x="120" y="870" width="1680" height="110" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="170" y="940" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">D</text>
-  <text x="250" y="940" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea">Placeholder answer option D</text>
+  <rect x="260" y="888" width="1400" height="90" rx="34" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="930" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="1">Copilot speeds up execution -</text>
+  <text x="960" y="962" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff" letter-spacing="1">you still own the judgment about what should be built.</text>
 </svg>

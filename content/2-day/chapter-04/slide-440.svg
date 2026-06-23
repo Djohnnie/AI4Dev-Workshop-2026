@@ -15,60 +15,55 @@
   <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
   <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
-  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4" rx="0"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Interactive Quiz 11</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">One Profile, Many Surfaces</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
-  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="31" font-weight="300" fill="#c4baea" letter-spacing="1">
+    The same custom agent idea spans GitHub.com, supported IDEs, and Copilot CLI - the file is the contract.
+  </text>
 
-  <rect x="80" y="190" width="1760" height="120" rx="16"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="960" y="234" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="600" fill="#ffffff">What stays true when using Agent Mode or a CLI-driven implementation workflow</text>
-  <text x="960" y="278" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="600" fill="#ffffff">for a real code change?</text>
+  <rect x="90" y="315" width="550" height="580" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="130" y="385" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Where it lives</text>
+  <rect x="130" y="405" width="220" height="3" fill="#8b7fd4"/>
+  <circle cx="135" cy="475" r="7" fill="#8b7fd4"/>
+  <text x="160" y="486" font-family="'Consolas', 'Courier New', monospace" font-size="27" fill="#ffffff">.github/agents/</text>
+  <text x="160" y="520" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Shared with the repository in Git.</text>
+  <circle cx="135" cy="585" r="7" fill="#8b7fd4"/>
+  <text x="160" y="596" font-family="'Consolas', 'Courier New', monospace" font-size="27" fill="#ffffff">~/.copilot/agents/</text>
+  <text x="160" y="630" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Personal CLI or IDE agents for your machine.</text>
+  <circle cx="135" cy="695" r="7" fill="#8b7fd4"/>
+  <text x="160" y="706" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#ffffff">Org and enterprise scopes exist too</text>
+  <text x="160" y="740" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">for centrally managed specialist agents.</text>
 
-  <rect x="80" y="340" width="1760" height="150" rx="16"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="415" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
-  <text x="155" y="428" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="700" fill="#ffffff">A</text>
-  <text x="225" y="428"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#c4baea">You can let Copilot accelerate the work, but you still approve and own what gets committed</text>
+  <rect x="685" y="315" width="550" height="580" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="725" y="385" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">How you create it</text>
+  <rect x="725" y="405" width="270" height="3" fill="#8b7fd4"/>
+  <circle cx="730" cy="475" r="7" fill="#8b7fd4"/>
+  <text x="755" y="486" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#ffffff">GitHub.com agents tab can scaffold</text>
+  <text x="755" y="520" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">a template into .github/agents/.</text>
+  <circle cx="730" cy="585" r="7" fill="#8b7fd4"/>
+  <text x="755" y="596" font-family="'Consolas', 'Courier New', monospace" font-size="27" fill="#ffffff">/agent</text>
+  <text x="755" y="628" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">in Copilot CLI can guide creation.</text>
+  <circle cx="730" cy="695" r="7" fill="#8b7fd4"/>
+  <text x="755" y="706" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#ffffff">Then edit the Markdown and commit it</text>
+  <text x="755" y="740" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">like any other repo customization file.</text>
 
-  <rect x="80" y="515" width="1760" height="150" rx="16"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="590" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
-  <text x="155" y="603" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="700" fill="#ffffff">B</text>
-  <text x="225" y="603"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#c4baea">Using the CLI means prompts no longer need constraints, guardrails, or test expectations</text>
+  <rect x="1280" y="315" width="550" height="580" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1320" y="385" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">How you use it</text>
+  <rect x="1320" y="405" width="220" height="3" fill="#8b7fd4"/>
+  <circle cx="1325" cy="475" r="7" fill="#8b7fd4"/>
+  <text x="1350" y="486" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#ffffff">Pick it in GitHub's agents panel or</text>
+  <text x="1350" y="520" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">when assigning Copilot to an issue.</text>
+  <circle cx="1325" cy="585" r="7" fill="#8b7fd4"/>
+  <text x="1350" y="596" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#ffffff">Use the agent dropdown in</text>
+  <text x="1350" y="628" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">supported IDEs.</text>
+  <circle cx="1325" cy="695" r="7" fill="#8b7fd4"/>
+  <text x="1350" y="706" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#ffffff">In CLI: /agent, "use the X agent", or</text>
+  <text x="1350" y="738" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">copilot --agent security-reviewer</text>
+  <text x="1350" y="770" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">--prompt "review this PR"</text>
 
-  <rect x="80" y="690" width="1760" height="150" rx="16"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="765" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
-  <text x="155" y="778" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="700" fill="#ffffff">C</text>
-  <text x="225" y="778"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#c4baea">Copilot owns the final decision, so you can skip reviewing the produced code</text>
-
-  <rect x="80" y="865" width="1760" height="150" rx="16"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="940" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
-  <text x="155" y="953" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="700" fill="#ffffff">D</text>
-  <text x="225" y="953"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#c4baea">Agent Mode only makes sense for greenfield apps; it should not be used for existing codebases</text>
+  <rect x="260" y="935" width="1400" height="70" rx="26" fill="#8b7fd4" opacity="0.18"/>
+  <text x="960" y="980" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="600" fill="#ffffff">Use custom agents when you want a named specialist with explicit boundaries - not just better defaults.</text>
 </svg>

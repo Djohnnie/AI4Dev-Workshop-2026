@@ -15,63 +15,41 @@
   <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
   <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
-  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4" rx="0"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Interactive Quiz 10 — Answer</text>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Anatomy of an Agent File</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
-  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="31" font-weight="300" fill="#c4baea" letter-spacing="1">
+    An agent profile is just Markdown with YAML frontmatter: identity and capabilities up top, behavior prompt underneath.
+  </text>
 
-  <rect x="80" y="190" width="1760" height="120" rx="16"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="960" y="234" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="600" fill="#ffffff">Which activity is the best fit for GitHub Copilot on GitHub.com,</text>
-  <text x="960" y="278" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="600" fill="#ffffff">without cloning the repository locally first?</text>
+  <rect x="90" y="285" width="990" height="650" rx="20" fill="#1e1b33" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="125" y="350" font-family="'Consolas', 'Courier New', monospace" font-size="28" fill="#6a5fb8">.github/agents/security-reviewer.agent.md</text>
+  <rect x="125" y="372" width="920" height="2" fill="#8b7fd4" opacity="0.4"/>
+  <text x="125" y="435" font-family="'Consolas', 'Courier New', monospace" font-size="29" fill="#8b7fd4">---</text>
+  <text x="125" y="478" font-family="'Consolas', 'Courier New', monospace" font-size="29" fill="#c4baea">name: security-reviewer</text>
+  <text x="125" y="521" font-family="'Consolas', 'Courier New', monospace" font-size="29" fill="#c4baea">description: Reviews changed code for security risks</text>
+  <text x="125" y="564" font-family="'Consolas', 'Courier New', monospace" font-size="29" fill="#c4baea">tools: ["read", "search", "github"]</text>
+  <text x="125" y="607" font-family="'Consolas', 'Courier New', monospace" font-size="29" fill="#c4baea">target: github-copilot</text>
+  <text x="125" y="650" font-family="'Consolas', 'Courier New', monospace" font-size="29" fill="#8b7fd4">---</text>
+  <text x="125" y="720" font-family="'Consolas', 'Courier New', monospace" font-size="28" fill="#ffffff">You are a security reviewer for this repository.</text>
+  <text x="125" y="760" font-family="'Consolas', 'Courier New', monospace" font-size="28" fill="#ffffff">Review only changed files unless the user expands scope.</text>
+  <text x="125" y="800" font-family="'Consolas', 'Courier New', monospace" font-size="28" fill="#ffffff">Explain risk, severity, and recommended fix.</text>
+  <text x="125" y="840" font-family="'Consolas', 'Courier New', monospace" font-size="28" fill="#ffffff">Do not modify application code unless explicitly asked.</text>
 
-  <rect x="80" y="340" width="1760" height="150" rx="16"
-    fill="#ffffff" fill-opacity="0.05" stroke="#8b7fd4" stroke-opacity="0.4" stroke-width="1.5"/>
-  <circle cx="155" cy="415" r="40" fill="#8b7fd4" fill-opacity="0.2"/>
-  <text x="155" y="428" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="700" fill="#8b7fd4">A</text>
-  <text x="225" y="428"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#8b7fd4">Editing a local minimal API project across multiple files with direct file-system access</text>
-
-  <rect x="80" y="515" width="1760" height="150" rx="16"
-    fill="#ffffff" fill-opacity="0.05" stroke="#8b7fd4" stroke-opacity="0.4" stroke-width="1.5"/>
-  <circle cx="155" cy="590" r="40" fill="#8b7fd4" fill-opacity="0.2"/>
-  <text x="155" y="603" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="700" fill="#8b7fd4">B</text>
-  <text x="225" y="603"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#8b7fd4">Scaffolding and compiling a new desktop app entirely from your local CLI session</text>
-
-  <rect x="80" y="690" width="1760" height="150" rx="16"
-    fill="#ffffff" fill-opacity="0.05" stroke="#8b7fd4" stroke-opacity="0.4" stroke-width="1.5"/>
-  <circle cx="155" cy="765" r="40" fill="#8b7fd4" fill-opacity="0.2"/>
-  <text x="155" y="778" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="700" fill="#8b7fd4">C</text>
-  <text x="225" y="778"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#8b7fd4">Running a Windows Forms app and iterating on local UI bugs from your terminal</text>
-
-  <rect x="80" y="865" width="1760" height="150" rx="16"
-    fill="#4ecb71" fill-opacity="0.12" stroke="#4ecb71" stroke-width="2"/>
-  <circle cx="155" cy="940" r="40" fill="#4ecb71" fill-opacity="0.8"/>
-  <text x="155" y="953" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="700" fill="#ffffff">D</text>
-  <text x="225" y="953"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="600" fill="#ffffff">Recapping an open issue, reviewing a PR, and asking repo questions in the browser</text>
-  <text x="1800" y="953" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="42" font-weight="700" fill="#4ecb71">✓</text>
+  <rect x="1125" y="285" width="705" height="650" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1200" y="350" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">What each part does</text>
+  <rect x="1200" y="372" width="280" height="3" fill="#8b7fd4"/>
+  <text x="1200" y="440" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="700" fill="#8b7fd4">name</text>
+  <text x="1200" y="476" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Required. Gives the agent a unique identity you can invoke.</text>
+  <text x="1200" y="542" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="700" fill="#8b7fd4">description</text>
+  <text x="1200" y="578" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Required. Says what the agent is for and when it fits.</text>
+  <text x="1200" y="644" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="700" fill="#8b7fd4">tools</text>
+  <text x="1200" y="680" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Optional. Limit access or give this specialist the right tools.</text>
+  <text x="1200" y="746" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="700" fill="#8b7fd4">target</text>
+  <text x="1200" y="782" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Optional. Points the profile at the surface that should use it.</text>
+  <text x="1200" y="848" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="700" fill="#8b7fd4">prompt body</text>
+  <text x="1200" y="884" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">The real instructions: expertise, boundaries, and done.</text>
+  <rect x="1200" y="907" width="570" height="28" rx="14" fill="#8b7fd4" opacity="0.18"/>
 </svg>

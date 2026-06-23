@@ -4,72 +4,71 @@
       <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
       <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
     </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
   <rect width="1920" height="1080" fill="url(#bgGlow)"/>
-  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
-
-  <g transform="translate(1440 58)" opacity="0.2">
-    <text x="0" y="54" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="68" font-weight="700" fill="#c4baea">AGENT</text>
-    <text x="0" y="118" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="54" font-weight="700" fill="#c4baea">MODE</text>
-  </g>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4" rx="0"/>
 
   <text x="80" y="108"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Lab 401 &#x2014; Ultimate Snake Web</text>
+    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Interactive Quiz 10</text>
 
-  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
 
-  <text x="80" y="195"
+  <rect x="80" y="190" width="1760" height="120" rx="16"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="234" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#c4baea">
-    Use Agent Mode to turn a browser starter into a playable Ultimate Snake web app.
-  </text>
+    font-size="36" font-weight="600" fill="#ffffff">Which activity is the best fit for GitHub Copilot on GitHub.com,</text>
+  <text x="960" y="278" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="600" fill="#ffffff">without cloning the repository locally first?</text>
 
-  <rect x="80" y="235" width="980" height="740" rx="12"
-    fill="#0f1226" fill-opacity="0.72" stroke="#8b7fd4" stroke-width="1.5"/>
-
-  <rect x="120" y="278" width="900" height="80" rx="18" fill="rgba(255,255,255,0.06)" stroke="#8b7fd4" stroke-width="1.2"/>
-  <text x="152" y="312" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="600" fill="#c4baea">Chapter 4 · Lab 401</text>
-  <text x="152" y="342" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Ultimate Snake</text>
-  <text x="540" y="324" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="500" fill="#c4baea">Score</text>
-  <text x="542" y="348" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#7ee787">4</text>
-  <text x="632" y="324" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="500" fill="#c4baea">State</text>
-  <text x="634" y="348" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#ffd866">Running</text>
-  <text x="742" y="324" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="500" fill="#c4baea">Status</text>
-  <text x="744" y="348" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="600" fill="#ffffff">Snack collected.</text>
-
-  <rect x="120" y="388" width="900" height="470" rx="18" fill="rgba(255,255,255,0.05)" stroke="#8b7fd4" stroke-width="1.2"/>
-  <rect x="205" y="430" width="720" height="384" rx="12" fill="#0b1022"/>
-
-  <g stroke="rgba(139,127,212,0.2)" stroke-width="1">
-    <path d="M205 462 H925"/><path d="M205 494 H925"/><path d="M205 526 H925"/><path d="M205 558 H925"/><path d="M205 590 H925"/><path d="M205 622 H925"/><path d="M205 654 H925"/><path d="M205 686 H925"/><path d="M205 718 H925"/><path d="M205 750 H925"/><path d="M205 782 H925"/>
-    <path d="M237 430 V814"/><path d="M269 430 V814"/><path d="M301 430 V814"/><path d="M333 430 V814"/><path d="M365 430 V814"/><path d="M397 430 V814"/><path d="M429 430 V814"/><path d="M461 430 V814"/><path d="M493 430 V814"/><path d="M525 430 V814"/><path d="M557 430 V814"/><path d="M589 430 V814"/><path d="M621 430 V814"/><path d="M653 430 V814"/><path d="M685 430 V814"/><path d="M717 430 V814"/><path d="M749 430 V814"/><path d="M781 430 V814"/><path d="M813 430 V814"/><path d="M845 430 V814"/><path d="M877 430 V814"/><path d="M909 430 V814"/>
-  </g>
-
-  <circle cx="717" cy="606" r="9" fill="#ff7b72"/>
-  <rect x="588" y="655" width="26" height="26" rx="6" fill="#3fb950"/>
-  <rect x="620" y="655" width="26" height="26" rx="6" fill="#3fb950"/>
-  <rect x="652" y="655" width="26" height="26" rx="6" fill="#ffd866"/>
-
-  <rect x="1110" y="235" width="730" height="230" rx="12"
+  <rect x="80" y="340" width="1760" height="150" rx="16"
     fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1475" y="304" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#8b7fd4">1</text>
-  <text x="1475" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" fill="#ffffff">Build target</text>
-  <text x="1475" y="404" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Finish a browser-based Snake game using the provided</text>
-  <text x="1475" y="438" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">ASP.NET Core host plus HTML, CSS, and JavaScript starter.</text>
+  <circle cx="155" cy="415" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
+  <text x="155" y="428" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="700" fill="#ffffff">A</text>
+  <text x="225" y="428"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#c4baea">Editing a local minimal API project across multiple files with direct file-system access</text>
 
-  <rect x="1110" y="495" width="730" height="220" rx="12"
+  <rect x="80" y="515" width="1760" height="150" rx="16"
     fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1475" y="560" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#8b7fd4">2</text>
-  <text x="1475" y="616" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" fill="#ffffff">Why Agent Mode fits</text>
-  <text x="1475" y="660" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">The task spans markup, styling, and game logic across</text>
-  <text x="1475" y="694" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">multiple files but still has a clear, reviewable end result.</text>
+  <circle cx="155" cy="590" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
+  <text x="155" y="603" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="700" fill="#ffffff">B</text>
+  <text x="225" y="603"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#c4baea">Scaffolding and compiling a new desktop app entirely from your local CLI session</text>
 
-  <rect x="1110" y="745" width="730" height="230" rx="12"
+  <rect x="80" y="690" width="1760" height="150" rx="16"
     fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1475" y="806" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#8b7fd4">3</text>
-  <text x="1475" y="860" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" fill="#ffffff">What to show</text>
-  <text x="1475" y="904" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">A responsive canvas game with start, pause, wrap-around,</text>
-  <text x="1475" y="938" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">score tracking, and game-over on self-collision.</text>
+  <circle cx="155" cy="765" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
+  <text x="155" y="778" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="700" fill="#ffffff">C</text>
+  <text x="225" y="778"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#c4baea">Running a Windows Forms app and iterating on local UI bugs from your terminal</text>
+
+  <rect x="80" y="865" width="1760" height="150" rx="16"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <circle cx="155" cy="940" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
+  <text x="155" y="953" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="700" fill="#ffffff">D</text>
+  <text x="225" y="953"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#c4baea">Recapping an open issue, reviewing a PR, and asking repo questions in the browser</text>
 </svg>

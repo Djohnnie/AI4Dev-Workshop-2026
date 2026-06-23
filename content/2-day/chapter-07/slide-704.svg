@@ -15,16 +15,51 @@
   <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
   <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
-  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4" rx="0"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Interactive Quiz 19 — Answer</text>
-  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="700" fill="#ffffff" letter-spacing="-1">Prompt Engineering - Four Inputs That Change the Output</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea" letter-spacing="1">Specific prompts beat vague ones. Give the model what it needs</text>
+  <text x="80" y="242" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea" letter-spacing="1">to reason, not just what you want back.</text>
 
-  <rect x="160" y="260" width="1600" height="220" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="960" y="340" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="600" fill="#ffffff">Placeholder answer slide</text>
-  <text x="960" y="405" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">Duplicate the final question here and highlight the correct answer once chosen.</text>
+  <rect x="120" y="290" width="390" height="450" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="315" y="365" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">1. Task</text>
+  <rect x="235" y="383" width="110" height="3" fill="#8b7fd4"/>
+  <text x="165" y="455" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">What do you want</text>
+  <text x="165" y="495" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">the model to do?</text>
+  <text x="165" y="575" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">"Refactor this endpoint</text>
+  <text x="165" y="610" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">to stream results and</text>
+  <text x="165" y="645" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">keep the API contract."</text>
 
-  <rect x="300" y="600" width="1320" height="180" rx="24" fill="#4ecb71" fill-opacity="0.12" stroke="#4ecb71" stroke-width="2"/>
-  <text x="960" y="685" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Correct answer placeholder</text>
-  <text x="960" y="740" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">Replace this box with the finalized highlighted option.</text>
+  <rect x="560" y="290" width="390" height="450" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="755" y="365" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">2. Context</text>
+  <rect x="655" y="383" width="145" height="3" fill="#8b7fd4"/>
+  <text x="605" y="455" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Which files, patterns,</text>
+  <text x="605" y="495" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">and constraints matter?</text>
+  <text x="605" y="575" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">"Use the repository</text>
+  <text x="605" y="610" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">pattern from Orders and</text>
+  <text x="605" y="645" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">preserve current auth."</text>
+
+  <rect x="1000" y="290" width="390" height="450" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1195" y="365" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">3. Example</text>
+  <rect x="1105" y="383" width="155" height="3" fill="#8b7fd4"/>
+  <text x="1045" y="455" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Show the shape of a good</text>
+  <text x="1045" y="495" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">input or output.</text>
+  <text x="1045" y="575" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">"Match this serializer</text>
+  <text x="1045" y="610" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">style and return shape</text>
+  <text x="1045" y="645" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">used in</text>
+  <text x="1045" y="676" font-family="'Consolas', 'Courier New', monospace" font-size="22" fill="#ffffff">ProductController."</text>
+
+  <rect x="1440" y="290" width="360" height="450" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1620" y="365" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">4. Constraints</text>
+  <rect x="1525" y="383" width="175" height="3" fill="#8b7fd4"/>
+  <text x="1485" y="455" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Define the guardrails</text>
+  <text x="1485" y="495" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">for correctness.</text>
+  <text x="1485" y="575" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">"Do not change the</text>
+  <text x="1485" y="610" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">database schema. Add</text>
+  <text x="1485" y="645" font-family="'Consolas', 'Courier New', monospace" font-size="24" fill="#ffffff">tests for edge cases."</text>
+
+  <rect x="220" y="836" width="1480" height="96" rx="34" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="879" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="600" fill="#ffffff" letter-spacing="1">If the first answer is too broad, split the request into smaller prompts</text>
+  <text x="960" y="911" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="600" fill="#ffffff" letter-spacing="1">instead of asking one giant question.</text>
 </svg>

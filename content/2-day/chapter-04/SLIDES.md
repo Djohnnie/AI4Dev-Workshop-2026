@@ -174,44 +174,74 @@
 
 ![Slide 37 — Your Daily-Driver Toolkit](slide-437.svg)
 
-## Slide 38 — Interactive Quiz 10
+<!-- Section 7 — Custom Agents -->
 
-![Slide 38 — Interactive Quiz 10](slide-438.svg)
+## Slide 38 — Custom Agents — Specialist Teammates on Demand
 
-## Slide 39 — Interactive Quiz 10 — Answer
+![Slide 38 — Custom Agents — Specialist Teammates on Demand](slide-438.svg)
 
-![Slide 39 — Interactive Quiz 10 — Answer](slide-439.svg)
+## Slide 39 — Anatomy of an Agent File
 
-## Slide 40 — Interactive Quiz 11
+![Slide 39 — Anatomy of an Agent File](slide-439.svg)
 
-![Slide 40 — Interactive Quiz 11](slide-440.svg)
+## Slide 40 — One Profile, Many Surfaces
 
-## Slide 41 — Interactive Quiz 11 — Answer
+![Slide 40 — One Profile, Many Surfaces](slide-440.svg)
 
-![Slide 41 — Interactive Quiz 11 — Answer](slide-441.svg)
+## Slide 41 — Exercise 408 — Bug Bash with Custom Agents
 
-## Slide 42 — Interactive Quiz 12
+![Slide 41 — Exercise 408 — Bug Bash with Custom Agents](slide-441.svg)
 
-![Slide 42 — Interactive Quiz 12](slide-442.svg)
+→ [Exercise 408 — Bug Bash with Custom Agents](../../../exercises/chapter-04/exercise-408/README.md)
 
-## Slide 43 — Interactive Quiz 12 — Answer
+## Slide 42 — Exercise 408 — Four Agents, One Tiny Repo
 
-![Slide 43 — Interactive Quiz 12 — Answer](slide-443.svg)
+![Slide 42 — Exercise 408 — Four Agents, One Tiny Repo](slide-442.svg)
 
-## Slide 44 — Lab 401 — Ultimate Snake Web
+→ [Exercise 408 — Bug Bash with Custom Agents](../../../exercises/chapter-04/exercise-408/README.md)
 
-![Slide 44 — Lab 401 — Ultimate Snake Web](slide-444.svg)
+## Slide 43 — Copilot SDK — Orchestrating Custom Agents as Sub-Agents
+
+![Slide 43 — Copilot SDK — Orchestrating Custom Agents as Sub-Agents](slide-443.svg)
+
+## Slide 44 — Interactive Quiz 10
+
+![Slide 44 — Interactive Quiz 10](slide-444.svg)
+
+## Slide 45 — Interactive Quiz 10 — Answer
+
+![Slide 45 — Interactive Quiz 10 — Answer](slide-445.svg)
+
+## Slide 46 — Interactive Quiz 11
+
+![Slide 46 — Interactive Quiz 11](slide-446.svg)
+
+## Slide 47 — Interactive Quiz 11 — Answer
+
+![Slide 47 — Interactive Quiz 11 — Answer](slide-447.svg)
+
+## Slide 48 — Interactive Quiz 12
+
+![Slide 48 — Interactive Quiz 12](slide-448.svg)
+
+## Slide 49 — Interactive Quiz 12 — Answer
+
+![Slide 49 — Interactive Quiz 12 — Answer](slide-449.svg)
+
+## Slide 50 — Lab 401 — Ultimate Snake Web
+
+![Slide 50 — Lab 401 — Ultimate Snake Web](slide-450.svg)
 
 → [Lab 401 — Ultimate Snake Web](../../../labs/chapter-04/lab-401/README.md)
 
-## Slide 45 — Lab 401 — Expectations
+## Slide 51 — Lab 401 — Expectations
 
-![Slide 45 — Lab 401 — Expectations](slide-445.svg)
+![Slide 51 — Lab 401 — Expectations](slide-451.svg)
 
 → [Lab 401 — Ultimate Snake Web](../../../labs/chapter-04/lab-401/README.md)
 
-## Slide 46 — Lab 402 — Ultimate Snake with Copilot CLI
+## Slide 52 — Lab 402 — Ultimate Snake with Copilot CLI
 
-![Slide 46 — Lab 402 — Ultimate Snake with Copilot CLI](slide-446.svg)
+![Slide 52 — Lab 402 — Ultimate Snake with Copilot CLI](slide-452.svg)
 
 → [Lab 402 — Ultimate Snake from Scratch with GitHub Copilot CLI](../../../labs/chapter-04/lab-402/README.md)

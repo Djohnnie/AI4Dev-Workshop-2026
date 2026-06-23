@@ -1,0 +1,9 @@
+{
+  "name": "pixel-pups-arcade-api",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Tiny sample repository for the custom-agent bug bash exercise.",
+  "scripts": {
+    "test": "node --test"
+  }
+}

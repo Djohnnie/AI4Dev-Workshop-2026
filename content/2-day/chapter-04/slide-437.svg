@@ -21,7 +21,7 @@
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
   <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
-    Six tools, one principle - reach for the right scope, and review everything you keep.
+    Seven tools, one principle - reach for the right scope, and review everything you keep.
   </text>
 
   <rect x="90" y="290" width="850" height="170" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
@@ -40,12 +40,12 @@
   <text x="130" y="643" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">triage, and natural-language search.</text>
 
   <rect x="980" y="490" width="850" height="170" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1020" y="555" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Instructions &amp; Files</text>
-  <text x="1020" y="610" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Custom instructions set the defaults;</text>
-  <text x="1020" y="643" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">prompt &amp; skill files capture expertise.</text>
+  <text x="1020" y="555" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Instructions, Prompts, Skills &amp; Agents</text>
+  <text x="1020" y="610" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Defaults, reusable tasks, auto-loaded</text>
+  <text x="1020" y="643" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">expertise, and specialist teammates.</text>
 
   <rect x="160" y="710" width="1600" height="150" rx="24" fill="#8b7fd4" fill-opacity="0.15" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="960" y="775" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">The thread through all six</text>
+  <text x="960" y="775" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">The thread through all seven</text>
   <text x="960" y="828" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Copilot gets the head start - you stay in control, and you own everything you commit.</text>
 
   <rect x="510" y="905" width="900" height="60" rx="30" fill="#8b7fd4" opacity="0.22"/>
