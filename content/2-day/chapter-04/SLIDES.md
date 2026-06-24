@@ -1,5 +1,4 @@
 ﻿# Chapter 4 — Let Your AI Co-Pilot Take the Wheel
-
 ## Slide 01 — AI4Dev
 
 ![Slide 01 — AI4Dev](slide-401.svg)
@@ -212,36 +211,48 @@
 
 ![Slide 45 — Interactive Quiz 10 — Answer](slide-445.svg)
 
-## Slide 46 — Interactive Quiz 11
+## Slide 46 — Interactive Quiz 10 — Explanation
 
-![Slide 46 — Interactive Quiz 11](slide-446.svg)
+![Slide 46 — Interactive Quiz 10 — Explanation](slide-446.svg)
 
-## Slide 47 — Interactive Quiz 11 — Answer
+## Slide 47 — Interactive Quiz 11
 
-![Slide 47 — Interactive Quiz 11 — Answer](slide-447.svg)
+![Slide 47 — Interactive Quiz 11](slide-447.svg)
 
-## Slide 48 — Interactive Quiz 12
+## Slide 48 — Interactive Quiz 11 — Answer
 
-![Slide 48 — Interactive Quiz 12](slide-448.svg)
+![Slide 48 — Interactive Quiz 11 — Answer](slide-448.svg)
 
-## Slide 49 — Interactive Quiz 12 — Answer
+## Slide 49 — Interactive Quiz 11 — Explanation
 
-![Slide 49 — Interactive Quiz 12 — Answer](slide-449.svg)
+![Slide 49 — Interactive Quiz 11 — Explanation](slide-449.svg)
 
-## Slide 50 — Lab 401 — Ultimate Snake Web
+## Slide 50 — Interactive Quiz 12
 
-![Slide 50 — Lab 401 — Ultimate Snake Web](slide-450.svg)
+![Slide 50 — Interactive Quiz 12](slide-450.svg)
+
+## Slide 51 — Interactive Quiz 12 — Answer
+
+![Slide 51 — Interactive Quiz 12 — Answer](slide-451.svg)
+
+## Slide 52 — Interactive Quiz 12 — Explanation
+
+![Slide 52 — Interactive Quiz 12 — Explanation](slide-452.svg)
+
+## Slide 53 — Lab 401 — Ultimate Snake Web
+
+![Slide 53 — Lab 401 — Ultimate Snake Web](slide-453.svg)
 
 → [Lab 401 — Ultimate Snake Web](../../../labs/chapter-04/lab-401/README.md)
 
-## Slide 51 — Lab 401 — Expectations
+## Slide 54 — Lab 401 — Expectations
 
-![Slide 51 — Lab 401 — Expectations](slide-451.svg)
+![Slide 54 — Lab 401 — Expectations](slide-454.svg)
 
 → [Lab 401 — Ultimate Snake Web](../../../labs/chapter-04/lab-401/README.md)
 
-## Slide 52 — Lab 402 — Ultimate Snake with Copilot CLI
+## Slide 55 — Lab 402 — Ultimate Snake with Copilot CLI
 
-![Slide 52 — Lab 402 — Ultimate Snake with Copilot CLI](slide-452.svg)
+![Slide 55 — Lab 402 — Ultimate Snake with Copilot CLI](slide-455.svg)
 
 → [Lab 402 — Ultimate Snake from Scratch with GitHub Copilot CLI](../../../labs/chapter-04/lab-402/README.md)

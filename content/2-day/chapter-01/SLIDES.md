@@ -1,5 +1,4 @@
 ﻿# Chapter 1 — Welcome to the AI Revolution!
-
 ## Slide 01 — AI4Dev
 
 ![Slide 01 — AI4Dev](slide-101.svg)
@@ -124,18 +123,30 @@
 
 ![Slide 28 — Interactive Quiz 1 — Answer](slide-128.svg)
 
-## Slide 29 — Interactive Quiz 2
+## Slide 29 — Interactive Quiz 1 — Explanation
 
-![Slide 29 — Interactive Quiz 2](slide-129.svg)
+![Slide 29 — Interactive Quiz 1 — Explanation](slide-129.svg)
 
-## Slide 30 — Interactive Quiz 2 — Answer
+## Slide 30 — Interactive Quiz 2
 
-![Slide 30 — Interactive Quiz 2 — Answer](slide-130.svg)
+![Slide 30 — Interactive Quiz 2](slide-130.svg)
 
-## Slide 31 — Interactive Quiz 3
+## Slide 31 — Interactive Quiz 2 — Answer
 
-![Slide 31 — Interactive Quiz 3](slide-131.svg)
+![Slide 31 — Interactive Quiz 2 — Answer](slide-131.svg)
 
-## Slide 32 — Interactive Quiz 3 — Answer
+## Slide 32 — Interactive Quiz 2 — Explanation
 
-![Slide 32 — Interactive Quiz 3 — Answer](slide-132.svg)
+![Slide 32 — Interactive Quiz 2 — Explanation](slide-132.svg)
+
+## Slide 33 — Interactive Quiz 3
+
+![Slide 33 — Interactive Quiz 3](slide-133.svg)
+
+## Slide 34 — Interactive Quiz 3 — Answer
+
+![Slide 34 — Interactive Quiz 3 — Answer](slide-134.svg)
+
+## Slide 35 — Interactive Quiz 3 — Explanation
+
+![Slide 35 — Interactive Quiz 3 — Explanation](slide-135.svg)

@@ -81,6 +81,9 @@ By the end of this chapter, participants will be able to:
   - **Ask for the smallest useful output:** "return only the updated method", "show only changed lines", "max 5 bullets", or "list the issues, no corrected code" cuts output volume, speeds review, and usually produces sharper answers
   - **Use AI as a junior developer, not as your replacement diagnostician:** reproduce the issue, locate the relevant code, form your own hypothesis, then ask Copilot to validate or challenge it with the smallest relevant snippet
   - **Make test generation cheaper and better:** ask for test-case names first, then generate only the valuable ones; prefer `[Theory]` plus `InlineData` over many nearly identical `[Fact]` tests; anchor style with one existing example instead of pasting the entire test class
+  - **Offload cheap work to local models when it makes sense:** boilerplate, mock data, repetitive test scaffolding, or low-risk summarisation can run locally; save cloud credits for deep reasoning, architecture, and ambiguous debugging
+  - **Watch for token FOMO:** AI tools can feel addictive because every prompt hints at another shortcut, another answer, or another burst of speed; treat that feeling like any other productivity trap and deliberately stop when the extra token spend is no longer improving judgment
+  - **Protect your thinking bandwidth:** faster loops and more multitasking can create mental overload; pause to restate the problem, choose the next best step, and slow the pace when the number of parallel ideas starts hurting quality
 
 ### 2. Code Review in the Age of AI (15 min)
 - New challenges: AI-generated code can *look* correct but have subtle bugs

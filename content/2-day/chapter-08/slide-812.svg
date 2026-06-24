@@ -15,33 +15,69 @@
   <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
   <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
-  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4" rx="0"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Interactive Quiz 20</text>
-  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
+  <text x="80" y="108" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="700" fill="#ffffff">
+  <tspan x="80" dy="0">Interactive Quiz 19 - Explanation</tspan>
+</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
-  <rect x="80" y="190" width="1760" height="120" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="960" y="234" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="35" font-weight="600" fill="#ffffff">A Copilot-generated feature passes a happy-path demo but fails intermittently in CI and in the browser.</text>
-  <text x="960" y="278" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="35" font-weight="600" fill="#ffffff">What is the best integrated response?</text>
+  <rect x="80" y="190" width="1760" height="115" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="228" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff">
+  <tspan x="960" dy="0">You inherit an unfamiliar repo and an ambiguous feature ticket touching</tspan>
+  <tspan x="960" dy="38">internal data. What is the strongest first move with Copilot?</tspan>
+</text>
 
-  <rect x="80" y="340" width="1760" height="150" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="415" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
-  <text x="155" y="428" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">A</text>
-  <text x="225" y="428" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea">Switch models and ask Copilot to rewrite the feature from scratch without investigating</text>
-
-  <rect x="80" y="515" width="1760" height="150" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="590" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
-  <text x="155" y="603" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">B</text>
-  <text x="225" y="603" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea">Disable the flaky tests and merge because the manual demo already proved the behavior</text>
-
-  <rect x="80" y="690" width="1760" height="150" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="765" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
-  <text x="155" y="778" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">C</text>
-  <text x="225" y="778" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea">Generate the PR description first so reviewers can debug it instead of you</text>
-
-  <rect x="80" y="865" width="1760" height="150" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="940" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
-  <text x="155" y="953" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">D</text>
-  <text x="225" y="923" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="31" font-weight="300" fill="#c4baea">Reproduce it with tests and browser evidence, inspect logs and traces, fix the root cause,</text>
-  <text x="225" y="958" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="31" font-weight="300" fill="#c4baea">rerun the relevant checks, and only then prepare the PR</text>
+  <rect x="80" y="335" width="1760" height="145" rx="18" fill="#5a2332" stroke="#ff8ca8" stroke-width="2"/>
+  <circle cx="122" cy="377" r="24" fill="#ff8ca8"/>
+  <text x="122" y="385" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#481521">A</text>
+  <rect x="1670" y="353" width="138" height="36" rx="18" fill="#481521" opacity="0.95"/>
+  <text x="1739" y="377" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Incorrect</text>
+  <text x="162" y="373" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">
+  <tspan x="162" dy="0">Ask Agent Mode to implement the whole ticket immediately before you inspect</tspan>
+  <tspan x="162" dy="30">the repo, risks, or data boundaries</tspan>
+</text>
+  <text x="162" y="437" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="350" fill="#ffe1ea">
+  <tspan x="162" dy="0">Jumping straight to implementation is risky when requirements and safety boundaries are still</tspan>
+  <tspan x="162" dy="30">unclear.</tspan>
+</text>
+  <rect x="80" y="505" width="1760" height="145" rx="18" fill="#1e6a43" stroke="#71e3a0" stroke-width="2"/>
+  <circle cx="122" cy="547" r="24" fill="#71e3a0"/>
+  <text x="122" y="555" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#143726">B</text>
+  <rect x="1670" y="523" width="138" height="36" rx="18" fill="#143726" opacity="0.95"/>
+  <text x="1739" y="547" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Correct</text>
+  <text x="162" y="543" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">
+  <tspan x="162" dy="0">Clarify requirements, inspect the codebase with targeted context, check safety</tspan>
+  <tspan x="162" dy="30">boundaries, and turn the work into a small plan before generating code</tspan>
+</text>
+  <text x="162" y="607" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="350" fill="#ffffff">
+  <tspan x="162" dy="0">The safest first move is to clarify the request, inspect the code and data boundaries, and plan</tspan>
+  <tspan x="162" dy="30">before generating code.</tspan>
+</text>
+  <rect x="80" y="675" width="1760" height="145" rx="18" fill="#5a2332" stroke="#ff8ca8" stroke-width="2"/>
+  <circle cx="122" cy="717" r="24" fill="#ff8ca8"/>
+  <text x="122" y="725" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#481521">C</text>
+  <rect x="1670" y="693" width="138" height="36" rx="18" fill="#481521" opacity="0.95"/>
+  <text x="1739" y="717" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Incorrect</text>
+  <text x="162" y="713" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">
+  <tspan x="162" dy="0">Paste real customer data into chat so Copilot can infer the business rules</tspan>
+  <tspan x="162" dy="30">faster</tspan>
+</text>
+  <text x="162" y="777" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="350" fill="#ffe1ea">
+  <tspan x="162" dy="0">Pasting real customer data into chat is unsafe and is not a substitute for understanding the</tspan>
+  <tspan x="162" dy="30">domain properly.</tspan>
+</text>
+  <rect x="80" y="845" width="1760" height="145" rx="18" fill="#5a2332" stroke="#ff8ca8" stroke-width="2"/>
+  <circle cx="122" cy="887" r="24" fill="#ff8ca8"/>
+  <text x="122" y="895" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#481521">D</text>
+  <rect x="1670" y="863" width="138" height="36" rx="18" fill="#481521" opacity="0.95"/>
+  <text x="1739" y="887" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Incorrect</text>
+  <text x="162" y="883" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">
+  <tspan x="162" dy="0">Start by drafting the PR description and review checklist before any</tspan>
+  <tspan x="162" dy="30">implementation exists</tspan>
+</text>
+  <text x="162" y="947" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="350" fill="#ffe1ea">
+  <tspan x="162" dy="0">A PR description and checklist are useful later, but not before you understand the problem and</tspan>
+  <tspan x="162" dy="30">likely solution.</tspan>
+</text>
 </svg>

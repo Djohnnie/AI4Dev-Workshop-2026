@@ -1,5 +1,4 @@
 ﻿# Chapter 5 — Speak AI's Language: Mastering Prompts & Context
-
 ## Slide 01 — AI4Dev
 
 ![Slide 01 — AI4Dev](slide-501.svg)
@@ -138,30 +137,42 @@
 
 ![Slide 30 — Interactive Quiz 13 — Answer](slide-530.svg)
 
-## Slide 31 — Interactive Quiz 14
+## Slide 31 — Interactive Quiz 13 — Explanation
 
-![Slide 31 — Interactive Quiz 14](slide-531.svg)
+![Slide 31 — Interactive Quiz 13 — Explanation](slide-531.svg)
 
-## Slide 32 — Interactive Quiz 14 — Answer
+## Slide 32 — Interactive Quiz 14
 
-![Slide 32 — Interactive Quiz 14 — Answer](slide-532.svg)
+![Slide 32 — Interactive Quiz 14](slide-532.svg)
 
-## Slide 33 — Interactive Quiz 15
+## Slide 33 — Interactive Quiz 14 — Answer
 
-![Slide 33 — Interactive Quiz 15](slide-533.svg)
+![Slide 33 — Interactive Quiz 14 — Answer](slide-533.svg)
 
-## Slide 34 — Interactive Quiz 15 — Answer
+## Slide 34 — Interactive Quiz 14 — Explanation
 
-![Slide 34 — Interactive Quiz 15 — Answer](slide-534.svg)
+![Slide 34 — Interactive Quiz 14 — Explanation](slide-534.svg)
 
-## Slide 35 — Lab 501 — Ultimate Snake with Instructions & Prompt Files
+## Slide 35 — Interactive Quiz 15
 
-![Slide 35 — Lab 501 — Ultimate Snake with Instructions & Prompt Files](slide-536.svg)
+![Slide 35 — Interactive Quiz 15](slide-535.svg)
+
+## Slide 36 — Interactive Quiz 15 — Answer
+
+![Slide 36 — Interactive Quiz 15 — Answer](slide-536.svg)
+
+## Slide 37 — Interactive Quiz 15 — Explanation
+
+![Slide 37 — Interactive Quiz 15 — Explanation](slide-537.svg)
+
+## Slide 38 — Lab 501 — Ultimate Snake with Instructions & Prompt Files
+
+![Slide 38 — Lab 501 — Ultimate Snake with Instructions & Prompt Files](slide-538.svg)
 
 → [Lab 501 — Ultimate Snake with Instructions, Prompt Files, and Skills](../../../labs/chapter-05/lab-501/README.md)
 
-## Slide 36 — Lab 501 — Expectations
+## Slide 39 — Lab 501 — Expectations
 
-![Slide 36 — Lab 501 — Expectations](slide-535.svg)
+![Slide 39 — Lab 501 — Expectations](slide-539.svg)
 
 → [Lab 501 — Ultimate Snake with Instructions, Prompt Files, and Skills](../../../labs/chapter-05/lab-501/README.md)

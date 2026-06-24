@@ -1,5 +1,4 @@
 ﻿# Chapter 2 — Meet Your New Best Friend: GitHub Copilot
-
 ## Slide 01 — AI4Dev
 
 ![Slide 01 — AI4Dev](slide-201.svg)
@@ -96,30 +95,42 @@
 
 ![Slide 21 — Interactive Quiz 4 — Answer](slide-221.svg)
 
-## Slide 22 — Interactive Quiz 5
+## Slide 22 — Interactive Quiz 4 — Explanation
 
-![Slide 22 — Interactive Quiz 5](slide-222.svg)
+![Slide 22 — Interactive Quiz 4 — Explanation](slide-222.svg)
 
-## Slide 23 — Interactive Quiz 5 — Answer
+## Slide 23 — Interactive Quiz 5
 
-![Slide 23 — Interactive Quiz 5 — Answer](slide-223.svg)
+![Slide 23 — Interactive Quiz 5](slide-223.svg)
 
-## Slide 24 — Interactive Quiz 6
+## Slide 24 — Interactive Quiz 5 — Answer
 
-![Slide 24 — Interactive Quiz 6](slide-224.svg)
+![Slide 24 — Interactive Quiz 5 — Answer](slide-224.svg)
 
-## Slide 25 — Interactive Quiz 6 — Answer
+## Slide 25 — Interactive Quiz 5 — Explanation
 
-![Slide 25 — Interactive Quiz 6 — Answer](slide-225.svg)
+![Slide 25 — Interactive Quiz 5 — Explanation](slide-225.svg)
 
-## Slide 26 — Lab 201 — Ultimate Snake
+## Slide 26 — Interactive Quiz 6
 
-![Slide 26 — Lab 201 — Ultimate Snake](slide-226.svg)
+![Slide 26 — Interactive Quiz 6](slide-226.svg)
+
+## Slide 27 — Interactive Quiz 6 — Answer
+
+![Slide 27 — Interactive Quiz 6 — Answer](slide-227.svg)
+
+## Slide 28 — Interactive Quiz 6 — Explanation
+
+![Slide 28 — Interactive Quiz 6 — Explanation](slide-228.svg)
+
+## Slide 29 — Lab 201 — Ultimate Snake
+
+![Slide 29 — Lab 201 — Ultimate Snake](slide-229.svg)
 
 → [Lab 201 — Ultimate Snake](../../../labs/chapter-02/lab-201/README.md)
 
-## Slide 27 — Lab 201 — Expectations
+## Slide 30 — Lab 201 — Expectations
 
-![Slide 27 — Lab 201 — Expectations](slide-227.svg)
+![Slide 30 — Lab 201 — Expectations](slide-230.svg)
 
 → [Lab 201 — Ultimate Snake](../../../labs/chapter-02/lab-201/README.md)

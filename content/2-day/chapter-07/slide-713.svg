@@ -15,32 +15,61 @@
   <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
   <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
-  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4" rx="0"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Interactive Quiz 19</text>
-  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="50" font-weight="700" fill="#ffffff" letter-spacing="-1">Output Discipline - Ask for the Fix, Not the Tutorial</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea" letter-spacing="1">A narrow request usually produces a cheaper answer and a faster review.</text>
+  <text x="80" y="241" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea" letter-spacing="1">Ask for the useful delta, not an essay or a full rewrite.</text>
 
-  <rect x="80" y="190" width="1760" height="120" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="960" y="234" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" fill="#ffffff">In the four-input prompt framework, which part sets the guardrails</text>
-  <text x="960" y="278" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" fill="#ffffff">for correctness and defines what must not change?</text>
+  <rect x="120" y="290" width="520" height="520" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="380" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Ask for the Fix</text>
+  <rect x="270" y="378" width="220" height="3" fill="#8b7fd4"/>
+  <circle cx="175" cy="445" r="7" fill="#8b7fd4"/>
+  <text x="203" y="448" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">"Return only the updated</text>
+  <text x="203" y="478" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">method, no explanation"</text>
+  <circle cx="175" cy="520" r="7" fill="#8b7fd4"/>
+  <text x="203" y="523" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">"List the likely causes,</text>
+  <text x="203" y="553" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">most likely first"</text>
+  <circle cx="175" cy="595" r="7" fill="#8b7fd4"/>
+  <text x="203" y="598" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Keep prose capped:</text>
+  <text x="203" y="628" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">"max 5 bullets"</text>
+  <circle cx="175" cy="670" r="7" fill="#8b7fd4"/>
+  <text x="203" y="673" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Better question = less</text>
+  <text x="203" y="703" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">output waste</text>
 
-  <rect x="80" y="340" width="1760" height="150" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="415" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
-  <text x="155" y="428" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">A</text>
-  <text x="225" y="428" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea">Task — define the action you want the model to take</text>
+  <rect x="700" y="290" width="520" height="520" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Ask for the Delta</text>
+  <rect x="845" y="378" width="230" height="3" fill="#8b7fd4"/>
+  <circle cx="755" cy="445" r="7" fill="#8b7fd4"/>
+  <text x="783" y="448" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Diffs beat rewrites for</text>
+  <text x="783" y="478" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">refactors and reviews</text>
+  <circle cx="755" cy="520" r="7" fill="#8b7fd4"/>
+  <text x="783" y="523" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Changed signatures, changed</text>
+  <text x="783" y="553" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">lines, or patch only</text>
+  <circle cx="755" cy="595" r="7" fill="#8b7fd4"/>
+  <text x="783" y="598" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">Avoid paying to resend</text>
+  <text x="783" y="626" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">200 unchanged lines</text>
+  <circle cx="755" cy="670" r="7" fill="#8b7fd4"/>
+  <text x="783" y="673" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Smaller output is easier</text>
+  <text x="783" y="703" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">to verify by eye</text>
 
-  <rect x="80" y="515" width="1760" height="150" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="590" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
-  <text x="155" y="603" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">B</text>
-  <text x="225" y="603" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea">Context — attach the files, patterns, and background that matter</text>
+  <rect x="1280" y="290" width="520" height="520" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1540" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Ask One Best Thing</text>
+  <rect x="1385" y="378" width="310" height="3" fill="#8b7fd4"/>
+  <circle cx="1335" cy="445" r="7" fill="#8b7fd4"/>
+  <text x="1363" y="448" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">One task per prompt keeps</text>
+  <text x="1363" y="478" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">the answer coherent</text>
+  <circle cx="1335" cy="520" r="7" fill="#8b7fd4"/>
+  <text x="1363" y="523" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Ask for the best approach</text>
+  <text x="1363" y="553" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">before asking for options</text>
+  <circle cx="1335" cy="595" r="7" fill="#8b7fd4"/>
+  <text x="1363" y="598" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">Split "fix + explain + test"</text>
+  <text x="1363" y="626" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">into sequential prompts</text>
+  <circle cx="1335" cy="670" r="7" fill="#8b7fd4"/>
+  <text x="1363" y="673" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Cheap prompts leave room</text>
+  <text x="1363" y="703" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">for follow-up judgment</text>
 
-  <rect x="80" y="690" width="1760" height="150" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="765" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
-  <text x="155" y="778" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">C</text>
-  <text x="225" y="778" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea">Example — show the shape of a good input or output</text>
-
-  <rect x="80" y="865" width="1760" height="150" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="940" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
-  <text x="155" y="953" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">D</text>
-  <text x="225" y="953" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea">Constraints — set guardrails and state what the answer must not break</text>
+  <rect x="210" y="892" width="1500" height="90" rx="34" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="934" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="600" fill="#ffffff" letter-spacing="1">Prompt for the minimum useful answer, then iterate only if you still need more.</text>
 </svg>

@@ -15,32 +15,61 @@
   <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
   <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
-  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4" rx="0"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Interactive Quiz 20</text>
-  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#ffffff" letter-spacing="-1">Local Models - Offload the Cheap Work</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea" letter-spacing="1">Not every task deserves a premium cloud model. Keep expensive reasoning for</text>
+  <text x="80" y="241" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea" letter-spacing="1">high-judgment work and offload repetitive low-risk work when local is good enough.</text>
 
-  <rect x="80" y="190" width="1760" height="120" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="960" y="234" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" fill="#ffffff">For a localized bug in one method, what is the best context</text>
-  <text x="960" y="278" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" fill="#ffffff">to send Copilot first?</text>
+  <rect x="120" y="290" width="520" height="520" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="380" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Great Local Targets</text>
+  <rect x="250" y="378" width="260" height="3" fill="#8b7fd4"/>
+  <circle cx="175" cy="445" r="7" fill="#8b7fd4"/>
+  <text x="203" y="448" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Boilerplate, mock data,</text>
+  <text x="203" y="478" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">CRUD scaffolding</text>
+  <circle cx="175" cy="520" r="7" fill="#8b7fd4"/>
+  <text x="203" y="523" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Basic summarization or</text>
+  <text x="203" y="553" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">rote transformations</text>
+  <circle cx="175" cy="595" r="7" fill="#8b7fd4"/>
+  <text x="203" y="598" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">First-pass test scaffolds</text>
+  <text x="203" y="628" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">and fixture generation</text>
+  <circle cx="175" cy="670" r="7" fill="#8b7fd4"/>
+  <text x="203" y="673" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Anything you can verify</text>
+  <text x="203" y="703" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">quickly yourself</text>
 
-  <rect x="80" y="340" width="1760" height="150" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="415" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
-  <text x="155" y="428" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">A</text>
-  <text x="225" y="428" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea">The selected method or exact lines involved in the issue</text>
+  <rect x="700" y="290" width="520" height="520" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Keep Cloud for Judgment</text>
+  <rect x="790" y="378" width="340" height="3" fill="#8b7fd4"/>
+  <circle cx="755" cy="445" r="7" fill="#8b7fd4"/>
+  <text x="783" y="448" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Architecture choices and</text>
+  <text x="783" y="478" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">trade-off analysis</text>
+  <circle cx="755" cy="520" r="7" fill="#8b7fd4"/>
+  <text x="783" y="523" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Ambiguous debugging with</text>
+  <text x="783" y="553" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">many plausible causes</text>
+  <circle cx="755" cy="595" r="7" fill="#8b7fd4"/>
+  <text x="783" y="598" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">Code review where subtle</text>
+  <text x="783" y="626" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">logic or security matters</text>
+  <circle cx="755" cy="670" r="7" fill="#8b7fd4"/>
+  <text x="783" y="673" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Anything expensive to</text>
+  <text x="783" y="703" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">get wrong in production</text>
 
-  <rect x="80" y="515" width="1760" height="150" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="590" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
-  <text x="155" y="603" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">B</text>
-  <text x="225" y="603" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea">The full workspace so the model can search everything itself</text>
+  <rect x="1280" y="290" width="520" height="520" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1540" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Operating Rule</text>
+  <rect x="1435" y="378" width="210" height="3" fill="#8b7fd4"/>
+  <circle cx="1335" cy="445" r="7" fill="#8b7fd4"/>
+  <text x="1363" y="448" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Start with the cheapest model</text>
+  <text x="1363" y="478" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">that can do the job</text>
+  <circle cx="1335" cy="520" r="7" fill="#8b7fd4"/>
+  <text x="1363" y="523" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Escalate only when the task</text>
+  <text x="1363" y="553" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">needs deeper reasoning</text>
+  <circle cx="1335" cy="595" r="7" fill="#8b7fd4"/>
+  <text x="1363" y="598" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">Local first can shrink both</text>
+  <text x="1363" y="626" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">cost and privacy exposure</text>
+  <circle cx="1335" cy="670" r="7" fill="#8b7fd4"/>
+  <text x="1363" y="673" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Cloud last for the work</text>
+  <text x="1363" y="703" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">that really earns it</text>
 
-  <rect x="80" y="690" width="1760" height="150" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="765" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
-  <text x="155" y="778" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">C</text>
-  <text x="225" y="778" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea">Several related files just in case the model might need them later</text>
-
-  <rect x="80" y="865" width="1760" height="150" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="940" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
-  <text x="155" y="953" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">D</text>
-  <text x="225" y="953" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#c4baea">Yesterday's chat plus a full stack trace from a different failure</text>
+  <rect x="210" y="892" width="1500" height="90" rx="34" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="934" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="600" fill="#ffffff" letter-spacing="1">Do not spend premium tokens on premium-sounding busywork.</text>
 </svg>

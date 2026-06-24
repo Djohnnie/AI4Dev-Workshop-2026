@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="45" font-weight="700" fill="#ffffff" letter-spacing="-1">Prompt Hygiene — Say More With Less</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea" letter-spacing="1">Every word in your prompt costs tokens and competes for the model's attention.</text>
+  <text x="80" y="241" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea" letter-spacing="1">Cut the fluff — the model has no feelings and unlimited patience.</text>
+
+  <!-- Left column: What to Cut -->
+  <rect x="120" y="290" width="780" height="580" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="510" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">What to Cut</text>
+  <rect x="330" y="378" width="360" height="3" fill="#8b7fd4"/>
+
+  <circle cx="190" cy="435" r="7" fill="#8b7fd4"/>
+  <text x="218" y="438" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Social padding: "please", "thank you",</text>
+  <text x="218" y="468" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">"you are amazing", "great job"</text>
+
+  <circle cx="190" cy="510" r="7" fill="#8b7fd4"/>
+  <text x="218" y="513" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Preambles: "I was wondering if maybe</text>
+  <text x="218" y="543" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">you could possibly help me with..."</text>
+
+  <circle cx="190" cy="585" r="7" fill="#8b7fd4"/>
+  <text x="218" y="588" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Restating what the model just said</text>
+  <text x="218" y="618" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">back to it before asking</text>
+
+  <circle cx="190" cy="660" r="7" fill="#8b7fd4"/>
+  <text x="218" y="663" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Over-explaining context the model</text>
+  <text x="218" y="693" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">already has from the file or thread</text>
+
+  <circle cx="190" cy="735" r="7" fill="#8b7fd4"/>
+  <text x="218" y="738" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Apologies: "sorry to bother you,</text>
+  <text x="218" y="768" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">but could you fix this small thing..."</text>
+
+  <!-- Right column: What to Keep -->
+  <rect x="1020" y="290" width="780" height="580" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">What to Keep</text>
+  <rect x="1225" y="378" width="370" height="3" fill="#8b7fd4"/>
+
+  <circle cx="1090" cy="435" r="7" fill="#8b7fd4"/>
+  <text x="1118" y="438" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">The task: one clear instruction</text>
+  <text x="1118" y="468" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">per prompt</text>
+
+  <circle cx="1090" cy="510" r="7" fill="#8b7fd4"/>
+  <text x="1118" y="513" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Relevant constraints: language,</text>
+  <text x="1118" y="543" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">framework, output format</text>
+
+  <circle cx="1090" cy="585" r="7" fill="#8b7fd4"/>
+  <text x="1118" y="588" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Scope limits: "only change X,</text>
+  <text x="1118" y="618" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">leave Y untouched"</text>
+
+  <circle cx="1090" cy="660" r="7" fill="#8b7fd4"/>
+  <text x="1118" y="663" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Expected output shape: "return only</text>
+  <text x="1118" y="693" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">the method, no explanation"</text>
+
+  <circle cx="1090" cy="735" r="7" fill="#8b7fd4"/>
+  <text x="1118" y="738" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Error context: the exact message,</text>
+  <text x="1118" y="768" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">not a vague description of it</text>
+
+  <!-- Bottom callout bar -->
+  <rect x="160" y="905" width="1600" height="72" rx="34" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="949" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="600" fill="#ffffff" letter-spacing="1">Shorter prompts are faster to write, cheaper to run, and easier to get right.</text>
+</svg>

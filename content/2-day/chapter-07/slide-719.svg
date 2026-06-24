@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="45" font-weight="700" fill="#ffffff" letter-spacing="-1">Stay in Control — Safe Habits When Working With AI Agents</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea" letter-spacing="1">AI agents are powerful, but they can make mistakes. A few disciplined habits</text>
+  <text x="80" y="241" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea" letter-spacing="1">protect your work and keep you in the driver's seat.</text>
+
+  <!-- Warning accent strip -->
+  <rect x="120" y="285" width="1680" height="6" rx="3" fill="#e8a838" opacity="0.7"/>
+
+  <!-- Main content box -->
+  <rect x="120" y="305" width="1680" height="570" rx="26" fill="#ffffff" fill-opacity="0.06" stroke="#8b7fd4" stroke-width="1.5"/>
+
+  <!-- Bullet 1 -->
+  <circle cx="185" cy="390" r="10" fill="#8b7fd4"/>
+  <text x="220" y="395" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff">Keep your changes incremental and understandable.</text>
+  <text x="220" y="432" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">Small steps are easier to review, revert, and explain — for you and for the agent.</text>
+
+  <!-- Divider -->
+  <rect x="185" y="455" width="1560" height="1" fill="#8b7fd4" opacity="0.35"/>
+
+  <!-- Bullet 2 -->
+  <circle cx="185" cy="498" r="10" fill="#8b7fd4"/>
+  <text x="220" y="503" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff">Commit often in Git to not lose work.</text>
+  <text x="220" y="540" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">Frequent commits give you safe restore points before every significant agent action.</text>
+
+  <!-- Divider -->
+  <rect x="185" y="563" width="1560" height="1" fill="#8b7fd4" opacity="0.35"/>
+
+  <!-- Bullet 3 -->
+  <circle cx="185" cy="606" r="10" fill="#8b7fd4"/>
+  <text x="220" y="611" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff">Work on separate feature or dev branches for larger tasks.</text>
+  <text x="220" y="648" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">Isolate agent work so it never pollutes your main branch until you have reviewed it.</text>
+
+  <!-- Divider -->
+  <rect x="185" y="671" width="1560" height="1" fill="#8b7fd4" opacity="0.35"/>
+
+  <!-- Bullet 4 -->
+  <circle cx="185" cy="714" r="10" fill="#8b7fd4"/>
+  <text x="220" y="719" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff">AI agents can make mistakes and damage your files and configuration.</text>
+  <text x="220" y="756" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">Always review agent output before accepting it, especially for infrastructure or config changes.</text>
+
+  <!-- Divider -->
+  <rect x="185" y="779" width="1560" height="1" fill="#8b7fd4" opacity="0.35"/>
+
+  <!-- Bullet 5 — Warning -->
+  <circle cx="185" cy="822" r="10" fill="#e8a838"/>
+  <text x="220" y="827" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#f5c842">Be careful with allowing agents to execute Git commands!</text>
+  <text x="220" y="864" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">Force-pushes, branch deletions, and rebases can cause irreversible damage. Stay in control.</text>
+
+  <!-- Bottom callout bar -->
+  <rect x="160" y="905" width="1600" height="72" rx="34" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="949" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="600" fill="#ffffff" letter-spacing="1">The agent works for you — not the other way around. Stay in the loop.</text>
+</svg>

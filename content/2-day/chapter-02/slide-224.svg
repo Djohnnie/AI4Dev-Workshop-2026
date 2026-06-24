@@ -20,7 +20,7 @@
 
   <text x="80" y="108"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Interactive Quiz 6</text>
+    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Interactive Quiz 5 — Answer</text>
 
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
 
@@ -29,52 +29,55 @@
     fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
   <text x="960" y="234" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="600" fill="#ffffff">Your teammate left an undocumented KMP method. Which Copilot Chat</text>
+    font-size="36" font-weight="600" fill="#ffffff">Copilot suggests a whole function but only the first few words are right.</text>
   <text x="960" y="278" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="600" fill="#ffffff">slash command is best suited to get it documented quickly?</text>
+    font-size="36" font-weight="600" fill="#ffffff">Which shortcut lets you accept just the next word of the suggestion?</text>
 
-  <!-- Answer A -->
+  <!-- Answer A (wrong) -->
   <rect x="80" y="340" width="1760" height="150" rx="16"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="415" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
+    fill="#ffffff" fill-opacity="0.05" stroke="#8b7fd4" stroke-opacity="0.4" stroke-width="1.5"/>
+  <circle cx="155" cy="415" r="40" fill="#8b7fd4" fill-opacity="0.2"/>
   <text x="155" y="428" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="700" fill="#ffffff">A</text>
+    font-size="36" font-weight="700" fill="#8b7fd4">A</text>
   <text x="225" y="428"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#c4baea">/explain — asks Copilot to describe what the code does</text>
+    font-size="34" font-weight="300" fill="#8b7fd4">Tab — accepts the full suggestion at once</text>
 
-  <!-- Answer B -->
+  <!-- Answer B (wrong) -->
   <rect x="80" y="515" width="1760" height="150" rx="16"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="590" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
+    fill="#ffffff" fill-opacity="0.05" stroke="#8b7fd4" stroke-opacity="0.4" stroke-width="1.5"/>
+  <circle cx="155" cy="590" r="40" fill="#8b7fd4" fill-opacity="0.2"/>
   <text x="155" y="603" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="700" fill="#ffffff">B</text>
+    font-size="36" font-weight="700" fill="#8b7fd4">B</text>
   <text x="225" y="603"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#c4baea">/fix — diagnoses and repairs broken or buggy code</text>
+    font-size="34" font-weight="300" fill="#8b7fd4">Alt+] — cycles to the next alternative suggestion</text>
 
-  <!-- Answer C -->
+  <!-- Answer C (wrong) -->
   <rect x="80" y="690" width="1760" height="150" rx="16"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="765" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
+    fill="#ffffff" fill-opacity="0.05" stroke="#8b7fd4" stroke-opacity="0.4" stroke-width="1.5"/>
+  <circle cx="155" cy="765" r="40" fill="#8b7fd4" fill-opacity="0.2"/>
   <text x="155" y="778" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="700" fill="#ffffff">C</text>
+    font-size="36" font-weight="700" fill="#8b7fd4">C</text>
   <text x="225" y="778"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#c4baea">/tests — generates a test suite for the selected code</text>
+    font-size="34" font-weight="300" fill="#8b7fd4">Esc — dismisses the suggestion entirely</text>
 
-  <!-- Answer D -->
+  <!-- Answer D (correct) -->
   <rect x="80" y="865" width="1760" height="150" rx="16"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="940" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
+    fill="#4ecb71" fill-opacity="0.12" stroke="#4ecb71" stroke-width="2"/>
+  <circle cx="155" cy="940" r="40" fill="#4ecb71" fill-opacity="0.8"/>
   <text x="155" y="953" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
     font-size="36" font-weight="700" fill="#ffffff">D</text>
   <text x="225" y="953"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#c4baea">/doc — generates documentation for the selected method</text>
+    font-size="34" font-weight="600" fill="#ffffff">Ctrl+Right — accepts the suggestion one word at a time</text>
+  <text x="1800" y="953" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="42" font-weight="700" fill="#4ecb71">✓</text>
 </svg>

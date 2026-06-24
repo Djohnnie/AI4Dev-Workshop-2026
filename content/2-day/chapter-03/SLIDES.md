@@ -1,5 +1,4 @@
 ﻿# Chapter 3 — Power with Purpose: Using AI Responsibly
-
 ## Slide 01 — AI4Dev
 
 ![Slide 01 — AI4Dev](slide-301.svg)
@@ -154,18 +153,30 @@
 
 ![Slide 33 — Interactive Quiz 7 — Answer](slide-333.svg)
 
-## Slide 34 — Interactive Quiz 8
+## Slide 34 — Interactive Quiz 7 — Explanation
 
-![Slide 34 — Interactive Quiz 8](slide-334.svg)
+![Slide 34 — Interactive Quiz 7 — Explanation](slide-334.svg)
 
-## Slide 35 — Interactive Quiz 8 — Answer
+## Slide 35 — Interactive Quiz 8
 
-![Slide 35 — Interactive Quiz 8 — Answer](slide-335.svg)
+![Slide 35 — Interactive Quiz 8](slide-335.svg)
 
-## Slide 36 — Interactive Quiz 9
+## Slide 36 — Interactive Quiz 8 — Answer
 
-![Slide 36 — Interactive Quiz 9](slide-336.svg)
+![Slide 36 — Interactive Quiz 8 — Answer](slide-336.svg)
 
-## Slide 37 — Interactive Quiz 9 — Answer
+## Slide 37 — Interactive Quiz 8 — Explanation
 
-![Slide 37 — Interactive Quiz 9 — Answer](slide-337.svg)
+![Slide 37 — Interactive Quiz 8 — Explanation](slide-337.svg)
+
+## Slide 38 — Interactive Quiz 9
+
+![Slide 38 — Interactive Quiz 9](slide-338.svg)
+
+## Slide 39 — Interactive Quiz 9 — Answer
+
+![Slide 39 — Interactive Quiz 9 — Answer](slide-339.svg)
+
+## Slide 40 — Interactive Quiz 9 — Explanation
+
+![Slide 40 — Interactive Quiz 9 — Explanation](slide-340.svg)

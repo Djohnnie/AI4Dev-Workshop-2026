@@ -20,7 +20,7 @@
 
   <text x="80" y="108"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Interactive Quiz 8 — Answer</text>
+    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Interactive Quiz 8</text>
 
   <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
 
@@ -34,50 +34,47 @@
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
     font-size="36" font-weight="600" fill="#ffffff">What fairness risk does this introduce?</text>
 
-  <!-- Answer A (wrong) -->
+  <!-- Answer A -->
   <rect x="80" y="340" width="1760" height="150" rx="16"
-    fill="#ffffff" fill-opacity="0.05" stroke="#8b7fd4" stroke-opacity="0.4" stroke-width="1.5"/>
-  <circle cx="155" cy="415" r="40" fill="#8b7fd4" fill-opacity="0.2"/>
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <circle cx="155" cy="415" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
   <text x="155" y="428" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="700" fill="#8b7fd4">A</text>
+    font-size="36" font-weight="700" fill="#ffffff">A</text>
   <text x="225" y="428"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#8b7fd4">It occasionally suggests deprecated APIs because its training data has a knowledge cutoff</text>
+    font-size="34" font-weight="300" fill="#c4baea">It occasionally suggests deprecated APIs because its training data has a knowledge cutoff</text>
 
-  <!-- Answer B (correct) -->
+  <!-- Answer B -->
   <rect x="80" y="515" width="1760" height="150" rx="16"
-    fill="#4ecb71" fill-opacity="0.12" stroke="#4ecb71" stroke-width="2"/>
-  <circle cx="155" cy="590" r="40" fill="#4ecb71" fill-opacity="0.8"/>
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <circle cx="155" cy="590" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
   <text x="155" y="603" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
     font-size="36" font-weight="700" fill="#ffffff">B</text>
   <text x="225" y="603"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="600" fill="#ffffff">Training data over-represents certain demographics, embedding their assumptions</text>
-  <text x="1800" y="603" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="42" font-weight="700" fill="#4ecb71">✓</text>
+    font-size="34" font-weight="300" fill="#c4baea">Training data over-represents certain demographics, embedding their assumptions</text>
 
-  <!-- Answer C (wrong) -->
+  <!-- Answer C -->
   <rect x="80" y="690" width="1760" height="150" rx="16"
-    fill="#ffffff" fill-opacity="0.05" stroke="#8b7fd4" stroke-opacity="0.4" stroke-width="1.5"/>
-  <circle cx="155" cy="765" r="40" fill="#8b7fd4" fill-opacity="0.2"/>
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <circle cx="155" cy="765" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
   <text x="155" y="778" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="700" fill="#8b7fd4">C</text>
+    font-size="36" font-weight="700" fill="#ffffff">C</text>
   <text x="225" y="778"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#8b7fd4">It cannot access documentation for newly released libraries</text>
+    font-size="34" font-weight="300" fill="#c4baea">It cannot access documentation for newly released libraries</text>
 
-  <!-- Answer D (wrong) -->
+  <!-- Answer D -->
   <rect x="80" y="865" width="1760" height="150" rx="16"
-    fill="#ffffff" fill-opacity="0.05" stroke="#8b7fd4" stroke-opacity="0.4" stroke-width="1.5"/>
-  <circle cx="155" cy="940" r="40" fill="#8b7fd4" fill-opacity="0.2"/>
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <circle cx="155" cy="940" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
   <text x="155" y="953" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="700" fill="#8b7fd4">D</text>
+    font-size="36" font-weight="700" fill="#ffffff">D</text>
   <text x="225" y="953"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#8b7fd4">Completion quality drops when working in very large codebases</text>
+    font-size="34" font-weight="300" fill="#c4baea">Completion quality drops when working in very large codebases</text>
 </svg>

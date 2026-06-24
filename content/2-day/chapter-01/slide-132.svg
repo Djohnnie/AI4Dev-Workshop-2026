@@ -15,69 +15,62 @@
   <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
   <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4" rx="0"/>
+  <text x="80" y="108" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="700" fill="#ffffff">
+  <tspan x="80" dy="0">Interactive Quiz 2 - Explanation</tspan>
+</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
-  <text x="80" y="108"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Interactive Quiz 3 — Answer</text>
+  <rect x="80" y="190" width="1760" height="115" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="228" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff">
+  <tspan x="960" dy="0">AlphaGo mastered Go by playing millions of games, receiving a reward</tspan>
+  <tspan x="960" dy="38">signal when it won. Which type of machine learning is this?</tspan>
+</text>
 
-  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
-
-  <!-- Question -->
-  <rect x="80" y="190" width="1760" height="120" rx="16"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="960" y="234" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="600" fill="#ffffff">Copilot confidently generates code that calls methods on your internal</text>
-  <text x="960" y="278" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="600" fill="#ffffff">API that do not exist. What best explains this behaviour?</text>
-
-  <!-- Answer A (wrong) -->
-  <rect x="80" y="340" width="1760" height="150" rx="16"
-    fill="#ffffff" fill-opacity="0.05" stroke="#8b7fd4" stroke-opacity="0.4" stroke-width="1.5"/>
-  <circle cx="155" cy="415" r="40" fill="#8b7fd4" fill-opacity="0.2"/>
-  <text x="155" y="428" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="700" fill="#8b7fd4">A</text>
-  <text x="225" y="428"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#8b7fd4">The API was deliberately excluded from Copilot's training data</text>
-
-  <!-- Answer B (correct) -->
-  <rect x="80" y="515" width="1760" height="150" rx="16"
-    fill="#4ecb71" fill-opacity="0.12" stroke="#4ecb71" stroke-width="2"/>
-  <circle cx="155" cy="590" r="40" fill="#4ecb71" fill-opacity="0.8"/>
-  <text x="155" y="603" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="700" fill="#ffffff">B</text>
-  <text x="225" y="603"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="600" fill="#ffffff">LLMs predict statistically likely tokens, not factually verified answers</text>
-  <text x="1800" y="603" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="42" font-weight="700" fill="#4ecb71">✓</text>
-
-  <!-- Answer C (wrong) -->
-  <rect x="80" y="690" width="1760" height="150" rx="16"
-    fill="#ffffff" fill-opacity="0.05" stroke="#8b7fd4" stroke-opacity="0.4" stroke-width="1.5"/>
-  <circle cx="155" cy="765" r="40" fill="#8b7fd4" fill-opacity="0.2"/>
-  <text x="155" y="778" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="700" fill="#8b7fd4">C</text>
-  <text x="225" y="778"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#8b7fd4">The temperature was set too high, causing creative hallucinations</text>
-
-  <!-- Answer D (wrong) -->
-  <rect x="80" y="865" width="1760" height="150" rx="16"
-    fill="#ffffff" fill-opacity="0.05" stroke="#8b7fd4" stroke-opacity="0.4" stroke-width="1.5"/>
-  <circle cx="155" cy="940" r="40" fill="#8b7fd4" fill-opacity="0.2"/>
-  <text x="155" y="953" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="700" fill="#8b7fd4">D</text>
-  <text x="225" y="953"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#8b7fd4">The context window was too small to read the API documentation</text>
+  <rect x="80" y="335" width="1760" height="145" rx="18" fill="#5a2332" stroke="#ff8ca8" stroke-width="2"/>
+  <circle cx="122" cy="377" r="24" fill="#ff8ca8"/>
+  <text x="122" y="385" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#481521">A</text>
+  <rect x="1670" y="353" width="138" height="36" rx="18" fill="#481521" opacity="0.95"/>
+  <text x="1739" y="377" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Incorrect</text>
+  <text x="162" y="373" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">
+  <tspan x="162" dy="0">Supervised Learning — trained on labelled game outcomes</tspan>
+</text>
+  <text x="162" y="437" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="350" fill="#ffe1ea">
+  <tspan x="162" dy="0">Supervised learning depends on labeled examples, not self-play driven by rewards.</tspan>
+</text>
+  <rect x="80" y="505" width="1760" height="145" rx="18" fill="#5a2332" stroke="#ff8ca8" stroke-width="2"/>
+  <circle cx="122" cy="547" r="24" fill="#ff8ca8"/>
+  <text x="122" y="555" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#481521">B</text>
+  <rect x="1670" y="523" width="138" height="36" rx="18" fill="#481521" opacity="0.95"/>
+  <text x="1739" y="547" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Incorrect</text>
+  <text x="162" y="543" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">
+  <tspan x="162" dy="0">Unsupervised Learning — found patterns in unlabelled game data</tspan>
+</text>
+  <text x="162" y="607" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="350" fill="#ffe1ea">
+  <tspan x="162" dy="0">Unsupervised learning finds patterns without labeled outcomes or reward feedback.</tspan>
+</text>
+  <rect x="80" y="675" width="1760" height="145" rx="18" fill="#5a2332" stroke="#ff8ca8" stroke-width="2"/>
+  <circle cx="122" cy="717" r="24" fill="#ff8ca8"/>
+  <text x="122" y="725" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#481521">C</text>
+  <rect x="1670" y="693" width="138" height="36" rx="18" fill="#481521" opacity="0.95"/>
+  <text x="1739" y="717" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Incorrect</text>
+  <text x="162" y="713" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">
+  <tspan x="162" dy="0">Generative AI — created new board positions from scratch</tspan>
+</text>
+  <text x="162" y="777" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="350" fill="#ffe1ea">
+  <tspan x="162" dy="0">Generative AI creates new content, but AlphaGo&#x27;s learning loop was about optimizing actions from</tspan>
+  <tspan x="162" dy="30">rewards.</tspan>
+</text>
+  <rect x="80" y="845" width="1760" height="145" rx="18" fill="#1e6a43" stroke="#71e3a0" stroke-width="2"/>
+  <circle cx="122" cy="887" r="24" fill="#71e3a0"/>
+  <text x="122" y="895" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#143726">D</text>
+  <rect x="1670" y="863" width="138" height="36" rx="18" fill="#143726" opacity="0.95"/>
+  <text x="1739" y="887" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Correct</text>
+  <text x="162" y="883" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">
+  <tspan x="162" dy="0">Reinforcement Learning — trial and error with a reward signal</tspan>
+</text>
+  <text x="162" y="947" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="350" fill="#ffffff">
+  <tspan x="162" dy="0">AlphaGo improved through repeated trial and error, guided by a reward signal for winning.</tspan>
+</text>
 </svg>

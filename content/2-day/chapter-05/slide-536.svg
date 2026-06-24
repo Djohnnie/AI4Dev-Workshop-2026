@@ -4,62 +4,77 @@
       <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
       <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
     </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
   <rect width="1920" height="1080" fill="url(#bgGlow)"/>
-  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
-
-  <g transform="translate(1400 58)" opacity="0.2">
-    <text x="0" y="54" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="54" font-weight="700" fill="#c4baea">INSTRUCTIONS</text>
-    <text x="0" y="114" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#c4baea">PROMPTS · SKILLS</text>
-  </g>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4" rx="0"/>
 
   <text x="80" y="108"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="62" font-weight="700" fill="#ffffff" letter-spacing="-1">Lab 501 &#x2014; Snake with Instructions &amp; Prompt Files</text>
+    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Interactive Quiz 15 — Answer</text>
 
-  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
 
-  <text x="80" y="195"
+  <rect x="80" y="190" width="1760" height="120" rx="16"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="234" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="32" font-weight="300" fill="#c4baea">Rebuild the chapter 4 Snake game from an almost-empty folder.</text>
-  <text x="80" y="232"
+    font-size="36" font-weight="600" fill="#ffffff">What is the key difference between prompt files</text>
+  <text x="960" y="278" text-anchor="middle"
     font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="32" font-weight="300" fill="#c4baea">Seed Copilot first with repo instructions, prompt files, and a skill.</text>
+    font-size="36" font-weight="600" fill="#ffffff">and skill files in GitHub Copilot?</text>
 
-  <rect x="80" y="245" width="980" height="720" rx="12"
-    fill="#0f1226" fill-opacity="0.72" stroke="#8b7fd4" stroke-width="1.5"/>
+  <rect x="80" y="340" width="1760" height="150" rx="16"
+    fill="#4ecb71" fill-opacity="0.12" stroke="#4ecb71" stroke-width="2"/>
+  <circle cx="155" cy="415" r="40" fill="#4ecb71" fill-opacity="0.8"/>
+  <text x="155" y="428" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="700" fill="#ffffff">A</text>
+  <text x="225" y="395"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="33" font-weight="600" fill="#ffffff">Prompt files are named prompts you invoke deliberately;</text>
+  <text x="225" y="435"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="33" font-weight="600" fill="#ffffff">skill files are loaded automatically when the agent decides they apply</text>
+  <text x="1800" y="428" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="42" font-weight="700" fill="#4ecb71">✓</text>
 
-  <text x="120" y="300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Suggested chapter 5 flow</text>
-  <text x="120" y="352" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">1. Read `.github/copilot-instructions.md` before asking for code.</text>
-  <text x="120" y="394" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">2. Invoke the scaffold prompt file instead of writing the whole ask.</text>
-  <text x="120" y="436" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">3. Refine with task, context, examples, and constraints.</text>
-  <text x="120" y="516" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">What participants should practise</text>
-  <text x="120" y="568" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">• See how reusable guidance changes prompt quality.</text>
-  <text x="120" y="606" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">• Reuse prompt files for scaffolding and follow-up work.</text>
-  <text x="120" y="644" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">• Validate the result against the included skill checklist.</text>
+  <rect x="80" y="515" width="1760" height="150" rx="16"
+    fill="#ffffff" fill-opacity="0.05" stroke="#8b7fd4" stroke-opacity="0.4" stroke-width="1.5"/>
+  <circle cx="155" cy="590" r="40" fill="#8b7fd4" fill-opacity="0.2"/>
+  <text x="155" y="603" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="700" fill="#8b7fd4">B</text>
+  <text x="225" y="603"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#8b7fd4">Prompt files only work on GitHub.com, while skill files only work in VS Code</text>
 
-  <rect x="120" y="690" width="900" height="230" rx="18" fill="rgba(255,255,255,0.05)" stroke="#8b7fd4" stroke-width="1.2"/>
-  <text x="160" y="748" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Prompt-shaped workflow</text>
-  <text x="160" y="798" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">The starter has almost no app code, but it does include guidance assets.</text>
-  <text x="160" y="836" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Participants should feel the difference between raw vibe-coding</text>
-  <text x="160" y="872" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">and vibe-coding with durable prompt context already in the repo.</text>
+  <rect x="80" y="690" width="1760" height="150" rx="16"
+    fill="#ffffff" fill-opacity="0.05" stroke="#8b7fd4" stroke-opacity="0.4" stroke-width="1.5"/>
+  <circle cx="155" cy="765" r="40" fill="#8b7fd4" fill-opacity="0.2"/>
+  <text x="155" y="778" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="700" fill="#8b7fd4">C</text>
+  <text x="225" y="778"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#8b7fd4">Skill files are for humans to read, but prompt files are only for automation tools</text>
 
-  <rect x="1110" y="245" width="730" height="220" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1475" y="306" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="50" font-weight="700" fill="#8b7fd4">1</text>
-  <text x="1475" y="366" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff">Start from almost nothing</text>
-  <text x="1475" y="410" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Starter = README plus `.github`</text>
-  <text x="1475" y="442" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">guidance files, not app code.</text>
-
-  <rect x="1110" y="495" width="730" height="220" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1475" y="556" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="50" font-weight="700" fill="#8b7fd4">2</text>
-  <text x="1475" y="616" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff">Use the assets on purpose</text>
-  <text x="1475" y="660" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Prompt files start the work.</text>
-  <text x="1475" y="692" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Instructions and the skill shape the result.</text>
-
-  <rect x="1110" y="745" width="730" height="220" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1475" y="806" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="50" font-weight="700" fill="#8b7fd4">3</text>
-  <text x="1475" y="866" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff">Expected outcome</text>
-  <text x="1475" y="910" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">End with the same playable Snake app</text>
-  <text x="1475" y="942" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">as chapter 4, but reached through better prompts.</text>
+  <rect x="80" y="865" width="1760" height="150" rx="16"
+    fill="#ffffff" fill-opacity="0.05" stroke="#8b7fd4" stroke-opacity="0.4" stroke-width="1.5"/>
+  <circle cx="155" cy="940" r="40" fill="#8b7fd4" fill-opacity="0.2"/>
+  <text x="155" y="953" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="700" fill="#8b7fd4">D</text>
+  <text x="225" y="953"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#8b7fd4">There is no difference; the two names refer to the same Copilot feature</text>
 </svg>

@@ -4,59 +4,71 @@
       <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
       <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
     </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
   <rect width="1920" height="1080" fill="url(#bgGlow)"/>
-  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4" rx="0"/>
 
-  <g transform="translate(1400 58)" opacity="0.18">
-    <text x="0" y="54" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" fill="#c4baea">FINAL</text>
-    <text x="0" y="118" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="700" fill="#c4baea">LAB 601</text>
-  </g>
+  <text x="80" y="108"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Interactive Quiz 18</text>
 
-  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff" letter-spacing="-1">Lab 601 &#x2014; Ultimate Snake Across the Entire Lifecycle</text>
-  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
-  <text x="80" y="195" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">Rebuild the familiar Snake game one more time, but now treat Copilot as a partner across analysis, implementation, testing,</text>
-  <text x="80" y="232" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea">debugging, documentation, and PR packaging instead of only as a code generator.</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
 
-  <rect x="80" y="245" width="980" height="720" rx="12" fill="#0f1226" fill-opacity="0.72" stroke="#8b7fd4" stroke-width="1.5"/>
+  <rect x="80" y="190" width="1760" height="120" rx="16"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="234" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="600" fill="#ffffff">Which statement best reflects Copilot's role in the pull request lifecycle?</text>
 
-  <text x="120" y="302" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Suggested chapter 6 flow</text>
-  <text x="120" y="358" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">1. Turn the Snake brief into requirements, risks, and a first slice.</text>
-  <text x="120" y="400" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">2. Scaffold the .NET 10 web host and static UI shell.</text>
-  <text x="120" y="442" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">3. Finish the gameplay loop in small, reviewable steps.</text>
-  <text x="120" y="484" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">4. Validate wrap, growth, collision, pause, and restart behavior.</text>
-  <text x="120" y="526" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">5. Add enough debug visibility to explain weird game states quickly.</text>
-  <text x="120" y="568" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">6. Leave behind docs, a tiny diagram, and a PR-ready summary.</text>
+  <rect x="80" y="340" width="1760" height="150" rx="16"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <circle cx="155" cy="415" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
+  <text x="155" y="428" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="700" fill="#ffffff">A</text>
+  <text x="225" y="428"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#c4baea">If Copilot reviews the PR, human reviewers are no longer needed for architecture or business logic</text>
 
-  <text x="120" y="646" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Why reuse Snake again?</text>
-  <text x="120" y="700" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Participants already know the gameplay target, so they can focus on</text>
-  <text x="120" y="738" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">workflow quality: clearer planning, safer iteration, better debugging,</text>
-  <text x="120" y="776" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">and stronger handoff artifacts instead of only raw code generation.</text>
+  <rect x="80" y="515" width="1760" height="150" rx="16"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <circle cx="155" cy="590" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
+  <text x="155" y="603" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="700" fill="#ffffff">B</text>
+  <text x="225" y="603"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#c4baea">Copilot is mainly for styling comments and should not be used for PR descriptions or review checklists</text>
 
-  <rect x="120" y="820" width="900" height="108" rx="18" fill="rgba(255,255,255,0.05)" stroke="#8b7fd4" stroke-width="1.2"/>
-  <text x="160" y="866" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#ffffff">Starter shape</text>
-  <text x="160" y="896" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">Like lab 501, the folder starts mostly empty and relies on</text>
-  <text x="160" y="926" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">README guidance plus `.github` prompt assets.</text>
+  <rect x="80" y="690" width="1760" height="150" rx="16"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <circle cx="155" cy="765" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
+  <text x="155" y="778" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="700" fill="#ffffff">C</text>
+  <text x="225" y="778"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#c4baea">Autofix should always be merged immediately because CodeQL has already proven the patch is perfect</text>
 
-  <rect x="1110" y="245" width="730" height="220" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1475" y="304" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="50" font-weight="700" fill="#8b7fd4">1</text>
-  <text x="1475" y="362" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff">Build target</text>
-  <text x="1475" y="396" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">End with the same browser-based Ultimate Snake</text>
-  <text x="1475" y="426" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">mechanics from the earlier labs: HUD, wrap, food,</text>
-  <text x="1475" y="456" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">pause, and collision.</text>
-
-  <rect x="1110" y="495" width="730" height="220" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1475" y="554" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="50" font-weight="700" fill="#8b7fd4">2</text>
-  <text x="1475" y="612" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff">What makes it chapter 6</text>
-  <text x="1475" y="646" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">The lab is scored on the whole lifecycle:</text>
-  <text x="1475" y="676" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">plan, build, validate, debug, document,</text>
-  <text x="1475" y="706" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">and package the work for review.</text>
-
-  <rect x="1110" y="745" width="730" height="220" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="1475" y="804" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="50" font-weight="700" fill="#8b7fd4">3</text>
-  <text x="1475" y="862" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff">Why it works well live</text>
-  <text x="1475" y="896" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">Everyone can see the same game outcome,</text>
-  <text x="1475" y="926" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">but different teams can show very different planning quality,</text>
-  <text x="1475" y="956" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">diagnostics, and handoff artifacts.</text>
+  <rect x="80" y="865" width="1760" height="150" rx="16"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <circle cx="155" cy="940" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
+  <text x="155" y="953" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="700" fill="#ffffff">D</text>
+  <text x="225" y="923"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="31" font-weight="300" fill="#c4baea">Copilot can draft PR descriptions, surface likely bugs, and suggest fixes,</text>
+  <text x="225" y="958"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="31" font-weight="300" fill="#c4baea">while humans still judge product correctness, architecture, and final merge readiness</text>
 </svg>

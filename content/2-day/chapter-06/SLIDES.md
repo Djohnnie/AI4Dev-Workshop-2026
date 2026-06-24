@@ -1,5 +1,4 @@
 ﻿# Chapter 6 — AI Across the Entire Software Lifecycle
-
 ## Slide 01 — AI4Dev
 
 ![Slide 01 — AI4Dev](slide-601.svg)
@@ -200,30 +199,42 @@
 
 ![Slide 44 — Interactive Quiz 16 — Answer](slide-644.svg)
 
-## Slide 45 — Interactive Quiz 17
+## Slide 45 — Interactive Quiz 16 — Explanation
 
-![Slide 45 — Interactive Quiz 17](slide-645.svg)
+![Slide 45 — Interactive Quiz 16 — Explanation](slide-645.svg)
 
-## Slide 46 — Interactive Quiz 17 — Answer
+## Slide 46 — Interactive Quiz 17
 
-![Slide 46 — Interactive Quiz 17 — Answer](slide-646.svg)
+![Slide 46 — Interactive Quiz 17](slide-646.svg)
 
-## Slide 47 — Interactive Quiz 18
+## Slide 47 — Interactive Quiz 17 — Answer
 
-![Slide 47 — Interactive Quiz 18](slide-647.svg)
+![Slide 47 — Interactive Quiz 17 — Answer](slide-647.svg)
 
-## Slide 48 — Interactive Quiz 18 — Answer
+## Slide 48 — Interactive Quiz 17 — Explanation
 
-![Slide 48 — Interactive Quiz 18 — Answer](slide-648.svg)
+![Slide 48 — Interactive Quiz 17 — Explanation](slide-648.svg)
 
-## Slide 49 — Lab 601 — Ultimate Snake Across the Entire Lifecycle
+## Slide 49 — Interactive Quiz 18
 
-![Slide 49 — Lab 601 — Ultimate Snake Across the Entire Lifecycle](slide-649.svg)
+![Slide 49 — Interactive Quiz 18](slide-649.svg)
+
+## Slide 50 — Interactive Quiz 18 — Answer
+
+![Slide 50 — Interactive Quiz 18 — Answer](slide-650.svg)
+
+## Slide 51 — Interactive Quiz 18 — Explanation
+
+![Slide 51 — Interactive Quiz 18 — Explanation](slide-651.svg)
+
+## Slide 52 — Lab 601 — Ultimate Snake Across the Entire Lifecycle
+
+![Slide 52 — Lab 601 — Ultimate Snake Across the Entire Lifecycle](slide-652.svg)
 
 → [Lab 601 — Ultimate Snake Across the Entire Lifecycle](../../../labs/chapter-06/lab-601/README.md)
 
-## Slide 50 — Lab 601 — Expectations
+## Slide 53 — Lab 601 — Expectations
 
-![Slide 50 — Lab 601 — Expectations](slide-650.svg)
+![Slide 53 — Lab 601 — Expectations](slide-653.svg)
 
 → [Lab 601 — Ultimate Snake Across the Entire Lifecycle](../../../labs/chapter-06/lab-601/README.md)

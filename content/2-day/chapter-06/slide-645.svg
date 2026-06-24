@@ -15,63 +15,66 @@
   <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
   <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
   <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
-  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4" rx="0"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
 
-  <text x="80" y="108"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Interactive Quiz 17</text>
+  <text x="80" y="108" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="700" fill="#ffffff">
+  <tspan x="80" dy="0">Interactive Quiz 16 - Explanation</tspan>
+</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
 
-  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
+  <rect x="80" y="190" width="1760" height="115" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="228" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff">
+  <tspan x="960" dy="0">Before vibe-coding a new feature, which chapter 6 move gives Copilot the</tspan>
+  <tspan x="960" dy="38">strongest starting point across the whole lifecycle?</tspan>
+</text>
 
-  <rect x="80" y="190" width="1760" height="120" rx="16"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <text x="960" y="234" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="600" fill="#ffffff">When an AI-assisted feature fails at runtime, what is the best chapter 6</text>
-  <text x="960" y="278" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="600" fill="#ffffff">debugging loop?</text>
-
-  <rect x="80" y="340" width="1760" height="150" rx="16"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="415" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
-  <text x="155" y="428" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="700" fill="#ffffff">A</text>
-  <text x="225" y="395"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="33" font-weight="300" fill="#c4baea">Reproduce the bug, capture evidence, narrow the cause with logs or tests,</text>
-  <text x="225" y="435"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="33" font-weight="300" fill="#c4baea">fix it, and verify it stays fixed</text>
-
-  <rect x="80" y="515" width="1760" height="150" rx="16"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="590" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
-  <text x="155" y="603" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="700" fill="#ffffff">B</text>
-  <text x="225" y="603"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#c4baea">Ask Copilot for a fresh rewrite without looking at the actual failure output</text>
-
-  <rect x="80" y="690" width="1760" height="150" rx="16"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="765" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
-  <text x="155" y="778" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="700" fill="#ffffff">C</text>
-  <text x="225" y="778"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#c4baea">Turn off telemetry first because logs and traces usually just slow you down</text>
-
-  <rect x="80" y="865" width="1760" height="150" rx="16"
-    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
-  <circle cx="155" cy="940" r="40" fill="#8b7fd4" fill-opacity="0.35"/>
-  <text x="155" y="953" text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="36" font-weight="700" fill="#ffffff">D</text>
-  <text x="225" y="953"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="34" font-weight="300" fill="#c4baea">Fix the symptom in production first and only reproduce locally if users complain again</text>
+  <rect x="80" y="335" width="1760" height="145" rx="18" fill="#5a2332" stroke="#ff8ca8" stroke-width="2"/>
+  <circle cx="122" cy="377" r="24" fill="#ff8ca8"/>
+  <text x="122" y="385" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#481521">A</text>
+  <rect x="1670" y="353" width="138" height="36" rx="18" fill="#481521" opacity="0.95"/>
+  <text x="1739" y="377" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Incorrect</text>
+  <text x="162" y="373" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">
+  <tspan x="162" dy="0">Start coding immediately and let the first compiler error define the scope</tspan>
+</text>
+  <text x="162" y="437" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="350" fill="#ffe1ea">
+  <tspan x="162" dy="0">Using compiler errors to discover scope is reactive and skips the planning work that prevents</tspan>
+  <tspan x="162" dy="30">avoidable churn.</tspan>
+</text>
+  <rect x="80" y="505" width="1760" height="145" rx="18" fill="#5a2332" stroke="#ff8ca8" stroke-width="2"/>
+  <circle cx="122" cy="547" r="24" fill="#ff8ca8"/>
+  <text x="122" y="555" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#481521">B</text>
+  <rect x="1670" y="523" width="138" height="36" rx="18" fill="#481521" opacity="0.95"/>
+  <text x="1739" y="547" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Incorrect</text>
+  <text x="162" y="543" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">
+  <tspan x="162" dy="0">Skip planning and ask Copilot for the PR description before any code exists</tspan>
+</text>
+  <text x="162" y="607" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="350" fill="#ffe1ea">
+  <tspan x="162" dy="0">A PR description before the code exists is premature and does not help shape the implementation</tspan>
+  <tspan x="162" dy="30">responsibly.</tspan>
+</text>
+  <rect x="80" y="675" width="1760" height="145" rx="18" fill="#1e6a43" stroke="#71e3a0" stroke-width="2"/>
+  <circle cx="122" cy="717" r="24" fill="#71e3a0"/>
+  <text x="122" y="725" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#143726">C</text>
+  <rect x="1670" y="693" width="138" height="36" rx="18" fill="#143726" opacity="0.95"/>
+  <text x="1739" y="717" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Correct</text>
+  <text x="162" y="713" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">
+  <tspan x="162" dy="0">Turn the brief into requirements, actors, risks, architecture options, and an</tspan>
+  <tspan x="162" dy="30">implementation plan before generating code</tspan>
+</text>
+  <text x="162" y="777" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="350" fill="#ffffff">
+  <tspan x="162" dy="0">Turning the brief into requirements, risks, architecture options, and a plan gives Copilot better</tspan>
+  <tspan x="162" dy="30">guidance across the whole lifecycle.</tspan>
+</text>
+  <rect x="80" y="845" width="1760" height="145" rx="18" fill="#5a2332" stroke="#ff8ca8" stroke-width="2"/>
+  <circle cx="122" cy="887" r="24" fill="#ff8ca8"/>
+  <text x="122" y="895" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#481521">D</text>
+  <rect x="1670" y="863" width="138" height="36" rx="18" fill="#481521" opacity="0.95"/>
+  <text x="1739" y="887" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Incorrect</text>
+  <text x="162" y="883" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">
+  <tspan x="162" dy="0">Wait until release day to think about tests, diagnostics, and reviewability</tspan>
+</text>
+  <text x="162" y="947" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="350" fill="#ffe1ea">
+  <tspan x="162" dy="0">Delaying tests, diagnostics, and reviewability until release day makes the lifecycle weaker, not</tspan>
+  <tspan x="162" dy="30">stronger.</tspan>
+</text>
 </svg>
