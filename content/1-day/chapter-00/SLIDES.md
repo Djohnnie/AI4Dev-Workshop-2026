@@ -58,12 +58,13 @@ This slide is an invitation to make the room visible. Knowing each other's names
 
 It also creates a useful baseline for discussion. Some people may already use GitHub Copilot every day, while others may still be exploring their first AI tools. Sharing what you want to learn helps shape the conversation and makes the workshop more relevant for everyone.
 
-## Slide 07 — Day 1 - What is on the agenda?
+## Slide 07 — What is on the agenda?
 
-![Slide 07 — Day 1 - What is on the agenda?](slide-007.svg)
+![Slide 07 — What is on the agenda?](slide-007.svg)
 
 > **TL;DR:** The day covers AI foundations, Copilot, responsible use, advanced workflows, and ends with a real-world capstone build.
 
 This slide gives participants a map of the full day. It starts with the basics of AI and large language models, moves into practical GitHub Copilot usage, covers responsible adoption, dives into advanced agent-mode and prompt workflows, and finishes with an end-to-end build that ties everything together.
 
 That progression is deliberate. Before you can use AI well, you need both conceptual understanding and practical habits. Each chapter builds on the previous one so the capstone exercise feels natural rather than overwhelming.
+

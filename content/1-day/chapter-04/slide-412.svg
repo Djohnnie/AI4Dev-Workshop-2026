@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="60" font-weight="700" fill="#ffffff" letter-spacing="-1">Team Context Is a Shared Asset</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea" letter-spacing="1">Do not build Copilot context only for yourself. Build it in the repository</text>
+  <text x="80" y="241" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea" letter-spacing="1">so the whole team can use it, learn from it, and improve it together.</text>
+
+  <rect x="120" y="290" width="520" height="500" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="380" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Codify It</text>
+  <rect x="300" y="378" width="165" height="3" fill="#8b7fd4"/>
+  <circle cx="175" cy="445" r="7" fill="#8b7fd4"/>
+  <text x="203" y="448" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Instruction files</text>
+  <text x="203" y="478" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">capture shared rules</text>
+  <circle cx="175" cy="520" r="7" fill="#8b7fd4"/>
+  <text x="203" y="523" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Prompt files and skills</text>
+  <text x="203" y="553" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">encode proven workflows</text>
+  <circle cx="175" cy="595" r="7" fill="#8b7fd4"/>
+  <text x="203" y="598" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Agent files define focused</text>
+  <text x="203" y="628" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">team assistants</text>
+  <circle cx="175" cy="670" r="7" fill="#8b7fd4"/>
+  <text x="203" y="673" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Keep it versioned and</text>
+  <text x="203" y="703" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">reviewable in the repo</text>
+
+  <rect x="700" y="290" width="520" height="500" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Socialize It</text>
+  <rect x="880" y="378" width="165" height="3" fill="#8b7fd4"/>
+  <circle cx="755" cy="445" r="7" fill="#8b7fd4"/>
+  <text x="783" y="448" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Experiment as a team,</text>
+  <text x="783" y="478" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">not as isolated users</text>
+  <circle cx="755" cy="520" r="7" fill="#8b7fd4"/>
+  <text x="783" y="523" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Share what works,</text>
+  <text x="783" y="553" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">what fails, and why</text>
+  <circle cx="755" cy="595" r="7" fill="#8b7fd4"/>
+  <text x="783" y="598" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Make onboarding part of</text>
+  <text x="783" y="628" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">the rollout plan</text>
+  <circle cx="755" cy="670" r="7" fill="#8b7fd4"/>
+  <text x="783" y="673" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">Do not leave less</text>
+  <text x="783" y="701" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">experienced teammates</text>
+  <text x="783" y="729" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">behind</text>
+
+  <rect x="1280" y="290" width="520" height="500" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1540" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Document It</text>
+  <rect x="1460" y="378" width="165" height="3" fill="#8b7fd4"/>
+  <circle cx="1335" cy="445" r="7" fill="#8b7fd4"/>
+  <text x="1363" y="448" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Architecture docs become</text>
+  <text x="1363" y="478" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">reusable AI context</text>
+  <circle cx="1335" cy="520" r="7" fill="#8b7fd4"/>
+  <text x="1363" y="523" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Write down what to do</text>
+  <text x="1363" y="553" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">and what not to do</text>
+  <circle cx="1335" cy="595" r="7" fill="#8b7fd4"/>
+  <text x="1363" y="598" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">Good docs reduce</text>
+  <text x="1363" y="626" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">guesswork for</text>
+  <text x="1363" y="654" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">humans and agents</text>
+  <circle cx="1335" cy="670" r="7" fill="#8b7fd4"/>
+  <text x="1363" y="687" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">Treat documentation</text>
+  <text x="1363" y="715" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">as part of the</text>
+  <text x="1363" y="743" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">delivery workflow</text>
+
+  <rect x="220" y="892" width="1480" height="90" rx="34" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="934" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="600" fill="#ffffff" letter-spacing="1">The strongest Copilot setup is not one expert's private superpower -</text>
+  <text x="960" y="966" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="600" fill="#ffffff" letter-spacing="1">it is a shared team capability.</text>
+</svg>

@@ -63,7 +63,7 @@ A round-the-room introduction so the training can adapt to the audience. Each pa
 - Whether they are using GitHub Copilot today.
 - What they want to learn from the workshop.
 
-### 7. Day 1 — What Is on the Agenda?
+### 7. What Is on the Agenda?
 
 - **Chapter 1 — Welcome to the AI Revolution & Power with Purpose** — AI foundations, GitHub Copilot positioning, responsible use, privacy, and what it means for developers.
 - **Chapter 2 — Meet Your New Best Friend & Let It Take the Wheel** — completions, chat, agent mode, Copilot CLI, and GitHub.com features from zero to confident daily use.

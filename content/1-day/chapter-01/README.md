@@ -168,6 +168,19 @@ Groups discuss: should they use Copilot? With what safeguards? Share back. Perfe
 
 ---
 
+## 🧪 Chapter 1 Exercises
+
+A curated selection from the two-day Chapters 1 and 3, chosen to fit the one-day pace:
+
+- [Exercise 101 — Token Visualizer](../../../exercises/chapter-01/exercise-101/README.md) — see how prompts and code are split into tokens with an Azure OpenAI-backed terminal app
+- [Exercise 102 — Stateless LLM Chat](../../../exercises/chapter-01/exercise-102/README.md) — build a first console chat app and discover why an LLM is stateless by default
+- [Exercise 105 — MCP Tool Calls](../../../exercises/chapter-01/exercise-105/README.md) — move date/time tools behind an MCP server and connect a chat client to it
+- [Exercise 301 — Who Does Copilot Picture?](../../../exercises/chapter-03/exercise-301/README.md) — surface and correct bias in AI-generated sample data
+
+> Optional deeper dives if time allows: [Exercise 103 — Chat History & Roles](../../../exercises/chapter-01/exercise-103/README.md), [Exercise 104 — Tool Calls](../../../exercises/chapter-01/exercise-104/README.md), and [Exercise 106 — Agent Orchestration](../../../exercises/chapter-01/exercise-106/README.md).
+
+---
+
 ## 🔗 Resources & References
 - [GitHub Copilot Docs](https://docs.github.com/en/copilot)
 - [GitHub Copilot Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)

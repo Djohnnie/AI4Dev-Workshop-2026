@@ -246,6 +246,17 @@ Participants are given a PR containing entirely Copilot-generated code (provided
 
 ---
 
+## 🧪 Chapter 3 Exercises
+
+A curated selection from the two-day Chapter 5, chosen to make prompting, context, and workflow habits concrete:
+
+- [Exercise 501 — Context Window Copilot Clone](../../../exercises/chapter-05/exercise-501/README.md) — simulate how Copilot builds and prioritises context, then assemble a fill-in-the-middle prompt within a token budget
+- [Exercise 502 — Prompt Arena](../../../exercises/chapter-05/exercise-502/README.md) — compare one-shot, few-shot, iterative, and deliberately bad prompts against the same coding target
+- [Exercise 503 — Context Variables Playground](../../../exercises/chapter-05/exercise-503/README.md) — try @workspace, #file, #symbol, and #changes on a real codebase to see how scope changes the answer
+- [Exercise 504 — Prompt Pattern Playground](../../../exercises/chapter-05/exercise-504/README.md) — apply comment-driven, test-first, persona-based, and stepwise diff-driven prompting to the same task
+
+---
+
 ## 🔗 Resources & References
 - [Prompt engineering for GitHub Copilot](https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/prompt-engineering-for-github-copilot)
 - [Reusable prompt files for GitHub Copilot](https://docs.github.com/en/copilot/customizing-copilot/using-copilot-with-prompt-files)

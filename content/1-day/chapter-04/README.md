@@ -205,6 +205,19 @@ Each participant summarises the day in 280 characters. Read aloud at the closing
 
 ---
 
+## 🧪 Chapter 4 Exercises
+
+A hands-on selection from the two-day Chapter 6, chosen to walk through the software lifecycle with AI:
+
+- [Exercise 601 — Short URL Discovery Sprint](../../../exercises/chapter-06/exercise-601/README.md) — use Copilot to analyse and design a short URL system before writing any code
+- [Exercise 602 — Expression Evaluator Test Lab](../../../exercises/chapter-06/exercise-602/README.md) — practise AI-assisted unit, TDD, BDD, and coverage workflows on one codebase
+- [Exercise 603 — Optimize Edit Distance](../../../exercises/chapter-06/exercise-603/README.md) — drive a performance-oriented refactor with evidence and tests as your safety net
+- [Exercise 605 — Hunt the Cursed Theme Park Checkout Bug](../../../exercises/chapter-06/exercise-605/README.md) — debug a deliberately broken checkout flow with the reproduce, narrow, verify loop
+
+> Optional deeper dive if time allows: [Exercise 604 — Draw.io Playground with MCP and *.drawio.png](../../../exercises/chapter-06/exercise-604/README.md) — generate, edit, and version diagrams as living documentation.
+
+---
+
 ## 🔗 Resources & References
 - [GitHub Copilot: generating tests](https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/asking-github-copilot-questions-in-your-ide#generating-tests)
 - [Copilot code review on pull requests](https://docs.github.com/en/copilot/using-github-copilot/code-review/using-copilot-code-review)

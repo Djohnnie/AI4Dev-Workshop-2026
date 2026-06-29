@@ -219,6 +219,19 @@ Each participant (or team) writes a `.github/copilot-instructions.md` for their 
 
 ---
 
+## 🧪 Chapter 2 Exercises
+
+A curated selection from the two-day Chapters 2 and 4, chosen to fit the one-day pace:
+
+- [Exercise 201 — Factorial Calculator](../../../exercises/chapter-02/exercise-201/README.md) — build confidence with ghost-text completions by implementing iterative and recursive factorial logic in small, reviewable steps
+- [Exercise 203 — Mystery Processor](../../../exercises/chapter-02/exercise-203/README.md) — use Copilot Chat and `/explain` to comprehend an intentionally unclear implementation before trusting it
+- [Exercise 205 — Caesar Cipher](../../../exercises/chapter-02/exercise-205/README.md) — generate tests with `/tests`, then strengthen the suite with the edge cases a real maintainer would worry about
+- [Exercise 401 — Rename a Field with Agent Mode](../../../exercises/chapter-04/exercise-401/README.md) — perform a safe, multi-file rename in a real ASP.NET Core project and verify every diff
+- [Exercise 404 — Vibe-Code a Slot Machine](../../../exercises/chapter-04/exercise-404/README.md) — prompt Copilot CLI to scaffold and extend a complete WinForms desktop app from the terminal
+- [Exercise 406 — Create a Repository Instruction File](../../../exercises/chapter-04/exercise-406/README.md) — write a `.github/copilot-instructions.md` so future Copilot outputs match team expectations by default
+
+---
+
 ## 🔗 Resources & References
 - [Getting started with GitHub Copilot](https://docs.github.com/en/copilot/getting-started-with-github-copilot)
 - [GitHub Copilot keyboard shortcuts](https://docs.github.com/en/copilot/configuring-github-copilot/configuring-github-copilot-in-your-environment)
