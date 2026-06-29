@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ultimate Snake Rooms</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="page-shell">
+        <section class="hero-card">
+            <div>
+                <p class="eyebrow">Chapter 8 · Lab 801</p>
+                <h1>Ultimate Snake Rooms</h1>
+                <p class="hero-copy">
+                    Create a room, share the code, and race for the same snack on a shared board.
+                    The host controls the room state. Everyone controls their own snake.
+                </p>
+            </div>
+
+            <div class="hero-pill">
+                <span>Space</span>
+                <strong>Host starts / pauses / restarts</strong>
+            </div>
+        </section>
+
+        <section class="layout-grid">
+            <aside class="control-card">
+                <h2>Join the room</h2>
+
+                <label class="field">
+                    <span>Name</span>
+                    <input id="player-name" type="text" maxlength="18" placeholder="Player name">
+                </label>
+
+                <div class="button-row">
+                    <button id="create-room" type="button">Create room</button>
+                </div>
+
+                <div class="divider"></div>
+
+                <label class="field">
+                    <span>Room code</span>
+                    <input id="room-code" type="text" maxlength="4" placeholder="ABCD">
+                </label>
+
+                <div class="button-row">
+                    <button id="join-room" type="button" class="secondary">Join room</button>
+                </div>
+
+                <div class="room-meta">
+                    <div>
+                        <span class="meta-label">Connected room</span>
+                        <strong id="connected-room">Not connected</strong>
+                    </div>
+                    <div>
+                        <span class="meta-label">Role</span>
+                        <strong id="player-role">—</strong>
+                    </div>
+                </div>
+
+                <button id="toggle-room" type="button" class="wide-button" disabled>Host toggle (Space)</button>
+
+                <p id="status-text" class="status-text">Create a room or join one with a code.</p>
+            </aside>
+
+            <section class="game-card">
+                <div class="hud">
+                    <div>
+                        <span class="meta-label">Phase</span>
+                        <strong id="room-phase">waiting</strong>
+                    </div>
+                    <div>
+                        <span class="meta-label">Shared food</span>
+                        <strong id="food-state">1 snack</strong>
+                    </div>
+                    <div>
+                        <span class="meta-label">You</span>
+                        <strong id="player-score">score 0</strong>
+                    </div>
+                </div>
+
+                <canvas id="game" width="840" height="504" aria-label="Ultimate Snake multiplayer board"></canvas>
+            </section>
+
+            <aside class="players-card">
+                <h2>Players</h2>
+                <ul id="players-list" class="players-list"></ul>
+            </aside>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

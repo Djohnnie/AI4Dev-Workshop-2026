@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4" rx="0"/>
+
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Interactive Quiz 19 — Answer</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
+
+  <rect x="80" y="190" width="1760" height="120" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="234" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" fill="#ffffff">In the four-input prompt framework, which part sets the guardrails</text>
+  <text x="960" y="278" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" fill="#ffffff">for correctness and defines what must not change?</text>
+
+  <rect x="80" y="340" width="1760" height="150" rx="16" fill="#ffffff" fill-opacity="0.05" stroke="#8b7fd4" stroke-opacity="0.4" stroke-width="1.5"/>
+  <circle cx="155" cy="415" r="40" fill="#8b7fd4" fill-opacity="0.2"/>
+  <text x="155" y="428" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#8b7fd4">A</text>
+  <text x="225" y="428" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#8b7fd4">Task — define the action you want the model to take</text>
+
+  <rect x="80" y="515" width="1760" height="150" rx="16" fill="#ffffff" fill-opacity="0.05" stroke="#8b7fd4" stroke-opacity="0.4" stroke-width="1.5"/>
+  <circle cx="155" cy="590" r="40" fill="#8b7fd4" fill-opacity="0.2"/>
+  <text x="155" y="603" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#8b7fd4">B</text>
+  <text x="225" y="603" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#8b7fd4">Context — attach the files, patterns, and background that matter</text>
+
+  <rect x="80" y="690" width="1760" height="150" rx="16" fill="#ffffff" fill-opacity="0.05" stroke="#8b7fd4" stroke-opacity="0.4" stroke-width="1.5"/>
+  <circle cx="155" cy="765" r="40" fill="#8b7fd4" fill-opacity="0.2"/>
+  <text x="155" y="778" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#8b7fd4">C</text>
+  <text x="225" y="778" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="300" fill="#8b7fd4">Example — show the shape of a good input or output</text>
+
+  <rect x="80" y="865" width="1760" height="150" rx="16" fill="#4ecb71" fill-opacity="0.12" stroke="#4ecb71" stroke-width="2"/>
+  <circle cx="155" cy="940" r="40" fill="#4ecb71" fill-opacity="0.8"/>
+  <text x="155" y="953" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">D</text>
+  <text x="225" y="953" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff">Constraints — set guardrails and state what the answer must not break</text>
+  <text x="1800" y="953" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#4ecb71">✓</text>
+</svg>

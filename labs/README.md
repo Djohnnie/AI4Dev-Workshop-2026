@@ -12,12 +12,12 @@ All labs target **C# (.NET 10)**. Open the solution file [`labs.slnx`](labs.slnx
 
 | # | Lab | Chapter | Copilot Skill | Difficulty |
 |---|-----|---------|---------------|------------|
-| [201](chapter-02/lab-201/README.md) | [Ultimate Snake](chapter-02/lab-201/README.md) | Chapter 2 | Building a console game with Chat (Ask), inline chat, and ghost text — no Agent Mode | ⭐⭐⭐ |
-| [401](chapter-04/lab-401/README.md) | [Ultimate Snake Web](chapter-04/lab-401/README.md) | Chapter 4 | Finishing a web app end to end with Agent Mode | ⭐⭐⭐ |
-| [402](chapter-04/lab-402/README.md) | [Ultimate Snake from Scratch with Copilot CLI](chapter-04/lab-402/README.md) | Chapter 4 | Building from an empty folder with the GitHub Copilot CLI | ⭐⭐⭐⭐ |
-| [501](chapter-05/lab-501/README.md) | [Ultimate Snake with Instructions, Prompt Files, and Skills](chapter-05/lab-501/README.md) | Chapter 5 | Shaping Copilot with `copilot-instructions.md`, prompt files, and a skill file | ⭐⭐⭐⭐ |
-| [601](chapter-06/lab-601/README.md) | [Ultimate Snake Across the Entire Lifecycle](chapter-06/lab-601/README.md) | Chapter 6 | Driving the full lifecycle — analysis, implementation, validation, debugging, docs, PR | ⭐⭐⭐⭐ |
-| [801](chapter-08/lab-801/README.md) | [Multiplayer Ultimate Snake](chapter-08/lab-801/README.md) | Chapter 8 | Capstone: a real-time multiplayer web build combining every workshop topic | ⭐⭐⭐⭐⭐ |
+| [201](chapter-2/lab-201/README.md) | [Ultimate Snake](chapter-2/lab-201/README.md) | [Chapter 2](../content/2-day/chapter-2/README.md) | Building a console game with Chat (Ask), inline chat, and ghost text — no Agent Mode | ⭐⭐⭐ |
+| [401](chapter-4/lab-401/README.md) | [Ultimate Snake Web](chapter-4/lab-401/README.md) | [Chapter 4](../content/2-day/chapter-4/README.md) | Finishing a web app end to end with Agent Mode | ⭐⭐⭐ |
+| [402](chapter-4/lab-402/README.md) | [Ultimate Snake from Scratch with Copilot CLI](chapter-4/lab-402/README.md) | [Chapter 4](../content/2-day/chapter-4/README.md) | Building from an empty folder with the GitHub Copilot CLI | ⭐⭐⭐⭐ |
+| [501](chapter-5/lab-501/README.md) | [Ultimate Snake with Instructions, Prompt Files, and Skills](chapter-5/lab-501/README.md) | [Chapter 5](../content/2-day/chapter-5/README.md) | Shaping Copilot with `copilot-instructions.md`, prompt files, and a skill file | ⭐⭐⭐⭐ |
+| [601](chapter-6/lab-601/README.md) | [Ultimate Snake Across the Entire Lifecycle](chapter-6/lab-601/README.md) | [Chapter 6](../content/2-day/chapter-6/README.md) | Driving the full lifecycle — analysis, implementation, validation, debugging, docs, PR | ⭐⭐⭐⭐ |
+| [801](chapter-8/lab-801/README.md) | [Multiplayer Ultimate Snake](chapter-8/lab-801/README.md) | [Chapter 8](../content/2-day/chapter-8/README.md) | Capstone: a real-time multiplayer web build combining every workshop topic | ⭐⭐⭐⭐⭐ |
 
 ---
 
@@ -25,11 +25,11 @@ All labs target **C# (.NET 10)**. Open the solution file [`labs.slnx`](labs.slnx
 
 | Chapter | Labs |
 |---------|------|
-| Chapter 2 | [201 Ultimate Snake](chapter-02/lab-201/README.md) |
-| Chapter 4 | [401 Ultimate Snake Web](chapter-04/lab-401/README.md) · [402 Ultimate Snake from Scratch with Copilot CLI](chapter-04/lab-402/README.md) |
-| Chapter 5 | [501 Ultimate Snake with Instructions, Prompt Files, and Skills](chapter-05/lab-501/README.md) |
-| Chapter 6 | [601 Ultimate Snake Across the Entire Lifecycle](chapter-06/lab-601/README.md) |
-| Chapter 8 | [801 Multiplayer Ultimate Snake](chapter-08/lab-801/README.md) |
+| [Chapter 2](../content/2-day/chapter-2/README.md) | [201 Ultimate Snake](chapter-2/lab-201/README.md) |
+| [Chapter 4](../content/2-day/chapter-4/README.md) | [401 Ultimate Snake Web](chapter-4/lab-401/README.md) · [402 Ultimate Snake from Scratch with Copilot CLI](chapter-4/lab-402/README.md) |
+| [Chapter 5](../content/2-day/chapter-5/README.md) | [501 Ultimate Snake with Instructions, Prompt Files, and Skills](chapter-5/lab-501/README.md) |
+| [Chapter 6](../content/2-day/chapter-6/README.md) | [601 Ultimate Snake Across the Entire Lifecycle](chapter-6/lab-601/README.md) |
+| [Chapter 8](../content/2-day/chapter-8/README.md) | [801 Multiplayer Ultimate Snake](chapter-8/lab-801/README.md) |
 
 Most labs ship a companion `…-solution` folder with a complete reference implementation (Lab 601 is left open by design). Treat the solutions as a reference to compare against — not something to copy before you try the lab yourself.
 
@@ -51,7 +51,7 @@ Most labs ship a companion `…-solution` folder with a complete reference imple
 cd labs
 
 # Run a lab that ships a starter project (e.g. Lab 401)
-cd chapter-04/lab-401
+cd chapter-4/lab-401
 dotnet run
 ```
 

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">The Prompt Engineer's Checklist</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
+    Five habits that turn vague requests into precise results - starting with your next prompt.
+  </text>
+
+  <rect x="90" y="290" width="850" height="170" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="130" y="355" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#ffffff">Manage the window</text>
+  <text x="130" y="410" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Open the relevant files, close the noise.</text>
+  <text x="130" y="443" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Copilot only sees a ranked slice.</text>
+
+  <rect x="980" y="290" width="850" height="170" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1020" y="355" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#ffffff">Use the four ingredients</text>
+  <text x="1020" y="410" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Task, context, examples, constraints -</text>
+  <text x="1020" y="443" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">one task per prompt.</text>
+
+  <rect x="90" y="490" width="850" height="170" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="130" y="555" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#ffffff">Feed it the right context</text>
+  <text x="130" y="610" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">@workspace to find, #file to pin,</text>
+  <text x="130" y="643" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">#sym for a symbol.</text>
+
+  <rect x="980" y="490" width="850" height="170" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1020" y="555" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#ffffff">Reach for a pattern</text>
+  <text x="1020" y="610" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">Comment-driven, test-first, persona,</text>
+  <text x="1020" y="643" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="300" fill="#c4baea">chain-of-thought - then iterate.</text>
+
+  <rect x="160" y="710" width="1600" height="150" rx="24" fill="#8b7fd4" fill-opacity="0.15" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="775" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">Tune your custom instructions</text>
+  <text x="960" y="828" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="300" fill="#c4baea">Directive, specific, scoped, short - and tested against a real prompt for every rule.</text>
+
+  <rect x="510" y="905" width="900" height="60" rx="30" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="945" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="1">Context is the product. Engineer it.</text>
+</svg>

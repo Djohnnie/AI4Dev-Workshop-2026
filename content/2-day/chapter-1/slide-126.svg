@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+
+  <g transform="translate(1550 56)" opacity="0.2">
+    <circle cx="70" cy="36" r="28" fill="none" stroke="#c4baea" stroke-width="10"/>
+    <circle cx="170" cy="92" r="28" fill="none" stroke="#c4baea" stroke-width="10"/>
+    <circle cx="70" cy="148" r="28" fill="none" stroke="#c4baea" stroke-width="10"/>
+    <line x1="97" y1="49" x2="143" y2="79" stroke="#c4baea" stroke-width="10" stroke-linecap="round"/>
+    <line x1="97" y1="135" x2="143" y2="105" stroke="#c4baea" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(1488 832)" opacity="0.18">
+    <rect x="0" y="0" width="154" height="92" rx="18" fill="none" stroke="#c4baea" stroke-width="10"/>
+    <rect x="188" y="38" width="176" height="92" rx="18" fill="none" stroke="#c4baea" stroke-width="10"/>
+    <path d="M42 92 L28 124 L74 102" fill="none" stroke="#c4baea" stroke-width="10" stroke-linejoin="round"/>
+    <path d="M316 130 L332 162 L284 144" fill="none" stroke="#c4baea" stroke-width="10" stroke-linejoin="round"/>
+    <line x1="154" y1="46" x2="188" y2="84" stroke="#c4baea" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <text x="80" y="108"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Exercise 106 &#x2014; Agent Orchestration</text>
+
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+
+  <text x="80" y="195"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#c4baea">
+    Route one question through a coordinator and specialist agents, then combine the answer.
+  </text>
+
+  <rect x="80" y="235" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="510" y="325" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="56" font-weight="700" fill="#8b7fd4">01</text>
+  <text x="510" y="400" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="38" font-weight="600" fill="#ffffff">Summarize</text>
+  <rect x="430" y="420" width="160" height="3" fill="#8b7fd4"/>
+  <text x="510" y="466" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Use a summary agent to restate</text>
+  <text x="510" y="510" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">the latest question with chat context</text>
+
+  <rect x="980" y="235" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="325" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="56" font-weight="700" fill="#8b7fd4">02</text>
+  <text x="1410" y="400" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="38" font-weight="600" fill="#ffffff">Orchestrate</text>
+  <rect x="1330" y="420" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1410" y="466" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Choose the right specialist agents</text>
+  <text x="1410" y="510" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">for home, energy, car, or photos</text>
+
+  <rect x="80" y="632" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="510" y="722" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="56" font-weight="700" fill="#8b7fd4">03</text>
+  <text x="510" y="797" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="38" font-weight="600" fill="#ffffff">Fan Out</text>
+  <rect x="430" y="817" width="160" height="3" fill="#8b7fd4"/>
+  <text x="510" y="863" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Call the selected agents in parallel</text>
+  <text x="510" y="907" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">and collect their individual replies</text>
+
+  <rect x="980" y="632" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="722" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="56" font-weight="700" fill="#8b7fd4">04</text>
+  <text x="1410" y="797" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="38" font-weight="600" fill="#ffffff">Reply &amp; Debug</text>
+  <rect x="1330" y="817" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1410" y="863" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Merge the results into one answer</text>
+  <text x="1410" y="907" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">and inspect routing with /debug</text>
+</svg>

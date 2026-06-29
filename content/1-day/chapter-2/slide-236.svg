@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+
+  <g transform="translate(1535 56)" opacity="0.2">
+    <text x="0" y="62"
+      font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+      font-size="58" font-weight="700" fill="#c4baea">Copilot CLI</text>
+    <text x="0" y="126"
+      font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+      font-size="38" font-weight="600" fill="#c4baea">slot machine</text>
+  </g>
+
+  <g transform="translate(1490 832)" opacity="0.18">
+    <rect x="0" y="0" width="240" height="120" rx="18" fill="none" stroke="#c4baea" stroke-width="10"/>
+    <line x1="0" y1="38" x2="240" y2="38" stroke="#c4baea" stroke-width="7"/>
+    <polyline points="20,82 42,99 20,116" fill="none" stroke="#c4baea" stroke-width="8" stroke-linejoin="round"/>
+    <line x1="54" y1="99" x2="116" y2="99" stroke="#c4baea" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <text x="80" y="108"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Exercise 404 &#x2014; Vibe-Code a Slot Machine</text>
+
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+
+  <text x="80" y="195"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#c4baea">
+    Use Copilot CLI to build a .NET 10 WinForms slot machine from scratch &#x2014; prompt first, code second.
+  </text>
+
+  <rect x="80" y="235" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="510" y="325" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="56" font-weight="700" fill="#8b7fd4">1</text>
+  <text x="510" y="400" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="38" font-weight="600" fill="#ffffff">Prompt</text>
+  <rect x="430" y="420" width="160" height="3" fill="#8b7fd4"/>
+  <text x="510" y="466" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Tell Copilot CLI to scaffold a</text>
+  <text x="510" y="510" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">fresh .NET 10 WinForms app</text>
+
+  <rect x="980" y="235" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="325" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="56" font-weight="700" fill="#8b7fd4">2</text>
+  <text x="1410" y="400" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="38" font-weight="600" fill="#ffffff">Guardrails</text>
+  <rect x="1330" y="420" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1410" y="466" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Require 3 reels, 100 credits, bets</text>
+  <text x="1410" y="510" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">of 1/5/10, payouts, and reset</text>
+
+  <rect x="80" y="632" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="510" y="722" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="56" font-weight="700" fill="#8b7fd4">3</text>
+  <text x="510" y="797" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="38" font-weight="600" fill="#ffffff">Watch &amp; Test</text>
+  <rect x="430" y="817" width="160" height="3" fill="#8b7fd4"/>
+  <text x="510" y="863" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Approve commands, then run the app</text>
+  <text x="510" y="907" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">and verify spin, credits, and game over</text>
+
+  <rect x="980" y="632" width="860" height="367" rx="12"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="722" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="56" font-weight="700" fill="#8b7fd4">4</text>
+  <text x="1410" y="797" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="38" font-weight="600" fill="#ffffff">Extend</text>
+  <rect x="1330" y="817" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1410" y="863" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Add polish: history, theme toggle,</text>
+  <text x="1410" y="907" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">sound effects, or cheat mode</text>
+</svg>

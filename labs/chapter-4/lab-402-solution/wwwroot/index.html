@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ultimate Snake Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="layout">
+        <section class="hero">
+            <p class="eyebrow">Chapter 4 · Lab 402 Solution</p>
+            <h1>Ultimate Snake</h1>
+            <p class="subtitle">
+                The same browser-based Snake game, shown here as the reference result for the Copilot CLI challenge.
+            </p>
+        </section>
+
+        <section class="game-shell">
+            <div class="hud">
+                <div class="card">
+                    <span class="label">Score</span>
+                    <strong id="score">0</strong>
+                </div>
+                <div class="card">
+                    <span class="label">State</span>
+                    <strong id="state">Waiting</strong>
+                </div>
+                <div class="card wide">
+                    <span class="label">Status</span>
+                    <strong id="message">Press Space to start.</strong>
+                </div>
+            </div>
+
+            <div class="board-frame">
+                <canvas id="game" width="768" height="448" aria-label="Ultimate Snake board"></canvas>
+            </div>
+
+            <div class="instructions">
+                <h2>Controls</h2>
+                <ul>
+                    <li>Arrow keys move the snake</li>
+                    <li>Space starts, pauses, and restarts after game over</li>
+                    <li>The snake wraps through the edges instead of dying on walls</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="snake.js"></script>
+</body>
+</html>

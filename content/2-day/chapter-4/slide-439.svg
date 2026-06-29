@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff" letter-spacing="-1">Anatomy of an Agent File</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="31" font-weight="300" fill="#c4baea" letter-spacing="1">
+    An agent profile is just Markdown with YAML frontmatter: identity and capabilities up top, behavior prompt underneath.
+  </text>
+
+  <rect x="90" y="285" width="990" height="650" rx="20" fill="#1e1b33" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="125" y="350" font-family="'Consolas', 'Courier New', monospace" font-size="28" fill="#6a5fb8">.github/agents/security-reviewer.agent.md</text>
+  <rect x="125" y="372" width="920" height="2" fill="#8b7fd4" opacity="0.4"/>
+  <text x="125" y="435" font-family="'Consolas', 'Courier New', monospace" font-size="29" fill="#8b7fd4">---</text>
+  <text x="125" y="478" font-family="'Consolas', 'Courier New', monospace" font-size="29" fill="#c4baea">name: security-reviewer</text>
+  <text x="125" y="521" font-family="'Consolas', 'Courier New', monospace" font-size="29" fill="#c4baea">description: Reviews changed code for security risks</text>
+  <text x="125" y="564" font-family="'Consolas', 'Courier New', monospace" font-size="29" fill="#c4baea">tools: ["read", "search", "github"]</text>
+  <text x="125" y="607" font-family="'Consolas', 'Courier New', monospace" font-size="29" fill="#c4baea">target: github-copilot</text>
+  <text x="125" y="650" font-family="'Consolas', 'Courier New', monospace" font-size="29" fill="#8b7fd4">---</text>
+  <text x="125" y="720" font-family="'Consolas', 'Courier New', monospace" font-size="28" fill="#ffffff">You are a security reviewer for this repository.</text>
+  <text x="125" y="760" font-family="'Consolas', 'Courier New', monospace" font-size="28" fill="#ffffff">Review only changed files unless the user expands scope.</text>
+  <text x="125" y="800" font-family="'Consolas', 'Courier New', monospace" font-size="28" fill="#ffffff">Explain risk, severity, and recommended fix.</text>
+  <text x="125" y="840" font-family="'Consolas', 'Courier New', monospace" font-size="28" fill="#ffffff">Do not modify application code unless explicitly asked.</text>
+
+  <rect x="1125" y="285" width="705" height="650" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1200" y="350" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">What each part does</text>
+  <rect x="1200" y="372" width="280" height="3" fill="#8b7fd4"/>
+  <text x="1200" y="440" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="700" fill="#8b7fd4">name</text>
+  <text x="1200" y="476" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Required. Gives the agent a unique identity you can invoke.</text>
+  <text x="1200" y="542" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="700" fill="#8b7fd4">description</text>
+  <text x="1200" y="578" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Required. Says what the agent is for and when it fits.</text>
+  <text x="1200" y="644" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="700" fill="#8b7fd4">tools</text>
+  <text x="1200" y="680" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Optional. Limit access or give this specialist the right tools.</text>
+  <text x="1200" y="746" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="700" fill="#8b7fd4">target</text>
+  <text x="1200" y="782" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">Optional. Points the profile at the surface that should use it.</text>
+  <text x="1200" y="848" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="700" fill="#8b7fd4">prompt body</text>
+  <text x="1200" y="884" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="300" fill="#c4baea">The real instructions: expertise, boundaries, and done.</text>
+  <rect x="1200" y="907" width="570" height="28" rx="14" fill="#8b7fd4" opacity="0.18"/>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="62" font-weight="700" fill="#ffffff" letter-spacing="-1">AI Across the Entire Software Lifecycle</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+  <text x="80" y="193" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="300" fill="#c4baea" letter-spacing="1">Seven sections — every phase of software development, AI-accelerated.</text>
+
+  <!-- Row 1: 4 boxes -->
+  <rect x="103" y="230" width="415" height="280" rx="22" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="143" y="318" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#8b7fd4">1</text>
+  <text x="143" y="380" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Analysis</text>
+  <rect x="143" y="395" width="160" height="3" fill="#8b7fd4"/>
+  <text x="143" y="432" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="300" fill="#c4baea">Requirements, architecture</text>
+  <text x="143" y="459" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="300" fill="#c4baea">&amp; knowledge base</text>
+
+  <rect x="536" y="230" width="415" height="280" rx="22" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="576" y="318" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#8b7fd4">2</text>
+  <text x="576" y="380" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Development</text>
+  <rect x="576" y="395" width="160" height="3" fill="#8b7fd4"/>
+  <text x="576" y="432" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="300" fill="#c4baea">Features from stories,</text>
+  <text x="576" y="459" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="300" fill="#c4baea">issues &amp; tickets</text>
+
+  <rect x="969" y="230" width="415" height="280" rx="22" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1009" y="318" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#8b7fd4">3</text>
+  <text x="1009" y="380" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Testing</text>
+  <rect x="1009" y="395" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1009" y="432" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="300" fill="#c4baea">Unit, integration, UI tests</text>
+  <text x="1009" y="459" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="300" fill="#c4baea">— TDD to BDD</text>
+
+  <rect x="1402" y="230" width="415" height="280" rx="22" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1442" y="318" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#8b7fd4">4</text>
+  <text x="1442" y="380" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Refactoring</text>
+  <rect x="1442" y="395" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1442" y="432" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="300" fill="#c4baea">By your rules or</text>
+  <text x="1442" y="459" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="300" fill="#c4baea">Copilot's suggestions</text>
+
+  <!-- Row 2: 3 boxes (centered) -->
+  <rect x="320" y="543" width="415" height="280" rx="22" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="360" y="631" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#8b7fd4">5</text>
+  <text x="360" y="693" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Documentation</text>
+  <rect x="360" y="708" width="160" height="3" fill="#8b7fd4"/>
+  <text x="360" y="745" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="300" fill="#c4baea">Write once, stay accurate</text>
+  <text x="360" y="772" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="300" fill="#c4baea">as code evolves</text>
+
+  <rect x="753" y="543" width="415" height="280" rx="22" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="793" y="631" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#8b7fd4">6</text>
+  <text x="793" y="693" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Debugging</text>
+  <rect x="793" y="708" width="160" height="3" fill="#8b7fd4"/>
+  <text x="793" y="745" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="300" fill="#c4baea">Stack traces, logs &amp;</text>
+  <text x="793" y="772" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="300" fill="#c4baea">root-cause analysis</text>
+
+  <rect x="1186" y="543" width="415" height="280" rx="22" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1226" y="631" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#8b7fd4">7</text>
+  <text x="1226" y="693" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Pull Requests</text>
+  <rect x="1226" y="708" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1226" y="745" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="300" fill="#c4baea">Descriptions, reviews</text>
+  <text x="1226" y="772" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="300" fill="#c4baea">&amp; autofix</text>
+
+  <text x="960" y="895" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">Seven phases, one assistant — Copilot with you from first idea to merged code.</text>
+</svg>

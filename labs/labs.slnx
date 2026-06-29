@@ -1,29 +1,29 @@
 <Solution>
   <Folder Name="/Chapter 2/" />
   <Folder Name="/Chapter 2/Lab 201/">
-    <Project Path="chapter-02\lab-201\UltimateSnake.csproj" />
+    <Project Path="chapter-2\lab-201\UltimateSnake.csproj" />
   </Folder>
   <Folder Name="/Chapter 2/Solutions/" />
   <Folder Name="/Chapter 2/Solutions/Lab 201/">
-    <Project Path="chapter-02\lab-201-solution\UltimateSnake.csproj" />
+    <Project Path="chapter-2\lab-201-solution\UltimateSnake.csproj" />
   </Folder>
   <Folder Name="/Chapter 4/" />
   <Folder Name="/Chapter 4/Lab 401/">
-    <Project Path="chapter-04\lab-401\UltimateSnakeWeb.csproj" />
+    <Project Path="chapter-4\lab-401\UltimateSnakeWeb.csproj" />
   </Folder>
   <Folder Name="/Chapter 4/Lab 402/" />
   <Folder Name="/Chapter 4/Solutions/" />
   <Folder Name="/Chapter 4/Solutions/Lab 401/">
-    <Project Path="chapter-04\lab-401-solution\UltimateSnakeWeb.csproj" />
+    <Project Path="chapter-4\lab-401-solution\UltimateSnakeWeb.csproj" />
   </Folder>
   <Folder Name="/Chapter 4/Solutions/Lab 402/">
-    <Project Path="chapter-04\lab-402-solution\UltimateSnakeWeb.csproj" />
+    <Project Path="chapter-4\lab-402-solution\UltimateSnakeWeb.csproj" />
   </Folder>
   <Folder Name="/Chapter 5/" />
   <Folder Name="/Chapter 5/Lab 501/" />
   <Folder Name="/Chapter 5/Solutions/" />
   <Folder Name="/Chapter 5/Solutions/Lab 501/">
-    <Project Path="chapter-05\lab-501-solution\UltimateSnakeWeb.csproj" />
+    <Project Path="chapter-5\lab-501-solution\UltimateSnakeWeb.csproj" />
   </Folder>
   <Folder Name="/Chapter 6/" />
   <Folder Name="/Chapter 6/Lab 601/" />
@@ -31,6 +31,6 @@
   <Folder Name="/Chapter 8/Lab 801/" />
   <Folder Name="/Chapter 8/Solutions/" />
   <Folder Name="/Chapter 8/Solutions/Lab 801/">
-    <Project Path="chapter-08\lab-801-solution\MultiplayerUltimateSnake.csproj" />
+    <Project Path="chapter-8\lab-801-solution\MultiplayerUltimateSnake.csproj" />
   </Folder>
 </Solution>

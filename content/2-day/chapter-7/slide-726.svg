@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+
+  <text x="80" y="108" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="700" fill="#ffffff">
+  <tspan x="80" dy="0">Interactive Quiz 20 - Explanation</tspan>
+</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+
+  <rect x="80" y="190" width="1760" height="115" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="228" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff">
+  <tspan x="960" dy="0">For a localized bug in one method, what is the best context to send</tspan>
+  <tspan x="960" dy="38">Copilot first?</tspan>
+</text>
+
+  <rect x="80" y="335" width="1760" height="145" rx="18" fill="#1e6a43" stroke="#71e3a0" stroke-width="2"/>
+  <circle cx="122" cy="377" r="24" fill="#71e3a0"/>
+  <text x="122" y="385" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#143726">A</text>
+  <rect x="1670" y="353" width="138" height="36" rx="18" fill="#143726" opacity="0.95"/>
+  <text x="1739" y="377" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Correct</text>
+  <text x="162" y="373" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">
+  <tspan x="162" dy="0">The selected method or exact lines involved in the issue</tspan>
+</text>
+  <text x="162" y="437" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="350" fill="#ffffff">
+  <tspan x="162" dy="0">For a localized bug, the smallest relevant snippet usually gives the clearest signal with the</tspan>
+  <tspan x="162" dy="30">least noise.</tspan>
+</text>
+  <rect x="80" y="505" width="1760" height="145" rx="18" fill="#5a2332" stroke="#ff8ca8" stroke-width="2"/>
+  <circle cx="122" cy="547" r="24" fill="#ff8ca8"/>
+  <text x="122" y="555" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#481521">B</text>
+  <rect x="1670" y="523" width="138" height="36" rx="18" fill="#481521" opacity="0.95"/>
+  <text x="1739" y="547" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Incorrect</text>
+  <text x="162" y="543" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">
+  <tspan x="162" dy="0">The full workspace so the model can search everything itself</tspan>
+</text>
+  <text x="162" y="607" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="350" fill="#ffe1ea">
+  <tspan x="162" dy="0">Sending the full workspace is overkill when the issue is already localized to one method.</tspan>
+</text>
+  <rect x="80" y="675" width="1760" height="145" rx="18" fill="#5a2332" stroke="#ff8ca8" stroke-width="2"/>
+  <circle cx="122" cy="717" r="24" fill="#ff8ca8"/>
+  <text x="122" y="725" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#481521">C</text>
+  <rect x="1670" y="693" width="138" height="36" rx="18" fill="#481521" opacity="0.95"/>
+  <text x="1739" y="717" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Incorrect</text>
+  <text x="162" y="713" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">
+  <tspan x="162" dy="0">Several related files just in case the model might need them later</tspan>
+</text>
+  <text x="162" y="777" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="350" fill="#ffe1ea">
+  <tspan x="162" dy="0">Adding extra files &#x27;just in case&#x27; expands context and often distracts from the actual bug.</tspan>
+</text>
+  <rect x="80" y="845" width="1760" height="145" rx="18" fill="#5a2332" stroke="#ff8ca8" stroke-width="2"/>
+  <circle cx="122" cy="887" r="24" fill="#ff8ca8"/>
+  <text x="122" y="895" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#481521">D</text>
+  <rect x="1670" y="863" width="138" height="36" rx="18" fill="#481521" opacity="0.95"/>
+  <text x="1739" y="887" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Incorrect</text>
+  <text x="162" y="883" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">
+  <tspan x="162" dy="0">Yesterday&#x27;s chat plus a full stack trace from a different failure</tspan>
+</text>
+  <text x="162" y="947" text-anchor="start" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="350" fill="#ffe1ea">
+  <tspan x="162" dy="0">Stale chat history and unrelated traces confuse the model instead of clarifying the present</tspan>
+  <tspan x="162" dy="30">failure.</tspan>
+</text>
+</svg>

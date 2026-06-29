@@ -2,7 +2,7 @@
 
 > *Hands-on. Practical. No fluff.*
 
-📋 **Before the workshop:** Please fill in the [Developer AI Readiness Survey](SURVEY.md) — it takes ~10 minutes and helps us tailor the sessions to where you actually are.
+📋 **Before the workshop:** Please fill in the [Developer AI Readiness Survey](survey/SURVEY.md) — it takes ~10 minutes and helps us tailor the sessions to where you actually are.
 
 Developers today are being asked to work alongside AI tools that can write, review, test, and explain code — often faster than a junior colleague. This workshop cuts through the hype and gives you the foundation to understand what these tools actually are, how GitHub Copilot fits into your daily workflow, and how to use it confidently and responsibly across every phase of the software development lifecycle.
 
@@ -24,13 +24,13 @@ For longer, build-a-real-app challenges, open the [**Labs**](labs/README.md) fol
 
 | Time | Session |
 |------|---------|
-| 09:00 – 10:30 | [Chapter 1 — Welcome to the AI Revolution!](content/1-day/chapter-01/README.md) |
+| 09:00 – 10:30 | [Chapter 1 — Welcome to the AI Revolution!](content/1-day/chapter-1/README.md) |
 | 10:30 – 10:45 | ☕ Break |
-| 10:45 – 12:15 | [Chapter 2 — Let Your AI Co-Pilot Take the Wheel](content/1-day/chapter-02/README.md) |
+| 10:45 – 12:15 | [Chapter 2 — Let Your AI Co-Pilot Take the Wheel](content/1-day/chapter-2/README.md) |
 | 12:15 – 13:15 | 🍽️ Lunch |
-| 13:15 – 14:45 | [Chapter 3 — Speak AI's Language: Mastering Prompts, Workflow & Best Practices](content/1-day/chapter-03/README.md) |
+| 13:15 – 14:45 | [Chapter 3 — Speak AI's Language: Mastering Prompts, Workflow & Best Practices](content/1-day/chapter-3/README.md) |
 | 14:45 – 15:00 | ☕ Break |
-| 15:00 – 16:30 | [Chapter 4 — Get Your Hands Dirty: Real-World AI in Action](content/1-day/chapter-04/README.md) |
+| 15:00 – 16:30 | [Chapter 4 — Get Your Hands Dirty: Real-World AI in Action](content/1-day/chapter-4/README.md) |
 
 #### Chapter Descriptions
 
@@ -54,25 +54,25 @@ The final session ties everything together. A rapid tour shows Copilot applied t
 
 | Time | Session |
 |------|---------|
-| 09:00 – 10:30 | [Chapter 1 — Welcome to the AI Revolution!](content/2-day/chapter-01/README.md) |
+| 09:00 – 10:30 | [Chapter 1 — Welcome to the AI Revolution!](content/2-day/chapter-1/README.md) |
 | 10:30 – 10:45 | ☕ Break |
-| 10:45 – 12:15 | [Chapter 2 — Meet Your New Best Friend: GitHub Copilot](content/2-day/chapter-02/README.md) |
+| 10:45 – 12:15 | [Chapter 2 — Meet Your New Best Friend: GitHub Copilot](content/2-day/chapter-2/README.md) |
 | 12:15 – 13:15 | 🍽️ Lunch |
-| 13:15 – 14:45 | [Chapter 3 — Power with Purpose: Using AI Responsibly](content/2-day/chapter-03/README.md) |
+| 13:15 – 14:45 | [Chapter 3 — Power with Purpose: Using AI Responsibly](content/2-day/chapter-3/README.md) |
 | 14:45 – 15:00 | ☕ Break |
-| 15:00 – 16:30 | [Chapter 4 — Let Your AI Co-Pilot Take the Wheel](content/2-day/chapter-04/README.md) |
+| 15:00 – 16:30 | [Chapter 4 — Let Your AI Co-Pilot Take the Wheel](content/2-day/chapter-4/README.md) |
 
 #### Day 2
 
 | Time | Session |
 |------|---------|
-| 09:00 – 10:30 | [Chapter 5 — Speak AI's Language: Mastering Prompts & Context](content/2-day/chapter-05/README.md) |
+| 09:00 – 10:30 | [Chapter 5 — Speak AI's Language: Mastering Prompts & Context](content/2-day/chapter-5/README.md) |
 | 10:30 – 10:45 | ☕ Break |
-| 10:45 – 12:15 | [Chapter 6 — AI Across the Entire Software Lifecycle](content/2-day/chapter-06/README.md) |
+| 10:45 – 12:15 | [Chapter 6 — AI Across the Entire Software Lifecycle](content/2-day/chapter-6/README.md) |
 | 12:15 – 13:15 | 🍽️ Lunch |
-| 13:15 – 14:45 | [Chapter 7 — Level Up: Best Practices for AI-Powered Development](content/2-day/chapter-07/README.md) |
+| 13:15 – 14:45 | [Chapter 7 — Level Up: Best Practices for AI-Powered Development](content/2-day/chapter-7/README.md) |
 | 14:45 – 15:00 | ☕ Break |
-| 15:00 – 16:30 | [Chapter 8 — Get Your Hands Dirty: Real-World AI in Action](content/2-day/chapter-08/README.md) |
+| 15:00 – 16:30 | [Chapter 8 — Get Your Hands Dirty: Real-World AI in Action](content/2-day/chapter-8/README.md) |
 
 #### Chapter Descriptions
 

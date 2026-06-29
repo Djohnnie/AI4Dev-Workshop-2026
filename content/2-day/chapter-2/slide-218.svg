@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4" rx="0"/>
+
+  <text x="80" y="108"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="68" font-weight="700" fill="#ffffff" letter-spacing="-1">Inline Chat and /doc</text>
+
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
+
+  <text x="80" y="205"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
+    Use inline chat for quick in-editor changes, and /doc when you want Copilot to draft documentation for existing code.
+  </text>
+
+  <rect x="90" y="285" width="550" height="300" rx="24"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="365" y="360" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="46" font-weight="700" fill="#ffffff">Inline chat</text>
+  <rect x="240" y="390" width="250" height="3" fill="#8b7fd4"/>
+  <text x="140" y="470"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">- opens at the cursor with Ctrl+I</text>
+  <text x="140" y="530"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">- ideal for surgical edits in place</text>
+
+  <rect x="685" y="285" width="550" height="300" rx="24"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="360" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="46" font-weight="700" fill="#ffffff">/doc</text>
+  <rect x="835" y="390" width="250" height="3" fill="#8b7fd4"/>
+  <text x="735" y="470"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">- generates docs for a selected method</text>
+  <text x="735" y="530"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">- works for classes, modules, and files too</text>
+
+  <rect x="1280" y="285" width="550" height="300" rx="24"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1555" y="360" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="46" font-weight="700" fill="#ffffff">Review matters</text>
+  <rect x="1430" y="390" width="250" height="3" fill="#8b7fd4"/>
+  <text x="1330" y="470"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">- check summaries, params, and returns</text>
+  <text x="1330" y="530"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">- add remarks when the algorithm is subtle</text>
+
+  <rect x="165" y="630" width="1590" height="230" rx="24"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+
+  <text x="230" y="700"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="30" font-weight="600" fill="#ffffff">Quick pattern</text>
+  <text x="230" y="760"
+    font-family="'Consolas', 'Courier New', monospace"
+    font-size="28" font-weight="400" fill="#ffffff">/doc</text>
+  <text x="335" y="760"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Generate XML docs for this Kmp class and explain the time complexity.</text>
+
+  <text x="230" y="820"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="28" font-weight="300" fill="#c4baea">Inline chat is best for applying the documentation right where you are editing.</text>
+
+  <rect x="1220" y="695" width="330" height="60" rx="30" fill="#8b7fd4" opacity="0.22"/>
+  <text x="1385" y="734" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="26" font-weight="700" fill="#ffffff">edit where you work</text>
+
+  <text x="960" y="965" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="29" font-weight="700" fill="#ffffff">Best practice: let Copilot draft the docs, then make sure the explanation would still help the next human reader.</text>
+</svg>

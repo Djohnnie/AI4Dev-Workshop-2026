@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="68" font-weight="700" fill="#ffffff" letter-spacing="-1">Using Your Own Models with Ollama</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea" letter-spacing="1">
+    Copilot itself is hosted, but the same app patterns can be built against a local model server such as Ollama.
+  </text>
+
+  <rect x="90" y="285" width="550" height="320" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="365" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">Why use a local model?</text>
+  <rect x="245" y="390" width="240" height="3" fill="#8b7fd4"/>
+  <text x="140" y="470" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- keep experiments on your machine</text>
+  <text x="140" y="530" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- use open local coding models</text>
+  <text x="140" y="590" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- useful for demos and labs</text>
+
+  <rect x="685" y="285" width="550" height="320" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">Typical local stack</text>
+  <rect x="840" y="390" width="240" height="3" fill="#8b7fd4"/>
+  <text x="735" y="470" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">IDE / app -&gt; local HTTP API</text>
+  <text x="735" y="530" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Ollama -&gt; local model inference</text>
+  <text x="735" y="590" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">same tool-calling pattern as before</text>
+
+  <rect x="1280" y="285" width="550" height="320" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1555" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">Tradeoffs</text>
+  <rect x="1435" y="390" width="240" height="3" fill="#8b7fd4"/>
+  <text x="1330" y="470" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- usually smaller context windows</text>
+  <text x="1330" y="530" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- setup and hardware are on you</text>
+  <text x="1330" y="590" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">- quality may differ from frontier models</text>
+
+  <rect x="165" y="665" width="1590" height="190" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="230" y="740" font-family="'Consolas', 'Courier New', monospace" font-size="30" font-weight="400" fill="#ffffff">Your app  -&gt;  Ollama  -&gt;  local model  -&gt;  tool call  -&gt;  response</text>
+
+  <rect x="1310" y="700" width="330" height="58" rx="29" fill="#8b7fd4" opacity="0.22"/>
+  <text x="1475" y="738" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">same pattern, different backend</text>
+
+  <text x="960" y="935" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="29" font-weight="700" fill="#ffffff">Good framing: Copilot is the product; Ollama is one way to build your own local alternative.</text>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="1760" cy="160" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1760" cy="160" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="170" cy="930" r="360" fill="url(#circleGlow)"/>
+  <circle cx="170" cy="930" r="250" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4" rx="0"/>
+
+  <!-- Title -->
+  <text
+    x="80" y="108"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="72"
+    font-weight="700"
+    fill="#ffffff"
+    letter-spacing="-1">Interactive poll D</text>
+
+  <!-- Title underline -->
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4" rx="0"/>
+
+  <!-- Poll card -->
+  <rect x="190" y="275" width="1540" height="530" rx="36" fill="#ffffff" opacity="0.08"/>
+  <rect x="190" y="275" width="1540" height="530" rx="36" fill="none" stroke="#8b7fd4" stroke-width="2" opacity="0.55"/>
+
+  <!-- Question mark badge -->
+  <circle cx="310" cy="405" r="56" fill="#8b7fd4" opacity="0.95"/>
+  <text x="310" y="426" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff" text-anchor="middle">?</text>
+
+  <!-- Question -->
+  <text
+    x="410" y="415"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="64"
+    font-weight="700"
+    fill="#ffffff"
+    letter-spacing="-1">What LLM models are you using?</text>
+
+  <!-- Description -->
+  <text
+    x="310" y="600"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="40"
+    font-weight="300"
+    fill="#c4baea"
+    letter-spacing="1">LLM models in your coding tools</text>
+
+  <!-- Interaction hint -->
+  <rect x="760" y="875" width="400" height="64" rx="32" fill="#8b7fd4" opacity="0.2"/>
+  <text x="960" y="918" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" text-anchor="middle" letter-spacing="1">Vote now</text>
+</svg>

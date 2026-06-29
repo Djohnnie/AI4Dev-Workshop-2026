@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c70c8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <circle cx="1750" cy="150" r="420" fill="url(#circleGlow)"/>
+  <circle cx="1750" cy="150" r="300" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="165" cy="935" r="350" fill="url(#circleGlow)"/>
+  <circle cx="165" cy="935" r="245" fill="none" stroke="#6a5fb8" stroke-width="1.5" opacity="0.3"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="50" font-weight="700" fill="#ffffff" letter-spacing="-1">Conversation Hygiene - Keep Context Fresh and Cheap</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+  <text x="80" y="205" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea" letter-spacing="1">Long chats drift, bloat, and recycle stale context. Manage the conversation</text>
+  <text x="80" y="241" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea" letter-spacing="1">like working memory, not a diary.</text>
+
+  <rect x="120" y="290" width="520" height="510" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="380" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Reset</text>
+  <rect x="320" y="378" width="105" height="3" fill="#8b7fd4"/>
+  <circle cx="175" cy="445" r="7" fill="#8b7fd4"/>
+  <text x="203" y="448" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">New topic = new chat</text>
+  <text x="203" y="478" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">or cleared session</text>
+  <circle cx="175" cy="520" r="7" fill="#8b7fd4"/>
+  <text x="203" y="523" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Do not drag yesterday's</text>
+  <text x="203" y="553" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">context into today's task</text>
+  <circle cx="175" cy="595" r="7" fill="#8b7fd4"/>
+  <text x="203" y="598" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">If you keep correcting</text>
+  <text x="203" y="626" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">the model, stop and</text>
+  <text x="203" y="654" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">restart clean</text>
+
+  <rect x="700" y="290" width="520" height="510" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Compress</text>
+  <rect x="870" y="378" width="150" height="3" fill="#8b7fd4"/>
+  <circle cx="755" cy="445" r="7" fill="#8b7fd4"/>
+  <text x="783" y="448" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">Summarize or compact</text>
+  <text x="783" y="476" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">before long</text>
+  <text x="783" y="504" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">sessions sprawl</text>
+  <circle cx="755" cy="520" r="7" fill="#8b7fd4"/>
+  <text x="783" y="531" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">Harvest conclusions</text>
+  <text x="783" y="559" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">into docs or</text>
+  <text x="783" y="587" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">instruction files</text>
+  <circle cx="755" cy="595" r="7" fill="#8b7fd4"/>
+  <text x="783" y="598" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Restart from the summary,</text>
+  <text x="783" y="628" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">not from 20 old turns</text>
+
+  <rect x="1280" y="290" width="520" height="510" rx="26" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1540" y="360" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Replace</text>
+  <rect x="1460" y="378" width="125" height="3" fill="#8b7fd4"/>
+  <circle cx="1335" cy="445" r="7" fill="#8b7fd4"/>
+  <text x="1363" y="448" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Swap old code or logs for</text>
+  <text x="1363" y="478" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">the current version only</text>
+  <circle cx="1335" cy="520" r="7" fill="#8b7fd4"/>
+  <text x="1363" y="523" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">Edit and resubmit</text>
+  <text x="1363" y="551" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">instead of stacking</text>
+  <text x="1363" y="579" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" fill="#c4baea">corrections</text>
+  <circle cx="1335" cy="595" r="7" fill="#8b7fd4"/>
+  <text x="1363" y="598" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">Keep stable context stable</text>
+  <text x="1363" y="628" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="300" fill="#c4baea">so it stays reusable</text>
+
+  <rect x="220" y="888" width="1480" height="90" rx="34" fill="#8b7fd4" opacity="0.22"/>
+  <text x="960" y="930" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="600" fill="#ffffff" letter-spacing="1">Good prompts are not enough if the conversation around them</text>
+  <text x="960" y="962" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="600" fill="#ffffff" letter-spacing="1">has already gone stale.</text>
+</svg>

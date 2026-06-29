@@ -1,0 +1,27 @@
+@host = http://localhost:5000
+
+### Create a generated short link
+POST {{host}}/api/links
+Content-Type: application/json
+
+{
+  "url": "https://github.com/features/copilot"
+}
+
+### Create a custom short link
+POST {{host}}/api/links
+Content-Type: application/json
+
+{
+  "url": "https://learn.microsoft.com/dotnet/",
+  "customCode": "dotnet"
+}
+
+### Follow a short link
+GET {{host}}/dotnet
+
+### Read one link's stats
+GET {{host}}/api/links/dotnet/stats
+
+### List all links
+GET {{host}}/api/links

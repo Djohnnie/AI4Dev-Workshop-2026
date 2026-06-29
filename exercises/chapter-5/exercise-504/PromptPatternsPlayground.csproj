@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="PromptPatternsPlayground.Tests\**\*.cs" />
+    <Content Remove="PromptPatternsPlayground.Tests\**" />
+    <EmbeddedResource Remove="PromptPatternsPlayground.Tests\**" />
+    <None Remove="PromptPatternsPlayground.Tests\**" />
+  </ItemGroup>
+
+</Project>

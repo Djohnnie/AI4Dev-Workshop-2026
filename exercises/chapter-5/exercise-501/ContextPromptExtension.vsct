@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable">
+  <Extern href="stdidcmd.h" />
+  <Extern href="vsshlids.h" />
+  <Commands package="guidContextPromptPackage">
+    <Groups>
+      <Group guid="guidContextPromptCommandSet" id="ContextPromptGroup" priority="0x0600">
+        <Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_CODEWIN" />
+      </Group>
+    </Groups>
+    <Buttons>
+      <Button guid="guidContextPromptCommandSet" id="cmdidAskWithContext" priority="0x0100" type="Button">
+        <Parent guid="guidContextPromptCommandSet" id="ContextPromptGroup" />
+        <Strings>
+          <ButtonText>ASK WITH CONTEXT...</ButtonText>
+        </Strings>
+      </Button>
+    </Buttons>
+  </Commands>
+  <Symbols>
+    <GuidSymbol name="guidContextPromptPackage" value="{2D3E6AC3-4B4B-4E3D-9A6F-7E0F0B82D5B1}" />
+    <GuidSymbol name="guidContextPromptCommandSet" value="{D0F4C6C0-7C4D-4D36-8A8D-1D1BCEB7B7DE}">
+      <IDSymbol name="ContextPromptGroup" value="0x1020" />
+      <IDSymbol name="cmdidAskWithContext" value="0x0100" />
+    </GuidSymbol>
+  </Symbols>
+</CommandTable>
+

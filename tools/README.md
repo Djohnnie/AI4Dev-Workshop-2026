@@ -32,14 +32,14 @@ python tools/svg_to_pptx.py <svg_dir> [output.pptx]
 ### Examples
 
 ```bash
-# 2-day workshop, chapter 1 — output written to content/2-day/chapter-01/chapter-01.pptx
-python tools/svg_to_pptx.py content/2-day/chapter-01
+# 2-day workshop, chapter 1 — output written to content/2-day/chapter-1/chapter-1.pptx
+python tools/svg_to_pptx.py content/2-day/chapter-1
 
 # Explicit output path
-python tools/svg_to_pptx.py content/2-day/chapter-04 decks/chapter-04.pptx
+python tools/svg_to_pptx.py content/2-day/chapter-4 decks/chapter-4.pptx
 
 # 1-day variant
-python tools/svg_to_pptx.py content/1-day/chapter-01
+python tools/svg_to_pptx.py content/1-day/chapter-1
 ```
 
 ### How it works

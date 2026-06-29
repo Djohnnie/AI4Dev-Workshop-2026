@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+
+  <g transform="translate(1460 54)" opacity="0.18">
+    <text x="0" y="60"
+      font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+      font-size="56" font-weight="700" fill="#c4baea">GitHub.com</text>
+    <text x="0" y="120"
+      font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+      font-size="36" font-weight="600" fill="#c4baea">browser only</text>
+  </g>
+
+  <text x="80" y="108"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Exercise 405 &#x2014; Explore Copilot on GitHub.com</text>
+
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+
+  <text x="80" y="195"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34" font-weight="300" fill="#c4baea">
+    Stay in the browser: no clone, no local coding, just repo chat, issues, pull requests, review, and the online agent.
+  </text>
+
+  <rect x="80" y="235" width="560" height="300" rx="14"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="360" y="318" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="54" font-weight="700" fill="#8b7fd4">1</text>
+  <text x="360" y="388" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="600" fill="#ffffff">Ask about repos</text>
+  <rect x="280" y="406" width="160" height="3" fill="#8b7fd4"/>
+  <text x="360" y="452" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="27" font-weight="300" fill="#c4baea">Ask questions about a repo you</text>
+  <text x="360" y="490" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="27" font-weight="300" fill="#c4baea">do not own and one of your own</text>
+
+  <rect x="680" y="235" width="560" height="300" rx="14"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="318" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="54" font-weight="700" fill="#8b7fd4">2</text>
+  <text x="960" y="388" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="600" fill="#ffffff">Recap issues</text>
+  <rect x="880" y="406" width="160" height="3" fill="#8b7fd4"/>
+  <text x="960" y="452" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="27" font-weight="300" fill="#c4baea">Use chat to summarise an open</text>
+  <text x="960" y="490" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="27" font-weight="300" fill="#c4baea">issue discussion and next steps</text>
+
+  <rect x="1280" y="235" width="560" height="300" rx="14"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1560" y="318" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="54" font-weight="700" fill="#8b7fd4">3</text>
+  <text x="1560" y="388" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="600" fill="#ffffff">Find code</text>
+  <rect x="1480" y="406" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1560" y="452" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="27" font-weight="300" fill="#c4baea">Describe behaviour and let chat</text>
+  <text x="1560" y="490" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="27" font-weight="300" fill="#c4baea">locate code in an unknown repo</text>
+
+  <rect x="80" y="595" width="560" height="300" rx="14"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="360" y="678" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="54" font-weight="700" fill="#8b7fd4">4</text>
+  <text x="360" y="748" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="600" fill="#ffffff">Summarise PRs</text>
+  <rect x="280" y="766" width="160" height="3" fill="#8b7fd4"/>
+  <text x="360" y="812" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="27" font-weight="300" fill="#c4baea">Open a bigger PR in your own repo</text>
+  <text x="360" y="850" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="27" font-weight="300" fill="#c4baea">and let Copilot draft the recap</text>
+
+  <rect x="680" y="595" width="560" height="300" rx="14"
+    fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="960" y="678" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="54" font-weight="700" fill="#8b7fd4">5</text>
+  <text x="960" y="748" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="600" fill="#ffffff">Review PRs</text>
+  <rect x="880" y="766" width="160" height="3" fill="#8b7fd4"/>
+  <text x="960" y="812" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="27" font-weight="300" fill="#c4baea">Request Copilot review and judge</text>
+  <text x="960" y="850" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="27" font-weight="300" fill="#c4baea">which comments are signal vs. noise</text>
+
+  <rect x="1280" y="595" width="560" height="300" rx="14"
+    fill="#8b7fd4" fill-opacity="0.15" stroke="#8b7fd4" stroke-width="2"/>
+  <text x="1560" y="678" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="54" font-weight="700" fill="#8b7fd4">6</text>
+  <text x="1560" y="748" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="36" font-weight="600" fill="#ffffff">Use the agent</text>
+  <rect x="1480" y="766" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1560" y="812" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="27" font-weight="300" fill="#c4baea">Assign one issue to GitHub</text>
+  <text x="1560" y="850" text-anchor="middle"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="27" font-weight="300" fill="#c4baea">Copilot's online coding agent</text>
+</svg>

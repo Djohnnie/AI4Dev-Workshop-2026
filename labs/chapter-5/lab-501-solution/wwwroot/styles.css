@@ -1,0 +1,138 @@
+:root {
+    color-scheme: dark;
+    --bg: #1e1b3a;
+    --bg-2: #30295f;
+    --panel: rgba(15, 18, 38, 0.82);
+    --border: #8b7fd4;
+    --text: #f8f7ff;
+    --muted: #c4baea;
+    --accent: #7ee787;
+    --danger: #ff7b72;
+    --snake: #3fb950;
+    --snake-head: #ffd866;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: var(--text);
+    background:
+        radial-gradient(circle at top, #524a96 0%, var(--bg) 65%),
+        linear-gradient(180deg, #1b1633 0%, #130f27 100%);
+}
+
+.layout {
+    width: min(1200px, calc(100% - 48px));
+    margin: 0 auto;
+    padding: 48px 0 56px;
+}
+
+.eyebrow {
+    margin: 0 0 8px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    font-size: 0.85rem;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: clamp(3rem, 6vw, 5rem);
+}
+
+.subtitle {
+    max-width: 760px;
+    margin: 12px 0 0;
+    color: var(--muted);
+    font-size: 1.15rem;
+}
+
+.game-shell {
+    margin-top: 28px;
+    padding: 24px;
+    border: 1px solid rgba(139, 127, 212, 0.45);
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+}
+
+.hud {
+    display: grid;
+    grid-template-columns: 160px 160px 1fr;
+    gap: 16px;
+}
+
+.card,
+.instructions,
+.board-frame {
+    border: 1px solid rgba(139, 127, 212, 0.45);
+    border-radius: 18px;
+    background: var(--panel);
+}
+
+.card {
+    padding: 16px 18px;
+}
+
+.card .label {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--muted);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+}
+
+.card strong {
+    font-size: 1.25rem;
+}
+
+.wide strong {
+    font-size: 1rem;
+}
+
+.board-frame {
+    margin-top: 18px;
+    padding: 18px;
+}
+
+canvas {
+    display: block;
+    width: 100%;
+    max-width: 768px;
+    height: auto;
+    margin: 0 auto;
+    background: #0e1124;
+    border-radius: 12px;
+}
+
+.instructions {
+    margin-top: 18px;
+    padding: 20px 22px;
+}
+
+.instructions h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.instructions ul {
+    margin: 0;
+    padding-left: 20px;
+    color: var(--muted);
+}
+
+.instructions li + li {
+    margin-top: 8px;
+}
+
+@media (max-width: 900px) {
+    .hud {
+        grid-template-columns: 1fr;
+    }
+}

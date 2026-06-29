@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#524a96" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3c356c" stop-opacity="1"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <rect x="0" y="0" width="8" height="1080" fill="#8b7fd4"/>
+
+  <g transform="translate(1600 52)" opacity="0.2">
+    <rect x="0" y="0" width="210" height="170" rx="18" fill="none" stroke="#c4baea" stroke-width="10"/>
+    <line x1="70" y1="0" x2="70" y2="170" stroke="#c4baea" stroke-width="10"/>
+    <line x1="140" y1="0" x2="140" y2="170" stroke="#c4baea" stroke-width="10"/>
+    <line x1="0" y1="56" x2="210" y2="56" stroke="#c4baea" stroke-width="10"/>
+    <line x1="0" y1="112" x2="210" y2="112" stroke="#c4baea" stroke-width="10"/>
+    <circle cx="35" cy="28" r="10" fill="#c4baea"/>
+    <circle cx="105" cy="84" r="10" fill="#c4baea"/>
+    <circle cx="175" cy="140" r="10" fill="#c4baea"/>
+  </g>
+
+  <text x="80" y="108" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff" letter-spacing="-1">Exercise 302 — Infix/Postfix with Ask Mode</text>
+  <rect x="0" y="140" width="1920" height="4" fill="#8b7fd4"/>
+
+  <text x="80" y="195" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" fill="#c4baea">
+    Use Copilot Ask mode to implement a tricky algorithm — and make it explain every line before you trust it.
+  </text>
+
+  <rect x="80" y="235" width="860" height="367" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="510" y="325" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">01</text>
+  <text x="510" y="400" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Understand precedence</text>
+  <rect x="430" y="420" width="160" height="3" fill="#8b7fd4"/>
+  <text x="510" y="466" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Ask Copilot why `1+2*3` becomes</text>
+  <text x="510" y="510" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">`1 2 3 * +` before you generate code</text>
+
+  <rect x="980" y="235" width="860" height="367" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="325" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">02</text>
+  <text x="1410" y="400" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Implement the TODO</text>
+  <rect x="1330" y="420" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1410" y="466" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Use Ask mode to draft infix-to-postfix</text>
+  <text x="1410" y="510" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">conversion and postfix evaluation</text>
+
+  <rect x="80" y="632" width="860" height="367" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="510" y="722" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">03</text>
+  <text x="510" y="797" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Make Copilot teach back</text>
+  <rect x="430" y="817" width="160" height="3" fill="#8b7fd4"/>
+  <text x="510" y="863" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Ask it to walk through the operator stack</text>
+  <text x="510" y="907" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">and then the postfix value stack</text>
+
+  <rect x="980" y="632" width="860" height="367" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#8b7fd4" stroke-width="1.5"/>
+  <text x="1410" y="722" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#8b7fd4">04</text>
+  <text x="1410" y="797" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="600" fill="#ffffff">Verify and own it</text>
+  <rect x="1330" y="817" width="160" height="3" fill="#8b7fd4"/>
+  <text x="1410" y="863" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">Run sample cases and do not accept the</text>
+  <text x="1410" y="907" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="300" fill="#c4baea">algorithm until you can explain both stacks</text>
+</svg>
