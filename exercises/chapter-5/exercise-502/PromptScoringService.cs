@@ -30,18 +30,51 @@ internal sealed class PromptScoringService(IConfiguration configuration)
 
         var client = new AzureOpenAIClient(new Uri(endpoint), new ApiKeyCredential(key));
         var chatClient = client.GetChatClient(model);
-        var scoreResult = await ScorePromptAsync(chatClient, participantPrompt, cancellationToken);
+
+        var answer = await AnswerPromptAsync(chatClient, participantPrompt, cancellationToken);
+        var tokenUsage = answer.Usage;
+
+        var scoreResult = (await ScorePromptAsync(chatClient, participantPrompt, tokenUsage, cancellationToken)) with
+        {
+            InputTokens = tokenUsage.InputTokens,
+            OutputTokens = tokenUsage.OutputTokens
+        };
+
         var hints = await GenerateHintsAsync(chatClient, participantPrompt, scoreResult, cancellationToken);
 
         return scoreResult with
         {
-            Hints = hints
+            Hints = hints,
+            Answer = answer.Text
         };
+    }
+
+    private static async Task<CopilotAnswer> AnswerPromptAsync(
+        ChatClient chatClient,
+        string participantPrompt,
+        CancellationToken cancellationToken)
+    {
+        var messages = new List<ChatMessage>
+        {
+            new SystemChatMessage(PromptScoringPrompts.CopilotAnswerSystemPrompt),
+            new UserChatMessage(participantPrompt)
+        };
+
+        ChatCompletion completion = await chatClient.CompleteChatAsync(
+            messages,
+            new ChatCompletionOptions(),
+            cancellationToken);
+
+        var usage = completion.Usage;
+        var answerText = string.Concat(completion.Content.Select(part => part.Text)).Trim();
+
+        return new CopilotAnswer(answerText, new TokenUsage(usage.InputTokenCount, usage.OutputTokenCount));
     }
 
     private static async Task<PromptEvaluation> ScorePromptAsync(
         ChatClient chatClient,
         string participantPrompt,
+        TokenUsage tokenUsage,
         CancellationToken cancellationToken)
     {
         var judge = chatClient.AsAIAgent(
@@ -59,6 +92,15 @@ internal sealed class PromptScoringService(IConfiguration configuration)
             ```text
             {{participantPrompt}}
             ```
+
+            Token usage measured from a separate GitHub Copilot answer to this exact prompt:
+            - Input tokens: {{tokenUsage.InputTokens}}
+            - Output tokens: {{tokenUsage.OutputTokens}}
+            - Total tokens: {{tokenUsage.TotalTokens}}
+
+            Score the prompt quality with the rubric, and use these token counts to assign a
+            separate tokenEfficiencyScore and tokenAssessment. Do not let token usage change the
+            main prompt-quality score.
             """;
 
         var response = await judge.RunAsync(
@@ -129,7 +171,11 @@ internal sealed class PromptScoringService(IConfiguration configuration)
             Strengths = NormalizeStringList(evaluation.Strengths),
             AntiPatterns = NormalizeStringList(evaluation.AntiPatterns),
             Suggestions = NormalizeStringList(evaluation.Suggestions),
-            Hints = NormalizeStringList(evaluation.Hints)
+            Hints = NormalizeStringList(evaluation.Hints),
+            TokenEfficiencyScore = Math.Clamp(evaluation.TokenEfficiencyScore, 0, 100),
+            TokenAssessment = string.IsNullOrWhiteSpace(evaluation.TokenAssessment)
+                ? "No token assessment returned."
+                : evaluation.TokenAssessment.Trim()
         };
     }
 

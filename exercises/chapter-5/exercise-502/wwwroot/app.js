@@ -2,6 +2,8 @@ const challengeList = document.getElementById("challenge-list");
 const sampleButton = document.getElementById("sample-button");
 const scoreButton = document.getElementById("score-button");
 const promptInput = document.getElementById("prompt-input");
+const answerBlock = document.getElementById("answer-block");
+const answerOutput = document.getElementById("answer-output");
 const statusElement = document.getElementById("status");
 const resultPanel = document.getElementById("result-panel");
 const scoreValue = document.getElementById("score-value");
@@ -12,6 +14,11 @@ const strengthList = document.getElementById("strength-list");
 const antiPatternList = document.getElementById("anti-pattern-list");
 const suggestionList = document.getElementById("suggestion-list");
 const hintList = document.getElementById("hint-list");
+const inputTokens = document.getElementById("input-tokens");
+const outputTokens = document.getElementById("output-tokens");
+const totalTokens = document.getElementById("total-tokens");
+const tokenScore = document.getElementById("token-score");
+const tokenAssessment = document.getElementById("token-assessment");
 
 const samplePrompt = `Create a TypeScript function for our Express 5 API that validates a participant prompt before it is sent to the judge.
 Use the existing validator pattern, return a typed result, and do not add new dependencies.
@@ -79,10 +86,36 @@ function renderResult(result) {
     styleChip.textContent = result.promptingStyle;
 
     renderIngredientList(result.ingredients);
+    renderTokenUsage(result);
+    renderAnswer(result.answer);
     renderSimpleList(strengthList, result.strengths, "No obvious strengths yet.");
     renderSimpleList(antiPatternList, result.antiPatterns, "No anti-patterns detected.");
     renderSimpleList(suggestionList, result.suggestions, "No suggestions returned.");
     renderSimpleList(hintList, result.hints, "No prompt-specific hints returned.");
+}
+
+function renderAnswer(answer) {
+    const text = (answer || "").trim();
+
+    if (!text) {
+        answerBlock.classList.add("hidden");
+        answerOutput.value = "";
+        return;
+    }
+
+    answerOutput.value = text;
+    answerBlock.classList.remove("hidden");
+}
+
+function renderTokenUsage(result) {
+    const input = Number(result.inputTokens) || 0;
+    const output = Number(result.outputTokens) || 0;
+
+    inputTokens.textContent = input.toLocaleString();
+    outputTokens.textContent = output.toLocaleString();
+    totalTokens.textContent = (input + output).toLocaleString();
+    tokenScore.textContent = `${result.tokenEfficiencyScore ?? 0}%`;
+    tokenAssessment.textContent = result.tokenAssessment || "";
 }
 
 function renderIngredientList(ingredients) {
@@ -129,6 +162,13 @@ function clearResult() {
     antiPatternList.innerHTML = "";
     suggestionList.innerHTML = "";
     hintList.innerHTML = "";
+    inputTokens.textContent = "0";
+    outputTokens.textContent = "0";
+    totalTokens.textContent = "0";
+    tokenScore.textContent = "0%";
+    tokenAssessment.textContent = "";
+    answerBlock.classList.add("hidden");
+    answerOutput.value = "";
 }
 
 loadChallenges().catch(() => {

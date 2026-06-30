@@ -18,7 +18,7 @@ internal static class PromptScoringPrompts
         - reward specificity and coherence
         - avoid inflated scores for prompts that sound detailed but are still unclear
 
-        Use this rubric:
+        Use this rubric for the main quality score:
         - Task: 0-20
         - Context: 0-20
         - Examples: 0-20
@@ -31,6 +31,15 @@ internal static class PromptScoringPrompts
         - A decent one-shot prompt with 3-4 ingredients should usually land between 60 and 85.
         - A strong few-shot prompt with clear scope, examples, and constraints can land above 85.
         - Anti-patterns should reduce the score, not just be listed.
+
+        Token efficiency:
+        - You will also receive the input and output token counts measured from a separate GitHub Copilot answer to the same prompt.
+        - Produce a SEPARATE "tokenEfficiencyScore" from 0 to 100 that judges how token-efficient the prompt is.
+        - A prompt is token-efficient when it is specific enough to steer the model to a focused, correct answer without wasting tokens - neither bloated nor so vague that the model rambles or over-explains.
+        - Reward prompts that keep input tokens reasonable while producing a concise, on-target answer.
+        - Penalize prompts that are needlessly long, or so under-specified that the answer balloons with guesses and filler.
+        - The token-efficiency score must NOT change the main prompt-quality score. Keep the two scores independent.
+        - Add a short "tokenAssessment" sentence explaining the token-efficiency score.
 
         Return JSON only. No markdown, no code fences, no explanation outside JSON.
         Use this exact schema:
@@ -46,11 +55,26 @@ internal static class PromptScoringPrompts
           ],
           "strengths": ["...", "..."],
           "antiPatterns": ["...", "..."],
-          "suggestions": ["...", "...", "..."]
+          "suggestions": ["...", "...", "..."],
+          "tokenEfficiencyScore": 0,
+          "tokenAssessment": "short one-sentence explanation of the token-efficiency score"
         }
 
         Keep strengths, antiPatterns, and suggestions concise.
         Ensure score is an integer between 0 and 100.
+        Ensure tokenEfficiencyScore is an integer between 0 and 100.
+        """;
+
+    public const string CopilotAnswerSystemPrompt =
+        """
+        You are GitHub Copilot, an AI pair programmer.
+
+        Answer the developer's prompt directly and helpfully, exactly as you would when helping
+        them write their code or understand their requirements. Provide working code when the
+        prompt asks for code, or a clear, concise explanation when the prompt asks for understanding.
+
+        Stay focused on the developer's request. Do not evaluate, score, or comment on the quality
+        of the prompt itself - just answer it the way GitHub Copilot would.
         """;
 
     public const string HintingSystemPrompt =

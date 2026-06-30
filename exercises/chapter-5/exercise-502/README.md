@@ -48,6 +48,7 @@ exercise-502/
 - Shows which of the **four ingredients** were detected
 - Flags anti-patterns like vagueness or conflicting constraints
 - Distinguishes between **one-shot** and **few-shot** prompting
+- Measures **input and output token usage** by sending the prompt to a separate GitHub Copilot answer call, shows that answer in a read-only field, and gives a separate **token-efficiency** sub-score
 - Includes several fun workshop challenge modes
 
 ---
@@ -145,6 +146,7 @@ The custom chatbot should score prompts with these ideas in mind:
 - **Examples**: Is there a one-shot or few-shot example, sample input/output, or shape hint?
 - **Constraints**: Does the prompt say what must or must not happen?
 - **Anti-pattern avoidance**: Is the prompt specific, non-conflicting, and focused?
+- **Token efficiency**: The app sends the prompt to a separate GitHub Copilot answer call to measure **input** and **output** tokens, then asks the judge for a separate **token-efficiency** sub-score. This score is independent of the 0–100 quality score and rewards prompts that steer the model to a focused answer without wasting tokens.
 
 The app's system prompt enforces the structure and returns a JSON scorecard to the UI.
 

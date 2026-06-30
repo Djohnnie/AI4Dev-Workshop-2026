@@ -36,6 +36,11 @@
             <label class="field-label" for="prompt-input">Participant prompt</label>
             <textarea id="prompt-input" rows="10" placeholder="Create a TypeScript function that validates email addresses for our Express 5 API. Use the existing validation helpers, return a typed result, and do not add new dependencies. Example: Input 'alice@example.com' -> valid."></textarea>
 
+            <div id="answer-block" class="answer-block hidden">
+                <label class="field-label" for="answer-output">GitHub Copilot answer</label>
+                <textarea id="answer-output" class="answer-output" rows="10" readonly aria-readonly="true"></textarea>
+            </div>
+
             <div class="actions">
                 <button id="score-button" class="primary-button" type="button">Score prompt</button>
                 <p id="status" class="status">Ready for the next contender.</p>
@@ -51,6 +56,17 @@
             </div>
 
             <div class="details-grid">
+                <article class="detail-card token-card">
+                    <h3>Token usage</h3>
+                    <ul class="token-list">
+                        <li><span>Input tokens</span><strong id="input-tokens">0</strong></li>
+                        <li><span>Output tokens</span><strong id="output-tokens">0</strong></li>
+                        <li><span>Total tokens</span><strong id="total-tokens">0</strong></li>
+                        <li><span>Token efficiency</span><strong id="token-score">0%</strong></li>
+                    </ul>
+                    <p id="token-assessment" class="token-assessment"></p>
+                </article>
+
                 <article class="detail-card">
                     <h3>Four ingredients</h3>
                     <ul id="ingredient-list" class="check-list"></ul>
